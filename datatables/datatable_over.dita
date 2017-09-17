@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="datatable_over" xml:lang="nl-NL" >
+	<title>Wat zijn gegevenstabellen</title>
+	<shortdesc>Een korte beschrijving van wat gegevenstabellen zijn en wat je ermee kunt doen.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Excel kent twee soorten gegevenstabellen:<ul>
+				<li>Met één invoer variabele en één of meerdere formules.</li>
+				<li>Met twee invoer variabelen en één formule</li>
+			</ul></p>
+		<p>Beide soorten tabellen werken op dezelfde manier:<ul>
+				<li>Definieer een lijst met invoerwaarden voor de variabelen.</li>
+				<li>Bepaal de formules waarvan de uitkomsten afhangen van deze variabelen.</li>
+				<li>Voer het commando <uicontrol>Gegevenstabel</uicontrol> uit.</li>
+			</ul>Excel substitueert dan elke invoerwaarde in de formules, berekent de resultaten en
+			toont deze in tabelvorm.</p>
+	</conbody>
+</concept>

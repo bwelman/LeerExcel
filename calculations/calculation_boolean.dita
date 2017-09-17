@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="calculation_boolean" xml:lang="nl-NL">
+    <title>WAAR/ONWAAR formules</title>
+    <shortdesc>Mogelijkheden die je hebt met formules die als uitkomst WAAR of ONWAAR
+        hebben.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Formules<indexterm>waar/onwaar</indexterm></indexterm>
+                <indexterm>Logische functies<indexterm>kleiner dan</indexterm><indexterm>groter
+                        dan</indexterm><indexterm>gelijk aan</indexterm><indexterm>ongelijk
+                        aan</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Er zijn formules die geen berekeningen uitvoeren, maar die twee zaken met elkaar
+            vergelijken. Een dergelijke formule kent maar twee uitkomsten: <systemoutput>WAAR
+                (TRUE)</systemoutput> of <systemoutput>ONWAAR (FALSE)</systemoutput>.</p>
+        <p>In dit soort formules kun je de volgende symbolen als operatoren gebruiken:</p>
+        <simpletable frame="all">
+            <sthead>
+                <stentry>Operator</stentry>
+                <stentry>Betekenis</stentry>
+            </sthead>
+            <strow>
+                <stentry>=</stentry>
+                <stentry>is gelijk aan</stentry>
+            </strow>
+            <strow>
+                <stentry>&lt;></stentry>
+                <stentry>is niet gelijk aan</stentry>
+            </strow>
+            <strow>
+                <stentry>&lt;</stentry>
+                <stentry>is kleiner dan</stentry>
+            </strow>
+            <strow>
+                <stentry>&lt;=</stentry>
+                <stentry>is kleiner dan of gelijk aan</stentry>
+            </strow>
+            <strow>
+                <stentry>></stentry>
+                <stentry>is groter dan</stentry>
+            </strow>
+            <strow>
+                <stentry>>=</stentry>
+                <stentry>is groter dan of gelijk aan</stentry>
+            </strow>
+        </simpletable>
+        <p>In de tabel hierna staan een aantal voorbeelden van dergelijke formules. Om de werking
+            ervan goed te begrijpen zou je deze in een cel kunnen invoeren. De ronde haakjes die je
+            in de formules ziet zijn niet echt noodzakelijk, maar zorgen voor meer duidelijkheid
+            over wat de bedoeling van de formule is. Geadviseerd wordt daarom om deze haakjes altijd
+            te gebruiken.</p>
+        <simpletable frame="all">
+            <sthead>
+                <stentry>Formule</stentry>
+                <stentry>Resultaat</stentry>
+            </sthead>
+            <strow>
+                <stentry>=(1=1)</stentry>
+                <stentry>WAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1=2)</stentry>
+                <stentry>ONWAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1&lt;>1)</stentry>
+                <stentry>ONWAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1&lt;>2)</stentry>
+                <stentry>WAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1&lt;1)</stentry>
+                <stentry>ONWAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1&lt;2)</stentry>
+                <stentry>WAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1&lt;=1)</stentry>
+                <stentry>WAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1&lt;=2)</stentry>
+                <stentry>WAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=(1>2)</stentry>
+                <stentry>ONWAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=("a"="b")</stentry>
+                <stentry>ONWAAR</stentry>
+            </strow>
+            <strow>
+                <stentry>=("a"&lt;>"b")</stentry>
+                <stentry>WAAR</stentry>
+            </strow>
+        </simpletable>
+        <note type="attention">Tekst moet bij bewerkingen altijd tussen dubbele aanhalingstekens
+            geplaatst worden.</note>
+        <p>Dergelijke formules zomaar in cellen plaatsen heeft niet zoveel zin. Wel is van belang
+            dat ze in berekeningen mogen voorkomen. Excel gebruikt dan de volgende getalswaarden: <ul>
+                <li>WAAR = 1</li>
+                <li>ONWAAR = 0</li>
+            </ul></p>
+        <p>Dit geeft de mogelijkheid om voorwaarden in berekeningen aan te brengen, op basis waarvan
+            dan het resultaat bepaald wordt. Zo kun je bij een bestelling de portokosten wel of niet
+            in rekening brengen afhankelijk van de bestelde hoeveelheid.</p>
+        <example>
+            <title>Voorbeeld</title>
+            <p>Bij een internetwinkel wordt een bestelling vanaf € 25 zonder portokosten bezorgd. In
+                de volgende afbeelding is te zien dat de portokosten met een waar/onwaar formule
+                worden berekend. In het begin van de formule staat <codeph>(B5&lt;$B$2)</codeph>.
+                Dit gedeelte levert als resultaat WAAR (=1) of ONWAAR (=0) op. En dit resultaat
+                wordt weer vermenigvuldigd met € 3,50. Er zijn dan maar twee uitkomsten mogelijk: <ul>
+                    <li>1 * 3,50 = 3,50</li>
+                    <li>0 * 3,50 = 0</li>
+                </ul>
+                <fig>
+                    <title>Voorbeeld met een waar/onwaar formule</title>
+                    <image keyref="Example_Boolean">
+                        <alt>Voorbeeld met een waar/onwaar formule</alt>
+                    </image>
+                </fig>
+                <note type="tip">Maak dit voorbeeld controleer de juiste werking ervan door
+                    verschillende bedragen in te vullen in de cellen B1, B2 en B5.</note>
+            </p>
+        </example>
+    </conbody>
+</concept>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="macro_command_button" xml:lang="nl-NL">
+	<title>Taak: Opdrachtknop maken</title>
+	<shortdesc>Uitleg hoe je een opdrachtknop kunt maken voor het uitvoeren van een
+		macro.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Macro</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<prereq>Om deze taak uit te kunnen voeren is het nodig dat de macro
+				<cmdname>Celopmaak</cmdname> is gemaakt.</prereq>
+		<context>
+			<p>Een erg handige manier om een macro uit te voeren is door hiervoor een opdrachtknop
+				op het werkblad te plaatsen.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Kies tab <menucascade>
+						<uicontrol>Ontwikkelaars</uicontrol>
+						<uicontrol>Invoegen (groep Besturingselementen)</uicontrol>
+					</menucascade>.</cmd>
+				<stepresult>
+					<fig>
+						<title>Besturingselementen voor Formulier</title>
+						<image keyref="form_controls">
+							<alt>Besturingselementen voor formulier</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op het besturingselement <uicontrol>Knop
+						(formulierbesturingselement</uicontrol></cmd>
+				<stepresult>De cursor verandert nu in een wat grote +. Met deze cursor kun je een rechthoek voor
+					de knop op het werkblad tekenen.</stepresult>
+			</step>
+			<step>
+				<cmd>Druk de linkermuisknop in en teken hiermee ergens op het werkblad een rechthoek met
+					gewenste afmetingen van de knop. Laat daarna de linkermuisknop los. Het
+					dialoogvenster <wintitle>Macro toewijzen aan object</wintitle> verschijnt
+					dan.</cmd>
+				<stepresult>De getekende rechthoek verandert in een knop met daarop een tekst als <wintitle>Knop
+						1</wintitle>.<fig>
+						<title>Ontwerp knop</title>
+						<image keyref="command_button1" alt="Afbeelding knop">
+							<alt>Ontwerp knop</alt>
+						</image>
+					</fig>Verder verschijnt het dialoogvenster <wintitle>Macro toewijzen aan
+						object</wintitle>.<fig>
+						<title>Macro celopmaak koppelen aan knop</title>
+					</fig>
+					<image keyref="macro_cellformat_assign">
+						<alt>Macro celopmaak koppelen aan knop</alt>
+					</image></stepresult>
+			</step>
+			<step>
+				<cmd>Selecteer de macro <uicontrol>Celopmaak</uicontrol> en klik op
+						<uicontrol>OK</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Selecteer de tekst op de knop en wijzig deze in een toepasselijker tekst,
+					bijvoorbeeld <userinput>Cel opmaken</userinput>.</cmd>
+			</step>
+			<step>
+				<cmd>Hef de selectie van de knop op door op een willekeurige plek op het werkblad te
+					klikken.</cmd>
+				<stepresult>
+					<fig>
+						<title>Knop <uicontrol>Cel opmaken</uicontrol></title>
+						<image keyref="macro_cellformat_button">
+							<alt>Knop cel opmaken</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Test de macro op een cel met tekst via de opdrachtknop.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

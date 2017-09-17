@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_sort" xml:lang="nl-NL">
+    <title>Taak: Tabel sorteren</title>
+    <shortdesc>Hoe je een tabel kunt sorteren op basis van de waarden in één kolom en meerdere
+        kolommen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Sorteren</indexterm>
+                <indexterm>Tabel<indexterm>sorteren</indexterm></indexterm>
+                <indexterm>Lijst<indexterm>sorteren</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Sorteren is een veel voorkomende actie bij tabellen. Wanneer een cel in een kolom
+                geselecteerd is, dan kan met één druk op de knop de hele tabel oplopend of aflopend
+                gesorteerd worden volgens de waarden in die kolom.</p>
+            <note type="attention" id="sort_attention">Het herstellen van de tabel in de oorspronkelijke toestand kan
+                alleen met de knop <uicontrol>Ongedaan maken</uicontrol> op de <wintitle>Werkbalk
+                    Snelle Toegang</wintitle>. Een alternatief is door voordat je begint met
+                sorteren eerst een tijdelijke kolom met opeenvolgende nummers aan te maken. Door
+                achteraf deze kolom te sorteren heb je ook de oorspronkelijke volgorde terug.</note>
+            <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zet het gegevensbereik om naar een tabel.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de pijl naast de veldnaam <varname>Afdeling</varname> en selecteer
+                            <uicontrol><image keyref="icon_sort_az"/> Sorteren van A naar
+                        Z</uicontrol>.</cmd>
+                <stepresult>
+                    <p>De tabel wordt oplopend gesorteerd volgens kolom
+                        <varname>Afdeling</varname>.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de pijl naast de veldnaam <varname>Divisie</varname> en selecteer
+                            <uicontrol><image keyref="icon_sort_az"/> Sorteren van Z naar
+                        A</uicontrol>.</cmd>
+                <stepresult>
+                    <p>De tabel wordt aflopend gesorteerd volgens kolom
+                        <varname>Divisie</varname>.</p>
+                </stepresult>
+            </step>
+            <stepsection>
+                <p>Je kunt een tabel sorteren op meerderen niveaus op basis van de waarden in
+                    verschillende kolommen. Een van de kolommen wordt dan het eerste niveau waarop
+                    je sorteert. Je kunt daarna steeds een nieuw sorteerniveau toevoegen. Een andere
+                    kolom zorgt dan voor het tweede sorteerniveau, enz.</p>
+            </stepsection>
+            <step>
+                <cmd>Selecteer een willekeurige cel in de tabel en klik <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Sorteren en filteren</uicontrol>
+                        <uicontrol><image keyref="icon_sort_custom"/> Aangepast sorteren
+                            ...</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Sorteren</wintitle> verschijnt waar de
+                        voorwaarden voor de sortering kunnen worden ingevoerd.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Kies Sorteren op <option>Divisie</option>.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Niveau toevoegen</uicontrol> en kies hierin Sorteren op
+                    <option>Afdeling</option>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Sorteren</wintitle> met twee niveaus</title>
+                        <image keyref="personnel_sort_multiple">
+                            <alt>Dialoogvenster sorteren met twee niveaus</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>De tabel wordt allereerst oplopend gesorteerd op de waarden in de kolom
+                        Divisie en daarna op de waarden in de kolom Afdeling.</p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

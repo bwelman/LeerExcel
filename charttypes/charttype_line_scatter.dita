@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xls_type_lijn_spreiding" xml:lang="nl-NL">
+    <title>Lijn- of spreidingsdiagram?</title>
+    <shortdesc>De verschillen tussen een lijndiagram en een spreidingsdiagram.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Spreidingsdiagram</indexterm>
+                <indexterm>Lijndiagram</indexterm>
+                <indexterm>Trendlijn</indexterm>
+                <indexterm>Trend</indexterm>
+                <indexterm>XY diagram</indexterm>
+                <indexterm>Grafieken<indexterm>spreidingsdiagram</indexterm><indexterm>lijndiagram</indexterm><indexterm>XY
+                        diagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Lijndiagrammen en spreidingsdiagrammen lijken veel op elkaar, vooral wanneer een
+            spreidingsdiagram wordt weergegeven met markeringen en rechte verbindingslijnen. Er zijn
+            echter behoorlijke verschillen in de manier waarop de gegevens worden uitgezet tegen de
+            horizontale as (x-as) en de verticale as (y-as). Je kunt gemakkelijk fouten maken en het
+            is dan ook belangrijk om een goede keuze te kunnen maken.</p>
+        <p>Als voorbeeld worden de jaarlijkse omzetten van een bedrijf in een lijndiagram en een
+            spreidingsdiagram weergegeven.</p>
+        <simpletable frame="all" relcolwidth="1* 1*">
+            <sthead>
+                <stentry>Lijndiagram</stentry>
+                <stentry>Spreidingsdiagram</stentry>
+            </sthead>
+            <strow>
+                <stentry><image keyref="line-scatter_line"><alt>Lijndiagram omzet per jaar</alt></image></stentry>
+                <stentry><image keyref="line-scatter_scatter">
+                        <alt>Spreidingsdiagram omzet per jaar </alt>
+                    </image></stentry>
+            </strow>
+        </simpletable>
+        <p>Het verschil in schaling kan voor onjuiste conclusies zorgen. In het lijndiagram lijkt
+            het alsof de ontwikkeling in de eerste jaren een forse groei doormaakt en de laatste
+            jaren stagneert. Dit is in werkelijkheid niet het geval. De werkelijke groei is in het
+            spreidingsdiagram te zien.</p>
+        <section>
+            <title>Lijndiagram</title>
+            <p>A line chart has one value axis, the vertical axis. The horizontal axis is a category
+                axis, with evenly spaced categories of data (text or dates). A date axis displays
+                dates in chronological order.</p>
+            <p>Een lijndiagram is goed voor het weergeven van de verandering van een variabele in de
+                tijd. Voorbeelden zijn de verkoop, de omzet, de winst, de prijs enz. per dag, week,
+                maand, kwartaal, jaar. De tijdseenheid wordt altijd langs de horizontale as uitgezet
+                en de waarde van de gemeten variabele langs de verticale as.</p>
+        </section>
+        <section>
+            <title>Spreidingsdiagram</title>
+            <p>A scatter chart has always two value axes, both to set numerical values. The
+                horizontal axis can display numeric values or date values. And you can change the
+                scaling options of both axes. The chart displays points at the intersection of an x
+                value and an y value.</p>
+            <p>Een spreidingsdiagram wordt gebruikt om de relatie, het verband, tussen twee
+                variabelen te onderzoeken. Als de ene variabele groter of kleiner wordt, wat gebeurt
+                er dan met de andere variabele, wordt deze dan ook groter of kleiner. De
+                gegevenswaarden worden als losstaande punten in de grafiek weergegeven. Weliswaar
+                kun je de punten met lijnen met elkaar verbinden, maar dat is eigenlijk niet goed.
+                Dat suggereert nl. dat het verloop volgens deze lijnen is. Beter is het om het
+                verband via een trendlijn weer te geven. Dat is een lijn die het verband tussen de
+                twee variabelen het beste weergeeft. De meetwaarden kunnen op deze trendlijn liggen,
+                maar meestal liggen ze verspreid rond (boven of onder) de trendlijn.
+                Spreidingsdiagrammen worden veel in de wetenschap en de techniek gebruikt. Maar ook
+                in ondernemingsrapporten kom je spreidingsdiagrammen tegen, bijvoorbeeld of er een
+                verband is tussen prijsverhogingen en de verkoop.</p>
+        </section>
+        <section>
+            <title>Samenvatting</title>
+            <p>Een lijndiagram heeft één waarde-as en éen categorieas. De categoriegegevens staan
+                gelijkmatig verspreid langs de horizontale as. Gebruik een lijndiagram wanneer de
+                gegevens niet-numerieke x waarden bevatten.</p>
+            <p>Een spreidingsdiagram heeft twee waardeassen, zodat de ene verzameling numerieke
+                waarden langs de x-as kan worden uitgezet en de andere langs de y-as. Gebruik een
+                scatterdiagram voor numerieke x waarden.</p>
+        </section>
+    </conbody>
+</concept>

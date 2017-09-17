@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="calculation_example_prices" xml:lang="nl-NL">
+	<title>Casus: Prijscalculatie artikelen</title>
+	<shortdesc>Een open opdracht waarbij het opzetten van een model, het gebruik van formules en het kopieren ervan aan bod komen.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Berekeningsmodel</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>Een winkel op de internationale luchthaven verkoopt de artikelen zowel belastingvrij als met
+				21% BTW. De valuta voor de belastingvrije prijzen is US dollar, maar klanten kunnen
+				ook in euro's betalen. Voor de BTW en de prijzen met BTW wordt alleen de euro
+				gebruikt. In de volgende afbeelding zie je een deel van de prijstabel.
+				Artikelnummers en de dollarprijzen zijn wat gekunsteld vastgesteld om een aantal
+				Excel vaardigheden te kunnen oefenen. De bedoeling is om deze tabel zo handig
+				mogelijk te maken. Er worden alleen een aantal aanwijzingen gegeven, geen
+				gedetailleerde stappen.</p>
+			<fig>
+                <title>Prijstabel</title>
+                <image keyref="Example_Prices">
+                    <alt>Prijstabel</alt>
+                </image>
+            </fig>
+		</context>
+		<section>
+			<title>Aanwijzingen</title>
+			<ol>
+				<li>De dollarkoers en het BTW percentage zijn inputvariabelen voor de berekening en
+					worden daarom gescheiden van de prijstabel in het bovenste deel van het werkblad
+					gezet. Een toelichtende tekst staat in de cellen ervoor.</li>
+				<li>In de artikelnummers zit een patroon. Je hoeft daarom alleen de eerste twee
+					nummers in te typen, deze te selecteren en dan naar beneden te slepen.</li>
+				<li>In de dollarprijzen zit ook een patroon (steeds 2,50 hoger). ook hier hoef je
+					alleen de eerste twee bedragen in te typen en dan de selectie naar beneden te
+					slepen. De prijzen zelf moeten daarna opgemaakt worden in de financiële notatie,
+					met 2 decimalen en de $ als valutasymbool.</li>
+				<li>De dollarprijs kan omgezet worden naar de europrijs door de dollarprijs te vermenigvuldigen
+					met de koers van de dollar. Je hoeft alleen maar in de eerste cel (C6) de juiste
+					formule in te voeren, daarna kun je deze naar beneden kopiëren. Gebruik een
+					absoluut adres voor de dollarkoers zodat dit adres bij de kopieeractie niet
+					aangepast wordt.</li>
+				<li>Om de hoeveelheid BTW te berekenen moet de europrijs vermenigvuldigd worden met
+					het BTW percentage. En voor de prijs incl. BTW moet de BTW opgeteld worden bij
+					de exclusieve prijs. Ook hier hoef je alleen maar in de eerste cellen (D6 en E6)
+					de juiste formules in te voeren en deze daarna naar beneden te kopiëren. Gebruik
+					voor het BTW percentage een absoluut adres.</li>
+				<li>Tot slot moeten alle eurobedragen opgemaakt worden in de financiële notatie.</li>
+			</ol>
+		</section>
+	</taskbody>
+</task>

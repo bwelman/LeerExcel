@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_sumif" xml:lang="nl-NL">
+	<title>Taak: Som Als</title>
+	<shortdesc>In dit onderdeel wordt aan de hand van een voorbeeld uitgelegd hoe je een aantal
+		getallen kunt optellen die aan bepaalde voorwaarden voldoen.</shortdesc>
+	<prolog>
+		<critdates>
+			<created date="2011-04-10"/>
+			<revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>FUNCTIES<indexterm>SOM.ALS</indexterm></indexterm>
+				<indexterm>Optellen<indexterm>voorwaardelijk</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>De functie SOM.ALS kan gebruikt worden om getallen op te tellen onder bepaalde voorwaarden. In
+				een spreadsheet staat een overzicht van de opbrengst van koffiesoorten per maand en
+				per regio. Het is de bedoeling om de totale opbrensten per regio te bepalen.</p>
+			<note type="other" othertype="Bestand"><filepath>Koffie.xlsx</filepath></note>
+		</context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+			<step>
+				<cmd>Selecteer cel <uicontrol>H2</uicontrol> en druk op de knop <uicontrol>Functie
+						invoegen</uicontrol> op de formulebalk.</cmd>
+			</step>
+			<step>
+				<cmd>Selecteer de categorie <option>Alles</option> en de functie
+						<option>SOM.ALS</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle>
+					verschijnt.</stepresult>
+			</step>
+			<step>
+				<cmd>Plaats de cursor in het vak <varname>Bereik</varname> en selecteer dan
+						<userinput>kolom C</userinput>. Plaats de cursor in het vak
+						<varname>Criterium</varname> en selecteer dan <userinput>cel G2</userinput>.
+					Plaats de cursor in het vak <varname>Optelbereik</varname> en selecteer dan
+						<userinput>kolom D</userinput>.</cmd>
+				<stepresult>
+					<fig>
+                        <title>Argumenten voor de functie SOM.ALS</title>
+                        <image keyref="Example_Sumif_Arguments">
+                            <alt>Argumenten functie som als</alt>
+                        </image>
+                    </fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>In cel H2 verschijnt nu de totaalopbrengst voor de regio Noord
+						<systemoutput>743140</systemoutput>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Selecteer cel <uicontrol>H2</uicontrol> en sleep de vulgreep naar beneden tot en met cel
+						<uicontrol>H5</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Maak de getallen in H2:H5 op met de financiële getalnotatie.</cmd>
+			</step>
+		</steps>
+		<result>
+			<fig>
+                <title>Eindresultaat oefening met functie SOM.ALS</title>
+                <image keyref="Example_Sumif_Result">
+                    <alt>Eindresultaat oefening met functie som als</alt>
+                </image>
+            </fig>
+			<note type="tip">Een optelling zoals in dit voorbeeld is veel gemakkelijker te
+				realiseren met behulp van draaitabellen.</note>
+		</result>
+	</taskbody>
+</task>

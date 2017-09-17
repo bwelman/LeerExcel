@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_lijn" xml:lang="nl-NL">
+    <title>Taak: Lijndiagram</title>
+    <shortdesc>Een lijndiagram gebruik je om het verloop van een variabele in de tijd weer te
+        geven.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Lijndiagram</indexterm>
+                <indexterm>Grafieken<indexterm>lijndiagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Bij lijndiagrammen wordt de tijdeenheid langs de horizontale as, de categorie-as,
+                uitgezet. De gemeten variabele wordt langs de verticale as uitgezet. Tussen de
+                punten in de grafiek kan desgewenst een lijn getrokken worden om het verloop van de
+                variabele in de tijd goed zichtbaar te maken.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>In de volgende afbeelding kun je de jaarlijkse tem[peraturen (<sup>o</sup>C) vinden
+                voor Amsterdam Luchthaven Schiphol (bron: <xref
+                    href="https://en.tutiempo.net/climate/ws-62400.html" format="html"
+                    scope="external"/>).<ul>
+                    <li>T = Gemiddelde jaarlijkse temperatuur annual temperature</li>
+                    <li>Tmax = Gemiddelde jaarlijkse maximum temperatuur</li>
+                    <li>Tmin = Gemiddelde jaarlijkse maximum temperatuur</li>
+                </ul></p>
+            <p>(source: KNMI).</p>
+            <fig>
+                <title>Jaarlijkse temperaturen voor Amsterdam Luchthaven Schiphol</title>
+                <image keyref="line_data">
+                    <alt>Jaarlijkse temperaturen voor Amsterdam Luchthaven Schiphol</alt>
+                </image>
+            </fig>
+            <p>De gegevens moeten in een lijndiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Lijndiagram met gemiddelde jaarlijkse temperaturen voor Schiphol</title>
+                <image keyref="line_result">
+                    <alt>Lijndiagram met gemiddelde jaarlijkse temperaturen voor Schiphol</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Grafiek_lijn.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Aanbevolen grafieken (groep Grafieken)</uicontrol>
+                        <uicontrol>Lijn</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Standaard lijndiagram</title>
+                        <image keyref="line_default">
+                            <alt>Standaard lijndiagram</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>`Wijzig de grafiektitel in <userinput>Jaarlijkse temperaturen Amsterdam
+                        Luchthaven Schiphol</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg een verticale astitel toe met de tekst <userinput>Temperatuur
+                        (C)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de grafiek en wijzig de stijl. Kies een stijl die je bevalt.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

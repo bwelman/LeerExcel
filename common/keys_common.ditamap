@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
+<map id="keys_common" xml:lang="nl-NL">
+    <title>Keys Common</title>
+    <keydef keys="officeversion">
+        <topicmeta>
+            <keywords>
+                <keyword>2016</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="menu">
+        <topicmeta>
+            <keywords>
+                <keyword>Bestand</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="versionnr">
+        <topicmeta>
+            <keywords>
+                <keyword>1.2</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="versiondate">
+        <topicmeta>
+            <keywords>
+                <keyword>3 september 2017</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="licensename">
+        <topicmeta>
+            <keywords>
+                <keyword>Softwijs Neede</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="button_chart_elements" href="images/button_chart_elements.png" format="png"/>
+    <keydef keys="button_chart_filters" href="images/button_chart_filters.png" format="png"/>
+    <keydef keys="button_chart_styles" href="images/button_chart_styles.png" format="png"/>
+	<keydef keys="button_quick_analysis" href="images/button_quick_analysis.png" format="png"/>
+    <keydef keys="Button_Dialogwindow" href="../common/images/button_dialogwindow.png" format="png"/>
+    <keydef keys="Button_Form" href="../common/images/button_form.png" format="png"/>
+    <keydef keys="Button_Undo" href="../common/images/button_undo.png" format="png"/>	
+    <keydef keys="Button_Redo" href="../common/images/button_redo.png" format="png"/>
+    <keydef keys="Button_Save" href="../common/images/button_save.png" format="png"/>
+    <keydef keys="Fileformat_Choice" href="images/fileformat_choice.png" format="png"/>
+    <keydef keys="Formulabar_Icons" href="images/formulabar_icons.png" format="png"/>
+    <keydef keys="icon_filter" href="images/icon_filter.png" format="png"/>
+    <keydef keys="icon_sort_az" href="images/icon_sort_az.png" format="png"/>
+    <keydef keys="icon_sort_custom" href="images/icon_sort_custom.png" format="png"/>
+    <keydef keys="icon_sort_za" href="images/icon_sort_za.png" format="png"/>
+    <keydef keys="Mouse_Fill_Handle" href="images/mouse_fillhandle.png" format="png"/>
+    <keydef keys="Mouse_Pointer_Cross" href="../common/images/mouse_pointer_cross.png" format="png"/>
+    <keydef keys="Mouse_Pointer_Drag" href="../common/images/mouse_pointer_drag.png" format="png"/>
+    <keydef keys="Mouse_Shape_Fill" href="images/mouse_shape_fill.png" format="png"/>
+    <keydef keys="Mouse_Shape_Select" href="images/mouse_shape_select.png" format="png"/>
+	<keydef keys="Excel_Options_Developertab" href="../common/images/excel_options_developertab.png" format="png"/>
+    <keydef keys="Print_Preview" href="../common/images/print_preview.png" format="png"/>
+    <keydef keys="qat_customize" href="../common/images/qat_customize.png" format="png"/>
+    <keydef keys="qat_customize_commands" href="../common/images/qat_customize_commands.png" format="png"/>
+    <keydef keys="qat_customize_form" href="../common/images/qat_customize_form.png" format="png"/>
+    <keydef keys="qat_formbutton" href="../common/images/qat_formbutton.png" format="png"/>
+    <keydef keys="ribbon_table_design" href="images/ribbon_table_design.png" format="png"/>
+    <keydef keys="Saveas_Format_Choice" href="../common/images/saveas_format_choice.png" format="png"/>
+    <keydef keys="Saveas_Formats" href="../common/images/saveas_formats.png" format="png"/>
+    <keydef keys="sizing_handle_diagonal" href="images/sizing_handle_diagonal.png" format="png"/>
+    <keydef keys="Window_Excel" href="images/excel_window.png" format="png"/>    
+    <keydef keys="Workbook_Open" href="../common/images/workbook_open.png" format="png"/>
+    <keydef keys="Worksheet_Select" href="../common/images/worksheet_select.png" format="png"/>
+</map>

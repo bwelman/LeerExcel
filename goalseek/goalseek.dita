@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="goalseek" xml:lang="nl-NL">
+	<title>Doelzoeken</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Met behulp van <term>Doelzoeken</term> kunt u er achter komen welke waarde in een formule
+			moet worden ingevuld om een bepaalde gewenste uitkomst te verkrijgen. De methode
+			Doelzoeken behoort tot de groep van methodes waarmee <q>Wat als analyses</q> uitgevoerd
+			kunnen worden.</p>
+	</conbody>
+</concept>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_title" xml:lang="nl-NL">
+    <title>Taak: Grafiektitel</title>
+    <shortdesc>Uitgelegd wordt hoe je bovenaan in het grafiekgebied een titel kunt
+        plaatsen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>titel</indexterm><indexterm>grafiektitel</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Wanneer je een grafiek maakt wordt standaard een grafiektitel boven de grafiek
+                geplaatst. Je kunt vervolgens eenvoudig de tekst selecteren en wijzigen. Ook kun je
+                de grafiektitel verbergen of naar een andere plek verplaatsen.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Ontwerpen</uicontrol>
+                        <uicontrol>Grafiekonderdeel toevoegen (groep Grafiekindelingen)</uicontrol>
+                        <uicontrol>Grafiektitel</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Grafiektitel opties</title>
+                        <image keyref="chart_title_options">
+                            <alt>Opties grafiektitel</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Kies <option>Boven grafiek</option>.</cmd>
+                <info>Keuze <option>Geen</option> verwijdert de grafiektitel.</info>
+            </step>
+            <step>
+                <cmd>Klik dubbel op de tekst <uicontrol>Grafiektitel</uicontrol> en vervang deze
+                    door een eigen tekst zoals <userinput>Verkopen Bakkerij</userinput>.</cmd>
+                <tutorialinfo>
+                    <ul>
+                        <li>Je kunt de grafiektitel verplaatsen via slepen.</li>
+                        <li>Je kunt de de tekst op te maken door deze te selecteren, dan rechter
+                            muisklik en dan keuze <uicontrol>Grafiektitel opmaken</uicontrol>.</li>
+                    </ul>
+                </tutorialinfo>
+            </step>
+        </steps>
+        <example>
+            <title>Snellere methode</title>
+            <p>Een snellere manier om een grafiektitel toe te voegen of te wijzigen:</p>
+            <ol>
+                <li>Selecteer de grafiek.</li>
+                <li>Klik op de knop Grafiekelementen <image keyref="button_chart_elements"/> naast
+                    de grafiek en je krijgt een lijst met grafiekelementen.</li>
+                <li>Selecteer <option>Grafiektitel</option> en de titel wordt onmiddellijk aan de
+                    grafiek toegevoegd. Er naast is nog een pijl en door daar op te klikken krijg je
+                    een vervolgmenu.</li>
+            </ol>
+            <fig>
+                <image keyref="chart_elements_title"/>
+            </fig>
+            <note type="tip">
+                <p>De elementen die aangevinkt zijn zijn in de grafiek aanwezig. Door het vinkje weg
+                    te halen verwijder je het element uit de grafiek.</p>
+            </note>
+        </example>
+    </taskbody>
+</task>

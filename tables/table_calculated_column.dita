@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_calculated_column" xml:lang="nl-NL">
+	<title>Taak: Berekende kolom</title>
+	<shortdesc>??</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Berekende kolom</indexterm>
+				<indexterm>Tabel<indexterm>berekende kolom</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+            <p>Wanneer je een formule in een lege kolom invoert, dan wordt deze formule automatisch
+                uitgebreid naar de rest van de kolom. Je hoeft niet de opdrachten Doorvoeren of
+                Kopiëren te gebruiken. Zo'n kolom heet een berekende kolom. En wanneer je een
+                formule wijzigt dan wordt de rest van de berekende kolom automatisch aangepast.</p>
+            <p>De eenvoudigste manier om een berekende kolom te maken is door met typen te beginnen
+                in de kolomdirect rechts van de tabel. De tabel wordt dan automatisch
+                uitgebreid.</p>
+            <note type="other" othertype="File"><filepath>Personeel.xlsx</filepath></note>
+        </context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+		    <step>
+                <cmd>Zet het bereik om naar een tabel.</cmd>
+            </step>
+		    <step>
+                <cmd>Selecteer cel <option>I2</option> en voer de volgende formule in:
+                        <userinput>=AFRONDEN([@Salaris];0)</userinput></cmd>
+                <info>Verwijzingen zoals <systemoutput>[@Salaris]</systemoutput> heten
+                    gestructureerde verwijzingen en zijn uniek voor Excel tabellen. De syntax van
+                    een gestructureerde verwijzing maakt het mogelijk dat dezelfde formule voor elke
+                    rij in de tabel gebruikt kan worden.</info>
+                <stepresult>Een nieuwe kolom met de berekende waarden wordt gemaakt.</stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig de tekst van de kolomkop in <userinput>Afgerond
+                    Salaris</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer een numerieke cel in de nieuwe kolom, <menucascade>
+                        <uicontrol>Rechter muisklik</uicontrol>
+                        <uicontrol>Selecteren</uicontrol>
+                        <uicontrol>Tabelkolomgegevens</uicontrol>
+                    </menucascade></cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de opmaak van de cel in <option>Valuta, 0 decimalen</option></cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel <option>J2</option> en voer de volgende formule in
+                        <userinput>=JAAR(NU())-JAAR([@[Begindatum]])</userinput></cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de tekst van de kolomkop in <userinput>Leeftijd</userinput>.</cmd>
+            </step>
+		</steps>
+	</taskbody>
+</task>

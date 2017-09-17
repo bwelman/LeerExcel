@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_gridlines" xml:lang="nl-NL">
+    <title>Taak: Rasterlijnen</title>
+    <shortdesc>Het toevoegen en verwijderen van verticale en horizontale rasterlijnen in een
+    grafiek.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>rasterlijnen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Rasterlijnen zijn horizontale of verticale lijnen die vanaf de assen over het
+                tekengebied van de grafiek lopen. Met rasterlijnen zijn de gegevens in een grafiek
+                beter leesbaar. Je kunt de rasterlijnen laten weergeven voor de grote of de kleine
+                intervallen op de assen.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Klik op de knop Grafiekelementen <image keyref="button_chart_elements"
+                        id="image_upf_r45_q1b"/> naast de grafiek en je krijgt een lijst met
+                    grafiekelementen.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de vervolgpijl bij <option>Rasterlijnen</option> en beweeg de muis over
+                    de opties.</cmd>
+                <stepresult>Bij elke optie zie je meteen het resultaat in de grafiek.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="intro" xml:lang="nl-NL">
+    <title>Beginnen met Excel</title>
+    <shortdesc>Een introductie in het programma Excel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Excel is een programma uit de Microsoft Office reeks waarmee je rekenbladen
+            (spreadsheets) kunt maken. Dit onderdeel geeft een introductie in spreadsheets in het
+            algemeen en in Excel in het bijzonder.</p>
+    </conbody>
+</concept>

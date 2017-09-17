@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="data_undo_changes" xml:lang="nl-NL">
+    <title>Wijzigingen ongedaan maken</title>
+    <shortdesc>Hoe je aangebrachte wijzigingen weer terug kunt draaien.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Ongedaan maken</indexterm>
+                <indexterm>Opnieuw uitvoeren</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Van vrijwel elke actie die je in Excel uitvoert is het mogelijk de effecten van deze actie weer
+            ongedaan te maken. Dit doe je door gebruik te maken van de knoppen <uicontrol>Ongedaan
+                maken</uicontrol> (<image keyref="Button_Undo"/>) of <uicontrol>Opnieuw</uicontrol>
+            (<image keyref="Button_Redo"/>). Deze knoppen bevinden zich op de <wintitle>Werkbalk
+                Snelle Toegang</wintitle>.</p>
+        <p>De knop <uicontrol>Ongedaan maken</uicontrol> draait de laatst uitgevoerde actie weer
+            terug. Door nogmaals op deze knop te klikken wordt de daarvoor uitgevoerde actie
+            ongedaan gemaakt, enz. Naast deze knop kan zich een pijlpunt bevinden die bij klikken
+            hierop een lijst toont van de meest recente acties. Door hierin een actie aan te klikken
+            worden alle wijzigingen t/m deze ongedaan gemaakt.</p>
+        <p>Door gebruik van de knop <uicontrol>Opnieuw</uicontrol> kan het ongedaan maken weer
+            teruggedraaid worden. Ook naast deze knop kan zich een pijlpunt bevinden die een lijst
+            met recente acties kan tonen.</p>        
+    </conbody>
+</concept>

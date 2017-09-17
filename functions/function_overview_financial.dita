@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="function_overview_financial" xml:lang="nl-NL">
+  <title>Overzicht Financiële functies</title>
+  <shortdesc>Een overzicht van een aantal functies voor afschrijvingen en leningen.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Functies<indexterm>financieel</indexterm><indexterm>afschrijvingen</indexterm><indexterm>leningen</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>Afschrijvingen</title>
+      <table frame="all">
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Methode</entry>
+              <entry>Functie</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Lineair</entry>
+              <entry>LIN.AFSCHR(kosten; restwaarde; duur)</entry>
+            </row>
+            <row>
+              <entry>Fixed declining balance methode, ook wel vaste degressieve afschrijvingsmethode genoemd.</entry>
+              <entry>DB(kosten; restwaarde; duur; termijn; [maand])</entry>
+            </row>
+            <row>
+              <entry>Double Declining Balance methode, dubbele degressieve afschrijving</entry>
+              <entry>DDB(kosten;restwaarde; duur; termijn; [factor])</entry>
+            </row>
+            <row>
+              <entry>Sum-Of-Years-Digits methode</entry>
+              <entry>SYD(kosten; restwaarde; duur; termijn)</entry>
+            </row>
+            <row>
+              <entry>Variable declining balance, variabele degressieve afschrijving.</entry>
+              <entry>VDB(kosten; restwaarde; duur; begin-periode; einde-periode; [factor];
+                [geen-omschakeling])</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>      
+    </section>
+    <section>
+      <title>Betalingen</title>
+      <table frame="all">
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Methode</entry>
+              <entry>Functie</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Periodieke betaling voor een annuïteit.</entry>
+              <entry>BET(rente; aantal-termijnen; hw;[tw]; [type_getal])</entry>
+            </row>
+            <row>
+              <entry>Rentebetaling voor een investering</entry>
+              <entry>ISBET(rente; termijn; aantal-termijnen; hw)</entry>
+            </row>
+            <row>
+              <entry>Aantal termijnen van een investering.</entry>
+              <entry>NPER(rente; bet; hw; [tw]; [type_getal])</entry>
+            </row>
+            <row>
+              <entry>Afbetaling op de hoofdsom</entry>
+              <entry>PBET(rente; aantal-termijnen; hw; [tw]; [type_getal])</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Investeringen</title>
+      <table frame="all">
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Methode</entry>
+              <entry>Functie</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Huidige waarde van een investering.</entry>
+              <entry>HW(rente; aantal-termijnen; bet;[tw]; [type_getal])</entry>
+            </row>
+            <row>
+              <entry>Toekomstige waarde investering.</entry>
+              <entry>TW(rente; aantal-termijnen; bet; [hw]; [type_getal])</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Rente</title>
+      <table frame="all">
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Methode</entry>
+              <entry>Functie</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Rentepercentage voor afbetaling van een lening.</entry>
+              <entry>RENTE(aantal-termijnen; bet; hw; [tw]; [type_getal]; [schatting])</entry>
+            </row>
+            <row>
+              <entry>Interne rentabiliteit voor een reeks cashflows.</entry>
+              <entry>IR(waarden;[schatting])</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

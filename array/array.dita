@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_matr" xml:lang="nl-NL">
+    <title>Matrixformules</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Met matrixformules kun je berekeningen uitvoeren die je met andere formules niet kunt
+            uitvoeren. Matrixformules staan als erg lastig bekend en zijn niet altijd even
+            gemakkelijk te begrijpen. In dit onderdeel maak je kennis met matrixformules en wordt
+            uitgelegd hoe je matrixformules kunt invoeren.</p>
+    </conbody>
+</concept>

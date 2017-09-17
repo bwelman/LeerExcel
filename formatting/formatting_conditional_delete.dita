@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_conditional_delete" xml:lang="nl-NL">
+    <title>Voorwaardelijke opmaak verwijderen</title>
+    <shortdesc>Beschrijving van de methode om een voorwaardelijke opmaak te verwijderen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Voorwaardelijke opmaak<indexterm>verwijderen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een voorwaardelijke opmaak kan als volgt verwijderd worden:</p>
+        <ol>
+            <li>Selecteer de cel(len) met de voorwaardelijke opmaak.</li>
+            <li>Kies <menucascade>
+                    <uicontrol>Start</uicontrol>
+                    <uicontrol>Voorwaardelijke opmaak (groep Stijlen)</uicontrol>
+                    <uicontrol>Regels wissen</uicontrol>
+                    <uicontrol>Regels uit geselecteerde cellen verwijderen</uicontrol>
+                </menucascade>.</li>
+        </ol>	
+    </conbody>
+</concept>

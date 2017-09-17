@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="data_insert_rowcolumn" xml:lang="nl-NL">
+    <title>Rij/kolom invoegen</title>
+    <shortdesc>Aanwijzingen hoe je in een bestaand werkblad een rij of een kolom kunt
+        invoegen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Rij<indexterm>invoegen</indexterm></indexterm>
+                <indexterm>Kolom<indexterm>invoegen</indexterm></indexterm>
+                <indexterm>Invoegen<indexterm>rij</indexterm><indexterm>kolom</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het komt regelmatig voor dat je in een werkblad een rij of een een kolom ergens tussen de
+            gegevens wilt invoegen. De werkwijze is voor rijen en kolommen hetzelfde.</p>
+        <ol>
+            <li>Rechtermuisklik op het rijcijfer of de kolomletter waarvoor er ingevoegd moet
+                worden.</li>
+            <li>Kies uit het snelmenu <uicontrol>Invoegen</uicontrol>.</li>
+        </ol>
+        <note type="tip">Om meerdere rijen/kolommen in te voegen selecteer je het gewenste aantal
+            rijen/kolommen, dan invoegen via het snelmenu. Dan wordt het aantal ingevoegd voor de
+            eerste rij/kolom van de selectie.</note>
+    </conbody>
+</concept>

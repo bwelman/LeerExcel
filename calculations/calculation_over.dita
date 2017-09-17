@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="calculation_over" xml:lang="nl-NL">
+    <title>Wat zijn berekeningen?</title>
+    <shortdesc>Hoe je formules kunt maken om rekenwerk uit te voeren.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Berekeningen</indexterm>
+                <indexterm>Formules<indexterm>bewerkingen</indexterm></indexterm>
+                <indexterm>Operatoren</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Berekeningen worden uitgevoerd met formules. In de formules staan getallen of
+            verwijzingen naar cellen waar getallen in staan. Tussen de getallen staan de symbolen
+            voor de uit te voeren berekeningen, zoals +, -, *, /, enz.</p>
+        <note type="attention">Een formule moet altijd beginnen met het <userinput>=</userinput>
+            teken. Je kunt ook een formule laten beginnen met <userinput>+</userinput>, maar in dat
+            geval vertaalt Excel na de invoer van de formule dit in een
+                <systemoutput>=</systemoutput>.</note>
+        <p>Om een formule in te voeren begin je met het intypen van de <userinput>=</userinput> en
+            daarna typ je de berekening in zoals je dat op een rekenmachine zou intypen. In plaats
+            van getallen kun je ook celadressen of celnamen intypen waar de getallen in staan. En in
+            plaats van de celadressen in te typen kun je deze ook met de muis aanwijzen.</p>
+        <p>In de formules kun je de volgende symbolen (operatoren) voor berekeningen gebruiken:</p>
+        <simpletable>
+            <sthead>
+                <stentry>symbool</stentry>
+                <stentry>betekenis</stentry>
+                <stentry>voorbeeld</stentry>
+                <stentry>uitkomst</stentry>
+            </sthead>
+            <strow>
+                <stentry>+</stentry>
+                <stentry>optellen</stentry>
+                <stentry>=4+5</stentry>
+                <stentry>9</stentry>
+            </strow>
+            <strow>
+                <stentry>-</stentry>
+                <stentry>aftrekken</stentry>
+                <stentry>=29-6</stentry>
+                <stentry>23</stentry>
+            </strow>
+            <strow>
+                <stentry>*</stentry>
+                <stentry>vermenigvuldigen</stentry>
+                <stentry>=7*8</stentry>
+                <stentry>56</stentry>
+            </strow>
+            <strow>
+                <stentry>/</stentry>
+                <stentry>delen</stentry>
+                <stentry>=6/2</stentry>
+                <stentry>3</stentry>
+            </strow>
+            <strow>
+                <stentry>^</stentry>
+                <stentry>machtsverheffen</stentry>
+                <stentry>=2^3</stentry>
+                <stentry>8</stentry>
+            </strow>
+            <strow>
+                <stentry>( )</stentry>
+                <stentry>haakjes voor volgorde berekening</stentry>
+                <stentry>=30-(4+6)</stentry>
+                <stentry>20</stentry>
+            </strow>
+        </simpletable>
+        <note type="tip">Deze voorbeelden kun je gewoon in een werkblad uitproberen.</note>
+    </conbody>
+</concept>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="pivots_options" xml:lang="nl-NL">
+  <title>Opties draaitabel</title>
+  <shortdesc>Overzicht van de instelmogelijkheden voor draaitabellen.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Draaitabel<indexterm>opties</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>Instellen opties</title>
+      <p>Selecteer een willekeurige cel in de draaitabel. Kies dan <menucascade>
+                    <uicontrol>tab Analyseren</uicontrol>
+                    <uicontrol>Opties (groep Draaitabel)</uicontrol>
+                </menucascade>.</p>
+    </section>
+    <section>
+      <title>Keuzemogelijkheden</title>
+      <fig>
+                <title>Draaitabelopties: Indeling &amp; opmaak</title>
+                <image keyref="pivottable_options_layout-format">
+                    <alt>Opties draaitabel voor indeling en opmaak</alt>
+                </image>
+            </fig>
+      <fig>
+                <title>Draaitabelopties: Totalen &amp; filters</title>
+                <image keyref="pivottable_options_totals-filter">
+                    <alt>Opties draaitabel voor totalen en filters</alt>
+                </image>
+            </fig>
+      <fig>
+                <title>Draaitabelopties: Weergave</title>
+                <image keyref="pivottable_options_display">
+                    <alt>Opties draaitabel voor weergave</alt>
+                </image>
+            </fig>
+      <fig>
+                <title>Draaitabelopties: Afdrukken</title>
+                <image keyref="pivottable_options_printing">
+                    <alt>Opties draaitabel voor afdrukken</alt>
+                </image>
+            </fig>
+      <fig>
+                <title>Draaitabelopties: Gegevens</title>
+                <image keyref="pivottable_options_data">
+                    <alt>Opties draaitabel voor gegevens</alt>
+                </image>
+            </fig>
+      <fig product="OF2010">
+                <title>Draaitabelopties: Alt tekst</title>
+                <image keyref="pivottable_options_alttext">
+                    <alt>Opties draaitabel voor Alt tekst</alt>
+                </image>
+            </fig>
+    </section>
+  </refbody>
+</reference>

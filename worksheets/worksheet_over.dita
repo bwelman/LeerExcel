@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="worksheet_over" xml:lang="nl-NL">
+    <title>Wat is het werkblad?</title>
+    <shortdesc>Een korte uitleg over de inrichting en gebruik van het werkblad.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkbladen</indexterm>
+                <indexterm>Kolom</indexterm>
+                <indexterm>Rij</indexterm>
+                <indexterm>Cel<indexterm>adres</indexterm><indexterm>verwijzing</indexterm><indexterm>actieve</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een werkblad bestaat uit rijen en kolommen. Het snijpunt van een <term>rij</term> en een
+                <term>kolom</term> heet de <term>cel</term>. En in een cel worden de gegevens en de
+            formules opgeslagen.<fig>
+                <title>Werkblad met rijen, kolommen en cellen</title>        
+                <image keyref="Worksheet_Layout">
+                    <alt>Indeling van een werkblad: rijen, kolommen en cellen.</alt>
+                </image>
+            </fig>
+        </p>
+        <p>De rijen worden genummerd 1, 2, 3, ... De kolommen hebben een letter A, B, C, ... En na
+            de letter Z gaat het verder met AA,AB, ... En na ZZ wordt een derde letter toegevoegd en
+            gaat het verder met AAA, AAB, enz. Een werkblad kan maar liefst 16.384 kolommen en
+            1.048.576 rijen bevatten. En dat levert meer dan 17 miljard cellen op.</p>
+        <p>Elke cel hoort bij een bepaalde rij en een bepaalde kolom. De combinatie van de
+                <term>kolomletter</term> en het <term>rijnummer</term> wordt het
+                <term>celadres</term> genoemd. Zo heeft de eerste cel linksboven het adres
+                <uicontrol>A1</uicontrol>. Het celadres kan in formules gebruikt worden om
+            verwijzingen naar de inhoud van de cel te maken.</p>
+        <p>Door met de muis een cel aan te klikken wordt deze cel geselecteerd, het wordt dan de
+                <term>actieve cel</term>. Er verschijnt dan een  kader om de cel.<image
+                    keyref="Worksheet_ActiveCell">
+                <alt>Kader actieve cel.</alt>
+            </image></p>
+        <p>Er is altijd een actieve cel in het werkblad. Je kunt een andere cel de activeren door
+            deze aan te klikken, maar je kunt ook de actieve cel verplaatsen met de pijltjestoetsen
+            op het toetsenbord. Wanneer een cel geactiveerd is en je begint dan te typen, dan wordt
+            het ingetypte in de cel ingevoerd. Je kunt de invoer van gegevens beëindigen door op de
+                <uicontrol>Enter toets</uicontrol> te drukken. Standaard wordt de actieve cel dan 1
+            cel naar beneden verplaatst.<note type="tip">De richting waarin de actieve cel zich
+                verplaatst na het indrukken van de <uicontrol>Enter toets</uicontrol> is te wijzigen
+                via de <uicontrol>Opties voor Excel</uicontrol>. De keuzes zijn: beneden, boven,
+                links en rechts.</note></p>
+        <p>De inhoud van een cel kan bestaan uit:<ul>
+                <li>tekst</li>
+                <li>getallen</li>
+                <li>formules</li>
+            </ul></p>
+        <p>In de formules mogen verwijzingen naar andere cellen voorkomen. Wanneer dan de inhoud van
+            deze cellen gewijzigd wordt, dan worden de formules automatisch opnieuw doorgerekend.
+            Dit maakt een spreadsheet erg krachtig.</p>
+    </conbody>
+</concept>

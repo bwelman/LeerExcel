@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_search_form" xml:lang="nl-NL" >
+	<title>Taak: Zoeken met een formulier</title>
+	<shortdesc>Met behulp van een formulier zoeken naar records die aan bepaalde voorwaarden
+        voldoen.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Formulier</indexterm>
+				<indexterm>Zoeken<indexterm>records in een lijst</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+	    <prereq conref="table_data_entry_form.dita#table_data_entry_form/qat_form"/>
+		<context>Een gegevensformulier is zeer geschikt om in een bereik/tabel te zoeken naar records die
+            aan bepaalde voorwaarden voldoen. In de oefening hierna wordt dit uitgevoerd. Aan het
+            eind daarvan staan meer voorbeelden over hoe criteria kunnen worden toegepast.<note
+                type="other" othertype="Bestand"
+            ><filepath>Personeel.xlsx</filepath></note></context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+			<step>
+				<cmd>Klik op de knop <uicontrol>Formulier</uicontrol>.</cmd>
+				<stepresult>
+					<p>Het gegevensformulier verschijnt.</p>
+					<fig>
+                        <title>Gegevensformulier Personeel</title>
+                        <image keyref="personnel_form">
+                            <alt>Gegevensformulier personeel</alt>
+                        </image>
+                    </fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>Criteria</uicontrol>.</cmd>
+				<stepresult>
+					<p>Het formulier wordt leeg gemaakt en kan gebruikt worden om de zoekcriteria in
+						te vullen.</p>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Typ nu in bij Afdeling <userinput>Accounting</userinput> en bij Divisie
+						<userinput>Printers</userinput>.</cmd>
+				<stepresult>
+					<fig>
+                        <title>Formulier personeel met zoekcriteria</title>
+                        <image keyref="personnel_form_search">
+                            <alt>Gegevensformulier personeel met zoekcriteria</alt>
+                        </image>
+                    </fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>Volgende zoeken</uicontrol>.</cmd>
+				<stepresult>De gegevens van de eerste persoon die aan de criteria voldoet worden
+					getoond.</stepresult>
+			</step>
+			<step>
+				<cmd>Blader met de knoppen <uicontrol>Volgende zoeken</uicontrol> en
+						<uicontrol>Vorige zoeken</uicontrol> door de lijst. Er zijn in totaal 5
+					personen die aan de criteria voldoen.</cmd>
+			</step>
+		</steps>
+		<example>
+			<title>Voorbeelden zoekcriteria</title>
+			<p>In de tabel hierna staan een aantal voorbeelden van zoekcriteria. Probeer deze uit en
+				controleer of de gevonden records aan de criteria voldoen. Het is ook mogelijk om
+				meerdere criteria te combineren. Maak steeds eerst de lijst met criteria leeg
+				voordat je met een nieuwe oefening begint.</p>
+			<table frame="all">
+				<tgroup cols="3">
+					<thead>
+						<row>
+							<entry>Veld</entry>
+							<entry>Waarde</entry>
+							<entry>Toelichting</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>Achternaam</entry>
+							<entry>Ja</entry>
+							<entry>Zoekt naar personen waarvan de achternaam begint met
+								<q>Ja</q>.</entry>
+						</row>
+						<row>
+							<entry>Achternaam</entry>
+							<entry>*os</entry>
+							<entry>ZoektZoekt naar personen waarvan in de achternaam <q>os</q>
+								voorkomt.</entry>
+						</row>
+						<row>
+							<entry>Salaris</entry>
+							<entry>>70000</entry>
+							<entry>Zoekt naar personen met een salaris groter dan 70000.</entry>
+						</row>
+						<row>
+							<entry>Begindatum</entry>
+							<entry>&lt;1-1-1990</entry>
+							<entry>Zoekt naar personen met een begindatum voor 1-1-1990.</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</example>
+	</taskbody>
+</task>

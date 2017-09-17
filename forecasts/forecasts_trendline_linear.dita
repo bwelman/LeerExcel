@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_trendline_linear" xml:lang="nl-NL">
+    <title>Taak: Lineaire trendlijn</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een lineaire trendlijn is een zo goed mogelijk passende rechte lijn die gebruikt
+                wordt voor eenvoudige lineaire gegevensverzamelingen. Deze trendlijn wordt meestal
+                gebruikt om een regelmatige stijging of daling weer te geven.</p>
+            <p>De vergelijking van de trendlijn is: <codeph>y = a*x + b</codeph><ul>
+                    <li>a = richtingscoëfficient</li>
+                    <li>b = snijpunt met de verticale as</li>
+                </ul></p>
+            <p>Het volgende voorbeeld gaat over de verkoop van het aantal wasmachines door een
+                bepaald bedrijf voor acht achtereenvolgende jaren.</p>
+            <note type="other" othertype="Bestand"><filepath>Trendlijnen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open het hulpbestand en selecteer het werkblad
+                    <wintitle>Lineair</wintitle>.</cmd>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_Start"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_End">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer bij Opties voor trendlijn: <option>Lineair</option>. En laat de
+                    vergelijking en R-kwadraat in de grafiek weergeven.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig titel in <userinput>Verkoop Wasmachines</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg astitels toe en wijzig titel Y-as in <userinput>Aantal</userinput> en
+                    titel X-as in <userinput>Jaar</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Versleep in de grafiek de vergelijking naar een overzichtelijke plaats.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Voorbeeld lineaire trendlijn</title>
+                <image keyref="example_lin">
+                    <alt>Voorbeeld lineaire trendlijn</alt>
+                </image>
+            </fig>
+            <p>R<sup>2</sup> = 0,9736 wat betekent dat de trendlijn zeer goed bij de gegevens
+                past.</p>
+        </result>
+        <example>
+            <title>Werkbladfuncties</title>
+            <p>Vergelijking: y = a*x + b</p>
+            <p>Richtingscoëfficient (a)<ul>
+                    <li>=RICHTING(y-bekend;x-bekend)</li>
+                    <li>=INDEX(LIJNSCH(y-bekend ; x-bekend) ; 1; 1)</li>
+                </ul></p>
+            <p>Snijpunt met Y-as (b)<ul>
+                    <li>=SNIJPUNT(y-bekend;x-bekend)</li>
+                    <li>=INDEX(LIJNSCH(y-bekend ; x-bekend) ; 1; 2))</li>
+                </ul></p>
+            <p>Correlatiecoëfficient (R) = CORRELATIE(y-bekend ; x-bekend)<note>R-kwadraat vind je
+                    door de gevonden waarde te kwadrateren.</note></p>
+        </example>
+    </taskbody>
+</task>

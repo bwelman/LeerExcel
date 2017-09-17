@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_table" xml:lang="nl-NL">
+    <title>Keys Tabel</title>
+    <keydef keys="candybox_table" href="images/candybox_table.png" format="png"/>
+    <keydef keys="candybox_table_create" href="images/candybox_table_create.png" format="png"/>
+    <keydef keys="consolidate_references" href="images/consolidate_references.png" format="png"/>
+    <keydef keys="consolidate_result" href="images/consolidate_result.png" format="png"/>
+    <keydef keys="consolidate_dialogbox" href="images/consolidate_dialogbox.png" format="png"/>
+    <keydef keys="personnel_filter_custom" href="images/personnel_filter_custom.png" format="png"/>
+    <keydef keys="filter_top10" href="images/filter_top10.png" format="png"/>
+    <keydef keys="personnel_form" href="images/personnel_form.png" format="png"/>
+    <keydef keys="personnel_form_search" href="images/personnel_form_search.png" format="png"/>
+    <keydef keys="personnel_sort_multiple" href="images/personnel_sort_multiple.png" format="png"/>
+    <keydef keys="purchase_form" href="images/purchase_form.png" format="png"/>
+    <keydef keys="purchase_record1" href="images/purchase_record1.png" format="png"/>
+    <keydef keys="purchase_result" href="images/purchase_result.png" format="png"/>
+    <keydef keys="subtotal_selector" href="images/subtotal_selector.png" format="png"/>
+</map>

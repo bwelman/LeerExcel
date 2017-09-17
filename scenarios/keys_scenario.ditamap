@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_scenario" xml:lang="nl-NL">
+    <title>Keys Scenario</title>
+    <keydef keys="scenario_manager" href="images/scenario_manager.png" format="png" navtitle="Dialog box scenario manager"/>
+    <keydef keys="coffeebar_warning" href="images/coffeebar_warning.png" format="png" navtitle="Coffeebar warning"/>
+    <keydef keys="coffeebar_model" href="images/coffeebar_model.png" format="png" navtitle="Coffeebar model"/>
+    <keydef keys="coffeebar_scen_current" href="images/coffeebar_scen_current.png" format="png" navtitle="Coffeebar scenario current"/>
+    <keydef keys="coffeebar_scen_current_values" href="images/coffeebar_scen_current_values.png" format="png" navtitle="Coffeebar scenario current values"/>
+    <keydef keys="coffeebar_scenarios" href="images/coffeebar_scenarios.png" format="png" navtitle="Coffeebar scenarios"/>
+    <keydef keys="coffeebar_scen_reporttype" href="images/coffeebar_scen_reporttype.png" format="png" navtitle="Coffeebar report type"/>
+    <keydef keys="coffeebar_scen_summary" href="images/coffeebar_scen_summary.png" format="png" navtitle="Coffeebar summary report"/>
+</map>

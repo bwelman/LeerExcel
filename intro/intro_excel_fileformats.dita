@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="intro_excel_fileformats" xml:lang="nl-NL">
+    <title>Bestandsformaten van Excel</title>
+    <shortdesc>Een overzicht van de nieuwe en oude bestandsformaten van Excel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Bestandsformaten</indexterm>
+                <indexterm>Compatibiliteitsmodus</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section>
+            <title>Bestandsformaten voor Excel 2007, Excel 2010, Excel 2013 en Excel 2016</title>
+            <dl>
+                <dlentry>
+                    <dt>XLSX</dt>
+                    <dd>Dit is het standaardformaat voor bestanden gemaakt met Excel 2007, Excel
+                        2010, Excel 2013 en Excel 2016. In dit bestandsformaat kunnen geen macro's
+                        voorkomen.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>XLSM</dt>
+                    <dd>In dit bestandsformaat kan een werkmap met macro's worden opgeslagen.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>XLSB</dt>
+                    <dd>Dit is een speciaal binair formaat voor zeer grote werkmappen met zeer veel
+                        gegevens.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>XLTX</dt>
+                    <dd>Een bestandsformaat voor sjabonen zonder macro's.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>XLTM</dt>
+                    <dd>Een bestandsformaat voor sjablonen met macro's.</dd>
+                </dlentry>
+            </dl>
+            <note type="attention">Sjablonen kunnen gebruikt worden om nieuwe werkmappen aan te
+                maken met dezelfde lay-out en inhoud als het sjabloon.</note>
+        </section>
+        <section>
+            <title>Oude bestandsformaten</title>
+            <dl>
+                <dlentry>
+                    <dt>XLS</dt>
+                    <dd>Dit is het bestandsformaat voor Excel 2003 en eerder. Wanneer zo'n bestand
+                        in een nieuwere versie van Excel wordt geopend, dan opent Excel deze in de
+                            <term>Compatibiliteitsmodus</term>. In deze modus kun je wijzigingen
+                        aanbrengen, maar wanneer je het bestand op wilt slaan controleert Excel of
+                        de wijzigingen wel in het oude bestandsformaat ondersteund worden en toont
+                        een lijstje met onderdelen die niet ondersteund worden.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>XLT</dt>
+                    <dd>Een bestandsformaat voor sjablonen.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </refbody>
+</reference>

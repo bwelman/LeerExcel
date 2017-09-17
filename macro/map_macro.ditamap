@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_macro" xml:lang="nl-NL">
+    <title>Macro's</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_macro.ditamap" processing-role="resource-only"/>
+    <!-- Links -->
+    <mapref href="macro_reltables.ditamap" format="ditamap"/>
+    <!-- Content -->
+    <topicref href="macro.dita">
+        <topicref href="macro_over.dita" scope="local" type="concept" audience="level2"/>
+        <topicref href="tab_developer.dita" scope="local" type="task" audience="level2"/>
+        <topicref href="macro_recording.dita" scope="local" type="concept" audience="level2"/>
+        <topicref href="macro_cell_format.dita" scope="local" type="task" audience="level2"/>
+        <topicref href="macro_editing.dita" scope="local" type="task" audience="level2"/>
+        <topicref href="macro_command_button.dita" scope="local" type="task" audience="level2"/>
+        <topicref href="macro_security.dita" scope="local" type="reference" audience="level2"/>
+        <topicref href="macro_tips.dita" scope="local" type="reference" audience="level2"/>
+    </topicref>
+</map>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="worksheet_copy" xml:lang="nl-NL">
+    <title>Taak: Werkblad kopieren</title>
+    <shortdesc>Hoe je een werkblad verplaatst of een kopie hiervan maakt in dezelfde of een andere
+        werkmap.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkblad<indexterm>kopiëren</indexterm><indexterm>verplaatsen</indexterm></indexterm>
+                <indexterm>Kopiëren<indexterm>werkblad</indexterm></indexterm>
+                <indexterm>Verplaatsen<indexterm>werkblad</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Rechtermuisklik op de naam van het werkblad en kies dan <uicontrol>Verplaatsen
+                        of kopiëren ...</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Blad verplaatsen of
+                            kopiëren</wintitle></title>
+                        <image keyref="Worksheet_Move_Dialogbox">
+                            <alt>Dialoogvenster blad verplaatsen of kopiëren</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voer naar keuze een of meerdere van de volgende mogelijkheden uit:</cmd>
+                <choicetable>
+                    <chhead>
+                        <choptionhd>Keuze</choptionhd>
+                        <chdeschd>Toelichting</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>Naar map:</choption>
+                        <chdesc>Standaard staat hier dezelfde map. Door op de keuzepijl aan het eind
+                            te klikken kan gekozen worden uit andere geopende werkmappen of een
+                            nieuwe werkmap. In het laatste geval wordt een nieuwe werkmap
+                            aangemaakt. </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Voor blad:</choption>
+                        <chdesc>Kies de plaats in de doelmap waar de kopie moet komen.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Kopie maken</choption>
+                        <chdesc>Wanneer deze keuze wordt aangevinkt, dan wordt er een kopie van het
+                            werkblad gemaakt. Wordt dit niet aangevinkt, dan wordt het werkblad
+                            verplaatst.</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+        </steps>
+    </taskbody>
+</task>

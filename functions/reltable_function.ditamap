@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Relation Tables Functions</title>
+ <reltable>
+     <title>Links</title>
+     <relheader>
+         <relcolspec type="topic"  linking="sourceonly"/>
+         <relcolspec type="concept" linking="targetonly"/>
+         <relcolspec type="task" linking="targetonly"/>
+         <relcolspec type="reference" linking="targetonly"/>
+         <relcolspec linking="targetonly"/>
+     </relheader>
+     <relrow>
+         <relcell>
+             <topicref href="function_vlookup.dita" type="task"/>
+             <topicref href="function_hlookup.dita" type="task"/>
+         </relcell>
+         <relcell/>
+         <relcell/>   
+         <relcell>
+             <topicref href="function_overview_lookup.dita" type="reference"/>
+         </relcell>
+         <relcell/>
+     </relrow>
+     <relrow>
+         <relcell>
+             <topicref href="function_annuity.dita" type="task"/>
+             <topicref href="function_nper.dita" type="task"/>
+         </relcell>
+         <relcell/>
+         <relcell/>
+         <relcell>
+             <topicref href="function_overview_financial.dita" type="reference"/>
+         </relcell>
+         <relcell/>
+     </relrow>
+     <relrow>
+         <relcell>
+             <topicref href="function_countif.dita" type="task"/>
+             <topicref href="function_sumif.dita" type="task"/>
+         </relcell>
+         <relcell/>
+         <relcell/>
+         <relcell>
+             <topicref href="function_overview_math.dita" type="reference"/>
+         </relcell>
+         <relcell/>
+     </relrow>
+     <relrow>
+         <relcell>
+             <topicref href="function_over.dita" type="concept"/>
+         </relcell>
+         <relcell/>
+         <relcell/>
+         <relcell/>
+   <relcell>
+    <topicref href="http://nl.wikipedia.org/wiki/Lijst_van_Excel-functies" scope="external" format="html">
+     <topicmeta>
+      <linktext>Wikipedia: Excel functies met hun Nederlandstalige en Engelstalige namen</linktext>
+     </topicmeta>
+    </topicref>
+   </relcell>
+  </relrow>
+ </reltable>
+</map>

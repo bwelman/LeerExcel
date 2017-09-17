@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_timeserie_example" xml:lang="nl-NL">
+ <title>Tijdreeks voorbeelden</title>
+ <shortdesc/>
+ <prolog>
+  <critdates>
+   <created date="2017-08-31"/>
+   <revised modified="2017-08-31"/>
+  </critdates>
+  <metadata>
+   <keywords>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>In de volgende grafiek is de bierproductie per kwartaal in Australie voor de jaren 1956-1973
+   uitgezet.</p>
+  <fig>
+            <title>Australische beer productie per jaar/kwartaal</title>
+            <image keyref="timeserie_beer1">
+                <alt>Australische beer productie per jaar/kwartaal</alt>
+            </image>
+        </fig>
+  <!--  Bron: tekst https://onlinecourses.science.psu.edu/stat510/node/47  data https://datamarket.com/data/set/22ry/quarterly-beer-production-in-australia-megalitres-march-1956-june-1994#!ds=22ry&display=line-->
+  <p>Bestudering van de grafiek levert de volgende kenmerken op:<ul>
+    <li>Er is een opwaartse trend, mogelijk geen rechte lijn maar iets gebogen.</li>
+    <li>Er is een sterke seizoensgebondenheid te zien door de regelmatige pieken en dalen
+     gerelateerd aan de verschillende kwartalen. De top ligt steeds bij kwartaal 4, de dalen bij de
+     kwartalen 2 en 3 en de waarden voor kwartaal 1 liggen tussen piek en dal.</li>
+    <li>Er zijn geen uitschieters.</li>
+    <li>Er is geen lange termijn cyclus.</li>
+    <li>De variantie in de waarden lijkt iets toe te nemen in de tijd.</li>
+   </ul></p>
+  <p>De seizoensgebondenheid komt ook duidelijk naar voren wanneer de gegevens tegen de
+            afzonderlijke kwartalen worden uitgezet zoals in de volgende afbeelding.<fig>
+                <title>Jaarlijkse bierproductie per kwartaal</title>
+                <image keyref="timeserie_beer2">
+                    <alt>Jaarlijkse bierproductie per kwartaal</alt>
+                </image>
+            </fig></p>
+  <p>In de volgende afbeelding zijn de gegevens voor elk kwartaal afzonderlijk uitgezet tegen de
+            jaren. Hierin is goed te zien dat de stijgende trend er voor elk kwartaal is.<fig>
+                <title>Kwartaalproductie van bier per jaar</title>
+                <image keyref="timeserie_beer3">
+                    <alt>Kwartaalproductie van bier per jaar</alt>
+                </image>
+            </fig></p>
+ </conbody>
+</concept>

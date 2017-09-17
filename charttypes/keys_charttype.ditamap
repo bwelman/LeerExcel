@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_charttype" xml:lang="nl-NL">
+    <title>Keys Charttype</title>
+    <keydef keys="area_data" href="images/area_data.png" format="png"/>
+    <keydef keys="area_default" href="images/area_default.png" format="png"/>
+    <keydef keys="area_result" href="images/area_result.png" format="png"/>
+    <keydef keys="bar_axis_options" href="images/bar_axis_options.png" format="png"/>
+    <keydef keys="bar_data" href="images/bar_data.png" format="png"/>
+    <keydef keys="bar_data_sorted" href="images/bar_data_sorted.png" format="png"/>
+    <keydef keys="bar_default" href="images/bar_default.png" format="png"/>
+    <keydef keys="bar_result" href="images/bar_result.png" format="png"/>
+    <keydef keys="bubble_data" href="images/bubble_data.png" format="png"/>
+    <keydef keys="bubble_default" href="images/bubble_default.png" format="png"/>
+    <keydef keys="bubble_result" href="images/bubble_result.png" format="png"/>
+    <keydef keys="charttype_basic" href="images/charttype_basic.png" format="png"/>
+    <keydef keys="column_data" href="images/column_data.png" format="png"/>
+    <keydef keys="column_result" href="images/column_result.png" format="png"/>
+    <keydef keys="doughnut_data" href="images/doughnut_data.png" format="png"/>
+    <keydef keys="doughnut_default" href="images/doughnut_default.png" format="png"/>
+    <keydef keys="doughnut_result" href="images/doughnut_result.png" format="png"/>
+    <keydef keys="line-scatter_data" href="images/line-scatter_data.png" format="png"/>
+    <keydef keys="line-scatter_line" href="images/line-scatter_line.png" format="png"/>
+    <keydef keys="line-scatter_scatter" href="images/line-scatter_scatter.png" format="png"/>
+    <keydef keys="line_data" href="images/line_data.png" format="png"/>
+    <keydef keys="line_default" href="images/line_default.png" format="png"/>
+    <keydef keys="line_result" href="images/line_result.png" format="png"/>
+    <keydef keys="pie_default" href="images/pie_default.png" format="png"/>
+    <keydef keys="pie_result" href="images/pie_result.png" format="png"/>
+    <keydef keys="pie_label_options" href="images/pie_label_options.png" format="png"/>
+    <keydef keys="radar_data" href="images/radar_data.png" format="png"/>
+    <keydef keys="radar_result" href="images/radar_result.png" format="png"/>
+    <keydef keys="scatter_data" href="images/scatter_data.png" format="png"/>
+    <keydef keys="scatter_default" href="images/scatter_default.png" format="png"/>
+    <keydef keys="scatter_result" href="images/scatter_result.png" format="png"/>  
+</map>

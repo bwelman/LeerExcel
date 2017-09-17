@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="scen" xml:lang="nl-NL">
+	<title>Scenario's</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>	
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Een scenario is een <q>wat-als</q> model. Hiermee kun je verschillende toekomstige situaties
+			(scenario's) verkennen en doorrekenen zonder waarden in het werkblad te veranderen. Het
+			is vooral handig voor de beantwoording van <q>wat-als</q> vragen op het gebied van
+			economie en management.</p>
+		<p>Met Excel's scenariobeheer kun je verschillende verzamelingen van invoergegevens maken die
+			verschillende resultaten kunnen berekenen. Zo'n scenario kan onder een passende naam
+			(zoals Meest Positief, Meest Negatief) worden bewaard. De resultaten kun je eenvoudig
+			vergelijken in een geproduceerd samenvattingsrapport. Andere instrumenten in Excel voor
+				<q>wat-als</q> analyses, zoals Doelzoeken en Oplosser, kunnen dat niet.</p>
+	</conbody>
+</concept>

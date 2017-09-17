@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_area" xml:lang="nl-NL">
+    <title>Taak: Tekengebied</title>
+    <shortdesc>Mogelijkheden om de grafiek van een gekleurde achtergrond of rand te
+    voorzien.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>tekengebied</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Het tekengebied is het gebied dat wordt begrensd door de assen. Je kunt het gebied
+                van een rand en een achtergrondkleur voorzien.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer het tekengebied, rechter muisklik en kies dan <uicontrol>Tekengebied
+                        opmaken</uicontrol>.</cmd>
+                <stepresult>Het taakvenster <wintitle>Tekengebied opmaken</wintitle>
+                    verschijnt.</stepresult>
+            </step>
+            <step>
+                <cmd>Open de optie <option>Opvulling</option> en kies <option>Effen
+                        opvulling</option> met een <option>lichtgrijze kleur</option>.</cmd>
+            </step>
+            <step>
+                <cmd>Open de optie <option>Rand</option> en kies <option>Ononderbroken lijn</option>
+                    met een <option>zwarte kleur</option>.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Tekengebied met achtergrond en rand</title>
+                <image keyref="bakery_plotarea" alt="">
+                    <alt>Tekengebied met achtergrond en randgevenslabels</alt>
+                </image>
+            </fig>
+        </result>
+    </taskbody>
+</task>

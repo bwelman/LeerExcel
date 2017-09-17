@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="calculation_names_list" xml:lang="nl-NL">
+    <title>Taak: Namen documenteren</title>
+    <shortdesc>Hoe je een lijst met alle bestaande namen met bijbehorende celadressen kunt
+        krijgen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Celnamen<indexterm>documenteren</indexterm><indexterm>lijst</indexterm><indexterm>overzicht</indexterm></indexterm>
+                <indexterm/>
+                <indexterm>Namen<indexterm>lijst</indexterm><indexterm>overzicht</indexterm><indexterm>documenteren</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>Bij het documenteren van een spreadsheet hoort ook een overzicht van alle in
+            gebruik zijnde namen en de cellen waar deze namen bijhoren. Excel kan zo'n lijst voor je
+            maken en op een werkblad plaatsen, maar de manier waarop je dat moet doen is niet zo
+            voor de hand liggend. Zo'n lijst met namen kun je het beste op een nieuw werkblad
+                    plaatsen.<note><filepath>Uitgaven.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Maak een nieuw werkblad en selecteer hierin cel A1.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Formules</uicontrol>
+                        <uicontrol>Gebruiken in formule (groep Gedefinieerde namen)</uicontrol>
+                        <uicontrol>Namen plakken</uicontrol>
+                        <uicontrol>Lijst plakken</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Lijst met celnamen en celadressen</title>
+                        <image keyref="Name_List">
+                            <alt>Lijst met celnamen en celadressen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

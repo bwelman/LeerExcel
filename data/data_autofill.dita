@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="data_autofill" xml:lang="nl-NL">
+    <title>Taak: Automatisch doorvoeren</title>
+    <shortdesc>Hoe je een reeks gegevens waar een patroon in zit zeer snel in het werkblad ingevoerd
+        krijgt.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Vulgreep</indexterm>
+                <indexterm>Doorvoeren</indexterm>
+                <indexterm>Lijsten</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Exel heeft een aantal mogelijkheden om snel een rij of een kolom met gegevens te
+                vullen. Het automatisch vullen van cellen kan via ingebouwde lijsten. Zo beschikt
+                Excel over ingebouwde lijsten voor de dagen van de week en de maanden van het jaar.
+                Maar je kunt ook zelf aangepaste lijsten maken via de opties van Excel. Een andere
+                mogelijkheid is om een patroon te maken dat Excel herkent. Bij het vullen van de
+                cellen met nieuwe waarden maakt Excel dan van dit patroon gebruik. Vaak zijn twee
+                waarden al voldoende voor de patroonherkenning.</p>
+            <p>Bij het automatisch doorvoeren van nieuwe waarden kun je het beste gebruik maken van
+                de <term>vulgreep</term>. Dit is het zwarte vierkantje in de rechterbenedenhoek van
+                de selectie. Wanneer je de muisaanwijzer boven de vulgreep plaatst, verandert de
+                aanwijzer van <image keyref="Mouse_Shape_Select"/> in <image
+                    keyref="Mouse_Shape_Fill"/>, daarna kun je slepen. <fig>
+                    <title>Vulgreep</title>
+                        <image keyref="Mouse_Fill_Handle">
+                        <alt>Vulgreep</alt>
+                    </image>
+                </fig></p>
+            <p>In de volgende oefening wordt eerst van een ingebouwde lijst gebruik gemaakt en
+                daarna van een patroonherkenning. Aan het eind worden nog een aantal voorbeelden
+                genoemd waarmee je zelf kunt experimenteren.</p>
+        </context>
+        <steps>
+            <stepsection>Ingebouwde reeks</stepsection>
+            <step>
+                <cmd>Begin met een nieuw werkblad.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel A1 en typ hierin het woord <userinput>januari</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel A1 opnieuw. Positioneer de muis boven de <term>vulgreep</term>
+                    van cel A1. Druk dan de linker muisknop in en sleep naar cel A12 en laat dan de
+                    linker muisknop los.</cmd>
+                <stepresult>Het resultaat is dat het gebied A1:A12 de maanden van het jaar bevat. In
+                    feite kun je met elke maand beginnen. Wanneer je door blijft slepen herhaalt de
+                    reeks zich. <fig>
+                        <title>Maanden van het jaar</title>
+                        <image keyref="Months_Names_Long">
+                            <alt>Maanden van het jaar</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>Herkenning patroon</stepsection>
+            <step>
+                <cmd>Selecteer cel B1 en typ hierin het getal <userinput>1</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel B2 en typ hierin het getal <userinput>2</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer het gebied B1:B2 en sleep de vulgreep een aantal cellen naar
+                        beneden.<image keyref="Numbers_Autofill"/>.</cmd>
+                <stepresult>Het resultaat is dat het gebied gevuld is met de getallen 1, 2, 3, 4, 5,
+                    ...</stepresult>
+            </step>
+        </steps>
+        <example>
+            <title>Voorbeelden van patroonherkenning</title>
+            <p>Hieronder een aantal voorbeelden om mee te experimenteren.</p>
+            <table frame="all">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                    <thead>
+                        <row>
+                            <entry>Beginwaarden</entry>
+                            <entry>Doorgevoerde reeks</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>1, 3</entry>
+                            <entry>5, 7, 9, 11, ...</entry>
+                        </row>
+                        <row>
+                            <entry>2, 4</entry>
+                            <entry>6, 8, 10, 12, ...</entry>
+                        </row>
+                        <row>
+                            <entry>3, 6</entry>
+                            <entry>9, 12, 15, 18, ...</entry>
+                        </row>
+                        <row>
+                            <entry>2010, 2011</entry>
+                            <entry>2012, 2013, 2014, ...</entry>
+                        </row>
+                        <row>
+                            <entry>09:00</entry>
+                            <entry>10:00, 11:00, 12:00, 13:00, ...</entry>
+                        </row>
+                        <row>
+                            <entry>jan</entry>
+                            <entry>feb, mrt, ...</entry>
+                        </row>
+                        <row>
+                            <entry>jan, apr</entry>
+                            <entry>jul, okt, jan, apr, ...</entry>
+                        </row>
+                        <row>
+                            <entry>maandag</entry>
+                            <entry>dinsdag, woensdag, ...</entry>
+                        </row>
+                        <row>
+                            <entry>ma</entry>
+                            <entry>di, wo, ...</entry>
+                        </row>
+                        <row>
+                            <entry>Kw 1</entry>
+                            <entry>Kw 2, Kw 3, Kw 4, Kw 5, ...</entry>
+                        </row>
+                        <row>
+                            <entry>1e periode</entry>
+                            <entry>2e periode, 3e periode, ...</entry>
+                        </row>
+                        <row>
+                            <entry>artikel 1</entry>
+                            <entry>artikel 2, artikel 3, artikel 4, ...</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </example>
+    </taskbody>
+</task>

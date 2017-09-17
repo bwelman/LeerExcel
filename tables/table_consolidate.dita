@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_consolidate" xml:lang="nl-NL">
+    <title>Taak: Bereiken samenvoegen</title>
+    <shortdesc>Het samenvoegen (consolideren) van de gegevens in afzonderlijke bereiken tot een
+        nieuw bereik.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Samenvoegen</indexterm>
+                <indexterm>Consolideren</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Gelijksoortige gegevens die in verschillende bereiken staan kunnen samengevat
+                (geconsolideerd) worden in een nieuw bereik. In de praktijk staan de afzonderlijke
+                bereiken vaak in afzonderlijke werkbladen en wordt het samengevoegde bereik in een
+                nieuw werkblad geplaatst. Bij het samenvoegen kan aangegeven worden welke functie
+                (Som, Gemiddelde, Aantal, ...) moet worden gebruikt. Deze vorm van samenvoegen wordt
+                ook wel <term>consolideren</term> genoemd. Om lijsten te kunnen samenvoegen moeten
+                de kolommen voorzien zijn van een kolomkop, een <term>label</term>.</p>
+            <note type="other" othertype="Bestand"><filepath>Samenvoegen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>A1</uicontrol> in het werkblad
+                        <uicontrol>Totaal</uicontrol>.</cmd>
+                <info>In de werkbladen <wintitle>PRA</wintitle> en <wintitle>PRB</wintitle> staan de
+                    samen te voegen lijsten. In het werkblad <wintitle>Totaal</wintitle> komen de
+                    samengevoegde gegevens.</info>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Gegevens</uicontrol>
+                        <uicontrol>Samenvoegen (groep Hulpmiddelen voor gegevens)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Samenvoegen</wintitle></title>
+                        <image keyref="consolidate_dialogbox">
+                            <alt>Dialoogvenster samenvoegen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Controleer of de functie <option>Som</option> is geselecteerd. Zo niet,
+                    selecteer dan deze functie.</cmd>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Verwijzing</varname>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer <menucascade>
+                        <uicontrol>werkblad PRA</uicontrol>
+                        <uicontrol>gebied A1:B7</uicontrol>
+                        <uicontrol>Toevoegen</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer <menucascade>
+                        <uicontrol>werkblad PRB</uicontrol>
+                        <uicontrol>gebied A1:B7</uicontrol>
+                        <uicontrol>Toevoegen</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Vink aan Labels gebruiken in <option>Bovenste rij</option> en
+                        <option>Linkerkolom</option></cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Samenvoegen</wintitle> met
+                            verwijzingen</title>
+                        <image keyref="consolidate_references">
+                            <alt>Dialoogvenster samenvoegen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Resultaat na samenvoeging</title>
+                        <image keyref="consolidate_result">
+                            <alt>Resultaat na samenvoeging</alt>
+                        </image>
+                    </fig>
+                    <note type="attention">De samenvoeging is statisch. Wanneer de brongegevens
+                        gewijzigd worden veranderen de samenvoegingsresultaten niet, er moet dan een
+                        nieuwe samenvoeging worden uitgevoerd. Gebruik van draaitabellen is vaak een
+                        betere keuze voor het samenvatten van gegevens.</note>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

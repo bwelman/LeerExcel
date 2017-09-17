@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_solver" xml:lang="nl-NL">
+    <title>Keys Solver</title>
+    <keydef keys="excel_ribbon_analyze" href="images/excel_ribbon_analyze.png" format="png"/>
+    <keydef keys="excel_options_addins_manage" href="images/excel_options_addins_manage.png" format="png"/>
+    <keydef keys="solver_constraint_add" href="images/solver_constraint_add.png" format="png"/>
+    <keydef keys="solver_options" href="images/solver_options.png" format="png"/>
+    <keydef keys="solver_results_nosolution_dialogbox" href="images/solver_results_nosolution_dialogbox.png" format="png"/>
+    <keydef keys="solver_results_solution_dialogbox" href="images/solver_results_solution_dialogbox.png" format="png"/>    
+    <keydef keys="weatherleather_model" href="images/weatherleather_model.png" format="png"/>
+    <keydef keys="weatherleather_solution" href="images/weatherleather_solution.png" format="png"/>
+    <keydef keys="weatherleather_solver_parameters1" href="images/weatherleather_solver_parameters1.png" format="png"/>
+    <keydef keys="weatherleather_solver_parameters2" href="images/weatherleather_solver_parameters2.png" format="png"/>
+    <keydef keys="weatherleather_solver_report" href="images/weatherleather_solver_report.png" format="png"/>
+</map>

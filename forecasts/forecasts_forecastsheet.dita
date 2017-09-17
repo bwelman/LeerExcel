@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_forecastsheet" xml:lang="nl-NL">
+    <title>Taak: Voorspellingblad in Excel</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2016-11-07"/>
+            <revised modified="2016-11-07"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Wanneer je in Excel een prognose maakt, dan wordt hiervoor een nieuw werkblad gemaakt
+                met daarin een tabel met de oorspronkelijke gegevens en de voorspelde waarden en
+                verder een grafiek waarin deze waarden staan weergegeven. Dat nieuwe werkblad wordt
+                ook wel <term>Voorspellingblad</term> genoemd.</p>
+            <note type="other" othertype="Bestand"><filepath>Verkopen.csv</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Importeer het hulpbestand via <uicontrol>Gegevens ophalen en
+                        transformeren</uicontrol>.</cmd>
+                <info>Voor hulp hierbij zie hoofdstuk <wintitle>Importeren
+                    gegevens</wintitle>.</info>
+            </step>
+            <step>
+                <cmd>Selecteer een willekeurige cel in het gegevensgebied.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Voorspellingblad (groep Voorspelling)</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Prognosewerkblad maken</wintitle>
+                        verschijnt.</p>
+                    <fig>
+                        <title>Prognosewerkblad maken</title>
+                        <image keyref="sales_fcast_sheet">
+                            <alt>Prognosewerkblad maken</alt>
+                        </image>
+                    </fig>
+                    <p>In dit venster kun je een aantal keuzes maken.<ul>
+                            <li>Grafiektype (rechtsboven): lijndiagram of kolomdiagram</li>
+                            <li>Einde van prognose (linksonder): de einddatum voor de prognose, dus
+                                het aantal prognoses.</li>
+                            <li>Opties (linksonder): een aantal geavanceerde instellingen</li>
+                        </ul></p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Stel <option>Einde van prognose</option> in op 1 december 2013. Klik dan op
+                        <uicontrol>Maken</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Er wordt een nieuw werkblad gemaakt met daarin de historische gegevens, de
+                        voorspelde waarden, betrouwbaarheidsgrenzen (standaard 95%) en een
+                        grafiek.</p>
+                    <simpletable frame="all" relcolwidth="1.0* 1.04* 2.54* 2.57*">
+                        <sthead>
+                            <stentry>Datum</stentry>
+                            <stentry>Voorspellen</stentry>
+                            <stentry>Laagste betrouwbaarheidsgrens</stentry>
+                            <stentry>Hoogste betrouwbaarheidsgrens</stentry>
+                        </sthead>
+                        <strow>
+                            <stentry>01-10-2013</stentry>
+                            <stentry>4264177</stentry>
+                            <stentry>3869915</stentry>
+                            <stentry>4658439</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>01-11-2013</stentry>
+                            <stentry>4033806</stentry>
+                            <stentry>3639542</stentry>
+                            <stentry>4428070</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>01-12-2013</stentry>
+                            <stentry>4033625</stentry>
+                            <stentry>3639358</stentry>
+                            <stentry>4427892</stentry>
+                        </strow>
+                    </simpletable>
+                    <note>
+                        <ul>
+                            <li>De voorspelde waarden worden berekend met de functie
+                                    <codeph>VOORSPELLEN.ETS</codeph></li>
+                            <li>De betrouwbaarheidsgrenzen worden berekend met de functie
+                                    <codeph>VOORSPELLEN.ETS.CONFINT</codeph></li>
+                        </ul>
+                    </note>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

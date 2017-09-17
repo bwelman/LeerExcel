@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="calculation" xml:lang="nl-NL">
+    <title>Berekeningen opzetten</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een van de belangrijkste aspecten van het werken met Excel is het uitvoeren van
+            berekeningen en hiervoor gebruik je formules. Om goed en handig met formules te kunnen
+            werken is het belangrijk dat je van te voren goed nadenkt over wat je waar in het
+            werkblad plaatst. Dit kan je een hoop tijd en problemen besparen.</p>
+    </conbody>
+</concept>

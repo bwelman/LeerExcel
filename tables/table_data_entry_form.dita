@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="table_data_entry_form" xml:lang="nl-NL">
+    <title>Taak: Formulier gegevensinvoer</title>
+    <shortdesc>Het maken van een formulier voor invoer van gegevens.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Gegevensinvoer<indexterm>formulier</indexterm></indexterm>
+                <indexterm>Formulier<indexterm>gegevensinvoer</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="qat_form">
+            <p>Om deze taak uit te kunnen voeren is het nodig dat de knop
+                    <uicontrol>Formulier</uicontrol> op de <uicontrol>Werkbalk Snelle
+                    Toegang</uicontrol> beschikbaar is. Wanneer deze knop niet zichtbaar is, dan
+                moet deze eerst ingeschakeld worden.</p>
+            <fig>
+                <title>Knop Formulier op Werkbalk Snelle Toegang</title>
+                <image keyref="qat_formbutton">
+                    <alt>Knop formulier op werkbalk snelle toegang</alt>
+                </image>
+            </fig>
+        </prereq>
+        <context>
+            <p>De handigste en beste manier om <term>records</term> aan een tabel toe te voegen is
+                door gebruik te maken van een gegevensinvoegformulier. Zo'n formulier kan Excel
+                automatisch voor je aanmaken wanneer je de kolommen van veldnamen voorziet en ook al
+                het eerste record intypt. In de afbeelding hierna zie je een voorbeeld van een
+                inkooplijst waarbij de gegevens van het eerste artikel al zijn ingevoerd, inclusief
+                de benodigde formules in F2, G2 en H2.</p>
+            <fig>
+                <title>Inkooplijst met eerste record</title>
+                <image keyref="purchase_record1">
+                    <alt>Inkooplijst met eerste record</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Inkopen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Voer de volgende formules in:</cmd>
+                <info><ul>
+                        <li>in <uicontrol>F2</uicontrol> de formule
+                            <userinput>=D2*E2</userinput></li>
+                        <li>in <uicontrol>G2</uicontrol> de formule<userinput>
+                            =21%*F2</userinput></li>
+                        <li>in <uicontrol>H2</uicontrol> de formule
+                            <userinput>=F2+G2</userinput></li>
+                    </ul></info>
+            </step>
+            <step>
+                <cmd>Selecteer een willekeurige cel in de lijst.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de knop <uicontrol>Formulier</uicontrol> op de <wintitle>Werkbalk
+                        Snelle Toegang</wintitle>.</cmd>
+                <stepresult>
+                    <p>Het gegevensformulier verschijnt. Aan de linkerkant staan de 8
+                            <term>veldnamen</term>. Naast 5 <term>veldnamen</term> staan
+                        invulvakken. Hier kun je de gegevens invoeren of wijzigen. Naast de
+                            <term>veldnamen</term>
+                        <varname>totaal excl.</varname>, <varname>btw</varname> en <varname>totaal
+                            incl.</varname> staan geen invulvakken, maar waarden. Dit omdat deze
+                        waarden via formules berekend zijn.</p>
+                    <fig>
+                        <title>Formulier inkopen</title>
+                        <image keyref="purchase_form">
+                            <alt>Formulier inkopen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de knop <uicontrol>Nieuw</uicontrol> en voeg twee nieuwe
+                        <term>records</term> toe (zie voorbeeld hierna). Klik bij het laatste
+                        <term>record</term> op <uicontrol>Sluiten</uicontrol>.</cmd>
+                <stepxmp>
+                    <fig>
+                        <title>Inkooplijst met drie records</title>
+                        <image keyref="purchase_result">
+                            <alt>Inkooplijst met drie records</alt>
+                        </image>
+                    </fig>
+                    <note type="attention"> Gebruik de <uicontrol>Tab toets</uicontrol> of de muis
+                        om naar een volgend veld te gaan. Bij gebruik van de <uicontrol>Enter
+                            toets</uicontrol> ga je naar het volgende record en als dat er niet is
+                        krijg je een leeg formulier om een nieuw record in te voeren. </note>
+                </stepxmp>
+            </step>
+        </steps>
+    </taskbody>
+</task>

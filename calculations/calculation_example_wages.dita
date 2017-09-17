@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="calculation_example_wages" xml:lang="nl-NL">
+	<title>Taak: Verder met formules</title>
+	<shortdesc>Een tweede eenvoudige oefening in het gebruik van formules.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Berekeningen</indexterm>
+				<indexterm>Formules</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>In de volgende afbeelding zie je een werkblad waar formules worden gebruikt om de arbeidslonen
+				te berekenen door het aantal uren met het uurtarief te vermenigvuldigen. Het
+				totaalbedrag wordt via een optelling verkregen.</p>
+			<fig>
+                <title>Voorbeeld berekening arbeidsloon</title>
+                <image keyref="Example_Wages">
+                    <alt>Voorbeeld berekening uren, tarief en bedrag</alt>
+                </image>
+            </fig>
+			<note type="other" othertype="Bestand"><filepath>Uurloon.xlsx</filepath></note>
+		</context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+			<step>
+				<cmd>Voer onder bedrag de juiste formules in:</cmd>
+				<stepxmp>
+					<ul>
+						<li>in cel <uicontrol>D2</uicontrol> de formule <userinput>=B2*C2</userinput></li>
+						<li>in cel <uicontrol>D3</uicontrol> de formule
+								<userinput>=B3*C3</userinput></li>
+						<li>in cel <uicontrol>D4</uicontrol> de formule <userinput>=B4*C4</userinput></li>
+						<li>in cel <uicontrol>D5</uicontrol> de formule
+								<userinput>=D2+D3+D4</userinput></li>
+					</ul>
+				</stepxmp>
+			</step>
+		</steps>
+	</taskbody>
+</task>

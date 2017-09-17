@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_charttype" xml:lang="nl-NL">
+    <title>Grafieksoorten</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_charttype.ditamap" processing-role="resource-only"/>
+    <!-- Content -->
+    <topicref href="charttype.dita" scope="local" type="concept">
+        <topicref href="charttype_over.dita" scope="local" type="concept"/>
+        <topicref href="charttype_base.dita" scope="local" type="concept">
+            <topicref href="charttype_column.dita" scope="local" type="task"/>
+            <topicref href="charttype_bar.dita" scope="local" type="task"/>
+            <topicref href="charttype_pie.dita" scope="local" type="task"/>
+            <topicref href="charttype_line.dita" scope="local" type="task"/>
+            <topicref href="charttype_scatter.dita" scope="local" type="task"/>
+            <topicref href="charttype_line_scatter.dita" scope="local" type="concept"/>
+            <topicref href="charttype_doughnut.dita" scope="local" type="task"/>
+            <topicref href="charttype_area.dita" scope="local" type="task"/>
+            <topicref href="charttype_bubble.dita" scope="local" type="task"/>
+            <topicref href="charttype_radar.dita" scope="local" type="task"/>
+        </topicref>
+        <topicref href="charttype_translations.dita" scope="local" type="reference"/>
+    </topicref>
+    <reltable>
+        <title>Links</title>
+        <relheader>
+            <relcolspec type="topic"  linking="sourceonly"/>
+            <relcolspec type="concept" linking="targetonly"/>
+            <relcolspec type="task" linking="targetonly"/>
+            <relcolspec type="reference" linking="targetonly"/>
+            <relcolspec linking="targetonly"/>
+        </relheader>
+        <relrow>
+            <relcell>
+                <topicref href="charttype.dita" type="concept"/>
+            </relcell>
+            <relcell/>
+            <relcell/>   
+            <relcell/>
+            <relcell>
+                <topicref href="https://www.softwijs.nl/" scope="external" format="html">
+                    <topicmeta>
+                        <linktext>Free guide about graphic types (Dutch language).</linktext>
+                    </topicmeta>
+                </topicref>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

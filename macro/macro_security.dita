@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="macro_security" xml:lang="nl-NL">
+  <title>Beveiliging macro's</title>
+  <shortdesc>Een overzicht van de beveiligingsinstellingen en hoe deze te wijzigen.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Macro<indexterm>beveiliging</indexterm>Vertrouwenscentrum</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>Instellingen wijzigen</title>
+      <p>Wanneer je de beveiligingsinstellingen van macro's wilt bekijken of wijzigen dan moet je
+        klikken op <menucascade>
+          <uicontrol>tab Ontwikkelaars</uicontrol>
+          <uicontrol>Macrobeveiliging (groep Programmacode)</uicontrol>
+        </menucascade>.</p>
+        <fig>
+        <title>Opdrachtknop Macrobeveiliging</title>
+        <image keyref="macro_security_button">
+          <alt>Opdrachtknop macrobeveiling op het lint</alt>
+        </image>
+      </fig>
+        <p>Dan verschijnt het dialoogvenster <wintitle>Vertrouwenscentrum</wintitle></p>
+        <fig>
+        <title>Macro instellingen in het Vertrouwenscentrum</title>
+        <image keyref="trust_center_macro_settings">
+          <alt>Macro instellingen in het vertrouwenscentrum</alt>
+        </image>
+      </fig>
+    </section>
+    <section>
+      <title>Overzicht Macro instellingen</title>
+        <table frame="all">
+          <tgroup cols="2">
+            <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+            <colspec colname="c2" colnum="2" colwidth="2.28*"/>
+            <thead>
+              <row>
+                <entry>Instelling</entry>
+                <entry>Toelichting</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Alle macro's uitschakelen, zonder melding</entry>
+                <entry>Kies deze optie wanneer je macro's niet vertrouwt. Alle macro's in documenten
+                  worden uitgeschakeld, evenals de beveiligingswaarschuwingen over macro's.
+                  Documenten die niet-ondertekende macro's bevatten die je wel vertrouwt, kun je
+                  opslaan op een vertrouwde locatie. Documenten op vertrouwde locaties worden
+                  uitgevoerd zonder controle door het beveiligingssysteem.</entry>
+              </row>
+              <row>
+                <entry>Alle macro's uitschakelen, met melding</entry>
+                <entry>Dit is de standaardinstelling. Kies deze optie wanneer je macro's wilt
+                  uitschakelen, maar wel beveiligingswaarschuwingen wilt ontvangen als er macro's
+                  aanwezig zijn. Op deze manier kun je per macro kiezen of je de desbetreffende
+                  macro wilt inschakelen.</entry>
+              </row>
+              <row>
+                <entry>Alle macro's uitschakelen, behalve digitaal ondertekende</entry>
+                <entry>De maker van een macro kan deze digitaal ondertekenen. Wanneer je deze als
+                  een vertrouwde instantie aanmerkt dan wordt de macro zonder waarschuwingen
+                  uitgevoerd. Alle niet-ondertekende macro´s worden zonder melding
+                  uitgeschakeld.</entry>
+              </row>
+              <row>
+                <entry>Alle macro's inschakelen</entry>
+                <entry>Kies deze optie wanneer je alle macro's wilt uitvoeren. Deze optie wordt niet
+                  aanbevolen want de computer wordt hierdoor kwetsbaar schadelijke macro's.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="function_overview_statistical" xml:lang="nl-NL">
+  <title>Overzicht Statistische functies</title>
+  <shortdesc>Een overzicht van een aantal statistische functies.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Functies<indexterm>statistisch</indexterm><indexterm>AANTAL</indexterm><indexterm>AANTAL.ALS</indexterm><indexterm>GEMIDDELDE</indexterm><indexterm>MAX</indexterm><indexterm>MIN</indexterm><indexterm>RICHTING</indexterm><indexterm>SNIJPUNT</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>AANTAL</title>
+      <p>Deze functie telt het aantal cellen dat getallen (ook datums) bevat.</p>
+      <codeblock>AANTAL(Waarde1; [Waarde2], ...)</codeblock>
+      <parml>
+        <plentry>
+          <pt>Waarde1</pt>
+          <pd>Verplicht. kan alle soorten getallen of celverwijzingen zijn.</pd>
+        </plentry>
+        <plentry>
+          <pt>Waarde2, Waarde3, ...</pt>
+          <pd>Optioneel.</pd>
+        </plentry>       
+      </parml>
+    </section>
+    <section>
+      <title>AANTAL.ALS</title>
+      <p>Deze functie telt het aantal cellen in een bereik dat voldoet aan een opgegeven
+        criterium.</p>
+      <codeblock>AANTAL.ALS(bereik; criterium)</codeblock>
+      <parml>
+        <plentry>
+          <pt>bereik</pt>
+          <pd>Verplicht. Het cellenbereik waarvan je de niet lege cellen wilt tellen.</pd>
+        </plentry>
+        <plentry>
+          <pt>criterium</pt>
+          <pd>Verplicht. Een criterium in de vorm van een getal, expressie, celverwijzing of tekst
+            waarmee je opgeeft welke cellen moeten worden geteld.</pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>GEMIDDELDE</title>
+      <p>Deze functie berekent het (rekenkundige) gemiddelde van de argumenten.</p>
+      <codeblock>GEMIDDELDE(Getal1, [Getal2], ...)</codeblock>
+      <parml>
+        <plentry>
+          <pt>Getal1</pt>
+          <pd>Verplicht. Het eerste getal, de eerste celverwijzing, of het eerste bereik waarvoor je
+            het gemiddelde wilt berekenen.</pd>
+        </plentry>
+        <plentry>
+          <pt>Getal2, ...</pt>
+          <pd>Optioneel.</pd>
+        </plentry>       
+      </parml>
+    </section>
+    <section>
+      <title>MAX</title>
+      <p>Deze functie bepaalt het grootste getal van een verzameling getallen.</p>
+      <codeblock>MAX(Getal1, [Getal2], ...)</codeblock>
+      <parml>
+        <plentry>
+          <pt>Getal1</pt>
+          <pd>Verplicht. Het eerste getal, de eerste celverwijzing, of het eerste bereik waarvan je
+            het grootste getal wilt bepalen.</pd>
+        </plentry>
+        <plentry>
+          <pt>Getal2, ...</pt>
+          <pd>Optioneel.</pd>
+        </plentry>       
+      </parml>
+    </section>  
+    <section>
+      <title>MIN</title>
+      <p>Deze functie bepaalt het kleinste getal van een verzameling getallen.</p>
+      <codeblock>MIN(Getal1, [Getal2], ...)</codeblock>
+      <parml>
+        <plentry>
+          <pt>Getal1</pt>
+          <pd>Verplicht. Het eerste getal, de eerste celverwijzing, of het eerste bereik waarvan je
+            het kleinste getal wilt bepalen.</pd>
+        </plentry>
+        <plentry>
+          <pt>Getal2, ...</pt>
+          <pd>Optioneel.</pd>
+        </plentry>       
+      </parml>
+    </section>  
+    <section>
+      <title>RICHTING</title>
+      <p>Deze functie berekent de richtingscoëfficiënt van een lineaire trendlijn. Deze functie komt
+        vooral van pas bij het verwerken van meetresultaten.</p>
+      <codeblock>RICHTING(y-bekend; x-bekend)</codeblock>
+      <parml>
+        <plentry>
+          <pt>y-bekend</pt>
+          <pd>Verplicht. De reeks met y-waarden</pd>
+        </plentry>
+        <plentry>
+          <pt>x-bekend</pt>
+          <pd>Verplicht. De reeks met x-waarden.</pd>
+        </plentry>       
+      </parml>
+    </section>
+    <section>
+    <title>SNIJPUNT</title>
+    <p>Deze functie berekent het punt waarop de trendlijn de y-as snijdt.  Deze functie komt vooral
+        van pas bij het verwerken van meetresultaten.</p>
+    <codeblock>SNIJPUNT(y-bekend; x-bekend)</codeblock>
+    <parml>
+      <plentry>
+        <pt>y-bekend</pt>
+        <pd>Verplicht. De reeks met y-waarden</pd>
+      </plentry>
+      <plentry>
+        <pt>x-bekend</pt>
+        <pd>Verplicht. De reeks met x-waarden.</pd>
+      </plentry>       
+    </parml>
+    </section> 
+  </refbody>
+</reference>

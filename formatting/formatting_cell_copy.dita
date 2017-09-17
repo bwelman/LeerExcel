@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_cell_copy" xml:lang="nl-NL">
+    <title>Opmaak kopiëren / wissen</title>
+    <shortdesc>Hoe je de opmaak van een cel kunt overbrengen naar andere cellen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Opmaak<indexterm>kopiëren</indexterm><indexterm>plakken</indexterm><indexterm>wissen</indexterm><indexterm>verwijderen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>De opmaak en inhoud van een cel worden afzonderlijk opgeslagen. Je kunt daarom dan ook inhoud
+            en opmaak afzonderlijk van elkaar kopiëren en/of wissen.</p>
+        <section>
+            <title>Opmaak kopieren</title>
+            <p>De snelste manier om de opmaak van een cel te kopiëren naar een andere cel is door gebruik te
+                maken van de knop <uicontrol>Opmaak kopiëren/plakken</uicontrol>.</p>
+            <p>De werkwijze is als volgt:</p>
+            <ol>
+                <li>Selecteer de cel waarvan je de opmaak wilt kopiëren.</li>
+                <li>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol><image keyref="Format_Painter"/> (groep
+                            Klembord)</uicontrol>
+                    </menucascade>. De muisaanwijzer verandert nu in een kwastje (<image
+                        keyref="Mouse_Pointer_Formatpainter"/>).</li>
+                <li>Selecteer de cel(len) waarop je de opmaak over wilt brengen.</li>
+                <li>Laat de muisknop los</li>
+            </ol>
+            <note type="tip">Wanneer je <term>dubbelklikt</term> op de knop <uicontrol>Opmaak
+                kopiëren/plakken</uicontrol> dan kun je meerdere plakbewerkingen achter elkaar
+                uitvoeren. Om deze toestand weer op te heffen kun je opnieuw klikken op de knop
+                <uicontrol>Opmaak kopiëren/plakken</uicontrol> of drukken op de toets
+                <uicontrol>Esc</uicontrol>.</note>
+        </section>
+        <section>
+            <title>Opmaak wissen</title>
+            <p>De opmaak van cellen kun je als volgt wissen:</p>
+            <ol>
+                <li>Selecteer de cel(len) waarvan je de opmaak wilt wissen.</li>
+                <li>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Wissen (groep Bewerken)</uicontrol>
+                        <uicontrol>Opmaak wissen</uicontrol>
+                    </menucascade>.
+                    <fig>
+                        <title>Opdracht wissen op het lint</title>
+                        <image keyref="Format_Clear" placement="break">
+                            <alt>Plek op het lint van de opdracht wissen</alt>
+                        </image>
+                    </fig></li>
+            </ol>
+            <note type="tip">Via deze weg kun je behalve de opmaak, ook de inhoud of beide
+                wissen.</note>
+            <note type="attention">Met de toets DELETE wis je alleen de inhoud van een cel. De opmaak van de
+                cel (lettertype, kleuren, uitlijning, getalopmaak, enz.) wordt niet gewijzigd en
+                blijft gewoon aanwezig in de lege cel.</note>
+        </section>
+    </conbody>
+</concept>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_function" xml:lang="nl-NL">
+    <title>Formules en Functies</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_function.ditamap" processing-role="resource-only"/>
+    <!-- Content -->
+    <mapref href="reltable_function.ditamap" format="ditamap"/>
+    <topicref href="function.dita" scope="local" type="concept">
+        <topicref href="function_over.dita" scope="local" type="concept"/>
+        <topicref href="function_autosum.dita" scope="local" type="task"/>
+        <topicref href="function_enter.dita" scope="local" type="concept"/>
+        <topichead navtitle="Basisfuncties">
+            <topicref href="function_math.dita" scope="local" type="task"/>
+            <topicref href="function_statistical.dita" scope="local" type="task"/>
+            <topicref href="function_datetime.dita" scope="local" type="task"/>
+            <topicref href="function_logical.dita" scope="local" type="task"/>
+            <topicref href="function_text.dita" scope="local" type="task"/>
+        </topichead>
+        <topicref href="function_nesting.dita" scope="local" type="task"/>
+        <topicref href="function_countif.dita" scope="local" type="task"/>
+        <topicref href="function_sumif.dita" scope="local" type="task"/>
+        <topicref href="function_annuity.dita" scope="local" type="task"/>
+        <topicref href="function_nper.dita" scope="local" type="task"/>
+        <topicref href="function_vlookup.dita" scope="local" type="task"/>
+        <topicref href="function_hlookup.dita" scope="local" type="task"/>
+        <topicref href="function_overview.dita" scope="local" type="concept">
+            <topicref href="function_overview_datetime.dita" scope="local" type="reference"/>
+            <topicref href="function_overview_financial.dita" scope="local" type="reference"/>
+            <topicref href="function_overview_statistical.dita" scope="local" type="reference"/>
+            <topicref href="function_overview_text.dita" scope="local" type="reference"/>
+            <topicref href="function_overview_math.dita" scope="local" type="reference"/>
+            <topicref href="function_overview_lookup.dita" scope="local" type="reference"/>
+        </topicref>
+    </topicref>
+</map>

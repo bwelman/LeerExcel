@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="scen_over" xml:lang="nl-NL">
+	<title>Wat zijn scenario's</title>
+	<shortdesc>Een korte beschrijving van wat scenario's zijn en waar je deze voor kunt
+	gebruiken.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Scenario</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>In een scenario geef je een aantal variabele cellen (Excel noemt deze de veranderende cellen)
+			verschillende waarden en berekent het effect van deze wijzigingen in een of meerdere
+			zogenaamde resultaatcellen. De resultaatcellen bevatten formules met verwijzingen naar
+			de veranderende cellen. Bijvoorbeeld je wilt de jaarlijkse winst van een koffiebar,
+			afhankelijk van een aantal kostenposten, via een meest positief en een meest negatief
+			scenario met elkaar vergelijken. De resultaatcel is de cel waarin de jaarlijkse winst
+			berekend wordt. De veranderende cellen zijn de cellen met de kostenposten. Het
+			identificeren van de resultaatcellen en de veranderende cellen is de sleutel voor het
+			maken van scenario's.</p>
+		<p>Met scenariobeheer van Excel kun je eenvoudig nieuwe prognose scenario's maken, bestaande
+			scenario's bekijken, opdrachten uitvoeren en een samenvattingsrapport produceren. Het
+			rapport laat zowel de invoerwaarden voor de veranderende cellen zien als de waarden van
+			de resultaatcellen.</p>
+		<note type="tip">Het is aan te raden om altijd de huidige situatie in een scenario op te
+			slaan, bijv. onder de naam <userinput>Huidig</userinput>.</note>
+	</conbody>
+</concept>

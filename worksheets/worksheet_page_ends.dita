@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="worksheet_page_ends" xml:lang="nl-NL">
+    <title>Pagina-einden</title>
+    <shortdesc>De indeling van grotere werkbladen in pagina's en manieren om deze naar wens aan te
+        passen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Pagina-einde<indexterm>invoegen</indexterm><indexterm>verwijderen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Er kunnen maar een beperkt aantal rijen en kolommen op een vel papier worden afgedrukt.
+            Excel voegt automatisch horizontale en verticale pagina-einden in om een werkblad op te
+            delen in passende pagina's. Waar deze pagina-einden geplaatst worden hangt van veel
+            zaken af, zoals bijvoorbeeld papierformaat, marges, rijhoogtes, kolombreedtes,
+            lettergrootte, .. Je kunt ook zelf bepalen waar pagina's moeten beginnen door
+            pagina-eindes in te voegen, te verplaatsen of te verwijderen.</p>
+        <section>
+            <title>Pagina-einde voorbeeld</title>
+            <p>Hoewel je met pagina-einden kunt werken in de weergave
+                <uicontrol>Normaal</uicontrol>, is de beste manier om gebruik te maken van de
+                weergave <uicontrol>Pagina-eindevoorbeeld</uicontrol>. In deze weergave kun je zien
+                hoe andere wijzigingen die je kunt aanbrengen, zoals in de pagina oriëntatie en
+                opmaak, van invloed zijn op de automatische pagina-einden. Zo kun je zien hoe
+                bijvoorbeeld een verandering van de rijhoogte of kolombreedte de plaatsing van de
+                automatische pagina-einden beïnvloeden.</p>
+            <p>Kies <menucascade>
+                    <uicontrol>Beeld</uicontrol>
+                    <uicontrol>Pagina-eindevoorbeeld (groep Werkmapweergaven)</uicontrol>
+                </menucascade>.</p>
+            <p>In deze weergave zie je ook de volgorde van de pagina's. Standaard is deze volgorde
+                eerst omlaag en daarna opzij. Deze volgorde is via Pagina-instelling te
+                wijzigen.</p>
+            <p>Om pagina-einden te verplaatsen kun je deze met de muis naar de nieuwe plek
+                slepen.</p>
+            <p>Om weer naar de weergave <uicontrol>Normaal</uicontrol> over te schakelen kies je <menucascade>
+                    <uicontrol>Beeld</uicontrol>
+                    <uicontrol>Normaal (groep Werkmapweergaven)</uicontrol>
+                </menucascade>.</p>
+        </section>
+        <section>
+            <title>Pagina-einden invoegen</title>
+            <p>Pagina-einden kunnen ook handmatig aangebracht worden. Ga hiervoor als volgt te
+                werk.</p>
+            <dl>
+                <dlentry>
+                    <dt>Horizontaal pagina-einde</dt>
+                    <dd>Selecteer de rij die op een nieuwe pagina moet beginnen.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Verticaal pagina-einde</dt>
+                    <dd>Selecteer de kolom die op een nieuwe pagina moet beginnen.</dd>
+                </dlentry>
+            </dl>
+            <p>Kies dan <menucascade>
+                    <uicontrol>Pagina-indeling</uicontrol>
+                    <uicontrol>Eindemarkeringen (groep Pagina-instelling)</uicontrol>
+                    <uicontrol>Pagina-einde invoegen</uicontrol>
+                </menucascade>.</p>
+        </section>
+        <section>
+            <title>Pagina-einden verwijderen</title>
+            <p>De automatisch door Excel gegenereerde pagina-einden kunnen niet verwijderd worden,
+                de handmatig aangebrachte einden wel. Ga hiervoor als volgt te werk.</p>
+            <dl>
+                <dlentry>
+                    <dt>Horizontaal pagina-einde</dt>
+                    <dd>Selecteer de rij onder de pagina-einde.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Verticaal pagina-einde</dt>
+                    <dd>Selecteer de kolom rechts van de pagina-einde.</dd>
+                </dlentry>
+            </dl>
+            <p>Kies dan <menucascade>
+                    <uicontrol>Pagina-indeling</uicontrol>
+                    <uicontrol>Eindemarkeringen (groep Pagina-instelling)</uicontrol>
+                    <uicontrol>Pagina-einde verwijderen</uicontrol>
+                </menucascade>.</p>
+        </section>
+    </conbody>
+</concept>

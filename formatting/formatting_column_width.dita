@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_column_width" xml:lang="nl-NL">
+    <title>Kolombreedte</title>
+    <shortdesc>De mogelijkheden om de breedte van een kolom in te stellen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Kolom<indexterm>breedte</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het is mogelijk dat een kolom niet breed genoeg is om de volledige inhoud van een cel te
+            tonen. Wanneer de cel een tekst als inhoud heeft dan kan het zijn dat alleen dat deel
+            van de tekst getoond wordt dat in de cel past. Wanneer de cel een getal als inhoud heeft
+            dan worden <q>hashes</q> getoond: ####.</p>
+        <p>In een werkblad kun je de kolombreedte opgeven van 0 (nul) tot en met 255. Deze waarde stelt
+            het aantal tekens voor dat kan worden weergegeven in een cel die is opgemaakt met het
+            standaardlettertype. De standaardbreedte van kolommen in Excel is 8,43. Er passen dan 8
+            tekens van het standaardlettertype in een kolom. Als de breedte van een kolom 0 is, dan
+            wordt de kolom verborgen.</p>
+        <p>Er zijn verschillende manieren om de breedte van kolommen aan te passen.</p>
+        <ul>
+            <li>Dubbelklik op de rechterrand van de kolomkop. De breedte van de kolom wordt nu automatisch
+                ingesteld op de langste tekst in de kolom.</li>
+            <li>Plaats de muisaanwijzer boven de rechterrand van de kolomkop, druk dan de
+                linkermuisknop en sleep de rechterrand naar links of naar rechts tot de kolom de
+                gewenste breedte heeft. Tijdens het slepen toont Excel in een klein infoschermpje de
+                actuele breedte van de kolom.<image keyref="Columnwidth_Drag" placement="break">
+                    <alt>Kolombreedte aanpassen door slepen</alt>
+                </image></li>
+            <li>Klik met de rechtermuisknop op de kolomkop en kies in het snelmenu voor
+                    <uicontrol>Kolombreedte</uicontrol>. In het dialoogvenster kun je dan de
+                gewenste breedte invoeren, klik daarna <uicontrol>OK</uicontrol>.<image
+                    keyref="Columnwidth_Set" placement="break">
+                    <alt>Kolombreedte opgeven</alt>
+                </image></li>
+            <li>Selecteer een cel in de kolom waarvan de breedte aangepast moet worden. Kies dan <menucascade>
+                    <uicontrol>Start</uicontrol>
+                    <uicontrol>Opmaak (groep Cellen)</uicontrol>
+                    <uicontrol>Kolombreedte</uicontrol>
+                </menucascade>. Je krijgt dan hetzelfde dialoogvenster als hiervoor.</li>
+        </ul>
+        <note type="tip">Je kunt van meerdere kolommen tegelijk de breedte aanpassen. Selecteer eerst deze
+            kolommen eerst te selecteren met hulp van de <uicontrol>SHIFT</uicontrol> toets of
+            <uicontrol>CTRL</uicontrol> toets.</note>
+        <note type="tip">Je kunt de breedte van alle kolommen in het werkblad aanpassen via <menucascade>
+                <uicontrol>Start</uicontrol>
+                <uicontrol>Opmaak (groep Cellen)</uicontrol>
+                <uicontrol>Standaardbreedte</uicontrol>
+            </menucascade>.</note>
+    </conbody>
+</concept>

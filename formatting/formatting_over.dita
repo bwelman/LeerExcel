@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_over" xml:lang="nl-NL">
+    <title>Over opmaak werkblad en gegevens</title>
+    <shortdesc>Over het belang van selecteren voordat je gaat opmaken.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkblad<indexterm>opmaak</indexterm></indexterm>
+                <indexterm>Opmaak<indexterm>werkblad</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Je kunt bepaalde opmaakkenmerken (bijvoorbeeld lettertype) op het hele werkblad aanbrengen,
+            maar ook op afzonderlijke cellen of celreeksen. De werkwijze is meestal hetzelfde, het
+            hangt er maar van af wat geselecteerd is.</p>
+        <note type="important">Eerst selecteren, dan de opdracht voor het opmaken uitvoeren.</note>
+        <p>Het gehele werkblad kun je selecteren via de knop links van de eerste kolom en boven de
+            eerste rij: <image keyref="Worksheet_Select"><alt>Knop gehele werkblad selecteren</alt></image></p>
+    </conbody>
+</concept>

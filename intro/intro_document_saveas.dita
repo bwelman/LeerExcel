@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="intro_document_saveas" xml:lang="nl-NL">
+    <title>Taak: Werkmap opslaan als</title>
+    <shortdesc>Aanwijzingen hoe je een geopend document onder een andere naam en in een ander
+        bestandsformaat kunt opslaan.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkmap<indexterm>opslaan als</indexterm></indexterm>
+                <indexterm>Opslaan als<indexterm>werkmap</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Soms kan het wenselijk zijn om meerdere versies van een bestand te hebben. In dat
+            geval kun je via <uicontrol>Opslaan als</uicontrol> het bestand onder een andere naam
+            bewaren. Ook kan het soms nodig zijn om het bestand in een ouder Excel formaat of een
+            geheel ander formaat op te slaan, dat kan ook via <uicontrol>Opslaan
+                als</uicontrol>.</p></context>
+        <steps>
+            <step>
+                <cmd>Klik op de <menucascade>
+                    <uicontrol><keyword keyref="menu"/></uicontrol>
+                    <uicontrol>Opslaan als</uicontrol>
+                </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Zie verder <xref
+                    href="intro_document_save.dita#intro_document_save"/>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

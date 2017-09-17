@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_table" xml:lang="nl-NL">
+    <title>Tabellen</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_table.ditamap" processing-role="resource-only"/>
+    <!-- Content -->  
+    <topicref href="table.dita" scope="local" type="concept">
+        <topicref href="table_over.dita" scope="local" type="concept"/>
+        <topicref href="table_formbutton.dita" scope="local" type="task"/>
+        <topicref href="table_data_entry_form.dita" scope="local" type="task"/>
+        <topicref href="table_search_form.dita" scope="local" type="task"/>
+        <topicref href="table_consolidate.dita" scope="local" type="task"/>
+        <topicref href="table_create.dita" scope="local" type="task"/>
+        <topicref href="table_operations.dita" scope="local" type="concept"/>
+        <topicref href="table_sort.dita" scope="local" type="task"/>
+        <topicref href="table_filter.dita" scope="local" type="task"/>
+        <topicref href="table_calculated_column.dita" scope="local" type="task"/>
+        <topicref href="table_totalrow.dita" scope="local" type="task"/>
+        <topicref href="table_overview.dita" scope="local" type="reference"/>
+    </topicref>
+    <mapref href="reltable_table.ditamap" format="ditamap"/>
+</map>

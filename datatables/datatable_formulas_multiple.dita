@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task  id="datatable_formulas_multiple" xml:lang="nl-NL">
+    <title>Taak: Meerdere waarden formules berekenen</title>
+    <shortdesc>Een voorbeeld waarbij een gegevenstabel met 1 <term>invoercel</term> gebruikt worden
+        om de waarden voor meerdere formules te berekenen.</shortdesc>
+		 <prolog>
+  <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+  </critdates>
+  <metadata>
+   <keywords/>
+  </metadata>
+ </prolog>
+    <taskbody>
+        <context>
+            <p>De opgave is om de y-waarden te berekenen voor vier formules bij verschillende
+                x-waarden.</p>
+            <fig>
+                <title>Berekeningsmodel voor 4 formules</title>
+                <image keyref="datatable_formulas4">
+                    <alt>Berekeningsmodel voor 4 formules</alt>
+                </image>
+            </fig>
+            <p>De <term>invoercel</term> wordt <userinput>B1</userinput>. Dit is de cel waar de
+                verschillende waarden voor x in geplaatst worden. De formules die gebruikt gaan
+                worden staan in de cellen <userinput>C2:F2</userinput>. De formules zelf staan in de
+                cellen <userinput>C3:F3</userinput>. De te gebruiken waarden voor x staan in de
+                cellen <userinput>B4:B9</userinput>.</p>
+            <note type="other" othertype="Bestand"><filepath>Functiewaarden.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Typ in de cellen <uicontrol>C3:F3</uicontrol> de juiste formules:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>In <uicontrol>C3</uicontrol> de formule
+                            <userinput>=2*B1-1</userinput>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In <uicontrol>D3</uicontrol> de formule
+                            <userinput>=-3*B1+2</userinput>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In <uicontrol>E3</uicontrol> de formule
+                            <userinput>=B1^2</userinput>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In <uicontrol>F3</uicontrol> de formule
+                                <userinput>=B1^2-2*B1+1</userinput>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Selecteer het bereik voor de gegevenstabel <uicontrol>B3:F9</uicontrol>.</cmd>
+            </step>
+            <step conref="datatable_rental_fixed.dita#datatable_rental_fixed/datatable_insert">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zet de cursor in het vak <option>Kolominvoercel</option> en klik daarna op
+                    cel <userinput>B1</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Uitkomsten van de formules in een gegevenstabel</title>
+                        <image keyref="datatable_formulas4_results">
+                            <alt>Uitkomsten van de formules in een gegevenstabel</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+        <result>In de resultaatcellen is door Excel een matrixformule geplaatst,
+                <systemoutput>{=TABEL(;B1)}</systemoutput>. Controleer dat.</result>
+    </taskbody>
+</task>

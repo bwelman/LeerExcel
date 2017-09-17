@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="pivots_grouping_example" xml:lang="nl-NL">
+    <title>Taak: Voorbeeld Groeperen</title>
+    <shortdesc>Een voorbeeld van het groeperen van gegevens op basis van een datumveld.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Draaitabel<indexterm>groepen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Het voorbeelbestand bevat een gegevenstabel met de naam
+                    <varname>Verkoopdata</varname> met de kolommen <varname>Regio</varname>,
+                    <varname>Verkoper</varname>, <varname>Factuurnr</varname>,
+                    <varname>Factuurdatum</varname>, <varname>Productcategorie</varname> en
+                    <varname>Factuurbedrag</varname>.</p>
+            <note type="other" othertype="Bestand"><filepath>Facturen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <stepsection>Allereerst wordt nu draaitabel met de omzet per verkoper per
+                productcategorie gemaakt.</stepsection>
+            <step>
+                <cmd>Selecteer een cel in de tabel. Kies <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Draaitabel (groep Tabellen)</uicontrol>
+                    </menucascade>
+                    <uicontrol>Draaitabel</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Draaitabel maken</wintitle> verschijnt. Het
+                        bereik van de tabel is hierin reeds ingevuld.</p>
+                    <fig>
+                        <title>Bereik en locatie</title>
+                        <image keyref="invoices_pivot_create">
+                            <alt>Bereik en locatie.</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>In deze taak moet de draaitabel op een nieuw werkblad verschijnen. Dus
+                    accepteer de standaardlokatie en klik op <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Sleep veld <varname>Verkoper</varname> naar het vak
+                        <uicontrol>Rijen</uicontrol>, veld <varname>Productcategorie</varname> naar
+                    het vak <uicontrol>Kolommen</uicontrol> en veld <varname>Factuurbedrag</varname>
+                    naar het vak <uicontrol>Waarden</uicontrol>. Geef de bedragen een
+                    valutanotatie.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Draaitabel omzet per verkoper</title>
+                        <image keyref="invoices_sales-salesman">
+                            <alt>Draaitabel met omzet per verkoper</alt>
+                        </image>
+                    </fig>
+                    <p>Merk op dat er grote verschillen per verkoper zijn.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Sleep veld <varname>Factuurdatum</varname> naar het vak
+                        <uicontrol>Rijen</uicontrol> en onder veld
+                    <varname>Verkoper</varname>.</cmd>
+                <stepresult>
+                    <p>De automatische tijdgroepering van Excel maakt nu twee berekende velden:
+                            <varname>Jaren</varname> en <varname>Kwartalen</varname>.</p>
+                    <fig>
+                        <title>Automatisch toegevoegde velden Kwartalen en Jaren</title>
+                        <image keyref="invoices_pivot_datefields">
+                            <alt>Automatisch toegevoegde velden Kwartalen en Jaren</alt>
+                        </image>
+                    </fig>
+                    <p>En in de draaitabel zijn de bedragen gegroepeerd per jaar.</p>
+                    <fig>
+                        <title>Draaitabel met gegroepeerde datumvelden</title>
+                        <image keyref="invoices_sales_grouped">
+                            <alt>Draaitabel met gegroepeerde datumvelden</alt>
+                        </image>
+                    </fig>
+                    <p>Je kunt nu ook zien dat Brown als verkoper is begonnen in 2011 en niet in
+                        2010, wat een mogelijke verklaring voor de lagere bedragen.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de <uicontrol>+</uicontrol> (plus) knop voor het jaar
+                        <option>2010</option> van Anderson. En daarna op de <uicontrol>+</uicontrol>
+                    knop voor <option>Kwrt1</option>.</cmd>
+                <stepresult>
+                    <p>Eerst worden de samengevouwen niveaus van de jaren <option>2010</option>
+                        opengevouwen naar de kwartalen. Daarna worden niveaus <option>Kwrt1</option>
+                        opengevouwen naar de maanden.</p>
+                    <fig>
+                        <title>Opengevouwen jaar 2010 en kwartaal Kwrt1</title>
+                        <image keyref="invoices_pivot_drilldown">
+                            <alt/>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de <uicontrol>-</uicontrol> (min) knop om alle niveaus samen te
+                    vouwen.</cmd>
+            </step>
+            <step>
+                <cmd>Sleep veld <varname>Productcategorie</varname> uit het vak
+                        <uicontrol>Kolommen</uicontrol>. Sleep veld <varname>Kwartalen</varname> van
+                    vak <uicontrol>Rijen</uicontrol> naar vak <uicontrol>Kolommen</uicontrol>. Sleep
+                    de velden <varname>Jaren</varname> en <varname>Factuurdatum</varname> uit het
+                    vak <uicontrol>Rijen</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Draaitabelvelden in rapport verkopen per verkoper per
+                            kwartaal</title>
+                        <image keyref="invoices_pivot_quarters">
+                            <alt>Draaitabelvelden in rapport verkopen per verkoper per
+                                kwartaal</alt>
+                        </image>
+                    </fig>
+                    <fig>
+                        <title>Draaitabel verkopen per verkoper per kwartaal</title>
+                        <image keyref="invoices_sales-salesman-quarter">
+                            <alt>Draaitabel verkopen per verkoper per kwartaal</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>Om de waarden gemakkelijker te vergelijken kun je er ook voor kiezen om ze
+                weer te geven als percentages (van rijtotaal, kolomtotaal of
+                eindtotaal)</stepsection>
+            <step>
+                <cmd>Selecteer een numerieke waarde in de draaitabel en kies <menucascade>
+                        <uicontrol>tab Analyseren</uicontrol>
+                        <uicontrol/>
+                        <uicontrol>Veldinstellingen (groep Actief veld)</uicontrol>
+                    </menucascade>. In het dialoogvenster
+                        <wintitle>Waardeveldinstellingen</wintitle> kies <uicontrol>tab Waarden
+                        weergeven als</uicontrol> en kies <option>% van rijtotaal</option>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Waarden weer laten gegeven als percentage van rijtotaal</title>
+                        <image keyref="invoices_fieldsettings_pct-rowtotal">
+                            <alt>Waarden weergegeven als % van rijtotaal</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Percentage verkopen per verkoper per kwartaal</title>
+                        <image keyref="invoices_sales-salesman-quarter_pct">
+                            <alt>Percentage verkopen per verkoper per kwartaal</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+        <example>
+            <title>Vragen data analyse</title>
+            <p>Gebruik de mogelijkheden van draaitabellen om de volgende vragen te beantwoorden. Er
+                zijn meerdere wegen om de antwoorden te vinden.</p>
+            <ol>
+                <li>Welke verkoper heeft het meeste verkocht in december 2010?<draft-comment
+                        author="benw">Phillips. Kolommen=Factuurdatum,
+                        Rijen=Verkoper</draft-comment></li>
+                <li>In welke maand van welk jaar was de verkoop van software het
+                        grootst?<draft-comment author="benw">Januari 2011, Kolommen=Jaren,
+                        Rijen=Factuurdatum, Filters=Productcategorie (software)</draft-comment></li>
+                <li>Wat zijn de verkooppercentages voor hard- en software per regio?</li>
+                <li>In welk kwartaal van welk jaar waren de verkopen van Anderson het
+                        laagst?<draft-comment author="benw">Kwtr3 van 2011, Kolommen=Kwartalen,
+                        Rijen=Verkoper-Jaren, Filters=Verkoper (Anderson)</draft-comment></li>
+                <li>Analyseer de verkopen van Brown in kwartaal 2 van 2011. Valt je iets bijzonders
+                        op?<draft-comment author="benw">Alleen verkopen in 1 maand (Juni),
+                        Rijen=Verkoper-Jaren-Kwartalen-Factuurdatum</draft-comment></li>
+            </ol>
+        </example>
+    </taskbody>
+</task>

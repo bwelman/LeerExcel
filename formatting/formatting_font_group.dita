@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_font_group" xml:lang="nl-NL">
+    <title>Lettertype</title>
+    <shortdesc>De mogelijkheden om het uiterlijk van de celinhoud te wijzigen via de opdrachtknoppen
+        in de groep Lettertype.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Lettertype</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>De <uicontrol>groep Lettertype (tab Start)</uicontrol> kent een aantal knoppen om het
+            uiterlijk van de tekst te wijzigen. Om deze wijzigingen toe te passen moet je eerst de
+            cel(len) selecteren en daarna de opdrachtknop gebruiken. De mogelijkheden in deze groep
+            zijn:</p>
+        <dl>
+            <dlentry>
+                <dt><image keyref="Font"/></dt>
+                <dd>Lettertype, keuzelijst via de pijl.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Font_Size"/></dt>
+                <dd>Tekengrootte, keuzelijst via de pijl.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Font_Size_Adjust"/></dt>
+                <dd>Tekengrootte vergroten/verkleinen, steeds in stapjes van 2 punten.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Font_Style"/></dt>
+                <dd>Tekenstijl, achtereenvolgens: vet, cursief, onderstreept. De soort onderstreping
+                    kan via de keuzepijl bepaald worden.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Font_Color"/></dt>
+                <dd>Tekstkleur, de kleur kan gekozen worden via de keuzepijl.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Font_Fillcolor"/></dt>
+                <dd>Opvulkleur, de kleur kan gekozen worden via de keuzepijl.</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

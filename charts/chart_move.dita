@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_move" xml:lang="nl-NL">
+    <title>Taak: Locatie grafiek wijzigen</title>
+    <shortdesc>Een ingesloten grafiek op een werkblad kan eenvoudig naar een andere plek verplaatst
+        worden.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>verplaatsen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Je kunt een grafiek maken in hetzelfde werkblad als waar de gegevens staan. Dit heet
+                een ingesloten grafiek . Je kunt ook een grafiek op een afzonderlijk werkblad maken
+                dat alleen de grafiek bevat, een grafiekblad. Een ingesloten grafiek kan op het
+                werkblad versleept worden naar een andere plaats, maar je kunt de grafiek ook naar
+                een grafiekblad verplaatsen. Beide methodes komen in deze taak aan de orde.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Druk de linker muisknop in en sleep de grafiek naar de gewenste plek.</cmd>
+                <info>
+                    <note type="tip">Als je tijdens het slepen de <uicontrol>Alt</uicontrol> toets
+                        ingedrukt houdt wordt de grafiek uitgelijnd op de rasterlijnen van het
+                        werkblad.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Klik buiten de grafiek in het werkblad om de selectie op te heffen.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de grafiek opnieuw en kies <menucascade>
+                        <uicontrol>Ontwerpen</uicontrol>
+                        <uicontrol>Grafiek verplaatsen (groep Locatie)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Grafiek verplaatsen</wintitle></title>
+                        <image keyref="chart_move_window">
+                            <alt>Dialoogvenster grafiek verplaatsen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <uicontrol>Nieuw blad</uicontrol>, geef de naam van het nieuwe blad
+                    in en klik dan op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>Het grafiekblad wordt getoond.</stepresult>
+            </step>
+            <stepsection>Nu wordt de grafiek terug verplaatst naar het werkblad.</stepsection>
+            <step>
+                <cmd>Selecteer de grafiek in het grafiekblad.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Ontwerpen</uicontrol>
+                        <uicontrol>Grafiek verplaatsen (groep Locatie)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>Het dialoogvenster <wintitle>Grafiek verplaatsen</wintitle>
+                    verschijnt.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <uicontrol>Object in</uicontrol>, kies dan het werkblad waarop de
+                    grafiek moet komen en klik vervolgens op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>Het werkblad met de ingesloten grafiek wordt getoond en het grafiekblad
+                    is verwijderd.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

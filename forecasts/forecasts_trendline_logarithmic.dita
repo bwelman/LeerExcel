@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_trendline_logarithmic" xml:lang="nl-NL">
+    <title>Taak: Logaritmische trendlijn</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een logaritmische trendlijn is een zo goed mogelijk passende gebogen lijn die goed
+                past bij gegevens die in het begin snel stijgen (of dalen) en zich daarna
+                    stabiliseren.<note type="attention">Er mogen geen nulwaarden in de
+                    gegevensverzameling zitten.</note></p>
+            <p>De vergelijking van de trendlijn is: <codeph>y = a*ln(x) + b</codeph> met a en b als
+                constanten.</p>
+            <p>Het volgende voorbeeld gaat over de groei van het aantal bacteriën in een kweek.</p>
+            <note type="other" othertype="Bestand"><filepath>Trendlijnen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open het hulpbestand en selecteer het werkblad
+                        <wintitle>Logaritmisch</wintitle>.</cmd>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_Start"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_End">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer bij Opties voor trendlijn: <option>Logaritmisch</option>. En laat de
+                    vergelijking en R-kwadraat in de grafiek weergeven.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de titel in <userinput>Groei bacteriën</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg astitels toe en wijzig titel Y-as in <userinput>Aantal (x
+                        miljoen)</userinput> en titel X-as in <userinput>Dag</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Versleep in de grafiek de vergelijking naar een overzichtelijke plaats.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Voorbeeld logaritmische trendlijn</title>
+                <image keyref="example_log">
+                    <alt>Voorbeeld logaritmische trendlijn</alt>
+                </image>
+            </fig>
+            <p>R<sup>2</sup> = 0,9622 wat betekent dat de logaritmische trendlijn zeer goed bij de
+                gegevens past, een snelle toename in het begin gevolgd door een geleidelijke
+                afvlakking.</p>
+        </result>
+        <example>
+            <title>Werkbladfuncties</title>
+            <p>Vergelijking: y = a*LN(x) + b<ul>
+                    <li>a =INDEX(LIJNSCH(y-bekend ; LN(x-bekend)) ; 1 ; 1)</li>
+                    <li>b =INDEX(LIJNSCH(y-bekend ; LN(x-bekend)) ; 1 ; 2)</li>
+                </ul></p>
+        </example>
+    </taskbody>
+</task>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="import_over" xml:lang="nl-NL" >
+	<title>Gegevens ophalen en transformeren</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>
+		</metadata>
+	</prolog>
+	<conbody>
+        <p>Om <uicontrol>Gegevens ophalen en transformeren</uicontrol> in Excel 2016 te gebruiken,
+            maak je eigenlijk een query in de werkmap. Met een query kun je een verbinding maken met
+            een breed scala aan beschikbare gegevensbronnen, een voorbeeld van de gegevens bekijken
+            en de gegevens transformeren.</p>
+        <p>De eerste stap is het maken van een verbinding met een gegevensbron. Wanneer de
+            verbinding is gemaakt, krijg je een voorbeeld van de gegevens te zien. Daarna kun je
+            stappen toevoegen om de gegevens te structureren en te transformeren. Hiervoor wordt een
+                <term>Query Editor</term> gestart om een aantal instructies te maken die de acties
+            uitvoeren. De laatste stap is het laden van de gegevens als een tafel in een
+            werkblad.</p>
+        <note>Je hebt ook de mogelijkheid om de gegevens te laden in het ingebouwde
+            gegevensmodel.</note>
+        <p>Je kunt de query later ook wijzigen en / of de gegevens vernieuwen.</p>
+        <p>Voor het maken van een query gebruik je de tab <uicontrol>Gegevens</uicontrol> in het
+            lint, waarna je een van de mogelijke acties in de <uicontrol>Gegevens ophalen en
+                transformeren</uicontrol> groep kiest.</p>
+        <fig>
+            <title>Lint Gegevens</title>
+            <image keyref="ribbon_queries">
+                <alt>Lint Gegevens</alt>
+            </image>
+        </fig>
+        <p>Er zijn knoppen voor het ophalen van gegevens uit tekst/csv, web en een Excel
+            tabel/bereik. Deze gegevensbronnen en nog veel meer zijn beschikbaar via de knop
+                <uicontrol>Gegevens ophalen</uicontrol>.</p>
+        <p>De groep <uicontrol>Query's en verbindingen</uicontrol> heeft een knop voor het
+            vernieuwen van query's en een knop om bestaande query's en verbindingen te bekijken en
+            te beheren.</p>
+	</conbody>
+</concept>

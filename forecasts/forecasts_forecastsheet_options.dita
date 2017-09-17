@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="forecasts_forecastsheet_options">
+    <title>Opties prognosewerkblad</title>
+    <shortdesc/>
+    <conbody>
+        <p>In het dialoogvenster Prognosewerkblad</p>
+        <fig>
+            <title>Opties Prognosewerkblad</title>
+            <image keyref="sales_fcast_options">
+                <alt>Opties Prognosewerkblad</alt>
+            </image>
+        </fig>
+        <p>De verschillende mogelijkheden worden hierna toegelicht.</p>
+        <section>
+            <title>Start van prognose</title>
+            <p>De begindatum voor de prognose wordt automatisch door Excel geselecteerd. Je kunt
+                deze wijzigen. Wanneer je een datum kiest vóór het einde van de historische
+                gegevens, worden alleen gegevens vóór de begindatum gebruikt in de voorspelling (dit
+                wordt soms ook wel <q>backcasting</q> genoemd).</p>
+            <note type="tip">Als je de prognose start vóór het laatste historische punt, krijg je
+                een goed beeld van de nauwkeurigheid van de voorspelling, omdat je de voorspelde
+                reeks kunt vergelijken met de werkelijke gegevens. Als je de prognose echter te
+                vroeg start, is de gegenereerde prognose mogelijk niet hetzelfde als de prognose die
+                je krijgt wanneer je alle historische gegevens gebruikt. De voorspelling wordt
+                nauwkeuriger als je alle historische gegevens gebruikt.</note>
+            <note type="tip">Als de gegevens seizoensgebonden zijn, kun je het beste een prognose
+                starten vóór het laatste historische punt.</note>
+        </section>
+        <section>
+            <title>Betrouwbaarheidsinterval</title>
+            <p>Hier kun je het weergeven van een betrouwbaarheidsinterval in of uit schakelen.
+                Hiermee kun je de nauwkeurigheid van de voorspelling vaststellen. Een kleiner
+                interval betekent een betrouwbaardere voorspelling voor het specifieke punt.
+                Standaard is het een 95% betrouwbaarheidsinterval dat gewijzigd kan worden.</p>
+        </section>
+        <section>
+            <title>Seizoensgebonden</title>
+            <p>Wanneer het patroon van de gegevens een seizoensgebondenheid bevat dan kun je hier
+                het aantal waarnemingen voor het patroon instellen. Standaard is automatisch
+                detecteren ingesteld. Wanneer het Excel niet lukt om automatisch een seizoenspatroon
+                te ontdekken, krijg je een waarschuwing met het advies om over te stappen op
+                Handmatig.</p>
+            <note>Gebruik geen waarde voor minder dan twee cycli met historische gegevens wanneer je
+                seizoensgebondenheid handmatig instelt. Met minder dan twee cycli kunnen de
+                seizoensgebonden items niet worden geïdentificeerd in Excel. Als de
+                seizoensgebondenheid niet belangrijk genoeg is om te worden gedetecteerd met de
+                algoritme, wordt de voorspelling weer omgezet in een lineaire trend.</note>
+        </section>
+        <section>
+            <title>Bereik van de tijdlijn</title>
+            <p>Hiermee kun je het bereik voor de kolom met tijdgegevens instellen. Dit bereik moet
+                hetzelfde zijn als het Bereik van waarden.</p>
+        </section>
+        <section>
+            <title>Bereik van waarden</title>
+            <p>Hiermee kun je het bereik voor de kolom met waarden instellen. Dit bereik moet
+                hetzelfde zijn als het Bereik van de tijdlijn. </p>
+        </section>
+        <section>
+            <title>Ontbrekende punten invullen met</title>
+            <p>Wanneer in de gegevensverzameling ontbrekende waarden voorkomen, dan vult Excel deze
+                zelf in op basis van interpolatie. Dit houdt in dat een ontbrekend punt wordt
+                ingevuld als het gewogen gemiddelde van de aangrenzende punten mits er minder dan
+                30% van de punten ontbreekt. Als je in plaats hiervan de ontbrekende waarden als
+                nullen wilt behandelen, dan selecteer je Nullen in de lijst.</p>
+        </section>
+        <section>
+            <title>Duplicaten samenvoegen met</title>
+            <p>Wanneer de gegevens meerdere waarden met de dezelfde tijdstempel bevatten, dan neemt
+                Excel hiervoor het gemiddelde van deze waarden. Als je een andere berekeningsmethode
+                wilt gebruiken, dan kun je in de lijst kiezen uit: Gemiddelde, Aantal, AantalArg,
+                Max, Mediaan, Min en Som.</p>
+        </section>
+        <section>
+            <title>Prognose van statistieken opnemen</title>
+            <p>Via dit selectievakje kun je aanvullende statistische informatie over de prognose in
+                het voorspellingblad laten opnemen. Met behulp van de functie
+                    <codeph>VOORSPELLEN.ETS.STAT</codeph> wordt een tabel met statistieken
+                gegenereerd. Zie het voorbeeld hierna.</p>
+            <simpletable frame="all">
+                <sthead>
+                    <stentry>Statistieken</stentry>
+                    <stentry>Waarde</stentry>
+                    <stentry>Toelichting</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Alpha</stentry>
+                    <stentry>0,00</stentry>
+                    <stentry>dempingscoëfficient α van het ETS algoritme, een hogere waarde kent
+                        meer gewicht toe aan recente waarden.</stentry>
+                </strow>
+                <strow>
+                    <stentry>Beta</stentry>
+                    <stentry>0,00</stentry>
+                    <stentry>dempingscoëfficient β van het ETS algoritme, een hogere waarde kent
+                        meer gewicht toe aan de recente trend.</stentry>
+                </strow>
+                <strow>
+                    <stentry>Gamma</stentry>
+                    <stentry>0,25</stentry>
+                    <stentry>dempingscoëfficient γ van het ETS algoritme, een hogere waarde kent
+                        meer gewicht toe aan de recente seizoensperiode.</stentry>
+                </strow>
+                <strow>
+                    <stentry>MASE</stentry>
+                    <stentry>0,46</stentry>
+                    <stentry>Mean Absolute Scaled Error</stentry>
+                </strow>
+                <strow>
+                    <stentry>SMAPE</stentry>
+                    <stentry>0,03</stentry>
+                    <stentry>Symmetric Mean Absolute Percentage Error</stentry>
+                </strow>
+                <strow>
+                    <stentry>MAE</stentry>
+                    <stentry>128.317,53</stentry>
+                    <stentry>Mean Absolute Percentage Error</stentry>
+                </strow>
+                <strow>
+                    <stentry>RMSE</stentry>
+                    <stentry>187.920,90</stentry>
+                    <stentry>Root Mean Square Error</stentry>
+                </strow>
+            </simpletable>
+        </section>
+    </conbody>
+    <!--Bron: https://support.office.com/nl-nl/article/Een-prognose-maken-in-Excel-2016-voor-Windows-22c500da-6da7-45e5-bfdc-60a7062329fd?ui=nl-NL&rs=nl-NL&ad=NL&fromAR=1 -->
+</concept>

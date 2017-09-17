@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="xls_type_vertalingen" xml:lang="nl-NL">
+  <title>Vertaaltabel grafieksoorten</title>
+  <shortdesc>Nederlands, Engelse en Duitse namen van een aantal grafieksoorten.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Grafieksoort</indexterm>
+        <indexterm>Grafiektype</indexterm>
+        <indexterm>Vertaaltabel grafieknamen</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <simpletable>
+      <sthead>
+        <stentry>NL</stentry>
+        <stentry>EN</stentry>
+        <stentry>DE</stentry>
+      </sthead>
+      <strow>
+        <stentry xml:lang="nl-NL">Bellendiagram</stentry>
+        <stentry xml:lang="en-US">Bubble chart</stentry>
+        <stentry xml:lang="de-DE">Blasendiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Cirkeldiagram</stentry>
+        <stentry xml:lang="en-US">Pie chart</stentry>
+        <stentry xml:lang="de-DE">Kreisdiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Kolomdiagram</stentry>
+        <stentry xml:lang="en-US">Column chart</stentry>
+        <stentry xml:lang="de-DE">Säulendiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Lijndiagram</stentry>
+        <stentry xml:lang="en-US">Line chart</stentry>
+        <stentry xml:lang="de-DE">Liniendiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Ringdiagram</stentry>
+        <stentry xml:lang="en-US">Doughnut chart</stentry>
+        <stentry xml:lang="de-DE">Ringdiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Radardiagram</stentry>
+        <stentry xml:lang="en-US">Radar chart</stentry>
+        <stentry xml:lang="de-DE">Netzdiagramm</stentry>
+      </strow>      
+      <strow>
+        <stentry xml:lang="nl-NL">Spreidingsdiagram</stentry>
+        <stentry xml:lang="en-US">Scatter (XY) chart</stentry>
+        <stentry xml:lang="de-DE">Punktdiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Staafdiagram</stentry>
+        <stentry xml:lang="en-US">Bar chart</stentry>
+        <stentry xml:lang="de-DE">Balkendiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Vlakdiagram</stentry>
+        <stentry xml:lang="en-US">Area chart</stentry>
+        <stentry xml:lang="de-DE">Flächendiagramm</stentry>
+      </strow>
+      <strow>
+        <stentry xml:lang="nl-NL">Watervaldiagram</stentry>
+        <stentry xml:lang="en-US">Waterfall chart</stentry>
+        <stentry xml:lang="de-DE">Wasserfalldiagramm</stentry>
+      </strow>
+    </simpletable>
+  </refbody>
+</reference>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop att="product" val="OF2016" action="include"/>    
+    <prop att="audience" val="level1" action="include"/>
+    <prop att="audience" val="level2" action="include"/>
+    <prop att="audience" val="level3" action="include"/>    
+    <prop att="otherprops" val="exercises" action="include"/>
+    <prop att="otherprops" val="answer" action="include"/>
+    <prop att="otherprops" val="solution" action="exclude"/>
+</val>

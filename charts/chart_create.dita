@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_create" xml:lang="nl-NL">
+    <title>Taak: Aanbevolen grafiek maken</title>
+    <shortdesc>Hoe je een grafiek maakt die Exvel aanbeveelt bij jouw gegevens.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>standaardgrafiek</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Excel biedt verschillende soorten grafieken aan. Het kiezen van de meest geschikte
+                grafiek kan lastig zijn. Excel biedt hierbij hulp via de opdracht Aanbevolen
+                grafieken, welke een lijst van grafieken produceert die Excel aanbeveelt voor de
+                gegevens. Om hiervan gebruik te maken moet je altijd eerst de gegevens
+                selecteren.</p>
+            <p>Als voorbeeld wordt een bestand met omzetgegevens van een bakkerij gebruikt.</p>
+            <fig>
+                <title>Verkopen bakkerij</title>
+                <image keyref="bakery_data">
+                    <alt>Verkopen bakkerij</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Bakkerij.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open het hulpbestand.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer een willekeurige cel in het gegevensgebied
+                        <uicontrol>A1:D5</uicontrol>.</cmd>
+                <info>
+                    <note type="attention">Wanneer het gegevensgebied een aaneengesloten gebied is,
+                        zoals hier A1:D5 is, herkent Excel automatisch bij het maken van een grafiek
+                        het hele gegevensgebied wanneer je een willekeurige cel in dit gebied
+                        selecteert. Wanneer het gegevensgebied niet aaneengesloten is moet je het
+                        hele gegevensgebied selecteren.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Aanbevolen grafieken (groep Grafieken)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Grafiek invoegen</wintitle> verschijnt.  Aan de
+                        linkerkant kun je bladeren door de lijst met aanbevolen grafieken. En
+                        wanneer je op een grafiek klikt wordt in het rechterdeel een voorbeeld van
+                        de grafiek voor jouw gegevens getoond.<fig>
+                            <title>Aanbevolen grafieken</title>
+                            <image keyref="chart_recommended">
+                                <alt>Aanbevolen grafieken.</alt>
+                            </image>
+                        </fig>Om de grafiek zit een smal kader wat aangeeft dat de grafiek
+                        geselecteerd is.</p>
+                    <p>Op het lint verschijnen onder <wintitle>Hulpmiddelen voor
+                            grafieken</wintitle> drie tabs: <uicontrol>Ontwerpen</uicontrol>,
+                            <uicontrol>Indeling</uicontrol> en <uicontrol>Opmaak</uicontrol>. Deze
+                        hulpmiddelen zijn alleen zichtbaar wanneer de grafiek geselecteerd is.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <menucascade>
+                        <uicontrol>Gegroepeerde kolom</uicontrol>
+                        <uicontrol>OK</uicontrol>
+                    </menucascade> .</cmd>
+                <stepresult>
+                    <p>De grafiek wordt ingesloten in het werkblad en <uicontrol>Hulpmiddelen voor
+                            grafieken</uicontrol> met de groepen <uicontrol>Ontwerpen</uicontrol> en
+                            <uicontrol>Indeling</uicontrol> worden aan het lint toegevoegd.</p>
+                    <fig>
+                        <title>Aanbevolen gegroepeerde kolom grafiek</title>
+                        <image keyref="bakery_column_years">
+                            <alt>Aanbevolen gegroepeerde kolom grafiek</alt>
+                        </image>
+                    </fig>
+                    <p>Er is een kader om de grafiek omdat de grafiek geselecteerd is. En in de
+                        rechter bovenhoek zijn drie knoppen te zien waarmee je kunt toevoegen of
+                        wijzigen van:<ul>
+                            <li><image keyref="button_chart_elements"/>
+                                Grafiekelementen</li>
+                            <li><image keyref="button_chart_styles"/>
+                                Grafiekstijlen</li>
+                            <li><image keyref="button_chart_filters"/>
+                                Grafiekfilters</li>
+                        </ul></p>
+                </stepresult>
+            </step>            
+        </steps>
+        <example>
+            <title>Snellere methode</title>
+            <p>Er is een snellere methode om een aanbevolen grafiek in te voegen:<ol
+                    id="ol_dwq_rxt_q1b">
+                    <li>Selecteer het gegevensgebied, inclusief de koppen.</li>
+                    <li>Klik op de <uicontrol>Quick Analysis</uicontrol> knop <uicontrol><image
+                                keyref="button_quick_analysis" id="image_cbx_1yt_q1b"/></uicontrol>
+                        in de rechteronderhoek van het geselecteerde gebied.</li>
+                    <li>Klik <uicontrol>Grafieken</uicontrol> en selecteer de gewenste grafiek.</li>
+                </ol></p>
+        </example>
+    </taskbody>
+</task>

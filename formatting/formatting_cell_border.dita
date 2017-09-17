@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_cell_border" xml:lang="nl-NL">
+    <title>Celranden</title>
+    <shortdesc>De mogelijkheden om randen rond een cel of celreeks te plaatsen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Cel<indexterm>randen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Randen worden vaak gebruikt om een groep cellen visueel bij elkaar houden. Ook onder
+            optellingen wordt vaak een lijn onder de getallen gezet en daaronder het totaal. Randen
+            zijn er dus vooral voor lay-out doeleinden.</p>
+        <p>Om randen rond een cel of een groep van cellen aan te brengen ga je als volgt te
+            werk:</p>
+        <ol>
+            <li>Selecteer de cel of de reeks cellen.</li>
+            <li>Kies <menucascade>
+                    <uicontrol>Start</uicontrol>
+                    <uicontrol>pijlpunt knop Randen (groep Lettertype)</uicontrol>
+                </menucascade>.<image keyref="Cell_Border_Button">
+                    <alt>Knop celranden</alt>
+                </image>
+            </li>
+            <li>Kies de gewenst stijl uit de lijst <wintitle>Randen</wintitle>. <fig>
+                    <title>Lijst met stijlen voor de randen van een cel</title>
+                    <image keyref="Cell_Border_List">
+                        <alt>Lijst met stijlen voor de randen van een cel</alt>
+                    </image>
+                </fig>
+            </li>
+        </ol>
+        <note type="tip">Indien de gewenste randstijl niet in het menu voorkomt, klik dan op
+                <uicontrol>Meer randen...</uicontrol>. Excel toont dan het dialoogvenster
+                <wintitle>Celeigenschappen</wintitle> met het <uicontrol>tabblad Rand</uicontrol>
+            geselecteerd.</note>
+    </conbody>
+</concept>

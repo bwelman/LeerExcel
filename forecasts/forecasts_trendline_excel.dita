@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_trendline_excel" xml:lang="nl-NL">
+ <title>Soorten trendlijnen in Excel</title>
+ <shortdesc/>
+ <prolog>
+  <critdates>
+   <created date="2017-08-31"/>
+   <revised modified="2017-08-31"/>
+  </critdates>
+  <metadata>
+   <keywords>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>Excel kent een zestal trendlijnen. Het is niet altijd direct duidelijk welk soort trendlijn het
+            beste bij een verzameling gegevens past. Soms zie je dat meteen en zo niet, dan moet je
+            een aantal verschillende soorten trendlijnen proberen.</p>
+  <p>De kwaliteit van een trendlijn kun je beoordelen door de waarde van R-kwadraat (R<sup>2</sup>)
+   uit te laten rekenen. Dit is een getal van 0 tot 1 dat aangeeft hoe dicht de berekende waarden
+   via de formule van de grenslijn liggen bij de werkelijke waarden. Hoe dichter bij 1 hoe beter de
+   trendlijn. Bij het toevoegen van een trendlijn kan geselecteerd worden dat R-kwadraat en de
+   vergelijking van de trendlijn in de grafiek moeten worden weergegeven.</p>
+  <p>Bij het maken van voorspellingen heb je de coëfficienten van de vergelijking nodig. Excel
+            voorziet in werkbladfuncties voor deze coëfficienten.</p>
+ </conbody>
+</concept>

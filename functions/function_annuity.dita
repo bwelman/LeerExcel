@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_annuity" xml:lang="nl-NL">
+    <title>Taak: Aflossing lening berekenen</title>
+    <shortdesc>Voorbeeld van een berekening van een annuïteit bij de aflossing van een
+        lening.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2011-03-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>BET</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Bij de aflossing van een lening zijn er meerdere methodes om de aflossing te bepalen.
+                In het volgende voorbeeld wordt berekend hoe groot de maandelijkse aflossing is van
+                een geldlening van € 250.000 bij een vaste jaarrente van 6% over een periode van 15
+                jaar volgens de annuïteitenmethode. Hiervoor wordt de Excelfunctie
+                    <varname>BET</varname> gebruikt.</p>
+            <note type="notice">De functie BET berekent de betaling voor een lening, op basis van
+                vaste periodieke betalingen en een vast rentepercentage.</note>
+            <fig>
+                <title>Invoer oefening voor aflossing lening</title>
+                <image keyref="Example_Annuity">
+                    <alt>Invoer voor oefening aflossing lening</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Aflossing.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Maak de cellen op zoals in de figuur is aangegeven.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B4</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Financieel</option> en de functie
+                        <option>BET</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle>
+                    verschijnt.</stepresult>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Rente</varname> en typ in
+                        <userinput>B2/12</userinput>. Plaats de cursor in het vak
+                        <varname>Aantal-termijnen</varname> en typ in <userinput>B3*12</userinput>.
+                    Plaats de cursor in het vak <varname>Hw</varname> en typ in
+                        <userinput>B1</userinput>.</cmd>
+                <info>
+                    <note type="important">Omdat de termijn hier een maand is en geen jaar, moet de
+                        jaarrente door 12 gedeeld worden en het aantal jaren met 12 vermenigvuldigd
+                        worden.</note>
+                </info>
+                <stepresult>
+                    <fig>
+                        <title>Argumenten voor de functie BET</title>
+                        <image keyref="Example_Annuity_Arguments">
+                            <alt>Argumenten voor de functie BET</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Het antwoord -2109,64 verschijnt. Omdat resultaat een bedrag is dat betaald
+                        moet worden, een schuld dus, geeft Excel dit weer als een negatief getal.
+                        Dat is in een rood lettertype en met een minteken.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Maak hiervan een positief getal door achter het = teken en voor de functienaam
+                    een minteken te zetten.</cmd>
+                <stepresult>
+                    <codeph>=-BET(B2/12;B3*12;B1)</codeph>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

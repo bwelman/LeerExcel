@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_switch_dataranges" xml:lang="nl-NL">
+    <title>Taak: Rijen-Kolommen omdraaien</title>
+    <shortdesc>De brongegevens voor een grafiek kunnen zowel per kolom als per rij een
+            <term>gegevensreeks</term> vormen. De gemaakte keuze kan ook eenvoudig gewijzigd worden. </shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>gegevensreeks</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In een spreadsheet staan van een bedrijf de omzetgegevens per kwartaal per jaar.
+                Hierbij staan de jaargegevens in kolommen en de kwartaalgegevens in rijen.</p>
+            <fig>
+                <title>Omzet per kwartaal per jaar</title>
+                <image keyref="bakery_data">
+                    <alt>Omzetgegevens per kwartaal en per jaar</alt>
+                </image>
+            </fig>
+            <p>In een grafiek kun je de jaren met elkaar vergelijken, maar ook de kwartalen. In het
+                eerste geval vormt elk jaar dan een gegevensreeks. In het tweede geval vormt elk
+                kwartaal een gegevensreeks. Bij het maken van de grafiek probeert Excel zo goed
+                mogelijk te raden of de kolommen of de rijen de gegevensreeksen vormen. De keuze is
+                niet altijd de gewenste, maar kan eenvoudig veranderd worden.</p>
+            <fig>
+                <title>Jaren (kolommen) als gegevensreeksen</title>
+                <image keyref="bakery_column_years">
+                    <alt>Jaren (kolommen) als gegevensreeksen</alt>
+                </image>
+            </fig>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Ontwerpen</uicontrol>
+                        <uicontrol>Rijen/kolommen omdraaien (groep Gegevens)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Kwartalen (rijen) als gegevensreeksen</title>
+                        <image keyref="bakery_column_quarters">
+                            <alt>Kwartalen (rijen) als gegevensreeksen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>     
+        </steps>
+    </taskbody>
+</task>

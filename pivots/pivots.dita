@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="pivots" xml:lang="nl-NL">
+    <title>Draaitabellen</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een draaitabel is een hulpmiddel om gegevens samen te vatten. Het is een interactieve
+            dynamische tabel waarin je snel en gemakkelijk grote hoeveelheden gegevens kunt
+            samenvatten, combineren en vergelijken. Draaitabellen geven je de mogelijkheid om snel
+            informatie te krijgen, te analyseren en conclusies te trekken.</p>
+    </conbody>
+</concept>

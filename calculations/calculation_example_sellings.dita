@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="calculation_example_sellings" xml:lang="nl-NL">
+    <title>Taak: Je eerste formules</title>
+    <shortdesc>Een eenvoudige stapsgewijze oefening in het gebruik van formules.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Berekeningen</indexterm>
+                <indexterm>Formules</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In deze oefening wordt een eenvoudige berekening opgezet, zie de volgende afbeelding.
+                Drie cellen bevatten getallen:<ul>
+                    <li>C1, het inkoopbedrag.</li>
+                    <li>B2, het winstpercentage.</li>
+                    <li>B5, het BTW percentage.</li>
+                </ul>In vier cellen (C2, C3, C5 en C6) staan formules. Het is de bedoeling dat
+                wanneer de waarden in C1, B2 of B5 veranderen, alle hiervan afhankelijke waarden
+                automatisch worden aangepast.</p>
+            <fig>
+                <title>Voorbeeld berekening inkoop-winst-verkoop</title>
+                <image keyref="Example_Sellings">
+                    <alt>Voorbeeld berekening inkoop, winst en verkoop</alt>
+                </image>
+            </fig>
+        </context>
+        <steps>
+            <step>
+                <cmd>Begin met een nieuw werkblad, eventueel in een nieuwe werkmap.</cmd>
+            </step>
+            <step>
+                <cmd>Typ de teksten in die in kolom A te zien zijn.</cmd>
+                <stepresult>Sommige teksten passen niet binnen de breedte van de kolom. Dat is
+                    verder niet van belang. Desgewenst maak je de kolom breder.</stepresult>
+            </step>
+            <step>
+                <cmd>In cel <uicontrol>B2</uicontrol> voer je in <userinput>25%</userinput>, in cel
+                        <uicontrol>B5</uicontrol> voer je in <userinput>21%</userinput> en in cel
+                        <uicontrol>C1</uicontrol> voer je in <userinput>4000</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Typ in cel <uicontrol>C2</uicontrol> de formule
+                    <userinput>=B2*C1</userinput>.</cmd>
+                <stepresult>Nadat je op de <uicontrol>Enter</uicontrol> toets gedrukt hebt
+                    verschijnt in cel <uicontrol>C2</uicontrol> de uitkomst van de formule:
+                        <systemoutput>1000</systemoutput>. Dit is de berekende winst.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in cel <uicontrol>C3</uicontrol> de formule
+                    <userinput>=C1+C2</userinput>.</cmd>
+                <stepresult>Na afronding van de invoer verschijnt in cel <uicontrol>C3</uicontrol>
+                    het resultaat: <systemoutput>5000</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in cel <uicontrol>C5</uicontrol> de formule
+                    <userinput>=B5*C3</userinput>.</cmd>
+                <stepresult>In cel <uicontrol>C5</uicontrol> verschijnt het resultaat:
+                        <systemoutput>1050</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in cel <uicontrol>C6</uicontrol> de formule
+                    <userinput>=C3+C5</userinput>.</cmd>
+                <stepresult>In cel <uicontrol>C6</uicontrol> verschijnt het resultaat:
+                        <systemoutput>6050</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Experimenteer met andere getallen voor inkoop, winstpercentage en btw
+                    percentage.</cmd>
+                <stepresult>Merk op dat bij wijziging van de getallen alle formules automatisch
+                    opnieuw berekend worden.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_nesting" xml:lang="nl-NL">
+	<title>Taak: Geneste functies invoeren</title>
+	<shortdesc>Uitleg over wat een <term>geneste functie</term> is en hoe je deze via de wizard
+		invoert.</shortdesc>
+	<prolog>
+		<critdates>
+			<created date="2011-04-10"/>
+			<revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Functies<indexterm>nesten</indexterm><indexterm>AFRONDEN</indexterm><indexterm>ALS</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context><p>Wanneer voor een argument bij een functie weer een functie gebruikt wordt, dan
+				heet dat een <term>geneste functie</term>. Binnen de haakjes van een functie staat
+				dan opnieuw een functie. Een
+				voorbeeld:</p><codeph>=AFRONDEN.NAAR.BENEDEN(SOM(A1:A5);0)</codeph>
+			<p>Als oefening wordt deze <term>geneste functie</term> in een werkblad
+			ingevoerd.</p></context>
+		<steps>
+			<step>
+				<cmd>Begin met een nieuw werkblad en voer de gegevens in zoals in de afbeelding
+					hierna is weergegeven.</cmd>
+				<info>
+					<fig>
+                        <title>Invoer voor oefening geneste functie</title>
+                        <image keyref="Example_Nesting">
+                            <alt>Invoer voor oefening geneste functie</alt>
+                        </image>
+                    </fig>
+				</info>
+			</step>
+			<step>
+				<cmd>Selecteer cel <uicontrol>A6</uicontrol> en druk op de knop <uicontrol>Functie
+						invoegen</uicontrol> op de formulebalk.</cmd>
+			</step>
+			<step>
+				<cmd>Selecteer de categorie <option>Wiskunde en trigonometrie</option> en de functie
+						<option>AFRONDEN.NAAR.BENEDEN</option> en klik op
+					<uicontrol>OK</uicontrol>.</cmd>
+				<stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik nu in het werkblad op de keuzepijl in het naamvak.</cmd>
+				<info>
+					<fig>
+                        <title>Toevoegen van een nieuwe functie</title>
+                        <image keyref="Example_Nesting_Addfunction">
+                            <alt>Toevoegen van een nieuwe functie</alt>
+                        </image>
+                    </fig>
+				</info>
+				<stepresult>Er verschijnt een uitklapvenster met daarin de namen van de laatst
+					gebruikte functies en onderaan de vermelding <uicontrol>Meer
+						functies</uicontrol>.</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>Meer functies</uicontrol>.</cmd>
+				<stepresult>Het bekende dialoogvenster <wintitle>Functie invoegen</wintitle>
+					verschijnt.</stepresult>
+			</step>
+			<step>
+				<cmd>Selecteer categorie <option>Wiskunde en trigonometrie</option> en de functie
+						<option>SOM</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+					Bij het argument <varname>Getal1</varname> is reeds <userinput>A1:A5</userinput>
+					ingevuld. </stepresult>
+			</step>
+			<step>
+				<cmd>Klik <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>Er verschijnt nu een waarschuwingsvenster met de mededeling dat er te
+					weinig argumenten zijn ingevoerd. Dat klopt, want bij de functie
+						<varname>AFRONDEN.NAAR.BENEDEN</varname> moet ook verplicht het aantal
+					decimalen worden ingevoerd.</stepresult>
+			</step>
+			<step>
+				<cmd>Klik <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>De cursor knippert nu tussen de laatste twee sluithaakjes <q>) )</q>. Op deze plaats
+                    moet het lijstscheidingsymbool (puntkomma) en het tweede argument (het aantal
+                    decimalen) worden ingetypt. <fig>
+                        <title>Plaats voor het invoegen van argumenten</title>
+                        <image keyref="Example_Nesting_Rounddown">
+                            <alt>Plaats voor in het invoegen van argumenten</alt>
+                        </image>
+                    </fig></stepresult>
+			</step>
+			<step>
+				<cmd>Typ in <userinput>;0</userinput> en druk op <uicontrol>Enter</uicontrol>.</cmd>
+				<stepresult>In cel A6 verschijnt nu het antwoord
+					<systemoutput>16</systemoutput>.</stepresult>
+			</step>
+		</steps>
+	</taskbody>
+</task>

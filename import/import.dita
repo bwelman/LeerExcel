@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="import" xml:lang="nl-NL">
+    <title>Importeren van gegevens</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>In de praktijk komen veel gegevens uit externe bronnen: txt/csv, web, excel bestanden,
+            databases, ... Om deze gegevens in Excel te analyseren, moeten ze eerst geïmporteerd
+            worden en soms worden getransformeerd en geherstructureerd. Excel 2016 heeft de
+                <term>Power Query</term> technologie geïntegreerd onder de groep <uicontrol>Gegevens
+                ophalen en transformeren</uicontrol> in het lint <uicontrol>Gegevens</uicontrol>.
+            Met deze technologie kun je verbindingen maken met meerdere gegevensbronnen, die
+            gegevens structureren (bijvoorbeeld een kolom verwijderen, een gegevenstype wijzigen) of
+            de gegevens omzetten naar wat anders. En alle stappen worden verzameld in een query
+            script waarmee je een stap kunt wijzigen, opnieuw uitvoeren of ongedaan kunt maken. Met
+            dit script kun je het importeren van gegevens herhaalbaar opnieuw uitvoeren.</p>
+        <note type="notice">Deze functies zijn ook aanwezig in Microsoft Power BI en in de Power
+            Query Add-In voor eerdere versies van Excel.</note>
+    </conbody>
+</concept>

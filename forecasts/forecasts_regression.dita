@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_regression" xml:lang="nl-NL">
+ <title>Regressie</title>
+ <shortdesc/>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm/>
+      </keywords>
+    </metadata>
+  </prolog>
+ <conbody>
+  <p>Regressie is de samenhang, de correlatie tussen twee of meer variabelen. Bij eenvoudige
+      regressie zijn er twee variabelen:<ul id="ul_yy2_z44_fv">
+        <li>een onafhankelijke variabele (bij tijdreeksen is dit de tijd)</li>
+        <li>een afhankelijke variabele</li>
+      </ul></p>
+  <p>Het onderzoek naar de relatie en de mate van samenhang is wordt <term>regressie-analyse</term>
+            genoemd.</p>
+        <p>De mate van samenhang wordt aangegeven via de <term>correlatiecoëfficient</term> (R). Hoe
+            dichter de waarde van R bij +1 of -1 is, des te sterker de relatie. Wanneer er geen
+            relatie tussen twee variabelen bestaat is de waarde van R gelijk aan 0.</p>
+        <p>De analyse begint altijd met het maken van een X-Y grafiek. Daarna wordt geprobeerd om
+            een lijn te zoeken die zo goed mogelijk bij het patroon van de punten past. Deze lijn
+            wordt <term>regressielijn</term> (<term>trendlijn</term> in Excel) genoemd. De
+            wiskundige vergelijking van de lijn heet <term>regressievergelijking</term>. De
+            statistische methode om de regressievergelijking te bepalen staat bekend onder de naam
+                <term>kleinste-kwadratenmethode</term>.</p>
+        <p>Een paar voorbeelden:</p>
+     <fig>
+         <title>Stijgende lineaire trend</title>
+         <image keyref="lin_inc">
+             <alt>Stijgende lineaire trend</alt>
+         </image>
+     </fig>
+     <fig>
+         <title>Dalende lineaire trend</title>
+         <image keyref="lin_dec">
+             <alt>Dalende lineaire trend</alt>
+         </image>
+     </fig>
+     <fig>
+         <title>Stijgende exponentiële trend</title>
+         <image keyref="exp_inc">
+             <alt>Stijgende exponentiële trend</alt>
+         </image>
+     </fig>
+ </conbody>
+</concept>

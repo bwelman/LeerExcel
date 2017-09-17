@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="intro_document_save" xml:lang="nl-NL">
+    <title>Taak: Werkmap opslaan</title>
+    <shortdesc>Aanwijzingen hoe je een geopende werkmap kunt opslaan.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkmap<indexterm>opslaan</indexterm><indexterm>opslaan als</indexterm></indexterm>
+                <indexterm>Opslaan<indexterm>werkmap</indexterm></indexterm>
+                <indexterm>Opslaan als<indexterm>werkmap</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>De meest gebruikte methodes om een werkmap op te slaan zijn die via
+                    <uicontrol>Bestand</uicontrol> en via de <uicontrol>Werkbalk Snelle
+                    Toegang</uicontrol>. Wanneer je een bestaande werkmap opnieuw opslaat wordt de
+                vorige versie van de werkmap overschreven. Wanneer je een werkmap voor de eerste
+                keer gaat opslaan toont Excel het dialoogvenster <wintitle>Opslaan
+                als</wintitle>.</p></context>
+        <steps>
+            <step>
+                <cmd>Sla de werkmap op met een van de volgende methodes:</cmd>
+                <choices>
+                    <choice>Klik op de <menucascade>
+                            <uicontrol>Bestand</uicontrol>
+                            <uicontrol>Opslaan</uicontrol>
+                        </menucascade>.</choice>
+                    <choice>Klik op de knop <uicontrol>Opslaan</uicontrol> in de <wintitle>Werkbalk
+                            Snelle Toegang</wintitle>.</choice>
+                </choices>
+                <stepresult>Er kunnen zich nu twee situaties voordoen, afhankelijk van of de werkmap
+                    al eens een keer is opgeslagen en dus al bestaat.<ul>
+                        <li>Bij een reeds bestaande werkmap wordt de vorige versie van de werkmap
+                            overschreven. De hierna volgende stappen kunnen dan worden
+                            overgeslagen.</li>
+                        <li>Bij een nieuwe werkmap verschijnt het dialoogvenster <wintitle>Opslaan
+                                als</wintitle>. Er moet dan nog een stap worden uitgevoerd.</li>
+                    </ul></stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer de gewenste opslagplaats.</cmd>
+            </step>
+            <step>
+                <cmd>Typ in het vak <varname>Bestandsnaam</varname> de gewenste naam van het bestand
+                    in en klik op <uicontrol>Opslaan</uicontrol>.</cmd>
+                <info>
+                    <note type="tip"><p>Je hebt hier ook de mogelijkheid om het bestand in een ander formaat op te slaan. Selecteer
+                            daarvoor het gewenste bestandsformaat. <fig>
+                                <title>Keuze bestandsformaat</title>
+                                <image keyref="Saveas_Format_Choice">
+                                    <alt>Keuze bestandsformaat</alt>
+                                </image>
+                            </fig></p>
+                        <p>De mogelijkheden zijn:<fig>
+                                <title>Mogelijke bestandsformaten</title>
+                                <image keyref="Saveas_Formats">
+                                    <alt>Mogelijke bestandsformaten</alt>
+                                </image>
+                            </fig></p>
+                    </note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

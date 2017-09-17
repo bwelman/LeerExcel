@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="xls_matr_single" xml:lang="nl-NL">
+	<title>Taak: Eén resultaat berekenen</title>
+	<shortdesc>In dit onderdeel wordt uitgelegd hoe je één matrixformule kunt gebruiken in situaties
+	waar je anders meerdere formules voor nodig hebt.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>			
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context><p>Je kunt een matrixformule gebruiken wanneer je diverse berekeningen moet uitvoeren om één
+				resultaat te krijgen. Dit type matrixformule kan een werkblad vereenvoudigen doordat
+				meerdere formules worden vervangen door één matrixformule.</p>
+			<p>In het volgende voorbeeld is een aandelenportefeuille met koersen te zien. Om nu de
+				totale waarde van de aandelen bij een bepaalde koers te berekenen zou je normaliter
+				voor elk aandeel de waarde moeten berekenen en dan deze waardes optellen. Met een
+				matrixformule kan dit resultaat in één keer berekend worden.</p>
+			<fig>
+                <title>Koersen van aandelen</title>
+                <image keyref="Example_Shares">
+                    <alt>Koersen van aandelen</alt>
+                </image>
+            </fig>
+			<note type="other" othertype="Bestand"><filepath>Matrix3.xlsx</filepath></note>
+		</context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+			<step>
+				<cmd>Selecteer cel <uicontrol>C6</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Typ in als formule <userinput>=SOM(B2:B5*C2:C5)</userinput> en druk op <uicontrol>CTRL
+						SHIFT ENTER</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Herhaal de actie voor cel D6, de formule wordt nu
+					<userinput>=SOM(B2:B5*D2:D5)</userinput>.</cmd>
+				<stepresult>
+					<note type="tip">Door in de formule in C6 de eerste kolom van de matrix absoluut te maken, dus
+							<userinput>=SOM($B$2:$B$5*C2:C5)</userinput>, kun je de formule naar D6
+						kopieren.</note>
+				</stepresult>
+			</step>
+		</steps>
+		<example>
+			<title>Voorbeeld: gemiddeld cijfer</title>
+			<p>In dit voorbeeld wordt van leerlingen het gewogen gemiddelde van vier toetsen met een
+				matrixformule berekend. De formule is geschikt om gekopieerd te worden. Maak dit
+				voorbeeld na.</p>		
+			<fig>
+                <title>Gewogen gemiddeldes</title>
+                <image keyref="Example_Marks">
+                    <alt>Gewogen gemiddeldes</alt>
+                </image>
+            </fig>
+			<note type="other" othertype="Bestand"><filepath>Matrix4.xlsx</filepath></note>
+		</example>	
+	</taskbody>
+</task>

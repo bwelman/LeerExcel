@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_function" xml:lang="nl-NL">
+    <title>Keys Functions</title>
+	    <keydef keys="Button_Autosum" href="images/button_autosum.png" format="png"/>
+    <keydef keys="Button_Function_Insert" href="images/button_function_insert.png" format="png"/>
+    <keydef keys="Example_Annuity" href="images/example_annuity.png" format="png"/>
+    <keydef keys="Example_Annuity_Arguments" href="images/example_annuity_arguments.png" format="png"/>
+    <keydef keys="Example_Autosum" href="images/example_autosum.png" format="png"/>
+    <keydef keys="Example_Countif" href="images/example_countif.png" format="png"/>
+    <keydef keys="Example_Countif_Result" href="images/example_countif_result.png" format="png"/> 
+    <keydef keys="Example_Datetime" href="images/example_datetime.png" format="png"/>
+    <keydef keys="Example_Datetime_Startdate" href="images/example_datetime_startdate.png" format="png"/>
+    <keydef keys="Example_Datetime_Enddate" href="images/example_datetime_enddate.png" format="png"/>
+    <keydef keys="Example_Datetime_Networkdays" href="images/example_datetime_networkdays.png" format="png"/>
+    <keydef keys="Example_Datetime_Result" href="images/example_datetime_result.png" format="png"/>
+    <keydef keys="Example_Hlookup" href="images/example_hlookup.png" format="png"/>
+    <keydef keys="Example_Hlookup_Result" href="images/example_hlookup_result.png" format="png"/>
+    <keydef keys="Example_Logical" href="images/example_logical.png" format="png"/>
+    <keydef keys="Example_Logical_If" href="images/example_logical_if.png" format="png"/>
+    <keydef keys="Example_Logical_Result" href="images/example_logical_result.png" format="png"/>
+    <keydef keys="Example_Nesting" href="images/example_nesting.png" format="png"/>
+    <keydef keys="Example_Nesting_Addfunction" href="images/example_nesting_addfunction.png" format="png"/>
+    <keydef keys="Example_Nesting_Rounddown" href="images/example_nesting_rounddown.png" format="png"/>
+    <keydef keys="Example_Nper" href="images/example_nper.png" format="png"/>
+    <keydef keys="Example_Nper_Arguments" href="images/example_nper_arguments.png" format="png"/>
+    <keydef keys="Example_Rounding" href="images/example_rounding.png" format="png"/>
+    <keydef keys="Example_Statistical" href="images/example_statistical.png" format="png"/>
+    <keydef keys="Example_Statistical_Average" href="images/example_statistical_average.png" format="png"/>
+    <keydef keys="Example_Sumif_Arguments" href="images/example_sumif_arguments.png" format="png"/>
+    <keydef keys="Example_Sumif_Result" href="images/example_sumif_result.png" format="png"/>
+    <keydef keys="Example_Text_Left" href="images/example_text_left.png" format="png"/>
+    <keydef keys="Example_Text_Result" href="images/example_text_result.png" format="png"/>
+    <keydef keys="Example_Text_Right" href="images/example_text_right.png" format="png"/>    
+    <keydef keys="Example_Text_Search" href="images/example_text_search.png" format="png"/>
+    <keydef keys="Example_Vlookup" href="images/example_vlookup.png" format="png"/>
+    <keydef keys="Example_Vlookup_Result" href="images/example_vlookup_result.png" format="png"/>
+    <keydef keys="Function_Countif" href="images/function_countif.png" format="png"/>
+    <keydef keys="Function_Insert" href="images/function_insert.png" format="png"/>
+    <keydef keys="Function_Syntax" href="images/function_syntax.png" format="png"/>
+</map>

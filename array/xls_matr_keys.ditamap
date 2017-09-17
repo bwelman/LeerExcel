@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Keys onderdeel matrixformules</title>
+    <keydef keys="matrix_voorbeelden" href="images/xls_matr_voorbeelden.png" format="png" navtitle="matrix_voorbeelden"/>
+    <keydef keys="matr_somproduct_result" href="images/xls_matr_somproduct_result.png" format="png" navtitle="matrix som en product"/>
+    <keydef keys="matr_som_result" href="images/xls_matr_som_result.png" format="png" navtitle="matrix som result"/>
+    <keydef keys="matr_product_result" href="images/xls_matr_product_result.png" format="png" navtitle="matrix product result"/>
+    <keydef keys="matr_1dim_hor" href="images/xls_matr_1dim_hor.png" format="png" navtitle="matrix 1-dimensionaal horizontaal"/>
+    <keydef keys="matr_2dim" href="images/xls_matr_2dim.png" format="png" navtitle="matrix 2-dimensionaal"/>
+    <keydef keys="matr_aandelen" href="images/xls_matr_aandelen.png" format="png" navtitle="aandelen koersen"/>
+    <keydef keys="matr_gewogen_gemiddeldes" href="images/xls_matr_gewogen_gemiddeldes.png" format="png" navtitle="gewogen gemiddeldes"/>
+    <keydef keys="matr_student_lengte" href="images/xls_matr_student_lengte.png" format="png" navtitle="student lengte"/>
+</map>

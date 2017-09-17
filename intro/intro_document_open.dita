@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="intro_document_open" xml:lang="nl-NL">
+    <title>Taak: Werkmap openen</title>
+    <shortdesc>Aanwijzingen hoe je een bestaand Excelbestand, een werkmap, kunt openen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkmappen<indexterm>openen</indexterm></indexterm>
+                <indexterm>Openen<indexterm>werkmappen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq>Om deze taak uit te kunnen voeren moeten de hulpbestanden op je computer of een USB
+            stick staan.</prereq>
+        <context><p>Veel gebruikte methodes om een reeds bestaande werkmap, een Excel bestand, te
+            openen zijn:<ul>
+                <li>Dubbelklikken op een Excelbestand in de Windows verkenner.</li>
+                <li>In het opstartscherm van Excel kiezen voor <uicontrol>Openen</uicontrol>.</li>
+                <li>In Excel klikken op <uicontrol>Bestand</uicontrol>.</li>
+            </ul></p><p>Bij de eerste methode wordt het bestand direct in een Excel
+                programmavenster geopend.</p>
+            <p>Bij de andere twee methodes krijg je het dialoogscherm <wintitle>Openen</wintitle><fig>
+                <title>Dialoogscherm Openen</title>
+                <image keyref="Workbook_Open">
+                    <alt>Dialoogscherm Openen</alt>
+                </image>
+            </fig></p>
+            <p>Wanneer je hierin kiest voor <uicontrol>Deze pc</uicontrol> of
+                    <uicontrol>Bladeren</uicontrol>kun je naar het te openen bestand op de computer
+                bladeren. Bij het bladeren naar een bestand heb je ook de keuze om naar andere
+                bestandsformaten dan die van Excel te zoeken. Je moet dan in het bladerscherm
+                klikken op de keuzepijl bij de bestandsformaten: <fig>
+                    <title>Keuze bestandsformaat</title>
+                    <image keyref="Fileformat_Choice">
+                        <alt>Keuze bestandsformaat</alt>
+                    </image>
+                </fig></p></context>
+        <steps>
+            <step>
+                <cmd>Start indien nodig Excel op.</cmd>
+            </step>
+            <step>
+                <cmd>Zoek het hulpbestand <filepath>Weatherleather.xlsx</filepath> op en open dit
+                    bestand.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

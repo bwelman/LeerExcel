@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="pivots_filters_slicers" xml:lang="nl-NL">
+    <title>Taak: Filters, slicers en tijdlijnen</title>
+    <shortdesc>Het</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Draaitabel<indexterm>filter</indexterm><indexterm>slicer</indexterm><indexterm>tijdlijn</indexterm></indexterm>
+                <indexterm>Filter</indexterm>
+                <indexterm>Slicer</indexterm>
+                <indexterm>Tijdlijn</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Om de gegevens in een draaitabel te filteren kun je een veld hiervoor in het
+                taakvenster specificeren. Maar wanneer je op meerdere items filtert, dan kun je niet
+                gemakkelijk zien waarop je filtert.</p>
+            <p>Een gebruikersvriendelijker manier is om slicers te gebruiken. Deze bevatten een
+                aantal knoppen waarmee je snel de gegevens in een draaitabel filtert. Normaal wordt
+                een slicer in een draaitabel gemaakt en is gekoppeld aan deze draaitabel. En alleen
+                voor het filteren van tijdgegevens kun je ook nog tijdlijnen gebruiken, welke
+                identiek zijn aan slicers. Het gebruik van slicers en tijdlijnen zie je veel in
+                zogenaamde <term>dashboards</term> omdat je deze aan meerdere draaitabellen en
+                draaigrafieken kunt koppelen.</p>
+            <p>Deze taak gebruikt hetzelfde hulpbestand als <xref
+                    href="pivots_creating.dita#pivots_creating"/> welke de maandelijkse
+                verkoopgegevens in 2016 bevat van sommige producten, welke in drie productgroepen
+                zijn ondergebracht: agf (aardappelen, groente en fruit), vlees en zuivel.</p>
+            <note type="other" othertype="File"><filepath>Supermarket.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Draaitabel (groep Tabellen)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Draaitabel maken</wintitle> verschijnt. Hierin
+                        is het <userinput>Bereik</userinput> reeds ingevuld.</p>
+                    <fig>
+                        <title>Gegevens voor draaitabel supermarkt</title>
+                        <image keyref="supermarket_pivot_create">
+                            <alt>Gegevens voor draaitabel supermarkt</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>In deze taak moet de draaitabel op een nieuw werkblad verschijnen. Dus
+                    accepteer de standaardlokatie en klik op <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Sleep in het taakvenster veld <varname>productcategorie</varname> naar
+                        <uicontrol>Kolommen</uicontrol> en veld <varname>omzet</varname> naar
+                        <uicontrol>Waarden</uicontrol>. Dan sleep veld <varname>datum</varname> naar
+                        <uicontrol>Rijen</uicontrol>.</cmd>
+                <stepresult>
+                    <p>De automatische tijdgroepering van Excel voegt het berekend veld
+                            <varname>Maanden</varname> toe aan de <uicontrol>Rijen</uicontrol>. Er
+                        worden geen andere velden zoals kwartalen en jaren toegevoegd, omdat alle
+                        datums alleen de laatste dag van de maand in één jaar zijn.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Sleep veld <varname>datum</varname> uit <uicontrol>Rijen</uicontrol>. Alleen
+                    veld <varname>Maanden</varname> moet blijven.</cmd>
+            </step>
+            <stepsection>Onderdeel rapportfilters</stepsection>
+            <step>
+                <cmd>Sleep veld <varname>plaats</varname> naar het
+                    vak<uicontrol>Filters</uicontrol>.</cmd>
+                <stepresult>
+                    <p>De draaitabel vertoont nu een rapportfilter: <image
+                            keyref="supermarket_reportfilter_all"/></p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de keuzepijl en selecteer <option>Amsterdam</option>.</cmd>
+                <stepresult>
+                    <p>Alleen de gegevens voor Amsterdam worden nu getoond en het filter laat ook
+                        zien dat Amsterdam geselecteerd is. <image
+                            keyref="supermarket_reportfilter_amsterdam"/></p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de keuzepijl, vink aan <uicontrol>Meerdere items selecteren</uicontrol>
+                    en selecteer dan <option>Amsterdam</option> en <option>Rotterdam</option>.</cmd>
+                <stepresult>
+                    <p>De gegevens voor beide plaatsen worden nu weergegeven. Helaas geeft het
+                        filter nu alleen maar aan dat er meerdere items geselecteerd zijn, maar niet
+                        welke items: <image keyref="supermarket_reportfilter_multiple"/></p>
+                    <p>Om te zien welke items dat zijn moet je op de keuzepijl klikken. Voor dit
+                        scenario zijn slicers een beter alternatief.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de keuzepijl en selecteer de optie <option>(Alle)</option>.</cmd>
+            </step>
+            <step>
+                <cmd>Sleep veld <varname>plaats</varname> uit het vak
+                    <uicontrol>Filters</uicontrol>.</cmd>
+            </step>
+            <stepsection>Onderdeel slicers</stepsection>
+            <step>
+                <cmd>Klik met de rechtermuisknop op <varname>plaats</varname> in de lijst met
+                    draaitabelvelden en kies <option>Toevoegen als slicer</option>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Toevoegen als slicer</title>
+                        <image keyref="supermarket_slicer_town_add">
+                            <alt>Veld plaats toevoegen als slicer</alt>
+                        </image>
+                    </fig>
+                    <p>En op het werkblad wordt een slicer gemaakt.</p>
+                    <fig>
+                        <title>Slicer plaats</title>
+                        <image keyref="supermarket_slicer_town">
+                            <alt>Slicer plaats</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Experimenteer met de slicer door items te kiezen. Je kunt meerdere items
+                    selecteren met behulp van de <uicontrol>Ctrl</uicontrol> toets of via de knop
+                        <image keyref="slicer_button_multiple-items">
+                        <alt>Knop meervoudige selectie</alt>
+                    </image>. Wissen van het filter kan met de knop <image
+                        keyref="slicer_button_clear-filter">
+                        <alt>Knop filter wissen</alt>
+                    </image></cmd>
+            </step>
+            <stepsection>Een andere manier om slicers te maken is via het menu. Je kunt dan meerdere
+                slicers tegelijk maken.</stepsection>
+            <step>
+                <cmd>Klik ergens in het draaitabelrapport en kies <menucascade>
+                        <uicontrol>tab Analyseren</uicontrol>
+                        <uicontrol>Slicer invoegen (groep Filter)</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>Dialoogvenster slicers invoegen<fig>
+                        <image keyref="slicer_insert_dialogbox">
+                            <alt>Dialoogvenster slicers invoegen</alt>
+                        </image>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Select <varname>Maanden</varname> and click <uicontrol>OK</uicontrol>.</cmd>
+                <info>Via het lint <uicontrol>Opties (Hulpmiddelen voor slicers)</uicontrol> kun je
+                    de opmaak van een slicer wijzigen, zoals stijl, kleur, ...</info>
+            </step>
+            <step>
+                <cmd>Filter de gegevens met de slicers voor de eerste drie maanden van
+                    Utrecht.</cmd>
+            </step>
+            <step>
+                <cmd>Wis alle filters. Selecteer slicer <wintitle>Maanden</wintitle> en druk op de
+                    knop <uicontrol>Delete</uicontrol> op het toetsenbord.</cmd>
+            </step>
+            <stepsection>Een tijdlijn is net als een slicer. Met een tijdlijn kun je filteren op
+                datum/tijd velden.</stepsection>
+            <step>
+                <cmd>Klik ergens in het draaitabelrapport en kies <menucascade>
+                        <uicontrol>tab Analyseren</uicontrol>
+                        <uicontrol>Tijdlijn invoegen (groep Filter)</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>Het dialoogvenster Tijdlijn invoegen verschijnt met alleen het veld
+                        <varname>date</varname>.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <varname>datum</varname> en klik <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Tijdlijn maanden</title>
+                        <image keyref="supermarket_timeline_months">
+                            <alt>Tijdlijn maanden</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer een paar maanden en bekijk de resultaten.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de keuzepijl rechtsboven voor de tijdsperiode en selecteer
+                    Kwartalen.</cmd>
+                <tutorialinfo>
+                    <fig>
+                        <title>Keuze tijdsperiode bij een tijdlijn</title>
+                        <image keyref="timeline_period_selector">
+                            <alt>Keuze tijdsperiode bij een tijdlijn</alt>
+                        </image>
+                    </fig>
+                </tutorialinfo>
+                <stepresult>
+                    <fig>
+                        <title>Tijdlijn met kwartalen</title>
+                        <image keyref="supermarket_timeline_quarters">
+                            <alt>Tijdlijn met kwartalen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer een paar kwartalen en bekijk de resultaten.</cmd>
+            </step>
+            <step>
+                <cmd>Wis alle filters.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

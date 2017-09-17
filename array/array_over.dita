@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_matr_over" xml:lang="nl-NL">
+    <title>Wat zijn matrixformules</title>
+    <shortdesc>Een korte beschrijving van wat een matrix en een matrixformule is zijn en waar je
+        deze voor kunt gebruiken.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Matrixformule</indexterm>
+                <indexterm>CSE formule</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een matrixformule heeft een matrix als argument in plaats van een celwaarde. Een
+            matrixformule kun je zien als een aantal formules die verpakt zijn in een soort
+            superformule.</p>
+        <p>Een matrix is in Excel een verzameling gegevens. Deze gegevens kunnen zich in één rij
+            (een 1 dimensionale horizontale matrix), in één kolom (een 1 dimensionale verticale
+            matrix) of in meerdere rijen en kolommen (een 2 dimensionale matrix) bevinden. <fig>
+                <title>Matrix voorbeelden</title>
+                <image keyref="Array_Examples">
+                    <alt>Matrix voorbeelden</alt>
+                </image>
+            </fig></p>
+        <p>Een matrixformule is een formule waarmee je meerdere berekeningen kunt uitvoeren voor een
+            of meer gegevens in een matrix. Matrixformules zijn formules die meerdere resultaten als
+            uitkomst kunnen geven. Het resultaat is dan een rij met waarden, een kolom met waarden
+            of een tabel met waarden. Om matrixformules te gebruiken moet je van tevoren bedenken
+            hoeveel uitkomsten er zijn en hoe deze uitkomsten zijn gerangschikt (één cel, rij,
+            kolom, tabel).</p>
+        <p>Matrixformules worden ook wel <varname>CSE-formules</varname> genoemd omdat je op
+                <uicontrol>CTRL+SHIFT+ENTER</uicontrol> moet drukken om deze in te voeren. Na het
+            invoeren verschijnen er automatisch accolades om de formule.</p>
+        <note type="attention">
+            <p>Matrixformules zijn te herkennen aan de accolades om de formule. Deze accolades moet
+                je nooit intypen, ze worden automatisch door Excel geplaatst.</p>
+        </note>
+        <!-- Eventueel toevoegen of nieuwe topic over matrix constanten	-->
+    </conbody>
+</concept>

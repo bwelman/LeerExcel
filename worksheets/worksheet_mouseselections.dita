@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="worksheet_mouseselections" xml:lang="nl-NL">
+    <title>Selecteren met de muis</title>
+    <shortdesc>Een overzicht van de mogelijkheden om cellen met de muis te selecteren.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Muis<indexterm>selecties</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het komt heel veel voor dat een opdracht op een aantal cellen tegelijk moet worden
+            uitgevoerd. Bijvoorbeeld wanneer je de tekst in een aantal cellen wilt centreren, of het
+            lettertype in deze cellen wilt veranderen. Het is daarom erg belangrijk dat je routine
+            krijgt in het selecteren van meerdere cellen tegelijk. In de tabel hierna zie je de
+            meest gebruikte selecties.</p>
+        <simpletable>
+            <sthead>
+                <stentry>gewenste selectie</stentry>
+                <stentry>methode</stentry>
+            </sthead>
+            <strow>
+                <stentry>enkele cel</stentry>
+                <stentry>Klik op de betreffende cel.</stentry>
+            </strow>
+            <strow>
+                <stentry>aaneensluitende reeks cellen</stentry>
+                <stentry>Klik op de eerste cel en sleep dan tot de laatste cel.</stentry>
+            </strow>
+            <strow>
+                <stentry>een kolom</stentry>
+                <stentry>Klik op de kolomletter.</stentry>
+            </strow>
+            <strow>
+                <stentry>reeks aaneensluitende kolommen</stentry>
+                <stentry>Klik op de eerste kolomletter en sleep tot de laatste
+                    kolomletter.</stentry>
+            </strow>
+            <strow>
+                <stentry>een rij</stentry>
+                <stentry>Klik op de rijnummer.</stentry>
+            </strow>
+            <strow>
+                <stentry>reeks aaneensluitende rijen</stentry>
+                <stentry>Klik op de eerste rijnummer en sleep tot de laatste rijnummer.</stentry>
+            </strow>
+            <strow>
+                <stentry>alle cellen in werkblad</stentry>
+                <stentry>Klik op het knopje boven rijnummer 1 en links van kolom letter A: <image
+                        keyref="Worksheet_Select">
+                        <alt>Gehele werkblad selecteren</alt>
+                    </image><note type="tip">Sneltoets CTRL A</note></stentry>
+            </strow>
+        </simpletable>
+        <p>Bij het selecteren kun je ook gebruik maken van de <uicontrol>SHIFT toets</uicontrol> of
+            de <uicontrol>CTRL toets</uicontrol>, met de volgende effecten:</p>
+        <dl>
+            <dlentry>
+                <dt>SHIFT toets</dt>
+                <dd>Hiermee kun je een aaneensluitend gebied selecteren.<ul>
+                        <li>Voor een rechthoekig gebied met cellen klik je op een van de cellen in
+                            de hoekpunten, dan <uicontrol>SHIFT toets</uicontrol> indrukken en
+                            ingedrukt houden, klik dan op de cel in het hoekpunt diagonaal daar
+                            tegenover.</li>
+                        <li>Voor een reeks aaneensluitende kolommen selecteer je de eerste kolom,
+                            houd de <uicontrol>SHIFT toets</uicontrol> ingedrukt en selecteer de
+                            laatste kolom.</li>
+                        <li>Voor een reeks aaneensluitende rijen selecteer je de eerste rij, houd
+                                de<uicontrol>SHIFT toets</uicontrol> ingedrukt en selecteer de
+                            laatste rij.</li>
+                    </ul></dd>
+            </dlentry>
+            <dlentry>
+                <dt>CTRL toets</dt>
+                <dd>Hiermee kun je los van elkaar staande gebieden selecteren. Selecteer de eerste
+                    cel, kolom, rij of gebied, houd de <uicontrol>CTRL toets</uicontrol> ingedrukt
+                    en selecteer de andere cellen, kolommen, rijen of gebieden.</dd>
+            </dlentry>
+        </dl>
+        <note type="attention"><ul>
+                <li>Let er op dat je alleen maar kunt selecteren wanneer de muiscursor de vorm van
+                    een kruis heeft: <image keyref="Mouse_Pointer_Cross">
+                        <alt>Muiscursor vorm kruis</alt>
+                    </image>.</li>
+                <li>Een geselecteerde gebied heeft een gekleurde achtergrond behalve de cel waar je
+                    begonnen bent met de selectie. Deze cel is de <term>actieve cel</term> en heeft
+                    een witte achtergrond.</li>
+            </ul>
+        </note>
+        <note type="tip">Wanneer de sleeprichting van boven naar beneden of van links naar rechts
+            is, wil het nog wel eens voorkomen dat je voorbij de laatste cel schiet. Het is dan
+            handiger om in de omgekeerde richting te slepen.</note>
+        <section>
+            <title>Aanduiding van een gebied</title>
+            <p>Om een aaneensluitend gebied aan te duiden worden de celadressen gebruikt. Een paar
+                voorbeelden:</p>
+            <ul>
+                <li><uicontrol>A2: C7</uicontrol> is een rechthoek cellen van A2 tot en met C7. Voor
+                    het adres van een gebied noem je altijd eerst het adres van de linkerbovenhoek,
+                    dan een dubbele punt en dan het adres van de rechteronderhoek.</li>
+                <li><uicontrol>B:E</uicontrol> zijn de kolommen B tot en met E.</li>
+                <li><uicontrol>3:9</uicontrol> zijn de rijen 3 tot en met 9.</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

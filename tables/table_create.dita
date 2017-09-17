@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_create" xml:lang="nl-NL">
+    <title>Taak: Bereik omzetten naar Tabel</title>
+    <shortdesc>Hoe je een bereik omzet naar een tabel</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Table<indexterm>create</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <note type="other" othertype="Bestand"><filepath>Bonbondozen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd><menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Tabel</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Tabel maken</wintitle> verschijnt. Hierin is het
+                        adres van het om te zetten bereik al ingevuld.</p>
+                    <fig>
+                        <title>Table maken</title>
+                        <image keyref="candybox_table_create"/>
+                    </fig>
+                    <note type="important">Wanneer het bereik labels bevat die je als kopteksten
+                        wilt gebruiken, dan moet de optie <option>Mijn tabel bevat
+                            kopteksten</option> aanvinken. Wanneer er geen labels zijn dan moet je
+                        deze optie uitvinken. Excel voegt dan automatisch koppen aan alle kolommen
+                        toe met de algemene namen Kolom1, Kolom2, …</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Table maken</title>
+                <image keyref="candybox_table"/>
+            </fig>
+            <p>Het bereik is nu omgezet naar een tabel:<ul>
+                    <li>Een tabelopmaak (stijl) is toegepast.</li>
+                    <li>Filter/Sorteer-knoppen in elke kolomkop.</li>
+                    <li>De tab <uicontrol>Ontwerpen (Hulpmiddelen voor tabellen)</uicontrol> is
+                        verschenen.</li>
+                </ul></p>
+            <fig>
+                <title>Ontwerp lint</title>
+                <image keyref="ribbon_table_design">
+                    <alt>Ontwerp lint</alt>
+                </image>
+                <note type="notice">Afhankelijk van de breedte van het scherm kan het ook zijn dat
+                    je een aantal stijlen ziet in plaats van de knop Snelle Stijlen (groep
+                    Tabelstijlen)</note>
+            </fig>
+        </result>
+    </taskbody>
+</task>

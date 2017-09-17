@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_math" xml:lang="nl-NL">
+    <title>Taak: Wiskundige functies</title>
+    <shortdesc>Een globale beschrijving van de categorie <term>wiskundige functie</term> met een
+        oefening in het afronden van getallen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>wiskundige</indexterm><indexterm>AFRONDEN</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>De categorie met wiskundige functie is vrij uitgebreid. Naast de bekende functie SOM
+                voor het optellen van getallen, zitten hierin allerlei functies voor diverse
+                rekenwerkzaamheden, zoals machtsverheffen, worteltrekken, berekening van PI,
+                logaritmes, enz. Verder tref je veel goniometrische functies aan. Allemaal functies
+                voor specifieke toepassingen dus.</p>
+            <p>Algemenere functies zijn die voor het afronden van getallen. Excel kent maar liefst
+                dertien functies hiervoor en het kan dus nogal verwarrend zijn om te bepalen welke
+                functie je in een bepaalde situatie moet gebruiken. Zo is er de functie AFRONDEN
+                waarmee je op een bepaald aantal decimalen kunt afronden. Maar er zijn ook functies
+                voor afronden op bepaalde veelvouden, of afronden op gehele waarden.</p>
+            <p>In de volgende afbeelding zijn de resultaten te zien van een een aantal
+                afrondfuncties.</p>
+            <fig>
+                <title>Voorbeelden van afronden</title>
+                <image keyref="Example_Rounding">
+                    <alt>Voorbeelden van afronden</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Afronden.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Voer in de cellen B3:B9 met de formule wizard de formules in zoals die in de
+                    volgende tabel staan weergegeven.</cmd>
+                <info>
+                    <simpletable frame="all">
+                        <sthead>
+                            <stentry>Cel</stentry>
+                            <stentry>Formule</stentry>
+                        </sthead>
+                        <strow>
+                            <stentry>B3</stentry>
+                            <stentry><codeph>=AFRONDEN(B1;0)</codeph></stentry>
+                        </strow>
+                        <strow>
+                            <stentry>B4</stentry>
+                            <stentry><codeph>=AFRONDEN(B1;1)</codeph></stentry>
+                        </strow>
+                        <strow>
+                            <stentry>B5</stentry>
+                            <stentry><codeph>=AFRONDEN(B1;2)</codeph></stentry>
+                        </strow>
+                        <strow>
+                            <stentry>B6</stentry>
+                            <stentry><codeph>=AFRONDEN.NAAR.BENEDEN(B1;1)</codeph></stentry>
+                        </strow>
+                        <strow>
+                            <stentry>B7</stentry>
+                            <stentry><codeph>=AFRONDEN.NAAR.BOVEN(B1;2)</codeph></stentry>
+                        </strow>
+                        <strow>
+                            <stentry>B8</stentry>
+                            <stentry><codeph>=AFRONDEN.N.VEELVOUD(B1;5)</codeph></stentry>
+                        </strow>
+                        <strow>
+                            <stentry>B9</stentry>
+                            <stentry><codeph>=AFRONDEN.N.VEELVOUD(B1;10)</codeph></stentry>
+                        </strow>
+                    </simpletable>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

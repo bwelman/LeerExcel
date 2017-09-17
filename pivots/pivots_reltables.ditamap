@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Relation Tables Pivots</title>
+ <reltable>
+  <title>Links</title>
+  <relheader>
+   <relcolspec type="topic"  linking="sourceonly"/>
+   <relcolspec type="concept" linking="targetonly"/>
+   <relcolspec type="task" linking="targetonly"/>
+   <relcolspec type="reference" linking="targetonly"/>
+   <relcolspec linking="targetonly"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="pivots_creating.dita" type="task"/>
+   </relcell>
+   <relcell/>
+   <relcell/>   
+   <relcell>
+    <topicref href="pivots_options.dita" type="reference"/>
+   </relcell>
+   <relcell/>
+  </relrow>
+ </reltable>
+</map>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="macro_recording" xml:lang="nl-NL">
+  <title>Macro's opnemen</title>
+  <shortdesc>Beschrijving van het dialoogvenster <wintitle>Macro opnemen</wintitle>.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Macro<indexterm>dialoogvenster
+            opnemen</indexterm><indexterm>eigenschappen</indexterm><indexterm>sneltoets</indexterm><indexterm>naamgeving</indexterm><indexterm>opslagplaats</indexterm><indexterm>opnemen</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>De knop waarmee je het opnemen van macro's kunt starten zit op de <uicontrol>tab
+        Ontwikkelaars</uicontrol>. Wanneer je deze tab niet ziet moet je deze eerst zichtbaar maken.
+      Zie hiervoor de taak Tab Ontwikkelaars.</p>
+    <p>Op de tab ontwikkelaars zit in de <uicontrol>groep Programmacode</uicontrol> een knop
+        <uicontrol>Macro opnemen</uicontrol>. Wanneer op deze knop geklikt wordt om de opname van
+      een macro te starten verschijnt eerst een dialoogvenster waarin een aantal eigenschappen van
+      de macro kunnen worden ingevuld.</p>
+    <fig>
+            <title>Dialoogvenster <wintitle>Macro opnemen</wintitle></title>
+            <image keyref="record_macro_dialogbox">
+                <alt>Dialoogvenster macro opnemen</alt>
+            </image>
+        </fig>
+    <dl>
+      <dlentry>
+        <dt>Macronaam</dt>
+        <dd>Elke macro moet verplicht een naam hebben. Standaard vult Excel hiervoor in de tekst
+            <q>Macro</q> gevolgd door een cijfer. Deze naam kun je wijzigen door hiervoor een andere
+          naam in te typen. Het eerste teken van de macronaam moet verplicht een letter zijn. Daarna
+          kun je andere tekens gebruiken zoals letters, cijfers of het onderstrepingsteken. Spaties
+          zijn in een macronaam niet toegestaan. Geef macro's altijd passende namen waaruit blijkt
+          wat de macro gaat doen. Het onderstrepingsteken kan als scheidingsteken tussen woorden
+          gebruikt worden.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Sneltoets</dt>
+        <dd>Macros kun je starten via het menu, maar desgewenst ook via zogenaamde sneltoetsen. Dit
+          zijn toetscombinaties van de <uicontrol>CTRL</uicontrol> toets gecomineerd met een
+          lettertoets. Wanneer je aan de macro een sneltoets wilt toewijzen dan kun je de te
+          gebruiken letter in het vak typen. Zet je daar bijvoorbeeld de letter A in, dan is de
+          toetscombinatie <uicontrol>CTRL A</uicontrol> de sneltoets waarmee je de macro kunt
+          starten. Het is niet verplicht om aan een macro een sneltoets toe te wijzen, maar voor
+          veel gebruikte macro's kan dit erg handig zijn.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Macro opslaan in</dt>
+        <dd>De plekken waar de macro kan worden opgeslagen zijn:<ul>
+            <li>Deze werkmap</li>
+            <li>Nieuwe werkmap</li>
+            <li>Persoonlijke Macrowerkmap.</li>
+          </ul>Het is wel belangrijk om hier van te voren goed over na te denken. Wanneer de macro
+          alleen in de actieve werkmap gebruikt gaat worden, dan kies je voor <option>Deze
+            werkmap</option>. Moet de macro ook in andere werkmappen gebruikt worden, dus eigenlijk
+          altijd beschikbaar zijn, dan is de <option>Persoonlijke Macrowerkmap</option> de beste
+          keuze. Je moet de opslagplek altijd specificeren. De standaardwaarde is <option>Deze
+            werkmap</option>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Beschrijving</dt>
+        <dd>Het is aan te bevelen om een korte beschrijving te geven van wat de macro doet. Bij het
+          maken van de macro weet je dit, maar enige tijd later ben je het misschien vergeten. Het
+          is niet verplicht om een beschrijving op te geven.</dd>
+      </dlentry>
+    </dl>
+    <note type="notice">Alle gemaakte keuzes kunnen in een later stadium altijd gewijzigd
+      worden.</note>
+    <note type="attention">Wanneer je een werkmap met macro's wilt opslaan, dan wil Excel deze
+      standaard opslaan als een Excel-werkmap met de extensie <filepath>*.xlsx</filepath>. Echter in
+      dit formaat kunnen geen macro's worden opgeslagen. Je moet dit zelf wijzigen in een
+      Excel-werkmap met macro's met de extensie <filepath>*.xlsm</filepath>.</note>
+  </conbody>
+</concept>

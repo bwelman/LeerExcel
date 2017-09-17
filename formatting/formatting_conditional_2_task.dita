@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="formatting_conditional_2_task" xml:lang="nl-NL">
+    <title>Taak: Opmaak met 2 voorwaarden</title>
+    <shortdesc>Een oefening waarin de achtergrondkleur afhangt van 2 voorwaarden.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Voorwaardelijke opmaak<indexterm>beheren</indexterm></indexterm>
+                <indexterm>Opmaak<indexterm>voorwaardelijk met 2 voorwaarden</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In een spreadsheet wordt de gerealiseerde omzet van de verkopers bijgehouden alsmede de omzet
+                die gehaald moet worden. Sommigen hebben de doelstellingen niet gehaald. De opdracht
+                is om de gerealiseerde omzet van de volgende achtergrondkleur te voorzien:
+                <term>groen</term> wanneer de doelstelling behaald is, <term>rood</term> wanneer
+                de doelstelling niet behaald is.</p>
+            <note type="other" othertype="Bestand"><filepath>Verkopen_kw1.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer alle cellen met de behaalde omzet.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Voorwaardelijke opmaak (Groep Stijlen)</uicontrol>
+                        <uicontrol>Regels beheren</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Regels voorwaardelijke opmaak
+                                beheren</wintitle></title>
+                        <image keyref="Format_Conditional_Rules_Manage">
+                            <alt>Dialoogvenster voor beheer voorwaardelijke opmaak regels</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Nieuwe regel</uicontrol>.</cmd>
+                <stepresult>Het dialoogvenster <wintitle>Nieuwe opmaakregel</wintitle>
+                    verschijnt.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <uicontrol>Alleen cellen opmaken met</uicontrol>, specificeer dan
+                    <userinput>Celwaarde kleiner dan =B2</userinput> en kies een <userinput>rode
+                        kleur</userinput> bij <uicontrol>Opmaak</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Nieuwe opmaakregel</wintitle></title>
+                        <image keyref="Format_Conditional_Rules_New">
+                            <alt>Dialoogvenster nieuwe opmaakregel</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>Het dialoogvenster <uicontrol>Regels voorwaardelijke opmaak
+                    beheren</uicontrol> verschijnt weer.</stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Nieuwe Regel</uicontrol> en maak op dezelfde manier een nieuwe regel met
+                    de volgende instellingen:</cmd>
+                <stepresult><fig>
+                        <title>De tweede regel</title>
+                        <image keyref="Format_Conditional_Greater">
+                            <alt>De tweede regel</alt>
+                        </image>
+                    </fig>De hier opgegeven kleur is <userinput>Groen</userinput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In het beheerscherm staan nu de volgende twee regels:<fig>
+                        <title>De twee regels voor de voorwaardelijke opmaak</title>
+                        <image keyref="Format_Conditional_Rules_2">
+                            <alt>De twee regels voor de voorwaardelijke opmaak</alt>
+                        </image>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>De gewenste opmaak is nu aangebracht.</stepresult>
+            </step>
+        </steps>
+        <postreq>
+            <p>Test de werking van de voorwaardelijke opmaak door wat waarden te veranderen en te controleren
+                of de opmaak dan wijzigt.</p>
+        </postreq>
+    </taskbody>
+</task>

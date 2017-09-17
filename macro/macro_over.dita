@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="macro_over" xml:lang="nl-NL" >
+	<title>Wat is een macro</title>
+	<shortdesc>Een korte beschrijving waarvoor macro's kunnen dienen.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Macro<indexterm>beschrijving</indexterm><indexterm>VBA</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Een taak die je in Microsoft Excel regelmatig moet uitvoeren kun je met een macro
+			automatiseren. Een macro bestaat uit een reeks opdrachten en functies die door één
+			commando of druk op een knop kunnen worden uitgevoerd. Opdrachten die regelmatig
+			terugkomen en die uit een aantal handelingen bestaan kunnen in een macro gezet worden.
+			Door vervolgens de macro uit te voeren worden die handelingen achter elkaar
+			uitgevoerd</p>
+		<p>De taal waarin de Excel macro's geschreven worden is Visual Basic for Applications, kortweg
+			VBA. De opdrachten en functies van de macro worden in een Visual Basic module
+			opgeslagen. En met de Visual Basic editor kun je macro's bewerken, macro's van de ene
+			module naar de andere kopiëren, macro's tussen verschillende werkmappen kopiëren en de
+			modules en macro's een andere naam een andere naam geven.</p>
+		<p>De eenvoudige macro's kunnen gemaakt worden door de handelingen op te nemen met de ingebouwde
+			macrorecorder. Na het starten van de recorder worden alle handelingen opgenomen en
+			omgezet in VBA code, totdat de recorder gestopt wordt. Om een goede macro te krijgen is
+			het daarom van belang om eerst de te verrichten handelingen te noteren. Om macro's op te
+			kunnen nemen, te bewerken en uit te voeren moet het tabblad
+				<uicontrol>Ontwikkelaars</uicontrol> zichtbaar gemaakt worden.</p>
+	</conbody>
+</concept>

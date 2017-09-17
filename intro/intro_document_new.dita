@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="intro_document_new" xml:lang="nl-NL">
+    <title>Taak: Nieuwe werkmap maken</title>
+    <shortdesc>Aanwijzingen hoe je een nieuwe werkmap kunt maken.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkmap <indexterm>maken</indexterm>
+                    <indexterm>nieuw</indexterm>
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Je kunt op elk moment een nieuwe werkmap aanmaken. Dit kan een lege werkmap zijn,
+                maar je kunt ook een nieuwe werkmap maken die op een bepaald sjabloon gebaseerd
+                is.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Klik op <menucascade>
+                        <uicontrol>Bestand</uicontrol>
+                        <uicontrol>Nieuw</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>In het rechterdeel verschijnt een lijst met beschikbare
+                    sjablonen.</stepresult>
+            </step>
+            <step>
+                <cmd>Klik op het sjabloon <uicontrol>Lege werkmap</uicontrol>.</cmd>
+                <stepresult>Er verschijnt een nieuwe werkmap met één werkblad.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

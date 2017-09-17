@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="datatable_variable_two" xml:lang="nl-NL">
+	<title>Gegevenstabel met twee variabelen</title>
+	<shortdesc>De layout en werking van een gegevenstabel met 2 invoer variabelen.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>
+		</metadata>
+	</prolog>
+	<conbody>
+        <p>In een gegevenstabel met twee variabelen wordt een formule gebruikt die twee lijsten met
+            invoerwaarden bevat. De formule moet verwijzen naar twee verschillende invoercellen: de
+                <term>rij-invoercel</term> en de <term>kolominvoercel</term>.</p>
+		<fig>
+            <title>Gegevenstabel met twee invoercellen</title>
+            <image keyref="datatable_layout2">
+                <alt>Gegevenstabel met 2 invoercellen</alt>
+            </image>
+        </fig>
+		<p>De algemene layout lijkt op die van een gegevenstabel met 1 invoercel, maar er zijn een paar
+            belangrijke verschillen:</p>
+	    <ul>
+                <li>Een gegevenstabel met 1 invoercel kan meer dan 1 formule evalueren, terwijl de
+                gegevenstabel met 2 invoercellen maar berekeningen met 1 formule kan uitvoeren.</li>
+            <li>De waarden voor de variabelen staan zowel in een rij als in een kolom.</li>
+            <li>De cel linksboven moet de formule bevatten (of een verwijzing naar een
+                formule).</li>
+            </ul>
+	</conbody>
+</concept>

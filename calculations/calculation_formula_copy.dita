@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="calculation_formula_copy" xml:lang="nl-NL">
+    <title>Formules kopieren</title>
+    <shortdesc>Uitleg over het kopiëren van formules en de verschillen tussen absolute en relatieve
+        celadressen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Formules<indexterm>kopiëren</indexterm></indexterm>
+                <indexterm>Cel\adressen<indexterm>absoluut en relatief</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het is erg handig dat je formules kunt kopiëren naar andere cellen. Vooral wanneer
+            formules veel op elkaar lijken kun je daar gebruik van maken. In de volgende afbeelding
+            is een voorbeeld te zien waarbij de formules in A3, B3, C3 en D3 grote overeenkomst
+            vertonen. Hier is het mogelijk om alleen in A3 de formule in te typen en deze daarna te
+            kopiëren naar B3:D3.</p>
+        <fig>
+            <title>Voorbeeld met kopieerbare formules</title>
+            <image keyref="Formula_Copy">
+                <alt>Voorbeeld met kopieerbare formules</alt>
+            </image>
+        </fig>
+        <p>Omdat een formule vaak celverwijzingen bevat is het van belang om na te denken wat er met
+            deze celverwijzingen moet gebeuren bij de kopieeractie. Er zijn twee mogelijkheden:</p>
+        <ul>
+            <li>De celverwijzingen passen zich aan de nieuwe situatie aan. De celadressen in de
+                formule zijn dan <term>relatief</term>.</li>
+            <li>De celverwijzingen blijven hetzelfde. De celadressen in de formule zijn dan
+                    <term>absoluut</term>.</li>
+        </ul>
+        <p>Een adres wordt absoluut gemaakt door dollartekens in het adres aan te brengen. Je kunt
+            een dollarteken voor de kolomletter en/of het rijnummer plaatsen. Het deel waarvoor het
+            dollarteken geplaatst is wordt dan absoluut en verandert bij het kopiëren niet. Er zijn
+            4 mogelijkheden voor een celadres:</p>
+        <simpletable frame="all" relcolwidth="1.0* 1.0*">
+            <sthead>
+                <stentry>Type</stentry>
+                <stentry>Voorbeeld</stentry>
+            </sthead>
+            <strow>
+                <stentry>Relatief adres</stentry>
+                <stentry>B1</stentry>
+            </strow>
+            <strow>
+                <stentry>Absoluut kolom en absoluut rij adres</stentry>
+                <stentry>$B$1</stentry>
+            </strow>
+            <strow>
+                <stentry>Absoluut kolom en relatief rij adres</stentry>
+                <stentry>$B1</stentry>
+            </strow>
+            <strow>
+                <stentry>Relatief kolom en absoluut rij adres</stentry>
+                <stentry>B$1</stentry>
+            </strow>
+        </simpletable>
+        <note type="remember">Bij het kopiëren van een formule met celadressen wordt het absolute
+            deel niet aangepast en het relatieve deel wel.</note>
+        <p>Wanneer een formule bewerkt bewerkt wordt, kun je het type van het celadres op een van de
+            volgende manieren wijzigen :<ul>
+                <li>De dollartekens op de juiste plaats intypen.</li>
+                <li>Wanneer de cursor in een celadres staat herhaaldelijk op toets
+                        <uicontrol>F4</uicontrol> drukken totdat het gewenste resultaat bereikt is.
+                    Tijdens het repeterend drukken op <uicontrol>F4</uicontrol> worden alle vier de
+                    mogelijkheden doorlopen.</li>
+            </ul></p>
+        <section>
+            <title>Kopieerregels</title>
+            <p>Bij het kopiëren van formules met celverwijzingen past Excel de volgende regels
+                toe:</p>
+            <ul>
+                <li>Bij het kopiëren in de richting naar links of naar rechts wordt de kolomletter
+                    verlaagd dan wel verhoogd.</li>
+                <li>Bij het kopiëren in de richting naar boven of naar beneden wordt het rijnummer
+                    verlaagd dan wel verhoogd.</li>
+                <li>De delen met een dollarteken ervoor worden niet aangepast.</li>
+            </ul>
+        </section>
+        <example>
+            <title>Voorbeeld</title>
+            <table frame="all">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+                    <thead>
+                        <row>
+                            <entry>Formule</entry>
+                            <entry>Kopieeractie</entry>
+                            <entry>Resultaat</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>=A1+B2</entry>
+                            <entry>1 cel naar rechts</entry>
+                            <entry>=B1+C2</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>1 cel naar beneden</entry>
+                            <entry>=A2+B3</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>1 cel naar rechts en 1 cel naar beneden</entry>
+                            <entry>=B2+C3</entry>
+                        </row>
+                        <row>
+                            <entry>=A$1+B$2</entry>
+                            <entry>1 cel naar rechts</entry>
+                            <entry>=B$1+C$2</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>1 cel naar beneden</entry>
+                            <entry>=A$1+B$2</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>1 cel naar rechts en 1 cel naar beneden</entry>
+                            <entry>=B$1+C$2</entry>
+                        </row>
+                        <row>
+                            <entry>=$A1+$B2</entry>
+                            <entry>1 cel naar rechts</entry>
+                            <entry>=$A1+$B2</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>1 cel naar beneden</entry>
+                            <entry>=$A2+$B3</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry>1 cel naar rechts en 1 cel naar beneden</entry>
+                            <entry>=$A2+$B3</entry>
+                        </row>
+                        <row>
+                            <entry>=$A$1+$B$2</entry>
+                            <entry>elke kopieeractie</entry>
+                            <entry>=$A$1+$B$2</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </example>
+    </conbody>
+</concept>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="function_enter" xml:lang="nl-NL">
+	<title>Functies invoeren</title>
+	<shortdesc>In dit onderdeel wordt uitgelegd hoe je een functie via de wizard uitkiest en
+	invoert.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Functies<indexterm>invoegen</indexterm><indexterm>bibliotheek</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Wanneer je ervaren bent en de naam en opbouw van een functie kent, dan kun je de functie gewoon
+			intypen op de invoerbalk. Meestal is het handiger om van de <term>Wizard Functies</term>
+			gebruik te maken. Deze <term>Wizard</term> kun je op twee manieren oproepen:</p>
+		<ul>
+			<li>Door een klik op de knop <uicontrol><image keyref="Button_Function_Insert"/> Functie
+                    invoegen</uicontrol> aan het begin van de formulebalk.</li>
+			<li>Via <menucascade>
+					<uicontrol>tab Formules</uicontrol>
+					<uicontrol>Functie invoegen (groep Functiebibliotheek)</uicontrol>
+				</menucascade></li>
+		</ul>
+		<p>In beide gevallen verschijnt het dialoogvenster <wintitle>Functie invoegen</wintitle>:</p>
+		<fig>
+            <title>Dialoogvenster <wintitle>Functie invoegen</wintitle></title>
+            <image keyref="Function_Insert">
+                <alt>Dialoogvenster functie invoegen</alt>
+            </image>
+        </fig>
+		<p>Voor het snel vinden van de juiste functie is het handig om eerst de <term>categorie</term> van
+            functies te selecteren. Dat kan door op de selectiepijl in het categorievak te klikken.
+            In het uitrolvenster verschijnen de categorieën. Selecteer de gewenste functie,
+            bijvoorbeeld <varname>AANTAL.ALS</varname>, klik op <uicontrol>OK</uicontrol> waarna het
+            dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.</p>
+		<fig>
+            <title>Dialoogvenster <wintitle>Functieargumenten</wintitle></title>
+            <image keyref="Function_Countif">
+                <alt>Dialoogvenster functieargumenten</alt>
+            </image>
+        </fig>
+		<p>Hier kun je de <term>argumenten</term> kunt opgeven. Welk(e) <term>argument(en)</term> je moet
+			gebruiken is afhankelijk van de functie die je geselecteerd hebt.</p>
+		<note type="tip">Door op de link <uicontrol>Help-informatie over deze functie</uicontrol> te
+			klikken krijg je uitvoerige hulp bij de functie.</note>
+	</conbody>
+</concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="data_over" xml:lang="nl-NL">
+    <title>Over gegevens invoeren</title>
+    <shortdesc>Aanwijzingen hoe je gegevens in een cel invoert.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Invoeren gegevens</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het invoeren van gegevens in een cel komt in het kort neer op:<ol>
+                <li>Cel selecteren.</li>
+                <li>Begin met typen.</li>
+                <li>Eindig met <uicontrol>Enter toets</uicontrol>.<note type="attention">Pas op,
+                        wanneer de cel al een inhoud heeft wordt deze overschreven.</note></li>
+            </ol></p>
+        <p>Na het gebruik van de <uicontrol>Enter toets</uicontrol> gaat de celwijzer automatisch
+            één cel naar beneden.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_trendline_polynomial" xml:lang="nl-NL">
+    <title>Taak: Polynoom trendlijn</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een polynoom trendlijn is een gebogen lijn die vaak goed past bij schommelende
+                gegevens.</p>
+            <p>De vergelijking van de trendlijn heeft de vorm: <codeph>y =
+                        a<sub>n</sub>⋅x<sup>n</sup> ... + a<sub>2</sub>⋅x<sup>2</sup> +
+                        a<sub>1</sub>⋅x + a<sub>0</sub></codeph>. De getallen a<sub>0</sub>,
+                    a<sub>1</sub>, a<sub>2</sub>, ... a<sub>n</sub> heten de coëfficiënten van de
+                polynoom en het getal n heet de graad van de polynoom.</p>
+            <p>De graad van de polynoom wordt bepaald door het aantal schommelingen (pieken en
+                dalen) in de gegevens:<ul>
+                    <li>1e graad, hetzelfde als de lineaire trendlijn.</li>
+                    <li>2e graad, meestal slechts één piek of dal in de lijn. Lijn heet ook wel
+                        parabool.</li>
+                    <li>3e graad, meestal één of twee pieken of dalen.</li>
+                    <li>4e graad, meestal maximaal drie pieken of dalen.</li>
+                </ul></p>
+            <p>In de praktijk zul je moeten experimenteren met de graad om uit te zoeken welke de
+                best passende is.</p>
+            <p>Het volgende voorbeeld gaat over de prestatie (in km per liter brandstof) van een
+                auto bij verschillende snelheden (in km per uur).</p>
+            <note type="other" othertype="Bestand"><filepath>Trendlijnen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open het hulpbestand en selecteer het werkblad
+                    <wintitle>Polynoom</wintitle>.</cmd>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_Start"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_End">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer bij Opties voor trendlijn: <option>Polynoom volgorde 3</option>. En
+                    laat de vergelijking en R-kwadraat in de grafiek weergeven.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig titel in <userinput>Prestatie - Snelheid</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg astitels toe en wijzig titel Y-as in <userinput>Prestatie
+                        (km/lit)</userinput> en titel X-as in <userinput>Snelheid
+                        (km/uur)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Versleep in de grafiek de vergelijking naar een overzichtelijke plaats.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Voorbeeld polynoom trendlijn</title>
+                <image keyref="example_pol">
+                    <alt>Voorbeeld polynoom trendlijn</alt>
+                </image>
+            </fig>
+            <p>R<sup>2</sup> = 0,9664 wat betekent dat de tweedegraads polynoom trendlijn goed bij
+                de gegevens past.</p>
+        </result>
+        <example>
+            <title>Werkbladfuncties</title>
+            <p>Vergelijking: y = a*x<sup>2</sup> + b*x + c<ul>
+                    <li>a =INDEX(LIJNSCH(y-bekend ; x-bekend^{1\2}) ; 1 ; 1)</li>
+                    <li>b =INDEX(LIJNSCH(y-bekend ; x-bekend^{1\2}) ; 1 ; 2)</li>
+                    <li>c =INDEX(LIJNSCH(y-bekend ; x-bekend^{1\2}) ; 1 ; 3)</li>
+                </ul></p>
+        </example>
+    </taskbody>
+</task>

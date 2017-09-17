@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_timeserie_analyse" xml:lang="nl-NL">
+    <title>Tijdreeks analyse</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een tijdreeksanalyse is de analyse van gegevens die in de loop van een bepaalde periode
+            verzameld zijn. Het is dus een onderzoek naar de samenhang tussen twee variabelen,
+            waarvan de onafhankelijke variabele de tijd is. Een tijdreeksanalyse kan gebruikt worden
+            om toekomstige waarden in de tijdreeks te voorspellen (eng. Forecasting).</p>
+        <p>Een tijdreeksanalyse begint altijd met het weergeven van de tijdreeks in een grafiek. Op
+            de horizontale as staat altijd de tijd en op de verticale as de te onderzoeken
+            variabele. De grafiek geeft vaak al een eerste beeld van de kenmerken van de tijdreeks.
+            Zaken waar je op moet letten zijn:<ul>
+                <li>Is er een <term>trend</term>? Dit houdt in dat de variabele de neiging heeft toe
+                    te nemen (continu stijgend) of af te nemen (continu dalend).</li>
+                <li>Is er <term>seizoensgebondenheid</term>? Dit houdt in dat er een regelmatig
+                    terugkerend patroon van pieken en dalen te zien is, gerelateerd aan bepaalde
+                    tijdsdelen zoals seizoenen, kwartalen, maanden, weekdagen, enz.</li>
+                <li>Zijn er <term>uitschieters</term>? Dit zijn waarden die ver verwijderd zijn van
+                    de andere waarden.</li>
+                <li>Is er een <term>lange termijn cyclus</term>? Deze is niet gerelateerd aan de
+                    seizoensfactoren.</li>
+                <li>Is er een <term>constante variantie</term> van de variabele over de tijd of
+                    wordt deze groter of kleiner?</li>
+                <li>Zijn er <term>plotselinge wijzigingen</term> in de grootte of de variantie?</li>
+            </ul></p>
+        <p>Aan de hand van de kenmerken in de grafiek probeer je het verloop van de tijdreeks te
+            beschrijven en vast te stellen uit welke onderdelen de tijdreeks bestaat en hiervoor een
+            model op te stellen. (Voor dit laatste heb je wel wat statistische kennis nodig). Dit is
+            meestal niet eenvoudig omdat je deze onderdelen (patronen) niet zomaar in de grafiek
+            kunt zien. Bij de meest gebruikte systematiek gaat men er van uit dat een tijdreeks uit
+            de volgende onderdelen bestaat:<fig>
+                <title>Onderdelen van een tijdreeks</title>
+                <image keyref="timeserie_components">
+                    <alt>Onderdelen van een tijdreeks</alt>
+                </image>
+            </fig></p>
+        <!--Bovenstaand schema in Trends en Voorspellingen.docx
+Bron plaatjes componenten in subparagrafen: http://www.cbs.nl/NR/rdonlyres/9957DCCA-00AF-4427-A63D-EB6D7E726E65/0/2010x3707pub.pdf -->
+        <p>Er worden twee wiskundige modellen voor tijdreeksen gehanteerd: Additief en
+            Multiplicatief. En het ontleden van de tijdreeks in de afzonderlijke componenten heet
+                <term>decompositie</term> van de tijdreeks.</p>
+        <dl>
+            <dlentry>
+                <dt>Additief model</dt>
+                <dd>
+                    <p>Hierbij zijn de seizoeneffecten in grootte nagenoeg constant, onafhankelijk
+                        van het verloop van de trend.</p>
+                    <p><codeph>Y<sub>t</sub> = T<sub>t</sub> + S<sub>t</sub> + C<sub>t</sub> +
+                                R<sub>t</sub></codeph></p>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>Multiplicatief model</dt>
+                <dd>
+                    <p>Hierbij worden de seizoensschommelingen steeds groter of kleiner.</p>
+                    <p><codeph>Y<sub>t</sub> = T<sub>t</sub> * S<sub>t</sub> * C<sub>t</sub> *
+                                R<sub>t</sub></codeph></p>
+                </dd>
+            </dlentry>
+        </dl>
+        <p>Een multiplicatieve tijdreeks kan via de logaritme functie omgezet worden in een
+            additieve tijdreeks:</p>
+        <p><codeph>log(T*S*C*R) = log(T) + log(S) + log(C) + log(R)</codeph></p>
+        <p>Er zijn verschillende methodes voor het bepalen van de afzonderlijke componenten. Het
+            gewogen gemiddelde wordt meestal gebruikt om te corrigeren voor de seizoensinvloed.
+            Hierna wordt de trend bepaald voor de seizoengecorrigeerde reeks. Wanneer de
+            afzonderlijke componenten zijn bepaald kunnen hiermee voorspellingen worden
+            uitgevoerd.</p>
+        <p>Het uitvoeren van een decompositie valt buiten het bestek van dit studieboek.</p>
+    </conbody>
+</concept>

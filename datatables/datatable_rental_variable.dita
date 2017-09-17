@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task  id="datatable_rental_variable" xml:lang="nl-NL">
+    <title>Taak: Verhuur zomerhuisje met variabele prijs</title>
+    <shortdesc>Eenvoudig voorbeeld van een gegevenstabel met 2 <term>invoercellen</term></shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>De prijzen voor de verhuur van een zomerhuisje varieren, afhankelijk van het seizoen,
+                van 350 euro tot 600 euro per week. De onkosten zijn vast en bedragen 175 euro per
+                week. Bereken met behulp van een gegevenstabel de opbrengsten voor 5, 10, 15, ...,
+                50 weken en verhuurprijzen 350, 400, 450, ... 600.</p>
+                    <fig>
+                <title>Verhuur zomerhuisje met variabele prijs</title>
+                <image keyref="cottage_rental_variable">
+                    <alt>Verhuur zomerhuisje met variabele prijs</alt>
+                </image>
+            </fig>
+                    <p>De gegevenstabel wordt <userinput>A7:G17</userinput>. De twee invoercellen
+                zijn B3 (prijs) en B5(aantal weken verhuur).  In <userinput>A7</userinput> komt de
+                formule met een verwijzing naar de twee invoercellen. De waarden voor invoercel B3
+                staan in rij <userinput>B7:G7</userinput>. De waarden voor invoercel B5 staan in
+                kolom <userinput>A8:A17</userinput>.</p>
+            <note type="other" othertype="Bestand"><filepath>Verhuur_variabel.xlsx</filepath></note>            
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Typ in cel <uicontrol>A7</uicontrol> de formule
+                        <userinput>=B5*(B3-B4)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer het bereik voor de gegevenstabel <uicontrol>A7:G17</uicontrol>.</cmd>
+            </step>
+            <step conref="datatable_rental_fixed.dita#datatable_rental_fixed/datatable_insert">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zet de cursor in het vak <option>Rij-invoercel</option> en klik daarna op cel
+                        <userinput>B3</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Zet de cursor in het vak <option>Kolominvoercel</option> en klik daarna op cel
+                        <userinput>B5</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result>In de resultaatcellen is door Excel een matrixformule geplaatst,
+                <systemoutput>{=TABEL(B3;B5)}</systemoutput>. Controleer dat.</result>
+    </taskbody>
+</task>

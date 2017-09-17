@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_solver" xml:lang="nl-NL">
+    <title>Oplosser</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_solver.ditamap" processing-role="resource-only"/>
+    <!-- Links  -->
+    <mapref href="solver_reltables.ditamap" format="ditamap"/>
+    <!-- Content -->
+    <topicref href="solver.dita" audience="level2">
+        <topicref href="solver_over.dita" scope="local" type="concept"/>
+        <topicref href="solver_activation.dita" scope="local" type="task"/>
+        <topicref href="solver_model.dita" scope="local" type="concept"/>
+        <topicref href="solver_constraints.dita" scope="local" type="concept"/>
+        <topicref href="solver_example_weatherleather.dita" scope="local" type="task"/>
+        <topicref href="solver_problems.dita" scope="local" type="concept"/>
+    </topicref>
+</map>

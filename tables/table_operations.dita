@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="table_operations" xml:lang="nl-NL">
+    <title>Bewerkingen met Tabellen</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Tabel<indexterm>bewerkingen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <section>
+            <title>Rijen/Kolommen selecteren</title>
+            <p>Rechter muisklik in een cel in de rij of kolom die je wilt selecteren. Kies dan
+                    <uicontrol>Selecteren</uicontrol> en vervolgens een van de mogelijkheden:</p>
+            <ul>
+                <li>Tabelkolomgegevens</li>
+                <li>Gehele tabelkolom</li>
+                <li>Tabelrij</li>
+            </ul>
+        </section>
+        <section>
+            <title>Tabelrijen of kolommen invoegen</title>
+            <p>Rechter muisklik in een cel, kies dan <uicontrol>Invoegen</uicontrol> en vervolgens
+                een van de opties:</p>
+            <ul>
+                <li>Tabelkolommen links</li>
+                <li>Tabelrijen boven</li>
+            </ul>
+            <p>Wanneer je in een cel in de onderste rij of de rechterkolom klikt heb je ook nog de
+                mogelijkheden</p>
+            <ul>
+                <li>Tabelkolom rechts</li>
+                <li>Tabelrij onder</li>
+            </ul>
+            <p>Bij de laatste cel helemaal rechtsonder heb je beide mogelijkheden.</p>
+            <p>Snelle manier om een nieuwe rij in te voegen: Selecteer de laatste cel rechtsonder en
+                druk op de <uicontrol>Tab</uicontrol> toets.</p>
+        </section>
+        <section>
+            <title>Tabelrijen of kolommen verwijderen</title>
+            <p>Rechter muisklik in een cel van een rij/kolom die je wilt verwijderen, kies dan
+                    <uicontrol>Verwijderen</uicontrol> en vervolgens een van de opties:</p>
+            <ul>
+                <li>Tabelkolommen</li>
+                <li>Tabelrijen</li>
+            </ul>
+        </section>
+        <section>
+            <title>Tabel omzetten naar een bereik</title>
+            <p>Selecteer een cel in de tabel. Kies <menucascade>
+                    <uicontrol>tab Ontwerpen</uicontrol>
+                    <uicontrol/>
+                    <uicontrol>Converteren naar bereik (groep Hulpmiddelen)</uicontrol>
+                </menucascade> en bevestig daarna de bewerking.</p>
+        </section>
+        <section>
+            <title>Tabelstijl toekennen</title>
+            <p>Selecteer een cel in de tabel. Kies <uicontrol>tab Ontwerpen</uicontrol>. Selecteer
+                een stijl uit de galerie met tabelstijlen.</p>
+        </section>
+        <section>
+            <title>Totaalrij toevoegen</title>
+            <p>Selecteer een cel in de tabel. Kies <menucascade>
+                    <uicontrol>tab Ontwerpen</uicontrol>
+                    <uicontrol>Aanvinken Totaalrij  (groep Opties voor tabelstijlen)</uicontrol>
+                </menucascade>. </p>
+            <p>Excel plaatst automatisch een rij <varname>Totaal</varname> aan het eind van de tabel
+                en voegt een <varname>SUBTOTAAL</varname> functie in onder de laatste kolom.
+                Selecteer in deze rij Totaal de cel voor de kolom die je wilt totaliseren en kies
+                dan een optie uit de drop-down lijst.</p>
+        </section>
+        <section id="section_qn5_qbc_r1b">
+            <title>Tabelnaam</title>
+            <p>Bij het maken van een tabel wordt automatisch een naam aan de tabel toegekend. De
+                gegenereerde namen hebben de vorm Tabel1, Tabel2, … Wanneer de tabel geselecteerd
+                is, zie je naam bij tab Ontwerpen > Tabelnaam (groep Eigenschappen). Om de naam te
+                wijzigen typ je de nieuwe naam in het naamvak.</p>
+            <p>Het gebruik van geschikte tabelnamen kan belangrijk zijn omdat wanneer je formules
+                aan een tabel toevoegt, de namen van de tabellen van de kolommen automatisch in de
+                formules verschijnen. Een voorbeeld:
+                    <systemoutput>=SOM(Tabel1[@Kolom3])</systemoutput>.</p>
+        </section>
+    </conbody>
+</concept>

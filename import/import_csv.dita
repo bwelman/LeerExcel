@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="import_csv" xml:lang="nl-NL">
+    <title>Taak: Importeer tekst/csv</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata> </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Veel gegevens in externe bronnen zijn beschikbaar als tekst (bestandstype
+                    <filepath>.txt</filepath>) of via komma (of karakter) gescheiden waarden
+                (bestandstype <filepath>.csv</filepath>).</p>
+            <note type="other" othertype="Bestand"><filepath>SalesJan2009.csv</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open a nieuwe lege werkmap.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Uit tekst/CSV (groep Gegevens ophalen en
+                            transformeren)</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Blader naar het hulpbestand en klik <uicontrol>Importeren</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Een voorbeeld van de gegevens wordt getoond.</p>
+                    <fig>
+                        <title>Voorbeeld van SalesJan2009 gegevens</title>
+                        <image keyref="salesjan2009_preview">
+                            <alt>Voorbeeld van SalesJan2009 gegevens</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Bewerken</uicontrol>.</cmd>
+                <stepresult>
+                    <p id="start_que">De Query Editor wordt gestart in een nieuw venster. Aan de rechterkant onder
+                            <wintitle>Queryinstellingen</wintitle> en onder <uicontrol>Toegepaste
+                            Stappen</uicontrol> zie je de stappen die reeds zijn toegepast.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer de kolommen <varname>Account_Created, Last_Login, Latitude,
+                        Longitude</varname>) door op de kolomkop te klikken met ingedrukte CTRL
+                    toets. Kies dan <menucascade>
+                        <uicontrol>Kolommen verwijderen (groep Kolommen beheren)</uicontrol>
+                        <uicontrol>Kolommen verwijderen</uicontrol>
+                    </menucascade>.</cmd>
+                <info>Als alternatief kun je de rechtermuisknop gebruiken en dan de gewenste actie
+                    uit het snelmenu kiezen.</info>
+                <stepresult>De kolommen worden verwijderd en de stap is toegevoegd aan
+                        <uicontrol>Toegepaste Stappen</uicontrol>.</stepresult>
+            </step>
+            <stepsection>
+                <p>In elke kolomkop zit aan de linkerkant een icon dat het toegepaste gegevenstype
+                    weergeeft. Wanneer je een kolom selecteert zie je het gegevenstype ook op het
+                    lint. En dit is tevens de plek waar je het gegevenstype kunt wijzigen.</p>
+                <fig>
+                    <image keyref="ribbon_datatype_wholenumber"/>
+                </fig>
+                <p><varname>Price</varname> heeft gegevenstype <option>Geheel getal</option>, alle
+                    andere kolommen hebben gegevenstype <option>Tekst</option>.</p>
+            </stepsection>
+            <step>
+                <cmd>Selecteer de eerste kolom <varname>Transaction_date</varname> en kies dan <menucascade>
+                        <uicontrol>Gegevenstype (groep Transformeren)</uicontrol>
+                        <uicontrol>Datum/Tijd</uicontrol>
+                    </menucascade>. Wanneer er een dialoogscherm komt of de bestaande conversie
+                    vervangen moet worden, kies dan voor vervangen van de huidige conversie.</cmd>
+            </step>
+            <stepsection>
+                <p>In kolom <varname>Name</varname> beginnen de meeste namen met een hoofdletter,
+                    maar niet allemaal.</p>
+            </stepsection>
+            <step>
+                <cmd>Selecteer kolom <varname>Name</varname>, rechter muisklik en kies <menucascade>
+                        <uicontrol>Transformeren</uicontrol>
+                        <uicontrol>Elk Woord Met Een Hoofdletter</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step id="step_close_load">
+                <cmd>Kies <menucascade>
+                        <uicontrol>Sluiten en laden(groep Sluiten)</uicontrol>
+                        <uicontrol>Sluiten en laden</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>De gegevens worden in een Excel tabel in een nieuw werkblad opgeslagen. Je
+                        kunt nu met de gegevens werken en de Excel map voor later gebruik
+                        opslaan.</p>
+                    <note type="note">Het is altijd mogelijk om de query achteraf te wijzigen.
+                        Selecteer hiervoor een cel in de tabel en kies <menucascade>
+                            <uicontrol>tab Query</uicontrol>
+                            <uicontrol>Bewerken (groep Bewerken)</uicontrol>
+                        </menucascade>. De Query Editor wordt weer opgestart. Van hieruit kun je
+                        tevens de gegevens vernieuwen, alle stappen worden dan herhaald.</note>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

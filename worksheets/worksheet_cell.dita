@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="worksheet_cell" xml:lang="nl-NL">
+    <title>Cel: Inhoud en opmaak</title>
+    <shortdesc>Uitleg van het zeer belangrijke verschil tussen de inhoud en de opmaak (het
+        uiterlijk) van een cel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Cel<indexterm>opmaak</indexterm></indexterm>
+                <indexterm>Cel<indexterm>inhoud</indexterm></indexterm>
+                <indexterm>Opmaak<indexterm>cel</indexterm></indexterm>
+                <indexterm>Inhoud<indexterm>cel</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een cel heeft een <term>inhoud</term> en een <term>opmaak</term>. Het is erg belangrijk
+            dit verschil goed in de gaten te houden! Een slecht begrip hiervan is vaak de bron van
+            fouten. Als voorbeeld de volgende afbeelding. Hier is in de cellen A1:A10 steeds
+            hetzelfde getal 40299 ingevoerd. Deze cellen hebben dus de dezelfde inhoud. Toch zien ze
+            er steeds anders uit en dat komt omdat de opmaak van deze cellen steeds anders is.</p>
+        <fig>
+            <title>Voorbeeld van cellen met gelijke inhoud en verschillende opmaak</title>
+            <image keyref="Worksheet_Cell_Formats">
+                <alt>Voorbeeld van cellen met gelijke inhoud en verschillende opmaak</alt>
+            </image>
+        </fig>
+        <!--plaatje komt uit Celopmaak.xlsx-->
+        <p>Je kunt aan het uiterlijk bijna nooit de opmaak zien en vaak ook de inhoud niet. Inhoud
+            en opmaak zijn twee verschillende zaken.</p>
+        <note type="attention">Pas op dat je bij het invoeren van gegevens in een cel niet tegelijk
+            ook de opmaak intypt. Wanneer je bijvoorbeeld in cel A9 letterlijk intypt
+                <userinput>40.299 uren</userinput>, dan wordt dat als een stuk tekst gezien in
+            plaats van het getal 40299. En omdat het tekst is kun je er niet meer mee rekenen. Het
+            is mogelijk om alleen het getal in te typen en daarna de cel op te maken tot het
+            weergegeven uiterlijk. De inhoud van de cel dan wel een getal warrmee je berekeningen
+            kunt uitvoeren.</note>
+        <note type="tip">De aanbevolen methode is om altijd eerst de inhoud van een cel in te typen
+            en daarna de cel de gewenste opmaak geven.</note>
+    </conbody>
+</concept>

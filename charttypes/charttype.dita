@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xls_type" audience=" level1" xml:lang="nl-NL">
+	<title>Grafieksoorten</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>			
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Grafieken gebruik je om gegevens te visualiseren, om gemakkelijk cijfers te vergelijken. Excel
+			kent een grote variatie aan grafiektypes. Welk type het beste in welke situatie gebruikt
+			kan worden komt hier niet aan de orde. Daarvoor heeft Softwijs een gratis gids welke via
+			de website gedownload kan worden.</p>
+	</conbody>
+</concept>

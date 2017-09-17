@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="worksheet_new" xml:lang="nl-NL">
+    <title>Taak: Nieuw werkblad toevoegen</title>
+    <shortdesc>Het toevoegen van een nieuw werkblad.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkblad<indexterm>nieuw</indexterm><indexterm>toevoegen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Begin met een nieuwe werkmap.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de knop <uicontrol>Nieuw blad</uicontrol>
+                    <image keyref="Worksheet_New_Button">
+                        <alt>Knop voor een nieuw werkblad</alt>
+                    </image>.</cmd>
+                <stepresult>Een nieuw werkblad wordt aan het eind toegevoegd en ook geactiveerd. Het
+                    nieuwe werkblad krijgt automatisch de naam <term>Blad</term> gevolgd door een
+                    <term>nummer</term>. Uiteraard kun je deze naam wijzigen.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

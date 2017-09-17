@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="macro_cell_format" xml:lang="nl-NL">
+	<title>Taak: Macro Celopmaak</title>
+	<shortdesc>Een oefening in het opnemen en uitvoeren van een macro.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Macro<indexterm>opnemen</indexterm><indexterm>opname
+						stoppen</indexterm><indexterm>uitvoeren</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<prereq>De tab Ontwikkelaars moet op het lint beschikbaar zijn. Controleer of dit het geval is.
+			Zoniet dan moet je eerst de taak uitvoeren om de tab Ontwikkelaars weer te
+			geven..</prereq>
+		<context>De macro moet de tekst in de geselecteerde cel opmaken met het lettertype Comic Sans MS,
+			vet, cursief, 16 pt en rood. Verder moet de kolombreedte aangepast worden aan de breedte
+			van de tekst in de cel. De naam van de macro moet zijn <q>Celopmaak</q>.</context>
+		<steps>
+			<step>
+				<cmd>Begin met een leeg werkblad en voer in een willekeurige cel een tekst in.</cmd>
+			</step>
+			<step>
+				<cmd>Selecteer de cel met de tekst.</cmd>
+			</step>
+			<step>
+				<cmd>Kies tab <menucascade>
+						<uicontrol>Ontwikkelaars</uicontrol>
+						<uicontrol>Macro opnemen (groep Programmacode)</uicontrol>
+					</menucascade>.</cmd>
+			</step>
+			<step>
+				<cmd>Geef in het dialoogvenster <wintitle>Macro opnemen</wintitle> de macro een naam
+					en een beschrijving.</cmd>
+				<stepresult>
+					<fig>
+						<title>Eigenschappen macro Celopmaak</title>
+						<image keyref="record_macro_cellformat">
+							<alt>Eigenschappen macro celopmaak</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Voer de volgende acties uit op de geselecteerde cel: <menucascade>
+						<uicontrol>Rechter muisklik</uicontrol>
+						<uicontrol>Celeigenschappen</uicontrol>
+						<uicontrol>tab Lettertype</uicontrol>
+					</menucascade> en stel het volgende in:</cmd>
+				<itemgroup>
+					<simpletable>
+						<strow>
+							<stentry>Lettertype</stentry>
+							<stentry>Comic Sans MS</stentry>
+						</strow>
+						<strow>
+							<stentry>Tekenstijl</stentry>
+							<stentry>Vet en cursief</stentry>
+						</strow>
+						<strow>
+							<stentry>Punten</stentry>
+							<stentry>16</stentry>
+						</strow>
+						<strow>
+							<stentry>Kleur</stentry>
+							<stentry>Rood</stentry>
+						</strow>
+					</simpletable>
+				</itemgroup>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Kies tab <menucascade>
+						<uicontrol>Start</uicontrol>
+						<uicontrol>Opmaak (groep Cellen)</uicontrol>
+						<uicontrol>Kolombreedte AutoAanpassen</uicontrol>
+					</menucascade>.</cmd>
+			</step>
+			<step>
+				<cmd>Kies tab <menucascade>
+						<uicontrol>Ontwikkelaars</uicontrol>
+						<uicontrol>Opname stoppen (groep Programmacode)</uicontrol>
+					</menucascade><image keyref="record_macro_stop" placement="break"
+						align="left">
+						<alt>Opname macro stoppen</alt>
+					</image></cmd>
+			</step>
+			<stepsection>Testen van de macro</stepsection>
+			<step>
+				<cmd>Test de macro op een andere cel met tekst.</cmd>
+				<substeps>
+					<substep>
+						<cmd>Selecteer de cel met tekst.</cmd>
+					</substep>
+					<substep>
+						<cmd>Kies tab <menucascade>
+								<uicontrol>Ontwikkelaars</uicontrol>
+								<uicontrol>Macro's (groep Programmacode)</uicontrol>
+							</menucascade>.</cmd>
+						<stepresult>
+							<fig>
+								<title>Macro Celopmaak dialoogvenster</title>
+								<image keyref="macro_cellformat_run">
+									<alt>Dialoogvenster macro celopmaak</alt>
+								</image>
+							</fig>
+						</stepresult>
+					</substep>
+					<substep>
+						<cmd>Selecteer <uicontrol>Celopmaak</uicontrol> en klik
+								<uicontrol>Uitvoeren</uicontrol>.</cmd>
+					</substep>
+				</substeps>
+				<stepresult>De cel moet op de gewenste manier opgemaakt zijn.</stepresult>
+			</step>
+		</steps>
+	</taskbody>
+</task>

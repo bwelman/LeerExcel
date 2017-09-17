@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_goalseek" xml:lang="nl-NL">
+    <title>Doelzoeken</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_goalseek.ditamap" processing-role="resource-only"/>
+    <!-- Content -->
+    <topicref href="goalseek.dita">
+        <topicref href="goalseek_over.dita" scope="local" type="concept" audience="level2"/>
+        <topicref href="goalseek_stadiumcoffee.dita" scope="local" type="task" audience="level2"/>
+        <topicref href="goalseek_tips.dita" scope="local" type="reference" audience="level2"/>
+    </topicref>
+</map>

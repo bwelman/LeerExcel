@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="import_webdata" xml:lang="nl-NL">
+    <title>Taak: Importeer web tabellen</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata></metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Webpagina's hebben vaak tabellen. De Power Query in Excel kan deze tabellen herkennen
+                en importeren. In deze taak ga je een aantal gegevens van de UEFA Europees voetbal
+                kampioenschap importeren die in een wikipedia pagina beschikbaar zijn.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open a nieuwe lege werkmap.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Van het web (groep Gegevens ophalen en transformeren)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Een dialoogvenster wordt weergegeven waarin de URL van de webpagina moet
+                        worden ingevoerd.</p>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Van web</wintitle></title>
+                        <image keyref="web_url_textbox">
+                            <alt>Van web dialoogvenster</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voer voor de URL in
+                        <userinput>http://en.wikipedia.org/wiki/UEFA_European_Championship</userinput>
+                    en klik <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Er wordt een verbinding met de webpagina gemaakt.</p>
+                    <p>Wanneer de verbinding gerealiseerd is wordt een
+                            <wintitle>Navigator</wintitle> venster getoond waarin een lijst met alle
+                        tabellen in de webpagina te zien is. Door op een tabel te klikken verschijnt
+                        aan de rechterkant van het venster een voorbeeld van de gegevens.</p>
+                    <fig>
+                        <title>Venster Navigator voor UEFA pagina op Wikipedia</title>
+                        <image keyref="uefa_navigatorpane">
+                            <alt>Venster Navigator voor UEFA pagina op Wikipedia</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer tabel <option>Results[edit]</option> en klik dan op de knop
+                        <uicontrol>Bewerken</uicontrol>.</cmd>
+                <stepresult>
+                    <p conref="import_csv.dita#import_csv/start_que"/>
+                </stepresult>
+            </step>
+            <stepsection>
+                <p>Vervolgens kun je de gegevens naar behoefte structureren, wijzigen en opschonen.
+                    Achtereenvolgens ga je<ul>
+                        <li>alle kolommen verwijderen behalve <varname>Year</varname> en
+                                <varname>Final Winners</varname>.</li>
+                        <li>het woord <q>Details</q> verwijderen in kolom
+                            <varname>Year</varname>.</li>
+                        <li>alleen echte jaartallen in kolom <varname>Year</varname>
+                            overhouden.</li>
+                    </ul></p>
+            </stepsection>
+            <step>
+                <cmd>Selecteer de kolommen <varname>Year</varname> en <varname>Final
+                        Winners</varname> door op de kolomkoppen te klikken met ingedrukte CTRL
+                    toets. Kies dan <menucascade>
+                        <uicontrol>Kolommen verwijderen (groep Kolommen beheren)</uicontrol>
+                        <uicontrol>Andere kolommen verwijderen</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer kolom <varname>Year</varname> en kies <menucascade>
+                        <uicontrol>Waarden vervangen (groep Transformeren)</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Waarden vervangen</wintitle> wordt
+                        weergegeven.</p>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Waarden vervangen</wintitle></title>
+                        <image keyref="replace_values_dialogbox">
+                            <alt>Dialoogvenster Waarden vervangen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Type <userinput>Details</userinput> in het tekstvak <option>Te zoeken
+                        waarde</option> en laat het tekstvak <option>Vervangen door</option> leeg en
+                    klik <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer kolom <varname>Year</varname> en klik op de filter keuzepijl in de
+                    kolomkop. Deselecteer <option>Year</option> en klik
+                    <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step conref="import_csv.dita#import_csv/step_close_load">
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

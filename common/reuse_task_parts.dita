@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="reuse_task_parts" xml:lang="nl-NL">
+    <title>Herbruikbare onderdelen - Taak</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Herbruikbare onderdelen voor een taak.</p>
+            <!--  Hulpbestand grafieken  -->
+            <note type="other" othertype="Bestand" id="Graf_File"
+                    ><filepath>Bakkerij_Grafiek</filepath></note>
+        </context>
+        <steps>
+            <step id="File_Open">
+                <cmd>Open het hulpbestand.</cmd>
+            </step>
+            <step id="Select_Cell">
+                <cmd>Selecteer een willekeurige cel in het gegevensgebied.</cmd>
+            </step>
+            <step id="Chart_Select">
+                <cmd>Selecteer de grafiek door binnen het grafiekgebied te klikken.</cmd>
+                <stepresult>Er verschijnt een dubbel kader om de grafiek en de muisaanwijzer is veranderd in kruis met pijlen <image
+                    keyref="Mouse_Pointer_Drag"/>.</stepresult>
+            </step>
+            <step id="Trendline_Start">
+                <cmd>Selecteer een willekeurige cel in het gegevensgebied.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg een <uicontrol>Spreidingsdiagram</uicontrol> in.</cmd>
+            </step>
+            <step id="Trendline_End">
+                <cmd>Selecteer de grafiekreeks door op een gegevenspunt te klikken. Dan
+                    rechtermuisklik en kies <uicontrol>Trendlijn toevoegen</uicontrol></cmd>
+            </step>
+        </steps>       
+    </taskbody>
+</task>

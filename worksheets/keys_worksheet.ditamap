@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_worksheet" xml:lang="nl-NL">
+    <title>Keys Worksheet</title>
+    <keydef keys="Worksheet_ActiveCell" href="images/worksheet_activecell.png" format="png"/>
+    <keydef keys="Worksheet_Cell_Formats" href="images/worksheet_cell_formats.png" format="png"/>
+    <keydef keys="Worksheet_Layout" href="images/worksheet_layout.png" format="png"/>
+    <keydef keys="Worksheet_Move_Dialogbox" href="images/worksheet_move_dialogbox.png" format="png"/>
+    <keydef keys="Worksheet_New_Button" href="images/worksheet_new_button.png" format="png"/>
+    <keydef keys="Worksheet_Pagesetup_HeaderFooter" href="images/worksheet_pagesetup_headerfooter.png" format="png"/>
+    <keydef keys="Worksheet_Pagesetup_HeaderFooter_Content" href="images/worksheet_pagesetup_headerfooter_content.png" format="png"/>
+    <keydef keys="Worksheet_Pagesetup_Margins" href="images/worksheet_pagesetup_margins.png" format="png"/>
+    <keydef keys="Worksheet_Pagesetup_Page" href="images/worksheet_pagesetup_page.png" format="png"/>
+    <keydef keys="Worksheet_Pagesetup_Sheet" href="images/worksheet_pagesetup_sheet.png" format="png"/>
+    <keydef keys="Worksheet_Tab_Scrollbuttons" href="images/worksheet_tab_scrollbuttons.png" format="png"/>
+</map>

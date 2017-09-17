@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_goalseek" xml:lang="nl-NL">
+    <title>Keys Goalseek</title>
+	<keydef keys="stadiumcoffee_model" href="images/stadiumcoffee_model.png" format="png" navtitle="Stadium coffee model"/>
+    <keydef keys="stadiumcoffee_goalseek" href="images/stadiumcoffee_goalseek.png" format="png" navtitle="Stadium coffee goalseek"/>
+    <keydef keys="workbook_calculation_options" href="images/workbook_calculation_options.png" format="png" navtitle="Workbook calculation options"/>
+</map>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="function_overview_math" xml:lang="nl-NL">
+  <title>Overzicht Wiskundige functies</title>
+  <shortdesc>Een overzicht van een aantal wiskundige functies.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Functies<indexterm>wiskundig</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>AFRONDEN</title>
+      <p>Deze functie rondt een getal af op het opgegeven aantal decimalen.</p>
+      <codeblock>AFRONDEN(getal; aantal-decimalen)</codeblock>
+      <parml>
+        <plentry>
+          <pt>getal</pt>
+          <pd>Verplicht. Het getal dat afgerond moet worden.</pd>
+        </plentry>
+        <plentry>
+          <pt>aantal-decimalen</pt>
+          <pd>Verplicht. Het aantal decimalen waarop je het getal wilt afronden.</pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>AFRONDEN OP VEELVOUD NAAR BENEDEN</title>
+      <p>Deze functie rondt een getal naar beneden af naar het dichtst bijzijnde veelvoud van de
+        significantie.</p>
+      <codeblock>AFRONDEN.BENEDEN(getal; significantie)</codeblock>
+      <parml>
+        <plentry>
+          <pt>getal</pt>
+          <pd>Verplicht. Het getal dat afgerond moet worden.</pd>
+        </plentry>
+        <plentry>
+          <pt>significantie</pt>
+          <pd>Verplicht. Het veelvoud waarop je wilt afronden.</pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>AFRONDEN OP VEELVOUD NAAR BOVEN</title>
+      <p>Deze functie rondt een getal naar boven af naar het dichtst bijzijnde veelvoud van de
+        significantie.</p>
+      <codeblock>AFRONDEN.BOVEN(getal; significantie)</codeblock>
+      <parml>
+        <plentry>
+          <pt>getal</pt>
+          <pd>Verplicht. Het getal dat afgerond moet worden.</pd>
+        </plentry>
+        <plentry>
+          <pt>significantie</pt>
+          <pd>Verplicht. Het veelvoud waarop je wilt afronden.</pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>AFRONDEN NAAR BENEDEN</title>
+      <p>Deze functie rondt een getal naar beneden af op het opgegeven aantal decimalen.</p>
+      <codeblock>AFRONDEN.NAAR.BENEDEN(getal; aantal-decimalen)</codeblock>
+      <parml>
+        <plentry>
+          <pt>getal</pt>
+          <pd>Verplicht. Het getal dat afgerond moet worden.</pd>
+        </plentry>
+        <plentry>
+          <pt>aantal-decimalen</pt>
+          <pd>Verplicht. Het aantal decimalen waarop je het getal wilt afronden.</pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>AFRONDEN NAAR BOVEN</title>
+      <p>Deze functie rondt een getal naar boven af op het opgegeven aantal decimalen.</p>
+      <codeblock>AFRONDEN.NAAR.BOVEN(getal; aantal-decimalen)</codeblock>
+      <parml>
+        <plentry>
+          <pt>getal</pt>
+          <pd>Verplicht. Het getal dat afgerond moet worden.</pd>
+        </plentry>
+        <plentry>
+          <pt>aantal-decimalen</pt>
+          <pd>Verplicht. Het aantal decimalen waarop je het getal wilt afronden.</pd>
+        </plentry>
+      </parml>
+    </section>    
+    <section>
+      <title>SOM.ALS</title>
+      <p>Deze functie telt de waarden in een bereik op die voldoen aan een opgegeven
+        criterium.</p>
+      <codeblock>SOM.ALS(bereik; criterium; [optelbereik])</codeblock>
+      <parml>
+        <plentry>
+          <pt>bereik</pt>
+          <pd>Verplicht. het cellenbereik waarvan je de waarden wilt evalueren. De cellen bevatten
+            getallen of verwijzingen naar getallen. Lege cellen en tekstwaarden worden
+            genegeerd.</pd>
+        </plentry>
+        <plentry>
+          <pt>criterium</pt>
+          <pd>Verplicht. Een criterium in de vorm van een getal, expressie, celverwijzing of tekst
+            waarmee je opgeeft welke cellen moeten worden opgeteld.</pd>
+        </plentry>
+        <plentry>
+          <pt>optelbereik</pt>
+          <pd>Optioneel. Dit zijn de eigenlijke cellen waarvan de waarden worden opgeteld. De
+            waarden worden alleen opgeteld als de corresponderende cellen in bereik aan het
+            criterium voldoen. Als het optelbereik wordt weggelaten dan worden de cellen in het
+            bereik opgeteld.</pd>
+        </plentry>
+      </parml>
+    </section>
+  </refbody>
+</reference>

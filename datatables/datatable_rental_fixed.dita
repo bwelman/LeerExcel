@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="datatable_rental_fixed" xml:lang="nl-NL">
+    <title>Taak: Verhuur zomerhuisje</title>
+    <shortdesc>Eenvoudig voorbeeld van een gegevenstabel met 1 invoer variabele.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een zomerhuisje kan voor 450 euro per week verhuurd worden. De onkosten bedragen 175
+                euro per week. Bereken met behulp van een gegevenstabel de opbrengst voor 5, 10, 15,
+                ..., 50 weken. <fig>
+                    <title>Verhuur zomerhuisje met vaste prijs</title>
+                    <image keyref="cottage_rental_fixed">
+                        <alt>Verhuur zomerhuisje met vaste prijs</alt>
+                    </image>
+                </fig></p>
+            <p>De gegevenstabel komt in A7:B17. De formule met een verwijzing naar <term>invoercel
+                    B5</term> komt in B7. De waarden voor de variabele staan in het bereik A8:A17 en
+                de uitkomsten gaan naar B8:B17.</p>
+            <note type="other" othertype="Bestand"><filepath>Verhuur_vast.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Type in cel <uicontrol>B7</uicontrol> de  formule
+                        <userinput>=B5*(B3-B4)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer het bereik voor de gegevenstabel <uicontrol>A7:B17</uicontrol>.</cmd>
+            </step>
+            <step id="datatable_insert">
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Wat-als-analyse (groep Voorspelling)</uicontrol>
+                        <uicontrol>Gegevenstabel</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Invoercellen voor gegevenstabel</title>
+                        <image keyref="datatable_dialogbox">
+                            <alt>Invoercellen voor gegevenstabel</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Zet de cursor in het vak <option>Kolominvoercel</option> en klik daarna op cel
+                        <userinput>B5</userinput>.</cmd>
+                <stepresult>Excel zet het celadres om in
+                    <systemoutput>$B$5</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>De gegevenstabel wordt gevuld met de berekende waarden.</stepresult>
+            </step>
+        </steps>
+        <result>In de resultaatcellen is door Excel een <term>matrixformule</term> geplaatst,
+                <systemoutput>{=TABEL(;B5)}</systemoutput>. Controleer dat.</result>
+    </taskbody>
+</task>

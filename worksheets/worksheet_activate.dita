@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="worksheet_activate" xml:lang="nl-NL">
+    <title>Taak: Werkblad activeren</title>
+    <shortdesc>Hoe je een werkblad activeert.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkblad<indexterm>activeren</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Een werkmap kan meerdere werkbladen hebben, gekenmerkt door een tab aan de
+                linker onderkant van het venster. Een werkblad moet geactiveerd zijn voordat je er
+                gegevens in kunt zetten. Wanneer er maar één werkblad aanwezig is, dan is deze
+                automatisch geactiveerd. Zijn er meerdere werkbladen dan kun je een bepaald werkblad
+                activeren door op de tab van het werkblad te klikken. De tab van het actieve
+                werkblad heeft een witte achtergrond.</p><note type="other" othertype="Bestand"
+                    ><filepath>Samenvoegen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Klik afwisselend op de tab van een van de werkbladen.</cmd>
+                <stepresult>Het werkblad wordt zichtbaar en de tab wordt wit.<note type="tip">Bij
+                        een werkmap met veel werkbladen kan het zijn dat de tab niet zichtbaar is.
+                        Gebruik dan de scrollknoppen linksonder.<image
+                            keyref="Worksheet_Tab_Scrollbuttons">
+                            <alt>Tab scroll knoppen</alt>
+                        </image></note></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

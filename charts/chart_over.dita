@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="chart_over" xml:lang="nl-NL" >
+	<title>Grafieken en Excel</title>
+	<shortdesc>Een korte beschrijving van grafieken.</shortdesc>
+	<prolog>
+		<critdates>
+			<created date="2017-08-31"/>
+			<revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Grafieken</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Met grafieken kun je de gegevens in het werkblad in een grafische vorm weergeven. Excel biedt
+			een groot scala aan grafiektypes aan en de keuze van de juiste grafieksoort is van
+			belang. Bij de installatie van Excel wordt het grafiektype gegroepeerde kolom als
+			standaardgrafiektype gedefinieerd, maar deze instelling is te wijzigen.</p>
+		<p>Bij het maken van een grafiek worden de gegevens in het werkblad gebruikt. Wanneer deze
+			gegevens later gewijzigd worden, dan wordt de grafiek automatisch hierbij aangepast.</p>
+		<p>Om gemakkelijk een grafiek in Excel te kunnen maken is het nodig dat de gegevens goed
+			geordend in het werkblad staan. Het handigste is het om daarbij van een lijstvorm
+			gebruik te maken.</p>
+		<p>Er zijn twee locaties voor een grafiek:<ul>
+				<li>als een <term>object</term> op een werkblad. De grafiek wordt dan ook wel een
+						<term>ingesloten</term> of <term>ingebedde</term> (<term xml:lang="en-US">embedded</term>)
+					grafiek genoemd. Het voordeel van deze locatie is dat je dan de grafiek samen
+					met de gegevens op het werkblad kunt zien en afdrukken.</li>
+				<li>een speciaal werkblad voor grafieken, een <term>grafiekblad</term> genaamd.</li>
+			</ul>Het is mogelijk om achteraf de locatie van de grafiek te wijzigen.</p>
+	</conbody>
+</concept>

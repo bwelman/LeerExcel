@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_ets" xml:lang="nl-NL">
+    <title>Exponentiële effening (ETS)</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2016-11-10"/>
+            <revised modified="2016-11-10"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Exponentiële effening is een analysemethode voor tijdreeksen waarbij gewichten aan de
+            waarnemingen worden toegekend. Er wordt hierbij van uitgegaan dat de meest recente
+            waarnemingen belangrijker zijn voor het maken van voorspellingen dan de oudere
+            waarnemingen. Aan de meest recente waarnemingen worden daarom zwaardere gewichten
+            toegekend dan aan oudere waarnemingen.</p>
+        <p>In onderstaande formule is <codeph>F<sub>t+1</sub></codeph> de prognosewaarde voor de
+            eerstvolgende periode<codeph> t+1</codeph>. De Y-waarden zijn de waarden voor de huidige
+            periode <codeph>t</codeph> en de voorgaande perioden <codeph>t-1, t-2, ...</codeph>.
+            Deze <codeph>Y</codeph>-waarden worden met coefficienten vermenigvuldigd waarin een α
+            voorkomt. Deze α heet de dempingscoefficient of dempingsconstante en heeft een waarde
+            tussen 0 en 1.</p>
+        <codeblock>F<sub>t+1</sub> = αY<sub>t</sub> + α(1-α)Y<sub>t-1</sub> + α(1-α)<sup>2</sup>Y<sub>t-2</sub> + α(1-α)<sup>3</sup>Y<sub>t-3</sub> + ...</codeblock>
+        <p>Wanneer α bijvoorbeeld 0,6 is dan ziet de formule er als volgt uit:</p>
+        <codeblock>F<sub>t+1</sub> = 0,6Y<sub>t</sub> + 0,24Y<sub>t-1</sub> + 0,096Y<sub>t-2</sub> + 0,038Y<sub>t-3</sub> + ...</codeblock>
+        <p>In de volgende figuur staan de gewichten uitgezet tegen de tijd in aflopende volgorde.
+            Duidelijk is te zien dat de gewichten exponentieel in de tijd afnemen.</p>
+        <fig>
+            <title>Gewichten exponentiële vereffening</title>
+            <image keyref="alpha_weights">
+                <alt>Gewichten exponentiële vereffening</alt>
+            </image>
+        </fig>
+        <p>De exponentiële effenings methoden zijn op dit moment de beste en meest gebruikte
+            methodes. In Excel 2016 is de ETS (Exponential Smoothing) methode beschikbaar. Het
+            grootste voordeel van de ETS methode is dat deze de mogelijkheid heeft om automatisch
+            seizoenpatronen te ontdekken in de gegevensreeks en verder nog een
+            betrouwbaarheidsinterval voor de voorspellingen kan leveren.</p>
+        <p>Het <wintitle>Voorspellingblad</wintitle> in Excel 2016 berekent automatisch toekomstige
+            waarden op basis van de AAA versie van het ETS algoritme.</p>
+    </conbody>
+</concept>

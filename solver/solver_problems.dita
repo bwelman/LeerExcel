@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="solver_problems" xml:lang="nl-NL" >
+	<title>Geen oplossing gevonden. Wat nu?</title>
+	<shortdesc>Mogelijkheden tot vervolgstappen wanneer de Oplosser geen antwoord kan
+		vinden.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Oplosser<indexterm>geen oplossing</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Het komt regelmatig voor dat de <term>Oplosser</term> rapporteert dat geen oplossing gevonden
+			kan worden:</p>
+		<fig>
+            <title>Dialoogvenster <q>Geen oplossing</q></title>
+            <image keyref="solver_results_nosolution_dialogbox">
+                <alt>Melding dat de oplosser geen haalbare oplossing heeft gevonden</alt>
+            </image>
+        </fig>
+		<p>Er zijn nu twee mogelijkheden:</p>
+		<ol>
+			<li>Er bestaat geen oplossing voor het geformuleerde probleem.</li>
+			<li>Er bestaat wel een oplossing voor het geformuleerde probleem, maar deze wordt niet
+				door de Oplosser gevonden.</li>
+		</ol>
+		<p>Je weet in de meeste gevallen nooit met zekerheid welke situatie aan de hand is. Er zijn
+			wel een paar richtlijnen om te onderzoeken of er alsnog een oplossing door de
+				Oplosser gevonden kan worden.</p>
+		<section>
+			<title>Wijziging beginwaarden <term>veranderende cellen</term></title>
+			<p>Of de Oplosser een bestaande oplossing kan vinden hangt onder andere af van de
+				beginwaarden voor de veranderende cellen. Door met andere beginwaarden te
+				experimenteren kan uitgezocht worden of dan wel een oplossing gevonden kan
+				worden.</p>
+		</section>
+		<section>
+			<title>Wijziging instellingen Oplosser</title>
+			<p>Het vinden van een oplossing hangt ook van de wijze waarop de Oplosser dit doet. Het zoeken
+				naar een oplossing verloopt volgens een zogenaamd <term>iteratief</term> proces. Een
+					<term>iteratie</term> is een herhaalde herberekening van het werkblad totdat aan
+				een bepaalde voorwaarde is voldaan. De Oplosser kent een aantal instellingen voor
+				dit iteratieproces. Door te klikken op de knop <uicontrol>Opties</uicontrol> in het
+				dialoogvenster <wintitle>Parameters Oplosser</wintitle> verschijnt een venster waar
+				je verschillende opties van de Oplosser kunt wijzigen.</p>
+			<fig>
+                <title>Opties oplosser</title>
+                <image keyref="solver_options">
+                    <alt>Opties oplosser</alt>
+                </image>
+            </fig>
+			<p>Het dialoogvenster biedt uitgebreide mogelijkheden om het oplosproces te besturen. En
+				de specificaties voor bepaalde problemen kunnen als een <term>model</term> worden
+				opgeslagen en weer geladen worden. Een paar van deze instellingen worden hier in het
+				kort behandeld. Voor meer verdieping moet de literatuur bestudeerd worden.</p>
+			<simpletable product="OF2007">
+				<sthead>
+					<stentry>Instelling</stentry><stentry>Toelichting</stentry>
+				</sthead>
+				<strow>
+					<stentry>Max tijd</stentry>
+					<stentry>Het maximaal aantal seconden die de <term>Oplosser</term> mag besteden aan het
+						iteratieproces. De standaardwaarde van 100 sec. kan verhoogd worden wanneer
+						de <term>Oplosser</term> rapporteert dat de toegestane tijd bereikt
+						is.</stentry>
+				</strow>
+				<strow>
+					<stentry>Iteraties</stentry>
+					<stentry>Het maximaal aantal iteraties (herberekeningen). De standaardwaarde van 100 kan
+						verhoogd worden wanneer geen oplossing gevonden kan worden.</stentry>
+				</strow>
+				<strow>
+					<stentry>Precisie</stentry>
+					<stentry>Hiermee wordt bepaald of de celwaarde van een <term>restrictie</term> aan de opgegeven
+						voorwaarde voldoet. Hoe groter de precisie (meer decimalen) hoe langer het
+						duurt voordat de <term>Oplosser</term> met resultaten komt.</stentry>
+				</strow>
+				<strow>
+					<stentry>Tolerantie</stentry>
+					<stentry>Het maximale foutpercentage dat is toegestaan bij <term>integer</term> oplossingen. De
+						waarde is alleen van belang wanneer een restrictie met <term>integer</term>
+						aanwezig is. Hoe kleiner het foutpercentage, hoe langer het zoekproces
+						duurt.</stentry>
+				</strow>
+				<strow>
+					<stentry>Uitgaan van lineair model</stentry>
+					<stentry>Alleen gebruiken wanneer alle relaties in het berekeningsmodel <term>lineair</term>
+						zijn. De keuze kan dan het zoekproces versnellen. Gebruik hiervan bij
+						<term>niet-lineaire</term> modellen kan er juist voor zorgen dat er geen
+						oplossing wordt gevonden.</stentry>
+				</strow>
+				<strow>
+					<stentry>Iteratieresultaat tonen</stentry>
+					<stentry>Bij inschakelen hiervan stopt de Oplosser na elke iteratie (herberekening) en geeft
+						dan het resultaat weer. Normaliter niet gebruiken.</stentry>
+				</strow>
+			</simpletable>
+			<simpletable product="OF2010">
+				<sthead>
+					<stentry>Instelling</stentry><stentry>Toelichting</stentry>
+				</sthead>
+				<strow>
+					<stentry>Precisie randvoorwaarde</stentry>
+					<stentry>Hiermee wordt bepaald of de celwaarde van een <term>randvoorwaarde</term> aan de
+						opgegeven voorwaarde voldoet. Hoe groter de precisie (meer decimalen) hoe
+						langer het duurt voordat de Oplosser met resultaten
+						komt.</stentry>
+				</strow>
+				<strow>
+					<stentry>Maximale tijd</stentry>
+					<stentry>Het maximaal aantal seconden die de Oplosser mag besteden aan het
+						iteratieproces.</stentry>
+				</strow>
+				<strow>
+					<stentry>Iteraties</stentry>
+					<stentry>Het maximaal aantal iteraties (herberekeningen).</stentry>
+				</strow>
+				<strow>
+					<stentry>Resultaten iteraties weergeven</stentry>
+					<stentry>Bij inschakelen hiervan stopt de Oplosser na elke iteratie (herberekening) en geeft
+						dan het resultaat weer. Normaliter niet gebruiken.</stentry>
+				</strow>
+			</simpletable>
+		</section>
+	</conbody>
+</concept>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_text" xml:lang="nl-NL">
+    <title>Taak: Tekstfuncties</title>
+    <shortdesc>Een oefening om een tekst in delen op te splitsen met gebruik van een viertal
+        tekstfuncties.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>tekst</indexterm><indexterm>LENGTE</indexterm><indexterm>LINKS</indexterm><indexterm>RECHTS</indexterm><indexterm>VIND.SPEC</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Excel kent verschillende functies waarmee bewerkingen op teksten kunnen worden
+                uitgevoerd. Zo kun je de lengte van een tekst bepalen en bepaalde stukken van een
+                tekst uit een grotere tekst halen.</p>
+            <p>In de volgende afbeelding zie je in kolom A een aantal namen. De bedoeling is om uit
+                de volledige namen de voor- en achternamen te halen en deze in afzonderlijke
+                kolommen te plaatsen. In de namen in het voorbeeld wordt een voornaam en een
+                achternaam van elkaar gescheiden door een spatie. Om de afzonderlijke delen te
+                krijgen moet je dus de plaats van de spatie bepalen. Het deel voor de spatie is de
+                voornaam en het deel na de spatie is de achternaam. <fig>
+                    <title>Invoer voor de oefening met tekstfuncties en de resultaten</title>
+                    <image keyref="Example_Text_Result">
+                        <alt>Invoer voor de oefening met tekstfuncties en de resultaten</alt>
+                    </image>
+                </fig>
+            </p>
+            <note type="other" othertype="Bestand"><filepath>Namen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <stepsection>Onderdeel: lengte van de tekst bepalen met functie LENGTE</stepsection>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B2</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Tekst</option> en de functie
+                        <option>LENGTE</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Tekst</varname> en selecteer dan in het
+                    werkblad cel <userinput>A2</userinput> en klik op
+                    <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In cel B2 komt 10 te staan. De tekst in A2 bestaat dus uit 10
+                    tekens.</stepresult>
+            </step>
+            <stepsection>Onderdeel: plaats van de spatie bepalen met functie VIND.SPEC</stepsection>
+            <step>
+                <cmd>Selecteer cel <uicontrol>C2</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Tekst</option> en de functie
+                        <option>VIND.SPEC</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voer de argumenten in het dialoogvenster <wintitle>Functieargumenten</wintitle>
+                    in zoals in de afbeelding hierna is aangegeven.</cmd>
+                <info>In het vak <varname>Zoeken_tekst</varname> voer je een
+                        <userinput>spatie</userinput> in, Excel plaatst daar zelf automatisch
+                    dubbele aanhalingstekens om heen.</info>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster functie VIND.SPEC</title>
+                        <image keyref="Example_Text_Search">
+                            <alt>Dialoogvenster functie vind.spec</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In cel C2 komt 6 te staan. Dus de spatie staat op plaats 6 in de
+                    tekst.</stepresult>
+            </step>
+            <stepsection>Onderdeel: de voornaam bepalen met functie LINKS</stepsection>
+            <step>
+                <cmd>Selecteer cel <uicontrol>D2</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Tekst</option> en de functie
+                        <option>LINKS</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voer de argumenten in het dialoogvenster <wintitle>Functieargumenten</wintitle>
+                    in zoals in de afbeelding hierna is aangegeven.</cmd>
+                <info>In het vak <varname>Aantal-tekens</varname> moet de lengte van het linkerdeel
+                    worden opgegeven. Dit is 1 minder dan de plaats van de spatie en die plaats kun
+                    je in cel C2 vinden.</info>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster functie LINKS</title>
+                        <image keyref="Example_Text_Left">
+                            <alt>Dialoogvenster functie links</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In cel D2 komt nu de voornaam te staan.</stepresult>
+            </step>
+            <stepsection>Onderdeel: achternaam bepalen met functie RECHTS</stepsection>
+            <step>
+                <cmd>Selecteer cel <uicontrol>E2</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Tekst</option> en de functie
+                        <option>RECHTS</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voer de argumenten in het dialoogvenster <wintitle>Functieargumenten</wintitle>
+                    in zoals in de afbeelding hierna is aangegeven.</cmd>
+                <info>In het vak <varname>Aantal-tekens</varname> moet de lengte van het rechterdeel
+                    worden opgegeven. Dit is gelijk aan de totale lengte van de tekst (in B2)
+                    verminderd met de plaats van de spatie (in C2).</info>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster functie RECHTS</title>
+                        <image keyref="Example_Text_Right">
+                            <alt>Dialoogvenster functie rechts</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In cel E2 komt nu de achternaam te staan.</stepresult>
+            </step>
+            <stepsection>Onderdeel: formules doorvoeren naar de andere rijen</stepsection>
+            <step>
+                <cmd>Selecteer <uicontrol>B2:E2</uicontrol> en sleep de vulgreep naar beneden tot
+                    E5.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

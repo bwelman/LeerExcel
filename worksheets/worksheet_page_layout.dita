@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="worksheet_page_layout" xml:lang="nl-NL">
+    <title>Pagina Lay-out</title>
+    <shortdesc>Een overzicht van de belangrijkste instellingen voor het afdrukken van een
+        pagina.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Afdrukken<indexterm>rasterlijnen</indexterm></indexterm>
+                <indexterm>Pagina<indexterm>instellingen</indexterm><indexterm>koptekst</indexterm><indexterm>lay-out</indexterm><indexterm>marges</indexterm><indexterm>voettekst</indexterm><indexterm>passend
+                        maken</indexterm><indexterm>schaal</indexterm></indexterm>
+                <indexterm>Rasterlijnen</indexterm>
+                <indexterm>Koptekst</indexterm>
+                <indexterm>Voettekst</indexterm>
+                <indexterm>Marges</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Door te klikken op <uicontrol>Pagina-instelling</uicontrol> krijg je een dialoogvenster
+            met vier tabbladen waarmee je allerlei opties voor de afdruk beschikbaar hebt. De meest
+            gebruikte opties worden in dit onderdeel besproken.</p>
+        <fig>
+            <title>Pagina-instelling - Pagina</title>
+            <image keyref="Worksheet_Pagesetup_Page">
+                <alt>Instellingen voor de pagina</alt>
+            </image>
+        </fig>
+        <p>Van belang is de afdrukstand: staand of liggend. Erg handig zijn de keuzes in het
+            gedeelte onder Schaal. Met <q>Verkleinen/vergroten tot</q> kan handmatig het aantal
+            pagina's worden aangepast. Ook is het mogelijk om dit automatisch door Excel te laten
+            doen via <q>Aanpassen aan</q> door op te geven op hoeveel pagina's de afdruk moet
+            plaatsvinden.</p>
+        <fig>
+            <title>Pagina-instelling - Marges</title>
+            <image keyref="Worksheet_Pagesetup_Margins">
+                <alt>Instellingen marges</alt>
+            </image>
+        </fig>
+        <p>Hier zijn de afmetingen in te stellen van de bovenmarge, ondermarge, linker- en
+            rechtermarge. Verder kan de afstand tot de rand van de kop- en voettekst worden
+            opgegeven. Deze afstanden moeten kleiner zijn dan de corresponderende marges omdat
+            anders de kop- en voetteksten een overlap geven met de gewone afdruk.</p>
+        <fig>
+            <title>Pagina-instelling - Koptekst/voettekst</title>
+            <image keyref="Worksheet_Pagesetup_HeaderFooter">
+                <alt>Instellingen voor kop- en voettekst</alt>
+            </image>
+        </fig>
+        <p>Door op de pijltjes aan het eind van de vakken koptekst en voettekst te klikken zijn een
+            aantal voorgedefinieerde teksten te selecteren. Hier zit ook de keuze (geen) bij wanneer
+            je geen kop- of voettekst wilt. Wanneer je een eigen ontworpen kop- of voettekst wilt
+            klik je op de knop voor de aangepaste tekst. Je krijgt dan een dialoogvenster waar je de
+            tekst in kunt typen en op kunt maken.</p>
+        <fig>
+            <title>Inhoud en opmaak van de kop- en voettekst</title>
+            <image keyref="Worksheet_Pagesetup_HeaderFooter_Content">
+                <alt>Inhoud en opmaak van koptekst en voettekst</alt>
+            </image>
+        </fig>
+        <p>Kop- en voetteksten hebben elk drie secties (links, midden en rechts). In elk deel kun je
+            eigen tekst intypen. Je kunt via de aanwezige knoppen ook voorgedefinieerde inhoud
+            ingeven als:<ul>
+                <li>Paginanummer</li>
+                <li>Aantal pagina's</li>
+                <li>Datum en tijd</li>
+                <li>Bestandspad, bestandsnaam en de naam van het werkblad</li>
+            </ul></p>
+        <fig>
+            <title>Pagina-instelling - Blad</title>
+            <image keyref="Worksheet_Pagesetup_Sheet">
+                <alt>Instellingen blad</alt>
+            </image>
+        </fig>
+        <p>Vaak staan er titels in de eerste rij(en) of kolom(men) van een werkblad. Wanneer dan het
+            werkblad groter dan 1 afdrukpagina is, kun je aangeven dat deze rij(en) en/of kolom(men)
+            op elke afdrukpagina moeten verschijnen.</p>
+        <p>Een interessante optie is verder dat je aan kunt geven dat de rasterlijnen van het
+            werkblad moeten worden afgedrukt.</p>
+        <note type="tip">De pagina-instellingen kunnen ook uitgevoerd worden via de menukeuze <menucascade>
+                <uicontrol>PAGINA-INDELING</uicontrol>
+                <uicontrol>groep Pagina-instelling</uicontrol>
+            </menucascade>.</note>
+    </conbody>
+</concept>

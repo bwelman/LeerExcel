@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="scen_coffeebar" xml:lang="nl-NL">
+	<title>Taak: Koffiebar "De Bruine Boon"</title>
+	<shortdesc>Een oefening in het werken met scenariobeheer.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Scenario</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>In de volgende afbeelding is een calculatiemodel van een koffiebar te zien. De grijs
+				gekleurde cellen zijn de variabelen.</p>
+			<fig>
+				<title>Calculatiemodel koffiebar</title>
+				<image keyref="coffeebar_model">
+					<alt>Calculatiemodel koffiebar</alt>
+				</image>
+			</fig>
+			<p>De eigenaar van de koffiebar wil naast de huidige waarden voor twee andere scenario's
+				doorrekenen wat het effect hiervan is op de winst.</p>
+			<ul>
+				<li>Een scenario met 10% hogere prijzen en minder investeringen in salarissen (€
+					30000 minder) en reclame (€ 5000 minder)</li>
+				<li>Een scenario met 5% hogere prijzen, 5% lagere orderkosten en meer reclame (€
+					2000 meer)</li>
+			</ul>
+			<note type="other" othertype="Bestand"><filepath>BruineBoon.xlsx</filepath></note>
+		</context>
+		<steps>
+		    <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+			<stepsection>Bestudeer het model. Identificeer de veranderende cellen en de resultaatcel.
+				Bestudeer de gebruikte formules en ga na dat alle cellen namen gekregen hebben. Door
+				cellen zinvolle namen te geven zullen deze namen in plaats van de adressen in het
+				samenvattingsrapport gebruikt worden. Het rapport wordt hierdoor goed leesbaar.</stepsection>
+			<step>
+                <cmd>Kies tab <menucascade>
+                        <uicontrol>Gegevens</uicontrol>
+                        <uicontrol>Wat als -analyse (groep Voorspelling)</uicontrol>
+                        <uicontrol>Scenariobeheer</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Scenariobeheer</wintitle></title>
+                        <image keyref="scenario_manager">
+                            <alt>Dialoogvenster scenariobeheer</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+			<step>
+				<cmd>Klik op <uicontrol>Toevoegen</uicontrol>.</cmd>
+				<stepresult>Het dialoogvenster <wintitle>Scenario toevoegen</wintitle> verschijnt.</stepresult>
+			</step>
+			<step>
+				<cmd>Typ voor <varname>Scenarionaam</varname> in <userinput>Huidig</userinput>.
+					Plaats the cursor in het vak <varname>Veranderende cellen</varname> en selecteer
+					in het werkblad de gebieden <userinput>B4:B6</userinput> en
+						<userinput>B11:B14</userinput>. Tot slot typ in het vak
+						<varname>Opmerkingen</varname> een korte toelichting op het scenario,
+					bijvoorbeeld <userinput>Huidige situatie</userinput>.</cmd>
+				<info>
+					<note type="tip">Gebruik de <uicontrol>CTRL</uicontrol> toets om meerdere
+						gebieden te selecteren></note>
+				</info>
+				<stepresult>
+					<fig>
+						<title>Dialoogvenster <wintitle>Scenario bewerken</wintitle> voor
+							koffiebar</title>
+					    <image keyref="coffeebar_scen_current">
+							<alt>Dialoogvenster scenario bewerken voor koffiebar</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>
+					<fig>
+						<title>Dialoogvenster <wintitle>Scenariowaarden</wintitle> voor
+							koffiebar</title>
+					    <image keyref="coffeebar_scen_current_values">
+							<alt>Dialoogvenster scenariowaarden voor koffiebar</alt>
+						</image>
+						<p>De waarden voor de veranderende cellen zijn ingevuld.</p>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>Toevoegen</uicontrol> om een nieuw scenario in te
+					voeren.</cmd>
+			</step>
+			<step>
+				<cmd>Geef het scenario de naam <userinput>Hogere prijzen, minder salaris en
+						reclame</userinput> , geef een korte toelichting in het vak
+						<varname>Opmerkingen</varname> en klik dan op
+					<uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>
+					<p>Het dialoogvenster <wintitle>Scenariowaarden</wintitle> verschijnt met daarin
+						nog steeds de huidige waarden van de veranderende cellen.</p>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Typ nu de nieuwe waarden in de cellen die voor dit scenario wijzigen. </cmd>
+				<info>In plaats van deze zelf uit te rekenen kan ook een formule (beginnend met =) ingetypt
+					worden. Excel rekent dan automatisch de nieuwe waarde uit. <simpletable>
+						<strow>
+							<stentry>Opbrengst_per_Order</stentry>
+							<stentry>=1,1*2,5</stentry>
+						</strow>
+						<strow>
+							<stentry>Salarissen</stentry>
+							<stentry>=300000-30000</stentry>
+						</strow>
+						<strow>
+							<stentry>Reclame</stentry>
+							<stentry>=20000-5000</stentry>
+						</strow>
+					</simpletable></info>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult><p>Er verschijnt een waarschuwingsscherm:</p><fig>
+						<title>Waarschuwingsscherm</title>
+				    <image keyref="coffeebar_warning">
+							<alt>Waarschuwingsscherm</alt>
+						</image>
+					</fig> De ingevoerde formules zijn vervangen door de uitkomsten van de formules.
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Maak op analoge wijze nog een scenario met de naam <userinput>Hogere prijzen,
+						lagere kosten en meer reclame</userinput> en pas de waarden voor dit
+					scenario aan.</cmd>
+				<stepresult>
+					<fig>
+						<title>Dialoogvenster <wintitle>Scenariobeheer</wintitle> met drie
+							scenario's</title>
+					    <image keyref="coffeebar_scenarios">
+							<alt>Dialoogvenster scenariobeheer met drie scenario's</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Selecteer een scenario en klik op <uicontrol>Weergeven</uicontrol>.</cmd>
+				<stepresult>In het werkblad worden de waarden in de veranderende cellen en de cellen
+					die daarvan afhankelijk zijn, aangepast voor het geselecteerde
+					scenario.</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>Samenvatting</uicontrol> om een rapport te maken.</cmd>
+				<stepresult>
+					<fig>
+						<title>Dialoogvenster <wintitle>Scenario-samenvatting</wintitle></title>
+					    <image keyref="coffeebar_scen_reporttype">
+							<alt>Dialoogvenster scenariosamenvatting</alt>
+						</image>
+						<p>De resultaatcel (de cel met de winst) is reeds door Excel ingevuld.</p>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>
+					<p>In een nieuw werkblad komt nu een samenvattingsrapport te staan.</p>
+					<fig>
+						<title>Samenvattingsrapport voor de koffiebar scenario's</title>
+					    <image keyref="coffeebar_scen_summary">
+							<alt>Samenvattingsrapport voor de koffiebar scenario's</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+		</steps>
+	</taskbody>
+</task>

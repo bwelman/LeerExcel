@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="data_entry" xml:lang="nl-NL">
+    <title>Taak: Invoer gegevens</title>
+    <shortdesc>Een eenvoudige oefening in het invoeren van gegevens in een cel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Uitlijning<indexterm>getallen</indexterm><indexterm>tekst</indexterm></indexterm>
+                <indexterm>Scheidingsteken<indexterm>decimaal</indexterm><indexterm>duizendtallen</indexterm></indexterm>
+                <indexterm>Formules</indexterm>
+                <indexterm>Procenten</indexterm>
+                <indexterm>Datum</indexterm>
+                <indexterm>Cel<indexterm>inhoud</indexterm><indexterm>opmaak</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Selecteer cel <uicontrol>A1</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Typ in <userinput>huis</userinput> en druk op
+                    <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>Het woord huis staat links uitgelijnd in de cel en de celwijzer heeft
+                    zich 1 cel naar beneden verplaatst zodat nu cel A2 de actieve cel
+                    is.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ i n <userinput>Omzet 1e kwartaal</userinput> en druk op
+                        <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>De tekst staat links uitgelijnd in de cel, past niet binnen de
+                    celgrenzen en lijkt daardoor ook deels in B2 te staan (wat niet waar is). Dat de
+                    tekst lijkt door te lopen naar cel B2 komt omdat cel B2 leeg is. De actieve cel
+                    is nu A3 geworden.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in <userinput>89</userinput> en druk op <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>Het getal staat rechtsuitgelijnd in de cel. De actieve cel is A4
+                    geworden.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in <userinput>12,34</userinput> en druk op
+                    <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>Het getal staat rechtsuitgelijnd in de cel. De actieve cel is A5
+                    geworden.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in <userinput>5.6</userinput> en druk op
+                    <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>De celinhoud is links uitgelijnd. Dit komt vanwege de punt tussen 5 en
+                    6. Hierdoor interpreteert Excel de invoer als tekst en wordt daarom links
+                    uitgelijnd. De actieve cel is nu A6.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in <userinput>1-2-2011</userinput> en druk op
+                    <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>De datum staat rechts uitgelijnd in de cel. Dat komt omdat Excel datums
+                    als getallen interpreteert, ze ook zo behandelt, maar ze een speciale
+                    datumopmaak geeft. De actieve cel is nu A7.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ in <userinput>=2+3</userinput> en druk op
+                    <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>In de cel zie je nu het getal 5 staan. Dat komt omdat Excel alle invoer
+                    die met <userinput>=</userinput> begint als een <term>formule</term> opvat,
+                    daarvan de uitkomst berekend en dan het resultaat laat zien. De actieve cel is
+                    nu A8.<note type="attention">De inhoud van de cel blijft steeds de formule en
+                        niet het resultaat.</note></stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B2</uicontrol>, typ in <userinput>10%</userinput> en
+                    druk op <uicontrol>Enter</uicontrol>.</cmd>
+                <stepresult>In cel B2 verschijnt de inhoud rechts uitgelijnd. Dat komt omdat Excel
+                    door het procentteken de invoer heeft geïnterpreteerd als een getal. De
+                    werkelijke inhoud van de cel is dan ook 0,1 en deze inhoud wordt in de
+                    procentweergave getoond. En omdat cel B2 nu niet meer leeg is, wordt de tekst
+                    cel A2 niet meer volledig getoond.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>A2</uicontrol>.</cmd>
+                <stepresult>In de formulebalk is te zien dat de inhoud van de cel nog steeds uit de
+                    volledig ingevoerde tekst bestaat. <fig>
+                        <title>Voorbeeld invoer gegevens</title>
+                        <image keyref="Data_Entry_Example">
+                            <alt>Voorbeeld invoer gegevens</alt>
+                        </image>
+                    </fig><note>Het is mogelijk om de breedte van de kolom aan te passen zodat alle
+                        tekst in cel A2 getoond wordt.</note></stepresult>
+            </step>
+        </steps>
+        <result>
+            <p>In deze invoeroefening heb je het volgende geleerd:</p>
+            <ul>
+                <li>Tekst wordt standaard links uitgelijnd.</li>
+                <li>Getallen worden standaard rechts uitgelijnd.</li>
+                <li>Er is een belangrijk verschil tussen komma's en punten in getallen.</li>
+                <li>Formules beginnen altijd met het = teken.</li>
+                <li>De invoer van een datum wordt behandeld als een getal en opgemaakt als een
+                    datum.</li>
+                <li>De invoer van een getal met een procentteken wordt behandeld als een getal en
+                    opgemaakt als een percentage. De echte inhoud van de cel wordt het honderdste
+                    deel van het ingevoerde getal.</li>
+                <li>Een cel heeft een <term>inhoud</term> en een <term>opmaak</term>. En wat je ziet
+                    is niet alijd de werkelijke inhoud.</li>
+            </ul>
+        </result>
+    </taskbody>
+</task>

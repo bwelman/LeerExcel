@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_bellen" xml:lang="nl-NL">
+    <title>Taak: Bellendiagram</title>
+    <shortdesc>Een bellendiagram kun je gebruiken wanneer je de relatie tussen drie numerieke
+        variabelen weer wilt geven.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Bellendiagram</indexterm>
+                <indexterm>XYZ diagram</indexterm>
+                <indexterm>Grafieken<indexterm>bellendiagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een bellendiagram is een uitbreiding op een spreidingsdiagram. Bij de laatste worden
+                twee numerieke variabelen (X en Y) tegen elkaar uitgezet. Bij een bellendiagram
+                wordt nog een derde variabele (Z) gebruikt. De punt in het spreidingsdiagram wordt
+                nu vervangen door een bel (of cirkel). Het middelpunt van de bel wordt door de X en
+                Y variabele bepaald en de grootte (straal) van de bel door de Z variabele. Daarnaast
+                kunnen ook andere kenmerken van een bel, zoals de kleur, gebruikt worden om nog
+                extra onderscheidingen aan te brengen. Deze zijn dan op kwalitatieve, niet-numerieke
+                waarden, gebaseerd.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>In de volgende afbeelding is te zien hoe het marktaandeel gerelateerd is aan de omzet
+                en het aantal producten.</p>
+            <fig>
+                <title>Marktaandeel</title>
+                <image keyref="bubble_data">
+                    <alt>Marktaandeel</alt>
+                </image>
+            </fig>
+            <p>De gegevens moeten in een bellendiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Bellendiagram voor marktaandelen</title>
+                <image keyref="bubble_result">
+                    <alt>Bellendiagram voor marktaandelen</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Grafiek_bellen.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zorg voor een juiste opmaak voor de waarden voor omzet en marktaandeel.</cmd>
+                <info><note type="attention">Een goede layout van de brongegevens zorgt er voor dat je deze opmaak ook in
+                    de grafiek krijgt.</note></info>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Spreidings- of bellendiagram invoegen (groep
+                            Grafieken)</uicontrol>
+                        <uicontrol>3D-bel</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Standaard bellendiagram</title>
+                        <image keyref="bubble_default">
+                            <alt>Standaard bellendiagram</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig de grafiektitel in <userinput>Marktaandelen</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg een horizontale astitel toe met de tekst <userinput>Aantal
+                        producten</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg een verticale astitel toe met de tekst <userinput>Omzet</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de schaal van de verticale as zo dat deze loopt van
+                        <userinput>0</userinput> t/m <userinput>70000</userinput>.</cmd>
+                <info>
+                    <note type="tip">Zet bij de as opties het minimum vast op 0 en het maximum op
+                        70000.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Voeg gegevenslabels toe met de positie hiervan gecentreerd.</cmd>
+                <stepresult>Er worden gegevenslabels toegevoegd, echter zijn het niet de gewenste.
+                    In plaats van de percentages van het marktaandeel staan er de bedragen voor de
+                    omzet. Dit wordt in de volgende stap aangepast.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer de gegevenslabels, dan <menucascade>
+                        <uicontrol>rechter muisklik</uicontrol>
+                        <uicontrol>Gegevenslabels opmaken</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>Het taakvenster gegevenslabels opmaken wordt weergegeven.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer onder <q>Label bevat</q> alleen <option>Belgrootte</option>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de bellen verander de kleur in een goudkleurige.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

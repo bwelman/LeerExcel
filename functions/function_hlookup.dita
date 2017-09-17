@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_hlookup" xml:lang="nl-NL">
+	<title>Taak: Horizontaal zoeken</title>
+	<shortdesc>Hoe de functie <term>HORIZ.ZOEKEN</term> gebruikt kan worden om de gegevens van een
+		persoon in een tabel op te zoeken.</shortdesc>
+	<prolog>
+		<critdates>
+			<created date="2011-03-29"/>
+			<revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Zoeken<indexterm>horizontaal</indexterm></indexterm>
+				<indexterm>Functies<indexterm>HORIZ.ZOEKEN</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>Met de functie <term>HORIZ.ZOEKEN</term> kun je in de eerste rij van een lijst (tabel) naar
+				een bepaalde waarde zoeken en dan een waarde teruggeven van een cel uit een andere
+				rij in dezelfde kolom.</p>
+			<p>Syntax: <codeph>HORIZ.ZOEKEN(zoekwaarde; tabelmatrix; rijindex[; benaderen])</codeph></p>
+			<p>Het laatste argument is facultatief en kan de waarde ONWAAR of WAAR hebben. <ul>
+					<li>ONWAAR : Er moet naar een exacte overeenkomst met de zoekwaarde gezocht
+						worden.</li>
+					<li>WAAR : Wanneer geen exacte overeenkomst gevonden kan worden, neem dan de
+						eerste dichtstbijzijnde benadering.</li>
+				</ul>
+				<note type="attention">Je kunt meestal het beste opgeven dat naar een exacte
+					overeenkomst gezocht moet worden, anders kunnen er onjuiste resultaten getoond
+					worden. Wil je toch een benadering vinden, dan moet je er voor zorgen dat de
+					lijst gesorteerd is voor de eerste rij.</note>
+			</p>
+			<p>In de volgende figuur staat een overzicht van de schoenmaten van een aantal personen, met de
+                naam in de eerste rij. Wanneer je de naam specificeert, dan kun je met behulp van de
+                functie HORIZ.ZOEKEN de bijbehorende leeftijd, lengte en schoenmaat opzoeken.<fig>
+                    <title>Overzicht schoenmaten</title>
+                    <image keyref="Example_Hlookup">
+                        <alt>Overzicht schoenmaten</alt>
+                    </image>
+                </fig> Cel C2 is de invoercel voor de naam waarnaar gezocht moet worden. De formules
+                voor het zoeken komen in C4:C6.</p>
+			<note type="other" othertype="Bestand"><filepath>Schoenmaat.xlsx</filepath></note>
+		</context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+			<step>
+				<cmd>Selecteer cel <uicontrol>C4</uicontrol> en voer de volgende formule in:
+						<userinput>=HORIZ.ZOEKEN($C$2;$C$8:$E$11;2;ONWAAR)</userinput>.</cmd>
+				<stepresult>Als resultaat verschijnt er in de cel een foutmelding
+						<systemoutput>#N/B</systemoutput>. Dit komt omdat er nog geen zoekwaarde in
+					cel C2 is ingevuld.</stepresult>
+			</step>
+			<step>
+				<cmd>Voer in cel <uicontrol>C2</uicontrol> de waarde <userinput>Pietersen</userinput> in.</cmd>
+				<stepresult>In cel C4 verschijnt nu de waarde <systemoutput>42</systemoutput>, de
+					leeftijd.</stepresult>
+			</step>
+			<step>
+				<cmd>Voer nu de juiste zoekformules in de twee andere cellen in.</cmd>
+				<substeps>
+					<substep>
+						<cmd>in C5 de formule: <userinput>=HORIZ.ZOEKEN($C$2;$C$8:$E$11;3;ONWAAR)</userinput></cmd>
+					</substep>
+					<substep>
+						<cmd>in C6 de formule: <userinput>=HORIZ.ZOEKEN($C$2;$C$8:$E$11;4;ONWAAR)</userinput></cmd>
+					</substep>
+				</substeps>
+			</step>
+		</steps>
+		<result>
+			<fig>
+                <title>Resultaten HORIZ.ZOEKEN</title>
+                <image keyref="Example_Hlookup_Result">
+                    <alt>Resultaten HORIZ.ZOEKEN</alt>
+                </image>
+            </fig>
+		</result>
+	</taskbody>
+</task>

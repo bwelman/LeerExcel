@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="worksheet_print_preview" xml:lang="nl-NL">
+    <title>Taak: Afdrukvoorbeeld</title>
+    <shortdesc>Het afdrukvoorbeeld laat je zien hoe de afgedrukte pagina er uit komt te zien en
+        geeft je mogelijkheden om van hieruit een aantal instellingen van de pagina te
+        wijzigen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Afdrukken<indexterm>afdrukvoorbeeld</indexterm></indexterm>
+                <indexterm>Afdrukvoorbeeld</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Om te beoordelen of een afdruk er goed uit komt te zien kun je het beste eerst het
+                afdrukvoorbeeld op het scherm zetten. Van hieruit kun je ook eenvoudig een aantal
+                instellingen voor de afdruk wijzigen.</p>
+            <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Bestand</uicontrol>
+                        <uicontrol>Afdrukken</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult> Een voorbeeld van de afdruk en mogelijkheden om instellingen te
+                    wijzigen, worden getoond. <fig>
+                        <title>Afdrukvoorbeeld</title>
+                        <image keyref="Print_Preview">
+                            <alt>Afdrukvoorbeeld</alt>
+                        </image>
+                    </fig>
+                    <!-- Plaatje uit hulpbestand Personeel.xlsx -->
+                    <note type="tip">Wanneer je de marges wilt zien, klik dan op de knop
+                            <uicontrol>Marges weergeven</uicontrol> rechtsonder in het
+                        scherm.</note>
+                    <note type="tip">Door klikken op de link
+                            <uicontrol>Pagina-instelling</uicontrol> krijg je een dialoogvenster met
+                        tabbladen waarmee je allerlei opties voor de afdruk beschikbaar hebt.</note>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

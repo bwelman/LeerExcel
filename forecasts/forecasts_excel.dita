@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_excel" xml:lang="nl-NL">
+ <title>Voorspellen in Excel</title>
+ <shortdesc/>
+ <prolog>
+  <critdates>
+   <created date="2017-08-31"/>
+   <revised modified="2017-08-31"/>
+  </critdates>
+  <metadata>
+   <keywords>
+    <indexterm/>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>Voorspellen is het extrapoleren van tijdreeksen naar de toekomst. Hiervoor worden verschillende
+   statistische technieken gebruikt. Om een goede voorspelling te kunnen maken is het belangrijk om
+   een patroon in de historische gegevens te ontdekken. Dat gebeurt door analyse van de
+   tijdreeks.</p>
+  <p>Excel heeft diverse mogelijkheden om voorspellingen te maken.</p>
+  <ul>
+   <li>Via de vergelijking van de trendlijn. De coefficienten van de vergelijking kunnen via
+    werkbladfuncties bepaald worden.</li>
+   <li>Via speciale werkbladfuncties<ul>
+     <li>Lineair model: VOORSPELLEN.LINEAIR en TREND</li>
+     <li>Exponentieel model: GROEI</li>
+    </ul></li>
+   <li>Via nieuwe functies in Excel 2016. Deze functies gebruiken geavanceerde functies zoals
+    Exponential Triple Smoothing (ETS):<ul id="ul_b42_sgf_gv">
+     <li>VOORSPELLEN.ETS</li>
+     <li>
+      <p>VOORSPELLEN.ETS.SEASONALITY</p>
+     </li>
+     <li>
+      <p>VOORSPELLEN.LINEAIR</p>
+     </li>
+     <li>
+      <p>VOORSPELLEN.ETS.CONFINT</p>
+     </li>
+     <li>VOORSPELLEN.ETS.STAT</li>
+    </ul></li>
+   <li>Via de addin <term>Gegevensanalyse</term>. Deze biedt aan Exponentiele demping (Exponential
+    Smoothing) en Zwevend gemiddelde (Moving Average). Verder kun je hiermee ook correlatie en
+    regressieberekeningen uitvoeren.</li>
+  </ul>
+ </conbody>
+</concept>

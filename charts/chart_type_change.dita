@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_type_change" xml:lang="nl-NL">
+    <title>Taak: Grafiektype wijzigen</title>
+    <shortdesc>Hoe je eenvoudig achteraf het type van de grafiek kunt wijzigen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>grafiektype wijzigen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Het grafiektype kan eenvoudig gewijzigd worden. In het volgende voorbeeld wordt het
+                kolomdiagram gewijzigd in een lijndiagram.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Ontwerpen</uicontrol>
+                        <uicontrol>Ander grafiektype (groep Type)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Grafiektype wijzigen</title>
+                        <image keyref="chart_type_change">
+                            <alt>Grafiektype wijzigen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Kies  type <uicontrol>Lijn met markeringen</uicontrol>. Klik dan op
+                        <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Lijndiagram met gegevensmarkeringen</title>
+                        <image keyref="bakery_line">
+                            <alt>Lijndiagram met gegevensmarkeringen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>     
+        </steps>
+    </taskbody>
+</task>

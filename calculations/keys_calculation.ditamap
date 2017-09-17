@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_calculation" xml:lang="nl-NL">
+    <title>Keys Calculation</title>
+    <keydef keys="Calculation_Model" href="images/calculation_model.png" format="png"/>
+    <keydef keys="Example_Boolean" href="images/example_boolean.png" format="png"/>
+    <keydef keys="Example_Expenses" href="images/example_expenses.png" format="png"/>
+    <keydef keys="Example_Insurance" href="images/example_insurance.png" format="png"/>
+    <keydef keys="Example_Prices" href="images/example_prices.png" format="png"/>
+    <keydef keys="Example_Sellings" href="images/example_sellings.png" format="png"/>
+    <keydef keys="Example_Wages" href="images/example_wages.png" format="png"/>
+    <keydef keys="Formula_Copy" href="images/formula_copy.png" format="png"/>
+    <keydef keys="Name_Apply" href="images/name_apply.png" format="png"/>
+    <keydef keys="Name_Box" href="images/name_box.png" format="png"/>
+    <keydef keys="Name_List" href="images/name_list.png" format="png"/>
+    <keydef keys="Name_Manager" href="images/name_manager.png" format="png"/>
+    <keydef keys="Name_New" href="images/name_new.png" format="png"/>
+</map>

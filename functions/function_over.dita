@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="function_over" xml:lang="nl-NL">
+    <title>Over functies</title>
+    <shortdesc>Uitleg over de soorten functies en de opbouw van een functie.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>categorie</indexterm></indexterm>
+                <indexterm>Argumenten</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Excel kent meer dan 300 ingebouwde functies voor het uitvoeren van allerlei bewerkingen.
+            Deze functies zijn in een aantal categorieën verdeeld:</p>
+        <ul>
+            <li>Database</li>
+            <li>Datum en tijd</li>
+            <li>Financieel</li>
+            <li>Info</li>
+            <li>Logisch</li>
+            <li>Statistisch</li>
+            <li>Technisch</li>
+            <li>Tekst</li>
+            <li>Wiskunde en trigonometrie</li>
+            <li>Zoeken en verwijzen</li>
+        </ul>
+        <p>Een categorie kan handig zijn wanneer je een bepaalde functie zoekt. Wanneer je
+            bijvoorbeeld een functie zoekt waarmee je de aflossing van een lening kunt berekenen,
+            dan is deze functie te vinden in de categorie <term>Financieel</term>. Er zijn ook
+            categorieën <term>Alles</term>, <term>Laatst gebruikt</term> en <term>Door gebruiker
+                gedefinieerd</term>.</p>
+        <p>Bij de meeste functies moet je aangeven met welke waarden of inhoud van cellen de functie
+            moet rekenen. Deze invoergegevens worden <term>argumenten</term> genoemd.</p>
+        <p>Alle functies in Excel hebben dezelfde opbouw (<term>syntax</term>): <ul>
+                <li>Aan het begin staat het <userinput>=</userinput> teken.</li>
+                <li>Daarna de naam van de functie.</li>
+                <li>Daarna ronde haakjes () waartussen de <term>argumenten</term> staan. De
+                        <term>argumenten</term> worden van elkaar gescheiden door het
+                        <term>lijstscheidingsteken</term> de <userinput>puntkomma (;)</userinput>.
+                        <note type="attention">Het <term>lijstscheidingsteken</term> dat Excel
+                        gebruikt hangt af van een instelling in Windows. Standaard is dit in de
+                        Nederlandse versie van Windows een <term>puntkomma</term> en in de Engelse
+                        versie een <term>komma</term>. Je kunt dit desgewenst wijzigen via het
+                            <term>configuratiescherm</term> van Windows. </note>
+                </li>
+                <li>De argumenten kunnen bestaan uit: getallen, teksten, bewerkingen en zelfs
+                    functies.</li>
+            </ul></p>
+        <fig>
+            <title>Opbouw van een functie</title>
+            <image keyref="Function_Syntax">
+                <alt>Opbouw van een functie</alt>
+            </image>
+        </fig>
+        <note type="attention">De functienaam in Excel hangt af van de gebruikte taalversie van
+            Microsoft Office.</note>
+    </conbody>
+</concept>

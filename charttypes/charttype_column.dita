@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_kolom" xml:lang="nl-NL">
+    <title>Taak: Kolomdiagram</title>
+    <shortdesc>Een grafiektype dat zich goed leent voor de weergave van tijdreeksen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Kolomdiagram</indexterm>
+                <indexterm>Grafieken<indexterm>kolomdiagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Kolomdiagrammen worden vooral gebruikt wanneer tijdseenheden als jaren, kwartalen,
+                maanden, weken en dagen een rol spelen. Gebruik niet teveel gegevenspunten weer.
+                Vijf tot zes waarden zijn nog goed te overzien. Wanneer meer dan 6 waarden op de
+                horizontale as uitgezet moeten worden kun je beter voor een lijndiagram kiezen.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>De volgende afbeelding toont de marktaandelen van een aantal supermarktketens voor de
+                jaren 2012-2016 in Nederland (bron": Distrifood)</p>
+            <!--<xref href="http://www.distrifood.nl/service/marktaandelen" format="html" scope="external"/>-->
+            <fig>
+                <title>Marktaandelen voor een aantal supermarktketens in 2012-2016</title>
+                <image keyref="column_data">
+                    <alt>Marktaandelen voor een aantal supermarktketens in 2012-2016</alt>
+                </image>
+            </fig>
+            <p>De gegevens moeten in een kolomdiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Kolomdiagram marktaandelen supermarktketens</title>
+                <image keyref="column_result">
+                    <alt>Kolomdiagram marktaandelen supermarktketens</alt>
+                </image>
+            </fig>
+            <note><filepath>Grafiek_kolom.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Kolom- of staafdiagram invoegen (groep Grafieken)</uicontrol>
+                        <uicontrol>Gegroepeerde kolom</uicontrol>
+                    </menucascade>. </cmd>
+                <stepresult>De kolomdiagram verschijnt op het werkblad. Er moeten nog een aantal
+                    aanpassingen gemaakt worden.</stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig de tekst van de titel in: <userinput>Marktaandelen
+                        supermarktketens</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg een verticale astitel toe met de tekst <userinput>Marktaandeel
+                        (%)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Tekstvak (groep Tekst)</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Teken met de muis een rechthoek in de hoek rechtsonder en typ de tekst
+                        <userinput>Bron: Distrifood</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd><menucascade>
+                        <uicontrol>Selecteer tekst</uicontrol>
+                        <uicontrol>rechter muisklik</uicontrol>
+                        <uicontrol>Lettertype</uicontrol>
+                        <uicontrol>tab Lettertype</uicontrol>
+                        <uicontrol>Punten 9</uicontrol>
+                        <uicontrol>OK</uicontrol>
+                    </menucascade></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

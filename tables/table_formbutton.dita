@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_formbutton" xml:lang="nl-NL">
+    <title>Taak: Knop Formulier inschakelen</title>
+    <shortdesc>Instructies hoe je de knop <uicontrol>Formulier</uicontrol> aan de
+            <uicontrol>Werkbalk Snelle Toegang</uicontrol> kunt toevoegen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Formulier<indexterm>knop</indexterm></indexterm>
+                <indexterm>Werkbalk Snelle Toegang</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>Een belangrijke taak bij tabellen is het correct invoeren van de gegevens. Excel
+            heeft hiervoor een ingebouwd formulier. De opdrachtknop voor het maken van zo'n
+            formulier is echter niet standaard op het lint aanwezig. In de stappen hierna wordt
+            beschreven hoe je deze opdrachtknop aan de <uicontrol>Werkbalk Snelle
+                Toegang</uicontrol> kunt toevoegen. Dit is een eenmalige actie.</context>
+        <steps>
+            <step>
+                <cmd>Klik op de pijl aan het eind van de <uicontrol>Werkbalk Snelle
+                        Toegang</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Excel scherm met <uicontrol>Werkbalk Snelle
+                            Toegang</uicontrol></title>
+                        <image keyref="qat_customize">
+                            <alt>Excel scherm met Werkbalk Snelle Toegang</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Kies <uicontrol>Meer opdrachten...</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de pijl bij <uicontrol>Kies opdrachten uit</uicontrol> en kies
+                        <uicontrol>Opdrachten die niet op het lint staan</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Opties voor Excel</wintitle> voor
+                                <uicontrol>Aanpassen</uicontrol></title>
+                        <image keyref="qat_customize_commands">
+                            <alt>Dialoogvenster opties voor Excel voor aanpassen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Blader door de alfabetische lijst met opdrachten en selecteer
+                        <uicontrol>Formulier...</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Opties voor Excel</wintitle> met opdracht
+                                <uicontrol>Formule</uicontrol></title>
+                        <image keyref="qat_customize_form">
+                            <alt>Dialoogvenster Opties voor Excel met opdracht formule</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Toevoegen</uicontrol> en dan op
+                    <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>In de <uicontrol>Werkbalk Snelle Toegang</uicontrol> is nu de <uicontrol>knop
+                            Formulier</uicontrol> zichtbaar.</p>
+                    <fig>
+                        <title>Knop Formulier op Werkbalk Snelle Toegang</title>
+                        <image keyref="qat_formbutton">
+                            <alt>Knop formulier op werkbalk Snelle Toegang</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

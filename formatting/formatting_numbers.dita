@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_cell_numbers" xml:lang="nl-NL">
+    <title>Opmaak getallen</title>
+    <shortdesc>Hoe je snel een getal kunt opmaken in een van de voorgedefinieerde
+        opmaakstijlen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Getal<indexterm>opmaak</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Getallen kunnen op allerlei manieren worden weergegeven, met of zonder cijfers achter de
+            komma, met een valutasymbool, met diverse scheidingstekens, in een datum- of
+            tijdnotatie, enz. En wanneer de voorgedefinieerde opmaakmogelijkheden niet voldoen kun
+            je ook nog zelf een opmaak definieren.</p>
+        <p>Bij de invoer van sommige getallen worden deze automatisch in de juiste opmaak gezet.</p>
+        <ul>
+            <li>Wanneer je in een cel intypt <userinput>19%</userinput> dan herkent Excel het
+                procentsymbool en toont de inhoud als een percentage:
+                    <systemoutput>19%</systemoutput>. De inhoud van de cel wordt dan 0,19 en niet
+                19.</li>
+            <li>Wanneer je in een cel intypt <userinput>€123,45</userinput> dan ziet Excel dat het
+                om een geldbedrag gaat. De inhoud van de cel wordt dan 123,45 en de inhoud wordt
+                rechts uitgelijnd getoond als <systemoutput>€ 123,45</systemoutput>.</li>
+            <li>Wanneer je in een cel intypt <userinput>1/2</userinput> dan denkt Excel dat het om
+                een datum gaat en wordt de inhoud getoond als
+                    <systemoutput>1-feb</systemoutput>.<note type="attention">Excel slaat datums en
+                    tijden op als seriële getallen, te beginnen bij 1 januari 1900 als nummer 1.
+                    Nummer 2 is dan 2 januari 1900, enz. En wanneer je 1/2 in een cel intypt, dan
+                    voegt Excel daar autmatisch het huidige jaartal aan toe, dus bijvoorbeeld
+                    1-2-2013 en de echte inhoud van de cel is dan 41306.</note></li>
+        </ul>
+        <p>Om snel een opmaak aan een getal toe te kennen kun je het beste gebruik maken van de
+            opdrachtknoppen in <menucascade>
+                <uicontrol>Start</uicontrol>
+                <uicontrol>groep Getal</uicontrol>
+            </menucascade>
+            <fig>
+                <title>Groep Getal op het lint</title>
+                <image keyref="Ribbon_Group_Number">
+                    <alt>Groep getal op het lint</alt>
+                </image>
+            </fig></p>
+        <p>In het midden staan de opdrachtknoppen voor een paar veel gebruikte opmaakstijlen:</p>
+        <dl>
+            <dlentry>
+                <dt><image keyref="Number_Format_Accounting"/></dt>
+                <dd>Financiële getalnotatie. De keuzepijl geeft een paar valutasymbolen.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Number_Format_Percent"/></dt>
+                <dd>Procentnotatie.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Number_Format_Thousands"/></dt>
+                <dd>Duizendtalnotatie</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Number_Format_Decimal_Increase"/></dt>
+                <dd>Meer decimalen.</dd>
+            </dlentry>
+            <dlentry>
+                <dt><image keyref="Number_Format_Decimal_Decrease"/></dt>
+                <dd>Minder decimalen</dd>
+            </dlentry>
+        </dl>
+        <p>Bovenaan staat de actuele opmaak van de geselecteerde cel, bijvoorbeeld
+                <term>Standaard</term>, met daarnaast een keuzepijl om een van de voorgedefinieerde
+            opmaakstijlen te kiezen. In de afbeelding hierna zie je deze lijst voor een cel met als
+            inhoud 0,19. Hieruit kun je dan een andere opmaakstijl kiezen. <fig>
+                <title>Lijst met opmaakstijlen voor getallen</title>
+                <image keyref="Number_Format_List">
+                    <alt>Lijst met opmaakstijlen voor getallen</alt>
+                </image>
+            </fig></p>
+        <p>Wanneer de gewenste opmaak niet in de lijst voorkomt dan kun je klikken op
+                <uicontrol>Meer getalnotaties...</uicontrol>. Dan verschijnt het dialoogvenster
+                <wintitle>Celeigenschappen</wintitle> met de <uicontrol>tab Getal</uicontrol>
+            geselecteerd. Hier kun je zelf een opmaak definieren.</p>
+    </conbody>
+</concept>

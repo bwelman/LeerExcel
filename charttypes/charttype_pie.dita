@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_cirkel" xml:lang="nl-NL">
+    <title>Taak: Cirkeldiagram</title>
+    <shortdesc>Een cirkeldiagram gebruik je om de procentuele verdeling binnen één gegevensreeks
+        (groep) weer te geven.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Cirkeldiagram</indexterm>
+                <indexterm>Grafieken<indexterm>cirkeldiagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Cirkeldiagrammen worden vooral gebruikt voor het weergeven van de procentuele
+                verdeling van gegevens binnen één groep, zoals bijvoorbeeld verkiezingsresultaten.
+                Teveel aan informatie kan een cirkeldiagram onoverzichtelijk maken. Om het
+                overzichtelijk te houden moet je hooguit 6 à 7 sectoren in een cirkeldiagram
+                gebruiken.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>Aan 150 leerlingen is gevraagd wat hun favoriete huisdier is. In de tabel hieronder
+                zie je de resultaten.</p>
+            <simpletable frame="all" relcolwidth="1* 1*">
+                <sthead>
+                    <stentry>Huisdier</stentry>
+                    <stentry>Frequentie</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Katten</stentry>
+                    <stentry>70</stentry>
+                </strow>
+                <strow>
+                    <stentry>Honden</stentry>
+                    <stentry>38</stentry>
+                </strow>
+                <strow>
+                    <stentry>Vogels</stentry>
+                    <stentry>22</stentry>
+                </strow>
+                <strow>
+                    <stentry>Vissen</stentry>
+                    <stentry>13</stentry>
+                </strow>
+                <strow>
+                    <stentry>Anders</stentry>
+                    <stentry>7</stentry>
+                </strow>
+            </simpletable>
+            <p>De gegevens moeten in een cirkeldiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Cirkeldiagram  favoriete huisdier</title>
+                <image keyref="pie_result">
+                    <alt>Cirkeldiagram  favoriete huisdier</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Grafiek_cirkel.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Cirkel- of ringdiagram invoegen (groep Grafieken)</uicontrol>
+                        <uicontrol>Cirkel</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Standaard cirkeldiagram</title>
+                        <image keyref="pie_default">
+                            <alt>Standaard cirkeldiagram</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voeg gegevenslabels toe, positie <option>Einde buitenkant</option>.</cmd>
+                <stepresult>De frequentie van elk huisdier wordt aan de buitenkant van elk onderdeel
+                    geplaatst.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer de gegevenslabels, rechter muisklik en kies dan
+                        <uicontrol>Gegevenslabels opmaken</uicontrol>.</cmd>
+                <stepresult>Het taakvenster <wintitle>Gegevenslabels opmaken</wintitle> wordt
+                    weergegeven.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <option>Categorienaam</option> en <option>Percentage</option> en
+                    deselecteer <option>Waarde</option>..</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Label opties</title>
+                        <image keyref="pie_label_options">
+                            <alt>Label opties</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Verwijder de legenda</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de tekst van de titel in: <userinput>Favoriete huisdier van 150
+                        leerlingen</userinput>.</cmd>
+            </step> 
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="function_overview_lookup" xml:lang="nl-NL">
+  <title>Overzicht Zoekfuncties</title>
+  <shortdesc>Dit onderdeel bevat een overzicht van een aantal functies voor zoeken.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Functies<indexterm>zoeken</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>HORIZ.ZOEKEN</title>
+      <p>Deze functie zoekt in de eerste rij van een tabel naar een bepaalde waarde en geeft als
+        resultaat de waarde uit dezelfde kolom in een opgegeven rij. Een vereiste is dat de tabel
+        oplopend gesorteerd is in de eerste rij.</p>
+      <codeblock>HORIZ.ZOEKEN(zoekwaarde; tabelmatrix; rijindex[; benaderen])</codeblock>
+      <parml>
+        <plentry>
+          <pt>zoekwaarde</pt>
+          <pd>Verplicht. De waarde waarnaar gezocht wordt in de eerste rij.</pd>
+        </plentry>
+        <plentry>
+          <pt>tabelmatrix</pt>
+          <pd>Verplicht. De tabel waarin naar gegevens gezocht wordt.</pd>
+        </plentry>
+        <plentry>
+          <pt>rijindex</pt>
+          <pd>Verplicht. Het nummer van de rij waaruit de waarde moet worden opgehaald. De eerste
+            rij is nummer 1.</pd>
+        </plentry>
+        <plentry>
+          <pt>benadering</pt>
+          <pd>Optioneel. Mogelijke waarden: WAAR (zoekt de beste waarde in de eerste rij, default)
+            en ONWAAR (= zoekt exact).</pd>
+        </plentry>        
+      </parml>
+    </section>
+    <section>
+      <title>VERT.ZOEKEN</title>
+      <p>Deze functie</p>
+      <codeblock>VERT.ZOEKEN(zoekwaarde; tabelmatrix; kolomindex[; benaderen])</codeblock>
+      <parml>
+        <plentry>
+          <pt>zoekwaarde</pt>
+          <pd>Verplicht. De waarde waarnaar gezocht wordt in de meest linkse kolom.</pd>
+        </plentry>
+        <plentry>
+          <pt>tabelmatrix</pt>
+          <pd>Verplicht. De tabel waarin naar gegevens gezocht wordt.</pd>
+        </plentry>
+        <plentry>
+          <pt>kolomindex</pt>
+          <pd>Verplicht. Het nummer van de kolom waaruit de waarde moet worden opgehaald. De meest
+            linkse kolom is nummer 1.</pd>
+        </plentry>
+        <plentry>
+          <pt>benadering</pt>
+          <pd>Optioneel. Mogelijke waarden: WAAR (zoekt de beste waarde in de eerste kolom, default)
+            en ONWAAR (= zoekt exact).</pd>
+        </plentry>        
+      </parml>
+    </section>
+  </refbody>
+</reference>

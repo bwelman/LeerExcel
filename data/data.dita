@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="data" xml:lang="nl-NL">
+    <title>Gegevens invoeren/bewerken</title>
+    <shortdesc>concept</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het invoeren van gegevens (teksten, getallen, formules) is een van de belangrijkste
+            werkzaamheden binnen Excel. In dit onderdeel leer je een aantal basisvaardigheden voor
+            het invoeren van gegevens.</p>
+    </conbody>
+</concept>

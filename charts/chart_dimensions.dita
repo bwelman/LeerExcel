@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_dimensions" xml:lang="nl-NL">
+    <title>Taak: Formaat grafiek wijzigen</title>
+    <shortdesc>De afmetingen van een grafiek op een werkblad kunnen eenvoudig gewijzigd worden,
+    waardoor een grafiek groter of kleiner gemaakt kan worden.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>afmetingen</indexterm><indexterm>formaat</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>De afmetingen van de grafiek kunnen gewijzigd worden door aan de
+                    <term>formaatgrepen</term> te slepen. Formaatgrepen worden als puntjes
+                voorgesteld en je vindt ze op elke hoek en in het midden van elke zijde van het
+                rechthoekige selectiekader. Met de formaatgrepen op de hoekpunten kun je alle kanten
+                op slepen. Met de formaatgrepen in het midden kun je alleen maar of horizontaal of
+                verticaal slepen. Door te slepen kun je de grafiek groter of kleiner maken. Het is
+                daarnaast ook mogelijk om de exacte afmetingen van een grafiek vast te leggen.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Plaats de muisaanwijzer op een van de hoekpunten totdat deze wijzigt in een
+                    dubbele pijl <image keyref="sizing_handle_diagonal"/>.</cmd>
+            </step>
+            <step>
+                <cmd>Druk de linker muisknop in en sleep de gewenste kant op.</cmd>
+                <info>
+                    <note type="tip">Als je tijdens het slepen de <uicontrol>Alt</uicontrol> toets
+                        ingedrukt houdt wordt de grafiek uitgelijnd op de rasterlijnen van het
+                        werkblad.</note>
+                </info>
+            </step>
+            <stepsection>Onderdeel: Exacte afmetingen van een grafiek</stepsection>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Indeling</uicontrol>
+                        <uicontrol>Hoogte of Breedte (groep Grootte)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Hoogte en Breedte van een grafiek</title>
+                        <image keyref="chart_dimensions">
+                            <alt>Hoogte en breedte van een grafiek</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Stel via de keuzepijltjes de gewenste afmeting in, of typ deze in.</cmd>
+            </step>
+            <step>
+                <cmd>Klik buiten de grafiek in het werkblad om de selectie op te heffen.</cmd>
+            </step>       
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Keys onderdeel Trends</title>
+    <keydef keys="alpha_weights" href="images/alpha_weights.png" format="png"/>
+    <keydef keys="example_exp" href="images/example_exp.png" format="png"/>
+    <keydef keys="example_lin" href="images/example_lin.png" format="png"/>
+    <keydef keys="example_log" href="images/example_log.png" format="png"/>
+    <keydef keys="example_ma" href="images/example_ma.png" format="png"/>
+    <keydef keys="example_pol" href="images/example_pol.png" format="png"/>
+    <keydef keys="example_pow" href="images/example_pow.png" format="png"/>
+    <keydef keys="exp_inc" href="images/exp_inc.png" format="png"/>
+    <keydef keys="lin_dec" href="images/lin_dec.png" format="png"/>
+    <keydef keys="lin_inc" href="images/lin_inc.png" format="png"/>
+    <keydef keys="sales_fcast_options" href="images/sales_fcast_options.png" format="png"/>
+    <keydef keys="sales_fcast_sheet" href="images/sales_fcast_sheet.png" format="png"/>
+    <keydef keys="timeserie_beer1" href="images/timeserie_beer1.png" format="png"/>
+    <keydef keys="timeserie_beer2" href="images/timeserie_beer2.png" format="png"/>
+    <keydef keys="timeserie_beer3" href="images/timeserie_beer3.png" format="png"/>
+    <keydef keys="timeserie_comp_cyclic" href="images/timeserie_comp_cyclic.png" format="png"/>
+    <keydef keys="timeserie_comp_random" href="images/timeserie_comp_random.png" format="png"/>
+    <keydef keys="timeserie_comp_season" href="images/timeserie_comp_season.png" format="png"/>
+    <keydef keys="timeserie_comp_trend" href="images/timeserie_comp_trend.png" format="png"/>
+    <keydef keys="timeserie_components" href="images/timeserie_components.png" format="png"/>
+</map>

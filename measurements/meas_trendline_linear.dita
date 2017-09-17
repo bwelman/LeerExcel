@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="meas_trendlijn_lineair" xml:lang="nl-NL">
+    <title>Taak: Lineaire trendlijn</title>
+    <shortdesc>Uitleg hoe je een lineaire trendlijn toevoegt.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Trendlijn</indexterm>
+                <indexterm>Lineaire trendlijn</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In een houtfabriek wordt een groot aantal gelijksoortige artikelen gefabriceerd, die
+                hoofdzakelijk verschillen vertonen in hun afmetingen en gewicht. Om te onderzoeken
+                of de productietijd van deze artikelen afhangt van het gewicht ervan, worden een
+                aantal metingen uitgevoerd. Er wordt een linair verband verondersteld.</p>
+            <note type="other" othertype="Bestand"
+                ><filepath>Productietijd_Gewicht.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer het gebied met de meetresultaten,
+                    <userinput>A2:B11</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Aanbevolen grafieken (groep Grafieken)</uicontrol>
+                        <uicontrol>Spreiding</uicontrol>
+                        <uicontrol>OK</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Spreidingsdiagram van de meetresultaten</title>
+                        <image keyref="prodtime_chart_xy">
+                            <alt>Spreidingsdiagram van de meetresultaten</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <menucascade>
+                        <uicontrol>+ (Grafiekelementen)</uicontrol>
+                        <uicontrol>Trendlijn</uicontrol>
+                        <uicontrol>lineair</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>Een gestippelde rechte lijn wordt toegevoegd.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer trendlijn.</cmd>
+                <stepresult>
+                    <p>Het taakvenster <wintitle>Trendlijn opmaken</wintitle> verschijnt.</p>
+                    <fig>
+                        <title>Trendlijn opties</title>
+                        <image keyref="trendline_options">
+                            <alt>Trendlijn opties</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <uicontrol>Vergelijking in grafiek weergeven</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Trendlijn met vergelijking</title>
+                        <image keyref="prodtime_chart_trendline">
+                            <alt>Trendlijn met vergelijking</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+        <result>Uit de vergelijking van de trendlijn kan nu het lineaire verband tussen de twee
+            variabelen worden
+            afgelezen:<codeblock>Productietijd = 2,955*Gewicht + 41,99</codeblock></result>
+        <example>
+            <title>Verbetering van de grafiek</title>
+            <p>Omdat in dit onderdeel de nadruk is gelegd op het maken van de trendlijn, is er geen
+                aandacht besteed aan de opmaak van de grafiek. In de afbeelding hierna is een beter
+                toonbare grafiek te zien.</p>
+            <fig>
+                <title>Verbeterd spreidingsdiagram</title>
+                <image keyref="prodtime_chart_xy_complete">
+                    <alt>Verbeterd spreidingsdiagram</alt>
+                </image>
+            </fig>
+            <p>Aangebrachte wijzigingen:<ul>
+                    <li>Schaling van beide assen</li>
+                    <li>Geen decimalen langs de horizontale as</li>
+                    <li>Trendlijn dikker en rood</li>
+                    <li>Astitels en grafiektitel</li>
+                    <li>Vergelijking verplaatst</li>
+                </ul></p>
+        </example>
+    </taskbody>
+</task>

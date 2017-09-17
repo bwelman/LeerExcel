@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_macro" xml:lang="nl-NL">
+    <title>Keys Macro</title>
+    <keydef keys="command_button1" href="images/command_button1.png" format="png"/>
+    <keydef keys="form_controls" href="images/form_controls.png" format="png"/>
+    <keydef keys="macro_cellformat_assign" href="images/macro_cellformat_assign.png" format="png"/>
+    <keydef keys="macro_cellformat_button" href="images/macro_cellformat_button.png" format="png"/>
+    <keydef keys="macro_cellformat_options" href="images/macro_cellformat_options.png" format="png"/>
+    <keydef keys="macro_cellformat_run" href="images/macro_cellformat_run.png" format="png"/>
+    <keydef keys="macro_security_button" href="images/macro_security_button.png" format="png"/>
+    <keydef keys="record_macro_cellformat" href="images/record_macro_cellformat.png" format="png"/>
+    <keydef keys="record_macro_dialogbox" href="images/record_macro_dialogbox.png" format="png"/>
+    <keydef keys="record_macro_relative_references" href="images/record_macro_relative_references.png" format="png"/>
+    <keydef keys="record_macro_stop" href="images/record_macro_stop.png" format="png"/>
+    <keydef keys="tab_developer" href="images/tab_developer.png" format="png"/>
+    <keydef keys="trust_center_macro_settings" href="images/trust_center_macro_settings.png" format="png"/>
+</map>

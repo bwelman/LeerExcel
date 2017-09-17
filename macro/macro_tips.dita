@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="macro_tips" xml:lang="nl-NL">
+  <title>Macro tips</title>
+  <shortdesc>Een aantal tips over het werken met macro's.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Macro<indexterm>relatieve
+            verwijzingen</indexterm><indexterm>uitvoeren</indexterm><indexterm>verwijderen</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>Relatieve verwijzingen</title>
+      <p>In opgenomen macro's wordt standaard gebruikgemaakt van absolute celverwijzingen. Dit houdt
+        in dat de exacte locaties van cellen, rijen en kolommen in de programmacode van de macro
+        worden opgenomen. De macro werkt dan altijd op dezelfde adressen.</p>
+      <p>Wanneer je relatieve verwijzingen in de macro wilt gebruiken dan moet je klikken op de knop
+          <wintitle>Relatieve verwijzingen</wintitle>.</p>
+      <fig>
+        <title>Relatieve verwijzingen in macro's</title>
+        <image keyref="record_macro_relative_references">
+          <alt>Relatieve verwijzingen in macro's</alt>
+        </image>
+      </fig>
+      <note type="attention">
+        <p>Deze instelling blijft actief totdat je de instelling ongedaan maakt door weer op deze
+          knop te klikken.</p>
+      </note>
+    </section>
+    <section>
+      <title>Startmogelijkheden voor macro's</title>
+      <p>Macro's kunnen op de volgende manieren gestart worden.</p>
+      <ul>
+        <li>Via <menucascade>
+            <uicontrol>tab Ontwikkelaars</uicontrol>
+            <uicontrol>Macro's (groep Programmacode)</uicontrol>
+            <uicontrol>Macro selecteren</uicontrol>
+            <uicontrol>Uitvoeren</uicontrol>
+          </menucascade>.</li>
+        <li>Via een sneltoets als deze aan de macro is toegewezen.</li>
+        <li>Via een opdrachtknop als deze voor de macro gemaakt is.</li>
+      </ul>
+    </section>
+    <section>
+      <title>Macro's verwijderen</title>
+      <p>Macro's kunnen verwijderd worden via <menucascade>
+          <uicontrol>tab Ontwikkelaars</uicontrol>
+          <uicontrol>Macro's (groep Programmacode)</uicontrol>
+          <uicontrol>Macro selecteren</uicontrol>
+          <uicontrol>Verwijderen</uicontrol>
+        </menucascade>.</p>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="calculation_names_manager" xml:lang="nl-NL">
+    <title>Taak: Namen beheren</title>
+    <shortdesc>De mogelijkheden die naambeheer biedt om nieuwe namen te maken of bestaande namen te
+        wijzigen of te verwijderen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Celnamen<indexterm>beheren</indexterm></indexterm>
+                <indexterm>Namen<indexterm>beheren</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Excel kent beheersmogelijkheden voor namen, zodat je een overzicht van alle namen in
+                een werkmap kunt krijgen, een naam kunt wijzigen en ook een naam kunt verwijderen.
+                Zeker bij de grotere werkmappen waar vaak veel namen in voorkomen is dit een
+                onmisbaar middel voor het beheer van de namen.</p>
+            <note><filepath>Uitgaven.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Formules</uicontrol>
+                        <uicontrol>Namen beheren (groep Gedefinieerde namen)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Namen beheren</wintitle></title>
+                        <image keyref="Name_Manager">
+                            <alt>Dialoogvenster namen beheren</alt>
+                        </image>
+                    </fig>
+                    <note type="tip">
+                        <p>Via dit dialoogvenster kun je diverse bewerkingen op de namen
+                            uitvoeren.</p>
+                        <dl>
+                            <dlentry>
+                                <dt>Naam verwijderen</dt>
+                                <dd>Selecteer de naam en kies
+                                    <uicontrol>Verwijderen</uicontrol>.</dd>
+                            </dlentry>
+                            <dlentry>
+                                <dt>Naam wijzigen</dt>
+                                <dd>Selecteer de naam en kies <uicontrol>Bewerken</uicontrol>.</dd>
+                            </dlentry>
+                            <dlentry>
+                                <dt>Beschrijving toevoegen/bewerken</dt>
+                                <dd>Selecteer de naam en kies <uicontrol>Bewerken</uicontrol>.</dd>
+                            </dlentry>
+                            <dlentry>
+                                <dt>Nieuwe naam maken</dt>
+                                <dd>Selecteer de naam en kies <uicontrol>Nieuw</uicontrol>.</dd>
+                            </dlentry>
+                        </dl>
+                    </note>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

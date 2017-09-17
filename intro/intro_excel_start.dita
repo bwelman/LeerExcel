@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="intro_excel_start" xml:lang="nl-NL">
+    <title>Taak: Excel opstarten</title>
+    <shortdesc>Aanwijzingen hoe je Excel op kunt starten.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Excel<indexterm>opstarten</indexterm></indexterm>
+                <indexterm>Opstarten</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>De mogelijkheden om Excel op te starten hangen af van de manier waarop het systeem
+                geïnstalleerd is. Deze cursus gaat uit van een standaard installatie van Microsoft
+                Office <ph keyref="officeversion"/> NL op een systeem met Windows 10. Op bijna alle
+                computers kan Excel via de startknop van Windows gestart worden en deze methode
+                wordt hierna beschreven.</p>
+            <note type="tip">De handigste manier om Excel te starten is via een snelkoppeling op het
+                bureaublad of via een knop op de taakbalk.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Startknop</uicontrol>
+                        <uicontrol>Excel 2016</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>Het opstartscherm van Excel verschijnt. In het linkerdeel staan de
+                    laatst geopende bestanden en in het rechterdeel een overzicht van beschikbare
+                    sjablonen.</stepresult>
+            </step>
+            <step>
+                <cmd>Klik op het sjabloon <uicontrol>Lege werkmap</uicontrol></cmd>
+                <stepresult>Er verschijnt een nieuwe werkmap met de naam <wintitle>Map1</wintitle>
+                    en een leeg werkblad met de naam <wintitle>Blad1</wintitle>.</stepresult>
+            </step>
+        </steps>
+        <example>
+            <title>Startscherm uitschakelen</title>
+            <p>Wanneer je Excel opent wordt als eerste het startscherm getoond. Het startscherm
+                toont een lijst met recente documenten en de beschikbare sjablonen. Dat kan in
+                sommige gevallen handig zijn, maar het is ook mogelijk om Excel op te starten met
+                een leeg document.</p>
+            <p>Start eerst Excel op en kies dan <menucascade>
+                    <uicontrol>Bestand</uicontrol>
+                    <uicontrol>Opties</uicontrol>
+                    <uicontrol>tabblad Algemeen</uicontrol>
+                </menucascade> en schakel het vinkje uit bij <uicontrol>Startscherm weergeven
+                    wanneer deze toepassing wordt gestart</uicontrol>.</p>
+            <p>De eerstvolgende dat je Excel opstart verschijnt direct een nieuwe werkmap met een
+                leeg werkblad.</p>
+        </example>
+    </taskbody>
+</task>

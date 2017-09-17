@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_data_labels" xml:lang="nl-NL">
+    <title>Taak: Gegevenslabels</title>
+    <shortdesc>Gegevenslabels aan een grafiek toevoegen of verwijderen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>gegevenslabels</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Gegevenslabels zijn getallen die bij de gegevenspunten in de grafiek geplaatst worden
+                en die de actuele waarde voor de gegevenspunten aangeven.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Klik op de knop Grafiekelementen <image keyref="button_chart_elements"
+                        id="image_upf_r45_q1b"/> naast de grafiek en je krijgt een lijst met
+                    grafiekelementen.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de vervolgpijl bij <option>Gegevenslabels</option> en selecteer
+                        <option>Einde, buitenkant</option>.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Gegevenslabels</title>
+                <image keyref="bakery_datalabels" alt="">
+                    <alt>Gegevenslabels</alt>
+                </image>
+            </fig>
+        </result>
+    </taskbody>
+</task>

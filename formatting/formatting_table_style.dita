@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="formatting_table_style" xml:lang="nl-NL">
+    <title>Taak: Tabelstijlen</title>
+    <shortdesc>Een oefening om een lijst op te maken met een van de voorgedefinieerde
+        stijlen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Tabelstijlen</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Excel kent een aantal voorgedefinieerde stijlen om een lijst (tabel) snel en
+                gemakkelijk op te maken.</p>
+            <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Opmaken als tabel (groep Stijlen)</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies uit de getoonde voorbeelden een stijl, bijvoorbeeld <uicontrol>Tabelstijl
+                        normaal 4</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Opmaken als tabel</wintitle></title>
+                        <image keyref="Tablestyle_Dialogbox">
+                            <alt>Dialoogvenster opmaken als tabel</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Resultaat tabelopmaak</title>
+                <image keyref="Tablestyle_Result">
+                    <alt>Resultaat tabelopmaak</alt>
+                </image>
+            </fig></result>
+    </taskbody>
+</task>

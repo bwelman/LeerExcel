@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_calculation" xml:lang="nl-NL">
+    <title>Berekeningen opzetten</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_calculation.ditamap" processing-role="resource-only"/>
+    <!-- Content -->
+    <topicref href="calculation.dita" scope="local" type="concept">
+        <topicref href="calculation_over.dita" scope="local" type="concept"/>
+        <topicref href="calculation_example_sellings.dita" scope="local" type="task"/>
+        <topicref href="calculation_example_wages.dita" scope="local" type="task"/>
+        <topicref href="calculation_model.dita" scope="local" type="concept"/>
+        <topicref href="calculation_formula_copy.dita" scope="local" type="concept"/>
+        <topicref href="calculation_example_insurance.dita" scope="local" type="task"/>
+        <topicref href="calculation_example_prices.dita" scope="local" type="task"/>
+        <topicref href="calculation_boolean.dita" scope="local" type="concept"/>
+        <topichead navtitle="Names">
+            <topicref href="calculation_names_cells.dita" scope="local" type="concept"/>
+            <topicref href="calculation_names_create.dita" scope="local" type="task"/>
+            <topicref href="calculation_names_using.dita" scope="local" type="task"/>
+            <topicref href="calculation_names_manager.dita" scope="local" type="task"/>
+            <topicref href="calculation_names_list.dita" scope="local" type="task"/>
+        </topichead>
+    </topicref>
+</map>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="data_edit" xml:lang="nl-NL">
+    <title>Celinhoud wijzigen</title>
+    <shortdesc>De inhoud van een cel kan bewerkt worden wanneer de cel de status Bewerken
+        heeft.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Bewerken<indexterm>inhoud cel</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>De gegevens in een cel kunnen op een van de volgende manieren bewerkt worden:</p>
+        <ul>
+            <li>Dubbelklikken op de cel. De cursor komt midden in de cel te staan zodat de inhoud
+                direct binnen de cel bewerkt kan worden.</li>
+            <li>Selecteer de cel en druk dan F2. De cursor komt dan aan het eind van de celinhoud te
+                staan zodat de inhoud bewerkt kan worden.</li>
+            <li>Selecteer de cel en klik dan op de formulebalk op de plek waar je het bewerken wilt
+                beginnen.</li>
+        </ul>
+        <p>Wanneer de cel in de bewerkingsmodus wordt gezet verandert op de statusbalk helemaal
+            links onderaan de status van de cel van <systemoutput>Gereed</systemoutput> in
+                <systemoutput>Bewerken</systemoutput>. En verder worden twee iconen links op de
+            formulebalk geactiveerd: <image keyref="Formulabar_Icons"/>. De linker voor
+                <uicontrol>Annuleren</uicontrol> en de volgende voor
+            <uicontrol>Invoeren</uicontrol>.</p>
+        <note type="attention">De bewerking moet wel worden afgesloten met de
+                <uicontrol>Enter</uicontrol> toets zodat de status weer gewijzigd wordt in
+                <systemoutput>Gereed</systemoutput>.</note>
+    </conbody>
+</concept>

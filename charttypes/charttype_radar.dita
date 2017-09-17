@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_radar" xml:lang="nl-NL">
+    <title>Taak: Radardiagram</title>
+    <shortdesc>Een radardigram kun je gebruiken wanneer je meerdere categorieën langs afzonderlijke
+        assen wilt uitzetten.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Radardiagram</indexterm>
+                <indexterm>Spindiagram</indexterm>
+                <indexterm>Sterdiagram</indexterm>
+                <indexterm>Grafieken<indexterm>radardiagram</indexterm><indexterm>spindiagram</indexterm><indexterm>sterdiagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In een radardiagram worden meerdere gegevensreeksen (categorieën) uitgezet langs afzonderlijke
+                assen die steeds vanuit een punt in het midden, de oorsprong, vertrekt. Het diagram ziet er
+                daardoor webvormig uit en wordt daarom ook wel spindiagram of sterdiagram genoemd. De hoeken
+                tussen deze assen zijn gelijk. De gegevenspunten op de assen worden meestal met een lijn
+                verbonden.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>In de volgende afbeelding zie je de scores van een zelfevaluatie volgens een 5-punts
+                Likert schaal.</p>
+            <fig>
+                <title>Zelfevaluatie</title>
+                <image keyref="radar_data">
+                    <alt>Zelfevaluatie</alt>
+                </image>
+            </fig>
+            <p>De gegevens moeten in een radardiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Radardiagram zelfevaluatie</title>
+                <image keyref="radar_result">
+                    <alt>Radardiagram zelfevaluatie</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Grafiek_radar.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Oppervlakdiagram of radardiagram invoegen (groep
+                            Grafieken)</uicontrol>
+                        <uicontrol>Radar</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de grafiektitel in <userinput>Zelfevaluatie</userinput>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

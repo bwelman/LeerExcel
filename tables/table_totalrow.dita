@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_totalrow" xml:lang="en-US">
+	<title>Taak: Totaalrij</title>
+	<shortdesc>Hoe een totaalrij toe te voegen</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Totaalrij</indexterm>
+				<indexterm>Tabel<indexterm>totaalrij</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+            <p>?</p>
+            <note type="other" othertype="File"><filepath>Personeel.xlsx</filepath></note>
+        </context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+		    <step>
+                <cmd>Zet het bereik om naar een tabel.</cmd>
+            </step>
+		    <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Ontwerpen (Hulpmiddelen voor tabellen</uicontrol>
+                        <uicontrol>Aanvinken Totaalrij (groep Opties voor Tabelstijlen)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Een rij <systemoutput>Totaal</systemoutput> wordt aan onder aan het eind van
+                        de tabel ingevoegd en een functie <varname>SUBTOTAAL</varname> is onder de
+                        laatste kolom ingevoegd. In dit geval hoort deze functie hier niet thuis
+                        omdat de laatste kolom een datumkolom is.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer in de Totaalrij de cel onder kolom <varname>Begindatum</varname>, dan
+                    keuzepijl <image keyref="subtotal_selector" id="image_jbh_3by_r1b"/> en kies
+                        <option>Geen</option>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer in de Totaalrij de cel onder kolom <varname>Salaris</varname>, dan
+                    keuzepijl <image keyref="subtotal_selector" id="image_rv5_kby_r1b"/> en kies
+                        <option>Som</option>.</cmd>
+                <stepresult>Het totale salaris is <systemoutput>€
+                    4.874.037,39</systemoutput>.</stepresult>
+            </step>
+		</steps>
+	</taskbody>
+</task>

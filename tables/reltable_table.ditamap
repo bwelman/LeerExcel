@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Relation Tables Tables</title>
+    <reltable>
+        <title>Links</title>
+        <relheader>
+            <relcolspec type="topic" linking="sourceonly"/>
+            <relcolspec type="concept" linking="targetonly"/>
+            <relcolspec type="task" linking="targetonly"/>
+            <relcolspec type="reference" linking="targetonly"/>
+            <relcolspec linking="targetonly"/>
+        </relheader>
+        <relrow>
+            <relcell>
+                <topicref href="table_data_entry_form.dita"/>
+                <topicref href="table_search_form.dita"/>
+            </relcell>
+            <relcell/>
+            <relcell>
+                <topicref href="table_formbutton.dita"/>
+            </relcell>
+            <relcell/>
+            <relcell/>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="table_sort.dita"/>
+                <topicref href="table_filter.dita"/>
+                <topicref href="table_calculated_column.dita"/>
+            </relcell>
+            <relcell/>
+            <relcell>
+                <topicref href="table_create.dita"/>
+            </relcell>
+            <relcell/>
+            <relcell/>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="table_calculated_column.dita"/>
+            </relcell>
+            <relcell/>
+            <relcell/>
+            <relcell/>
+            <relcell>
+                <topicref
+                    href="https://support.office.com/en-us/article/Using-structured-references-with-Excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e"
+                    scope="external" format="html">
+                    <topicmeta>
+                        <linktext>Using structured references with Excel tables.</linktext>
+                    </topicmeta>
+                </topicref>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

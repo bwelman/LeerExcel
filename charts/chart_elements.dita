@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="chart_elements" xml:lang="nl-NL" >
+	<title>De onderdelen van een grafiek</title>
+	<shortdesc>Een korte beschrijving van de onderdelen van een grafiek.</shortdesc>
+	<prolog>
+		<critdates>
+			<created date="2017-08-31"/>
+			<revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Grafieken<indexterm>grafiekgebied</indexterm><indexterm>tekengebied</indexterm><indexterm>gegevensreeks</indexterm><indexterm>gegevenspunt</indexterm><indexterm>gegevenslabel</indexterm><indexterm>categorie-as</indexterm><indexterm>waarde-as</indexterm><indexterm>grafiektitel</indexterm><indexterm>astitel</indexterm><indexterm>legenda</indexterm><indexterm>rasterlijnen</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Een grafiek bestaat uit een groot aantal onderdelen. Deze worden lang niet altijd standaard
+			door Excel aangemaakt. Ze kunnen altijd op een later moment worden toegevoegd. Ook
+			verwijderen en verplaatsen van de meeste onderdelen is mogelijk.</p>
+		<fig>
+            <title>Onderdelen grafiek</title>
+            <image keyref="chart_elements">
+                <alt>Onderdelen van een grafiek</alt>
+            </image>
+        </fig>
+		<p>De belangrijkste onderdelen van een grafiek zijn:</p>
+		<dl>
+			<dlentry>
+				<dt>Grafiekgebied (1)</dt>
+				<dd>Dit is de hele grafiek inclusief alle onderdelen</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Tekengebied (2)</dt>
+				<dd>Het rechthoekige gebied dat wordt begrensd door de assen en dat alle gegevensreeksen bevat.
+					In de figuur is dit het gebied met de licht gekleurde achtergrond. </dd>
+			</dlentry>
+			<dlentry>
+				<dt>Gegevensreeks (3)</dt>
+				<dd>Dit zijn de bij elkaar horende gegevenspunten die worden weergegeven in de grafiek. In de
+					afgebeelde grafiek komen twee gegevensreeksen voor: de blauw gekleurde en de
+					bruin gekleurde. In een grafiek komt altijd minstens één gegevensreeks voor. De
+					gegevensreeksen hebben namen en deze namen vormen samen de
+					<term>legenda</term>.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Gegevenspunt (4)</dt>
+				<dd>Een afzonderlijke waarde (staaf, kolom, punt, ...) in de grafiek. In de afgebeelde grafiek
+					is elke kolom een gegevenspunt en totaal zijn er 8 gegevenspunten.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Categorie-as (5)</dt>
+				<dd>Dit is de horizontale as of X-as. De tekst (labels) langs deze as komen uit cellen in het
+					werkblad. In de afgebeelde grafiek staan vier categorieën: Kwrt 1, Kwrt 2, Kwrt
+					3 en Kwrt 4.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Astitel horizontale as (6)</dt>
+				<dd>Deze titel geeft aan welk soort gegevens langs de horizontale as zijn uitgezet. Voor het
+					geval het niet duidelijk is dat <q>Kwrt 1, Kwrt2, Kwrt3, Kwrt 4</q> op kwartalen
+					wijzen, kun je een titel toevoegen die dat aangeeft.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Waarde-as (7)</dt>
+				<dd>Dit is de verticale as of Y-as en deze as bevat gewoonlijk getallen.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Astitel verticale as (8)</dt>
+				<dd>Deze titel is er vooral van belang om de eenheden langs de as aan te geven.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Grafiektitel (9)</dt>
+				<dd>Een korte tekst die aangeeft waar de grafiek over gaat. Deze titel heeft meestal een groter
+					lettertype en staat vaak aan de bovenkant van de grafiek.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Legenda (10)</dt>
+				<dd>Een vak waarin de patronen of kleuren worden aangegeven die aan de
+					gegevensreeksen of categorieën zijn toegekend.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Rasterlijnen (11)</dt>
+				<dd>Horizontale of verticale lijnen in het tekengebied.</dd>
+			</dlentry>
+			<dlentry>
+				<dt>Gegevenslabels (12)</dt>
+				<dd>Een getal bij een gegevenspunt die de actuele waarde voor het gegevenspunt aangeeft.</dd>
+			</dlentry>
+		</dl>
+	</conbody>
+</concept>

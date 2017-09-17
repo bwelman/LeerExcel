@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="pivots_over" xml:lang="nl-NL">
+	<title>Wat zijn draaitabellen?</title>
+	<shortdesc id="shortdesc">Een korte inleiding wat een draaitabel is, waar je deze voor kunt
+	gebruiken en uit welke onderdelen deze bestaat.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Draaitabel<indexterm>velden</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Een draaitabel is vooral erg geschikt wanneer een variabele uitgezet moet worden tegen een
+			andere variabele, waardoor je antwoorden kunt krijgen op vragen als: welk produkt levert
+			de hoogste winstbijdrage, welke verkoper maakt de hoogste omzet, welke afdeling maakt de
+			meeste kosten, enz.</p>
+		<p>Wanneer de gegevens goed geordend in een Excel werkblad staan dan kun je met een draaitabel
+            snel gegevens tegen elkaar uitzetten. In het voorbeeld hierna kun je gemakkelijk de
+            omzet in de drie productcategorieën met elkaar vergelijken. Dit komt omdat een
+            draaitabel interactief is. Je kunt steeds de weergave van de gegevens wijzigen om meer
+            details te zien of om andere samenvattingen te maken.</p>
+		<fig>
+            <title>Voorbeeld van een draaitabel</title>
+            <image keyref="supermarket_productcategory-town">
+                <alt>Voorbeeld van een draaitabel</alt>
+            </image>
+        </fig>
+		<p>In een draaitabel worden minimaal twee soorten gegevens tegen elkaar uitgezet, bijvoorbeeld
+                <varname>productcategorie</varname> tegen <varname>plaats</varname>. Het ene
+            gegevensoort zet je dan in het kolomveld (productcategorie) en het andere in het rijveld
+            (plaats). Daarnaast moet nog een gegevensoort (omzet), waarvan je de resultaten wilt
+            zien, in het waardenveld geplaatst worden. Omdat deze resultaten worden samengevat moet
+            ook nog aangegeven worden welke bereking daarbij gebruikt moet worden (hier Som). Andere
+            mogelijkheden zijn: <synph>Aantal</synph>, <synph>Gemiddelde</synph>,
+            <synph>Min</synph>, <synph>Max</synph>, <synph>Product</synph>, <synph>Stdev</synph>,
+                <synph>Stdevp</synph>, <synph>Var</synph>, <synph>Varp</synph>.</p>
+		<p>Een draaitabel heeft vier gebieden waarin je velden kunt plaatsen:</p>
+		<simpletable>
+			<sthead>
+				<stentry>Gebied</stentry>
+				<stentry>Toelichting</stentry>
+			</sthead>
+			<strow>
+				<stentry>Waarden</stentry>
+				<stentry>De velden met numerieke gegevens die je wilt samenvatten, mestal voor de berekening van
+					totalen en gemiddeldes.</stentry>
+			</strow>
+			<strow>
+				<stentry>Rijen</stentry>
+				<stentry>Deze velden worden gebruikt om afzonderlijke groepen te maken. De informatie voor elke
+					groep wordt in een aparte rij gezet.</stentry>
+			</strow>
+			<strow>
+				<stentry>Kolommen</stentry>
+				<stentry>Deze velden worden ook gebruikt om afzonderlijke groepen te maken. Ze worden meestal
+					gebruikt wanneer de gegevens in de rijen wilt onderverdelen. Deze groepen worden
+					in afzonderlijke kolommen weergegeven. Neem velden die niet teveel groepen
+					geven, anders wordt de tabel erg breed.</stentry>
+			</strow>
+			<strow>
+				<stentry>Filters</stentry>
+				<stentry>Deze velden kunnen gebruikt worden om de gegevens te filteren.</stentry>
+			</strow>
+		</simpletable>
+	</conbody>
+</concept>

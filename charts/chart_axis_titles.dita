@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_axis_titles" xml:lang="nl-NL">
+    <title>Taak: Astitels</title>
+    <shortdesc>Titels langs de horizontale en verticale as zijn belangrijke onderdelen van een
+    grafiek.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>astitels</indexterm><indexterm>titels
+                        assen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Astitels zijn titels die langs de horizontale en verticale as worden geplaatst en
+                aangeven waar de gegevens over gaan.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Klik op de knop Grafiekelementen <image keyref="button_chart_elements"
+                        id="image_upf_r45_q1b"/> naast de grafiek en je krijgt een lijst met
+                    grafiekelementen.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer <option>Astitels</option> en er wordt direct een astitel aan beide
+                    assen toegevoegd.</cmd>
+                <info>
+                    <note type="tip">Er naast is nog een pijl en door daar op te klikken krijg je
+                        een vervolgmenu.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Wijzig de horizontale titel in <userinput>Tijd</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de verticale titel in <userinput>Omzet (x 1000 euro)</userinput>.</cmd>
+                <info><note type="tip">Wanneer de astitel geselecteerd is kan deze naar een andere
+                        plaats in het grafiekgebied gesleept worden</note></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

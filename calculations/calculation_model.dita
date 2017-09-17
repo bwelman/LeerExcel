@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="calculation_model" xml:lang="nl-NL">
+    <title>Het opzetten van een berekening</title>
+    <shortdesc>Richtlijnen voor het opzetten van een calculatiemodel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Berekeningsmodel<indexterm>opzet</indexterm><indexterm>indeling</indexterm></indexterm>
+                <indexterm>Calculatiemodel<indexterm>opzet</indexterm><indexterm>indeling</indexterm></indexterm>
+                <indexterm>Invoer</indexterm>
+                <indexterm>Input</indexterm>
+                <indexterm>Uitvoer</indexterm>
+                <indexterm>Output</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Met behulp van Excel kun je allerlei berekeningen maken. Voor een wat grotere en
+            complexere berekening moet je eerst goed nadenken hoe je de berekening het beste in een
+            werkblad kunt opzetten.</p>
+        <p>Bij een berekeningsmodel heb je altijd te maken met drie soorten cellen.</p>
+        <dl>
+            <dlentry>
+                <dt>Invoer (input)</dt>
+                <dd>Hierin zet de gebruiker steeds andere waarden in, waarmee wat gedaan moet
+                    worden. In feite zijn dit de cellen voor de <term>variabelen</term>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Berekeningen</dt>
+                <dd>Hierin worden allerlei berekeningen uitgevoerd met de waarden in de
+                    invoercellen.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Uitvoer (output)</dt>
+                <dd>Hierin komt het resultaat te staan.</dd>
+            </dlentry>
+        </dl>
+        <p>De stroomrichting in het model is van de <term>invoer</term> via de
+                <term>berekening</term> naar de <term>uitvoer</term>. Bij het opzetten van een model
+            moet je eigenlijk andersom denken. Immers het gaat om het gewenste resultaat. Uit de
+            gewenste resultaten wordt dan afgeleid welke berekeningen uitgevoerd moeten worden. En
+            die bepalen weer welke input daarvoor nodig is.</p>
+        <p>Er zijn een paar richtlijnen bij het invoeren van een model in Excel:</p>
+        <ol>
+            <li>Breng een scheiding aan tussen input, berekening en output. Bij kleinere modellen
+                kan dat op afzonderlijke plaatsen in het werkblad, bijvoorbeeld de input bovenaan
+                het werkblad. Bij grote modellen is het beter om dit in afzonderlijke werkbladen te doen.<fig>
+                    <title>Groepering in berekeningsmodel</title>
+                    <image keyref="Calculation_Model">
+                        <alt>Opzet van een berekeningsmodel</alt>
+                    </image>
+                </fig></li>
+            <li>Probeer er voor te zorgen dat een werkblad net als een boek gelezen kan worden: van
+                boven naar beneden en van links naar rechts.</li>
+            <li>Ga na welke getallen kunnen wijzigen, bijvoorbeeld de prijs van een artikel. Zet
+                deze getallen in afzonderlijke cellen. Deze getallen zijn in feite
+                    <term>variabelen</term>.</li>
+            <li>Neem zo weinig mogelijk getallen op in de formule zelf, maar gebruik daarvoor
+                verwijzingen naar cellen waar deze getallen in staan. Doe dat ook voor getallen die
+                nauwelijks veranderen in de tijd, zoals bijvoorbeeld het BTW percentage.</li>
+            <li>Maak altijd zichtbaar wat de inhoud van een cel voorstelt door in een naburige cel (
+                de cel er voor of er boven) een toelichtende tekst of naam te zetten.</li>
+            <li>Zet titels boven kolommen met getallen en voor de rijen met getallen.</li>
+            <li>Maak indien mogelijk één soort formule per rij of per kolom. Het voordeel hiervan is
+                dat formules dan gemakkelijk over de rijen of kolommen gekopieerd kunnen
+                worden.</li>
+            <li>Verdeel een ingewikkelde formule in meerdere stukjes zodat tussenresultaten (bijv.
+                subtotalen) gecontroleerd kunnen worden. Dit voorkomt fouten in formules.</li>
+            <li>Wanneer het model over meerdere werkbladen is verdeeld, geef deze werkbladen dan
+                duidelijke namen.</li>
+            <li>Zorg bij de wat grotere modellen voor (enige) documentatie en zet deze in een
+                afzonderlijk werkblad.</li>
+        </ol>
+    </conbody>
+</concept>

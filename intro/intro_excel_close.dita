@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="intro_excel_close" xml:lang="nl-NL">
+    <title>Taak: Excel afsluiten</title>
+    <shortdesc>Aanwijzingen hoe je Excel af kunt sluiten.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Excel<indexterm>afsluiten</indexterm></indexterm>
+                <indexterm>Afsluiten</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Er zijn twee manieren om Excel af te sluiten:<ul>
+                    <li>Via de <term>sluitknop</term> van het programmavenster. Dit is een knop met
+                        een <uicontrol>X</uicontrol> in de rechterbovenhoek van het venster.</li>
+                    <li>Via het menu <menucascade>
+                            <uicontrol>Bestand</uicontrol>
+                            <uicontrol>Sluiten</uicontrol>
+                        </menucascade>.</li>
+                </ul></p>
+            <note type="attention">Voor beide methodes geldt dat wanneer er in de werkmap iets
+                gewijzigd is, er bij het afsluiten een dialoogvenster verschijnt waarin gevraagd
+                wordt of de wijzigingen al dan niet moeten worden opgeslagen.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Sluit Excel via een van deze methodes.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

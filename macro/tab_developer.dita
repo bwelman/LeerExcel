@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="tab_developer" xml:lang="nl-NL">
+    <title>Taak: Tab Ontwikkelaars</title>
+    <shortdesc>Aanwijzingen hoe je het tabblad Ontwikkelaars zichtbaar kunt maken.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Tabblad<indexterm>ontwikkelaars</indexterm></indexterm>
+                <indexterm>Ontwikkelaars</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>Een aantal functies van Excel zitten onder het tabblad
+                <uicontrol>Ontwikkelaars</uicontrol>. Dit tabblad wordt bij de installatie van Excel
+            standaard niet getoond. In de stappen hierna wordt beschreven hoe je dit tabblad aan het
+                <uicontrol>Lint</uicontrol> kunt toevoegen. Dit is een eenmalige actie.</context>
+        <steps>
+            <step>
+                <cmd>Klik op de <menucascade>
+                        <uicontrol>Bestand</uicontrol>
+                        <uicontrol>Opties</uicontrol>
+                        <uicontrol>Lint aanpassen</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Opties Excel: Tabblad Ontwikkelaars weergeven</title>
+                        <image keyref="Excel_Options_Developertab">
+                            <alt>Opties Excel voor weergeven tabblad ontwikkelaars</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer onder Hoofdtabbladen <uicontrol>Ontwikkelaars</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In het Excelvenster is nu het tabblad
+                        <uicontrol>Ontwikkelaars</uicontrol> op het lint verschenen.
+                    <fig>
+                        <title>Tab Ontwikkelaars</title>
+                        <image keyref="tab_developer">
+                            <alt>Tab ontwikkelaars</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

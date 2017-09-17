@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="goalseek_stadiumcoffee" xml:lang="nl-NL" >
+	<title>Taak: Break-even koffiebar</title>
+	<shortdesc>Een eenvoudige oefening in het gebruik van de methode
+		<term>Doelzoeken</term>.</shortdesc>
+	<prolog>
+		<critdates>
+			<created date="2011-03-25"/>
+			<revised modified="2014-04-24"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Doelzoeken</indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>Stel je wilt een koffiestand in een voetbalstadion runnen. De maandelijkse kosten voor huur,
+				personeel en diversen zijn bekend. Je weet ook wat de inkoop- en verkoopprijs voor
+				een kop koffie is. In de volgende afbeelding is een berekeningsmodel te zien voor de
+				berekening van het maandelijkse resultaat, afhangend van het aantal verkochte koppen
+				koffie.</p>
+			<fig>
+				<title>Berekeningsmodel voor koffiebar Stadion</title>
+				<image keyref="stadiumcoffee_model">
+					<alt>Berekeningsmodel voor koffiebar stadion</alt>
+				</image>
+			</fig>
+			<p>Wat je nu graag wilt weten is hoeveel koppen koffie je maandelijks moet verkopen om quitte te
+				spelen. Bij dit eenvoudige voorbeeld kun je het antwoord gemakkelijk met de hand
+				uitrekenen. Echter voor dergelijke vraagstukken is de methode Doelzoeken zeer
+				geschikt.</p>
+			<note type="other" othertype="Bestand"><filepath>Stadionkoffie.xlsx</filepath></note>
+		</context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+			<step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Wat-als-analyse (groep Voorspelling)</uicontrol>
+                        <uicontrol>Doelzoeken</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>Het dialoogvenster <wintitle>Doelzoeken</wintitle> verschijnt nu.
+                    Hierin</stepresult>
+            </step>
+			<step>
+				<cmd>Specificeer de waarden voor Doelzoeken.</cmd>
+				<info>
+					<dl>
+						<dlentry>
+							<dt>Cel instellen</dt>
+							<dd>Het adres van de cel welke de formule bevat waarvoor je een bepaalde uitkomst wilt. In
+								dit voorbeeld is dat de cel met het maandresultaat.</dd>
+						</dlentry>
+						<dlentry>
+							<dt>Op waarde</dt>
+							<dd>De gewenste uitkomst van de formule, het doel dus. Voor een
+								break-even is dat 0.</dd>
+						</dlentry>
+						<dlentry>
+							<dt>Door wijzigen van cel</dt>
+							<dd>Het adres van de cel welke gewijzigd moet worden om het doel te
+								behalen. Dit is het koppen koffie dat verkocht moet worden.</dd>
+						</dlentry>
+					</dl>
+				</info>
+				<stepresult>
+					<fig>
+						<title>Dialoogvenster <wintitle>Doelzoeken</wintitle> voor de koffiebar</title>
+						<image keyref="stadiumcoffee_goalseek">
+							<alt>Dialoogvenster doelzoeken voor de koffiebar</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+				<stepresult>
+					<p>Excel gaat nu aan het rekenen en vind als waarde 562,5. Omdat je geen halve koppen koffie
+						verkoopt moet je zelf het antwoord afronden op 563.</p>
+				</stepresult>
+			</step>
+		</steps>
+	</taskbody>
+</task>

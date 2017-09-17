@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_cell_alignment" xml:lang="nl-NL">
+    <title>Uitlijning inhoud cel</title>
+    <shortdesc>Over horizontale en verticale uitlijning in een cel, maar ook gedraaide
+        tabelkoppen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Cel<indexterm>uitlijning</indexterm></indexterm>
+                <indexterm>Uitlijning<indexterm>cel</indexterm><indexterm>horizontaal</indexterm><indexterm>verticaal</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een cel kent een verticale en een horizontale uitlijning. Standaard is de verticale
+            uitlijning voor alle inhoud aan de onderkant van de cel. De standaard horizontale
+            uitlijning is voor tekst links, voor getallen rechts en voor logische waarden (WAAR of
+            ONWAAR) gecentreerd. Je kunt al deze uitlijningen wijzigen zoals je in de figuur kunt
+            zien.</p>
+        <fig>
+            <title>Voorbeelden van uitlijning</title>
+            <image keyref="Cell_Alignment_Example">
+                <alt>Voorbeelden van uitlijning</alt>
+            </image>
+        </fig>
+        <p>Om een bepaalde uitlijning toe te passen selecteer je eerst de cel(len) en klik daarna op
+            een van de knoppen in <menucascade>
+                <uicontrol>Start</uicontrol>
+                <uicontrol>groep Uitlijning</uicontrol>
+            </menucascade>.</p>
+        <fig>
+            <title>Groep Uitlijning op het lint</title>
+            <image keyref="Ribbon_Group_Alignment">
+                <alt>Groep uitlijning op het lint</alt>
+            </image>
+        </fig>
+        <p>De knoppen spreken voor zich en wanneer je met de muis boven een knop blijft hangen krijg
+            je nog wat meer uitleg.</p>
+        <p>In het voorbeeld zijn de volgende opties toegepast.</p>
+        <dl>
+            <dlentry>
+                <dt>Verticale uitlijning</dt>
+                <dd>De mogelijkheden zijn: boven, gecentreerd, onder. Toegepast in de cellen
+                    A1:A3.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Horizontale uitlijning</dt>
+                <dd>De mogelijkheden zijn: links, gecentreerd, rechts. Toegepast in de cellen
+                    A5:A7.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Inspringen</dt>
+                <dd>De mogelijkheden zijn: inspringen vergroten, inspringen verkleinen. Toegepast in
+                    de cellen A10:A12.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Stand</dt>
+                <dd>Via de knop krijg je een aantal voorgedefinieerde mogelijkheden. Toegepast in
+                    D13:F13 en in B14.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Tekstterugloop</dt>
+                <dd>De tekst komt op meerdere regels in de cel. Hiervoor wordt de rijhoogte groter
+                    gemaakt. Een lange tekst neemt hierdoor minder horizontale ruimte in. Toegepast
+                    in D3:F3.<note type="attention">Wanneer alle terugloop tekst niet zichtbaar is,
+                        dan kan dat komen omdat de rijhoogte op een bepaalde waarde is gezet. Om
+                        alle terugloop tekst zichtbaar te maken, kies <menucascade>
+                            <uicontrol>Start</uicontrol>
+                            <uicontrol>Opmaak (groep Cellen</uicontrol>
+                            <uicontrol>Rijhoogte AutoAanpassen</uicontrol>
+                        </menucascade>.</note></dd>
+            </dlentry>
+            <dlentry>
+                <dt>Samenvoegen en centreren</dt>
+                <dd>Cellen worden samengevoegd tot een grotere cel. Dit wordt vaak gebruikt om
+                    labels over meerdere rijen of kolommen te laten lopen. Het samenvoegen kan zowel
+                    horizontaal als verticaal. Toegepast in B14:B16.</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

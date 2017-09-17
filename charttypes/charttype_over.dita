@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xls_type_over" xml:lang="nl-NL">
+	<title>Over grafieksoorten</title>
+	<shortdesc>De basisvormen van grafieken.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Grafieken<indexterm>soorten</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Ondanks de grote hoeveelheid aan grafieksoorten zijn er in wezen maar een beperkt aantal
+            basisvormen.</p>
+		<fig>
+			<title>Grondvormen grafieksoorten</title>
+			<image keyref="charttype_basic">
+				<alt>Grondvormen grafieksoorten</alt>
+			</image>
+		</fig>
+		<p>Al deze basisvormen hebben vele varianten zodat je in het begin snel in verwarring kunt raken.
+            Het is belang om een goede grafieksoort uit te kiezen voor het visualiseren van de
+            gegevens. Stel jezelf vragen als: Wat moet de grafiek vertellen? Welke feiten moeten
+            vergeleken worden?</p>
+	</conbody>
+</concept>

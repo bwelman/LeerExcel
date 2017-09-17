@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="function_overview_datetime" xml:lang="nl-NL">
+  <title>Overzicht Datum en tijd functies</title>
+  <shortdesc>Een overzicht van een aantal functies voor datum en tijd.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Functies<indexterm>datum en
+            tijd</indexterm><indexterm>DAGEN360</indexterm><indexterm>DATUM</indexterm><indexterm>NU</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>DAGEN360</title>
+      <p>Deze functie berekent het aantal dagen tussen twee datums op basis van een jaar met 360
+        dagen (12 maanden van 30 dagen).</p>
+      <codeblock>DAGEN360(begindatum;einddatum[;methode])</codeblock>
+      <parml>
+        <plentry>
+          <pt>begindatum</pt>
+          <pd>Verplicht. Gebruik bij voorkeur de functie DATUM om de datum op te geven.</pd>
+        </plentry>
+        <plentry>
+          <pt>einddatum</pt>
+          <pd>Verplicht. Gebruik bij voorkeur de functie DATUM om de datum op te geven.</pd>
+        </plentry>
+        <plentry>
+          <pt>methode</pt>
+          <pd>Optioneel. Waarde WAAR voor Europese methode of ONWAAR (default) voor Amerikaanse
+            methode.</pd>
+        </plentry>        
+      </parml>
+    </section> 
+    <section>
+      <title>DATUM</title>
+      <p>Deze functie zet de opgegeven jaar, maand en dag om naar een datum. Het resultaat wordt als
+        een serieel getal in de cel getoond. Als de celopmaak Standaard is dan wordt het resultaat
+        als een datum weergegeven.</p>
+      <codeblock>DATUM(jaar;maand;dag)</codeblock>
+      <parml>
+        <plentry>
+          <pt>jaar</pt>
+          <pd>Verplicht. Het jaartal. Gebruik bij voorkeur 4 cijfers voor het jaartal.</pd>
+        </plentry>
+        <plentry>
+          <pt>maand</pt>
+          <pd>Verplicht. Het maandnummer.</pd>
+        </plentry>
+        <plentry>
+          <pt>dag</pt>
+          <pd>Verplicht. Het dagnummer.</pd>
+        </plentry>        
+      </parml>
+    </section>
+    <section>
+      <title>NU</title>
+      <p>Deze functie heeft als resultaat de actuele datum en tijd. Het resultaat wordt als een
+        serieel getal in de cel getoond en wordt steeds bijgewerkt wanneer het werkblad opnieuw
+        wordt doorgerekend. Als de celopmaak Standaard is dan wordt het resultaat als een datum met
+        tijd weergegeven. Een opdracht tot herberekening kan gegeven worden via toets F9. De functie
+        heeft geen argumenten.</p>
+      <codeblock>NU()</codeblock>
+    </section>
+  </refbody>
+</reference>

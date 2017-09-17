@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="intro_excel_window" xml:lang="nl-NL">
+    <title>Het Excel venster</title>
+    <shortdesc>Een korte beschrijving van de onderdelen van het programmavenster van
+        Excel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Excel<indexterm>venster</indexterm></indexterm>
+                <indexterm>Lint</indexterm>
+                <indexterm>Groep</indexterm>
+                <indexterm>Tabblad</indexterm>
+                <indexterm>Werkbalk<indexterm>Snelle Toegang</indexterm></indexterm>
+                <indexterm>Opdrachtknop</indexterm>
+                <indexterm>Naamvak</indexterm>
+                <indexterm>Formulebalk</indexterm>
+                <indexterm>Werkbalk Snelle Toegang</indexterm>
+                <indexterm>Werkmap</indexterm>
+                <indexterm>Werkblad<indexterm>naam</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het programmavenster van Excel heeft drie onderdelen: besturing programma, werkblad en
+            statusbalk. Je kunt alledrie de onderdelen van boven naar beneden zien in de figuur
+            hierna.</p>
+        <fig>
+            <title>Programmavenster Excel</title>
+            <image keyref="Window_Excel">
+                <alt>Programmavenster van Excel</alt>
+            </image>
+        </fig>
+        <dl>
+            <dlentry>
+                <dt>1 Bestand</dt>
+                <dd>Deze knop bevindt zich in de linkerbovenhoek van het programmavenster. Wanneer
+                    je op deze knop, beschikbaar in alle Office programma's, klikt verschijnt een
+                    keuzelijst met een aantal basisopdrachten zoals het maken, openen, opslaan en
+                    afdrukken van bestanden. Ook zit hieronder de belangrijke opdracht
+                        <uicontrol>Opties</uicontrol>, waarmee je een aantal instellingen voor Excel
+                    kunt regelen.<note type="notice">Dit wordt ook wel de
+                            <term>Backstage weergave</term> genoemd.</note></dd>
+            </dlentry>
+            <dlentry>
+                <dt>2 Werkbalk Snelle Toegang</dt>
+                <dd>In de <wintitle>Werkbalk Snelle Toegang</wintitle> staan een aantal knoppen voor
+                    opdrachten die je vaak gebruikt en anders minder snel kunt vinden. Bij de
+                    standaard installatie van Excel staan hierop vier knoppen: <ul>
+                        <li><image keyref="Button_Save"/> Opslaan</li>
+                        <li><image keyref="Button_Undo"/> Ongedaan maken </li>
+                        <li><image keyref="Button_Redo"/> Opnieuw</li>
+                        <li><image keyref="Button_Form"/> Formulier</li>
+                    </ul> Je kunt zelf knoppen aan deze werkbalk toevoegen</dd>
+            </dlentry>
+            <dlentry>
+                <dt>3 Lint</dt>
+                <dd>Het lint is een paneel, een soort brede werkbalk, aan de bovenkant van het
+                    programmavenster. Op het lint staan opdrachten die georganiseerd zijn in
+                    logische groepen die weer verzameld worden in <term>tabbladen</term> zoals
+                        <wintitle>Start</wintitle>, <wintitle>Invoegen</wintitle>,
+                        <wintitle>Pagina-indeling</wintitle>, ... Elk tabblad heeft met een bepaald
+                    soort activiteit te maken. Sommige tabbladen worden alleen maar getoond wanneer
+                    je ze nodig hebt, de zogenaamde <term>contextuele tabbladen</term>. Een
+                    voorbeeld hiervan zijn de <wintitle>Hulpmiddelen voor grafieken</wintitle>,
+                    welke alleen verschijnen wanneer een grafiek geselecteerd is. Verder staan de
+                    opdrachten die je waarschijnlijk het meest nodig hebt zoveel mogelijk aan de
+                    linkerkant en staan de meest gespecialiseerde opdrachten uiterst rechts.<note
+                        type="tip">Je kunt het lint niet verwijderen, maar je kunt het lint wel
+                        minimaliseren met de toetscombinatie <uicontrol><shortcut>Ctrl +
+                                F1</shortcut></uicontrol>. Je ziet dan alleen de tabs. Opnieuw
+                        indrukken van deze toetscombinatie brengt het volledige lint weer
+                        terug.</note></dd>
+            </dlentry>
+            <dlentry>
+                <dt>4 Tabbladen</dt>
+                <dd>Aan de bovenkant van het lint zijn tabs zichtbaar. Op elke tab staan groepen
+                    opdrachten. Sommige tabs worden alleen maar getoond wanneer je ze nodig
+                    hebt.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>5 Groepen</dt>
+                <dd>Op elk tabblad staan <term>groepen</term> van bij elkaar behorende opdrachten.
+                    De groepen bevatten alle opdrachten die je nodig kunt hebben voor een bepaald
+                    soort taak. Bij de meeste groepen zijn niet alle opdrachten zichtbaar. Wanneer
+                    je meer opties wilt zien die voor de groep beschikbaar zijn moet je op de pijl
+                        <image keyref="Button_Dialogwindow"/> in de rechterbenedenhoek van de
+                    groep klikken.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>6 Naam werkmap</dt>
+                <dd/>
+            </dlentry>
+            <dlentry>
+                <dt>7 Opdrachtknop</dt>
+                <dd>Wanneer je op een opdrachtknop klikt dan wordt de wijziging onmiddellijk
+                    aangebracht. Het kan ook zijn dat er eerst een <option>keuzelijst</option> of
+                    een <option>dialoogvenster</option> verschijnt.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>8 Actieve cel</dt>
+                <dd>De actieve cel is de cel die op het actieve werkblad geselecteerd is. De actieve
+                    cel is van een zwart kader voorzien. In de afbeelding is cel A1 de actieve
+                    cel.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>9 Naamvak</dt>
+                <dd>Het naamvak bevindt zich links van de formulebalk boven het gebied voor het
+                    werkblad. Het toont het adres van de actieve cel. Wanneer aan de cel (of
+                    celbereik) een naam is toegekend dan toont het naamvak deze naam. Het naamvak
+                    kan ook gebruikt worden om namen aan cellen (of celbereiken) toe te kennen.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>10 Formulebalk</dt>
+                <dd>De formulebalk bevindt zich boven het gebied voor het werkblad. Deze toont de
+                    gegevens of formule van de actieve cel. De formulebalk kan ook gebruikt worden
+                    om gegevens of formules in de actieve cel in te voeren.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Werkblad</dt>
+                <dd>Een <term>werkmap</term> in Excel kan meerdere <term>werkbladen</term> bevatten.
+                    Bij het maken van een nieuwe werkmap maakt Excel standaard een
+                        <term>werkblad</term> aan met de namen <wintitle>Blad1</wintitle>. Een
+                    werkblad kan geactiveerd worden door te klikken op de <uicontrol>Tab
+                        (11)</uicontrol> van het werkblad, aan de onderkant van het venster. Een
+                    nieuw werkblad kan toegevoegd worden door op <uicontrol>12</uicontrol> te
+                    klikken.</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

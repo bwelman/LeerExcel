@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_chart" xml:lang="nl-NL">
+    <title>Grafieken</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_chart.ditamap" processing-role="resource-only"/>
+    <!-- Content -->
+    <topicref href="chart.dita">
+        <topicref href="chart_over.dita" scope="local" type="concept"/>
+        <topicref href="chart_elements.dita" scope="local" type="concept"/>
+        <topicref href="chart_create.dita" scope="local" type="task"/>
+        <topicref href="chart_operations.dita" scope="local" type="concept">
+            <topicref href="chart_switch_dataranges.dita" scope="local" type="task"/>
+            <topicref href="chart_move.dita" scope="local" type="task"/>
+            <topicref href="chart_dimensions.dita" scope="local" type="task"/>
+            <topicref href="chart_title.dita" scope="local" type="task"/>
+            <topicref href="chart_legend.dita" scope="local" type="task"/>
+            <topicref href="chart_axis_titles.dita" scope="local" type="task"/>
+            <topicref href="chart_data_labels.dita" scope="local" type="task"/>
+            <topicref href="chart_gridlines.dita" scope="local" type="task"/>
+            <topicref href="chart_plotarea.dita" scope="local" type="task"/>
+            <topicref href="chart_data_source.dita" scope="local" type="task"/>
+            <topicref href="chart_type_change.dita" scope="local" type="task"/>
+            <topicref href="chart_case.dita" scope="local" type="concept"/>
+        </topicref>
+    </topicref>
+</map>

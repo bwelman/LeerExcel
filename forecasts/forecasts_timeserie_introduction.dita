@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_timeserie_introduction" xml:lang="nl-NL">
+ <title>Wat is een tijdreeks?</title>
+ <shortdesc/>
+ <prolog>
+  <critdates>
+   <created date="2017-08-31"/>
+   <revised modified="2017-08-31"/>
+  </critdates>
+  <metadata>
+   <keywords>
+    <indexterm>Tijdreeks</indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+        <p>De historische gegevens zijn meestal <term>tijdreeksen</term>, een reeks waarnemingen van
+            een variabele gemeten op opeenvolgende tijdstippen of over opeenvolgende periodes.
+            Wanneer de gegevens een bepaald patroon in de tijd vormen, dan kan dit patroon gebruikt
+            worden om een prognose voor een toekomstige waarde te maken.</p>
+        <p>Het kan ook zijn dat de waarde van een variabele afhangt van andere variabelen dan de
+            tijd. Zo zou er een verband kunnen zijn tussen de hoogte van de bloeddruk en de
+            leeftijd. Je hebt dan een onafhankelijke variabele (leeftijd) en een afhankelijke
+            variabele (bloeddruk). Dergelijke verbanden tussen variabelen worden onderzocht met
+                <term>regressie-analyse</term>. In dit hoofdstuk komen alleen prognoses met
+            tijdreeksen aan bod. Wanneer je de tijd als een onafhankelijke variabele beschouwt, dan
+            kan regressie-analyse ook bij tijdreeksen worden gebruikt.</p>
+        <p>Na de bestudering en analyse van tijdreeksen worden modellen hiervoor opgesteld met
+            bijbehorende prognosetechnieken. Vaak worden meerdere modellen geprobeerd en een
+            nauwkeurigheidsanalyse uitgevoerd. De kosten van onnauwkeurige voorspellingen kunnen
+            aanzienlijk zijn. Te optimistische prognoses kunnen resulteren in de productie van te
+            veel artikelen die misschien wel vernietigd moeten worden. En te lage prognoses kunnen
+            resulteren in gemiste omzetkansen.</p>
+        <p>Afhankelijk van de hoeveelheid gegevens, de gewenste kwaliteit van de prognoses en de
+            aanwezigheid van specifieke, statistische knowhow wordt het uitvoeren van de
+            berekeningen gedaan met statistische softwarepakketten (R, SPSS, ...) of met Microsoft
+            Excel. In dit hoofdstuk wordt uitsluitend gewerkt met de standaardmogelijkheden van
+            Excel, zonder specifieke add-inns. Een enkele keer wordt het resultaat van Excel
+            vergeleken met het resultaat dat door R geleverd wordt.</p>
+  <p>Een tijdreeks  is een reeks (meet)gegevens van een variabele over een bepaalde tijdsperiode. De
+            gegevens bestaan uit herhaalde metingen op vaste tijdstippen zoals elk uur, dag, week,
+            maand, kwartaal, jaar of elke regelmatige periode. De gegevens zijn dus geordend in de
+            tijd en de tijd tussen elke waarneming is constant.</p>
+        <p>Voorbeelden van tijdreeksen:<ul id="ul_o34_xl2_vx">
+                <li>ziekteverzuim per maand of jaar</li>
+                <li>omzet per maand</li>
+                <li>verkopen per kwartaal</li>
+                <li>verkeersdoden per jaar</li>
+                <li>…</li>
+            </ul></p>
+        <p>Veel tijdreeksen vertonen een trend (toename of afname) en/of zijn seizoensgebonden, dat
+            wil zeggen variaties die specifiek voor een bepaald tijdsbestek zijn. Zo zal
+            bijvoorbeeld de verkoop van ijs in de zomer hoger zijn dan in de winter.</p>
+  <!--<p>Voorbeeld van een tijdreeks laten zien (Airpassengers uit R)</p>-->
+<!--  plot(AirPassengers, xlab="Jaar", ylab ="Aantal passagiers", main="Aantal internationale vliegtuigpassagiers per maand in 1949-1960"); AirPassengers   -->
+        <p>Bij het het maken van prognoses wil je toekomstige waarden van de reeks inschatten.
+            Hiervoor gebruik je gegevens uit het verleden. Deze historische gegevens worden
+            bestudeerd en geanalyseerd, er wordt geprobeerd om een patroon in de gegevens te
+            ontdekken om daarna een zo goed mogelijk model van de tijdreeks te maken.</p>
+ </conbody>
+</concept>

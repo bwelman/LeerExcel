@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="table_overview" xml:lang="nl-NL">
+  <title>Overzicht Filteren</title>
+  <shortdesc>Overzicht van de opties bij getalfilters en datumfilters</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Filter</indexterm>
+        <indexterm>Getalfilter</indexterm>
+                <indexterm>Datumfilter</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>Getalfilters</title>
+      <p>Bij getalfilters zijn de volgende mogelijkheden:</p>
+      <ul>
+        <li>Is gelijk aan</li>
+        <li>Is niet gelijk aan</li>
+        <li>Groter dan</li>
+        <li>Is groter dan of gelijk aan</li>
+        <li>Kleiner dan</li>
+        <li>Is kleiner dan of gelijk aan</li>
+        <li>Tussen</li>
+        <li>Top 10</li>
+        <li>Boven gemiddelde</li>
+        <li>Onder gemiddelde</li>
+        <li>Aangepast filter</li>
+      </ul>
+    </section>
+      <section>
+          <title>Datumfilters</title>
+          <p>Bij datumfilters zijn de volgende mogelijkheden:</p>
+          <ul>
+              <li>Is gelijk aan</li>
+                <li>Voor</li>
+                <li>Na</li>
+                <li>Tussen</li>
+                <li>Morgen</li>
+                <li>Vandaag</li>
+                <li>Gisteren</li>
+                <li>Volgende week</li>
+                <li>Deze week</li>
+                <li>Vorige week</li>
+                <li>Volgende maand</li>
+                <li>Deze maand</li>
+                <li>Vorige maand</li>
+                <li>Volgend kwartaal</li>
+                <li>Dit kwartaal</li>
+                <li>Laatste kwartaal</li>
+                <li>Volgend jaar</li>
+                <li>Dit jaar</li>
+                <li>Vorig jaar</li>
+                <li>Jaar tot datum</li>
+                <li>Alle datums in de periode</li>
+                <li>Aangepast filter</li>
+          </ul>
+      </section>
+  </refbody>
+</reference>

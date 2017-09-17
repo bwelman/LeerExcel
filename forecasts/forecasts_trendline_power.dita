@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_trendline_power" xml:lang="nl-NL">
+    <title>Taak: Machtstrendlijn</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een machtstrendlijn is een gebogen lijn die zeer geschikt is voor verzamelingen van
+                gegevens die in een bepaald tempo toenemen, bijvoorbeeld de acceleratie van een
+                formule 1 auto.<note type="attention">Er mogen geen nulwaarden of negatieve waarden
+                    in de gegevensverzameling zitten.</note></p>
+            <p>De vergelijking van de trendlijn is: <codeph>y = a*x<sup>b</sup></codeph> waarbij a
+                en b constanten zijn.</p>
+            <p>Het volgende voorbeeld gaat over de afgelegde afstand van een optrekkende raceauto in
+                intervallen van steeds 1 seconde.</p>
+            <note type="other" othertype="Bestand"><filepath>Trendlijnen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open het hulpbestand en selecteer het werkblad
+                    <wintitle>Macht</wintitle>.</cmd>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_Start"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_End">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer bij Opties voor trendlijn: <option>Macht</option>. En laat de
+                    vergelijking en R-kwadraat in de grafiek weergeven.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig titel in <userinput>Afgelegde afstand</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg astitels toe en wijzig titel Y-as in <userinput>Afstand
+                        (meter)</userinput> en titel X-as in <userinput>Tijd
+                    (sec)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Versleep in de grafiek de vergelijking naar een overzichtelijke plaats.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Voorbeeld machtstrendlijn</title>
+                <image keyref="example_pow">
+                    <alt>Voorbeeld machtstrendlijn</alt>
+                </image>
+            </fig>
+            <p>R<sup>2</sup> = 0,9987 wat betekent dat de machtstrendlijn goed bij de gegevens
+                past.</p>
+        </result>
+        <example>
+            <title>Werkbladfuncties</title>
+            <p>Vergelijking: y = a*x<sup>b</sup><ul>
+                    <li>a =EXP(INDEX(LIJNSCH(LN(y-bekend) ; LN(x-bekend)) ; 2))</li>
+                    <li>b =INDEX(LIJNSCH(LN(y-bekend) ; LN(x-bekend)) ; 1)</li>
+                </ul></p>
+        </example>
+    </taskbody>
+</task>

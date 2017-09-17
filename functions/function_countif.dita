@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_countif" xml:lang="nl-NL">
+    <title>Taak: Aantal Als</title>
+    <shortdesc>Een oefening waarin waarin je leert hoe je het aantal van een reeks getallen kunt
+        bepalen die aan bepaalde voorwaarden voldoen. </shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2011-04-10"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>AANTAL.ALS</indexterm></indexterm>
+                <indexterm>Tellen<indexterm>voorwaardelijk</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>De functie AANTAL.ALS is erg handig bij het maken van frequentietabellen. In het
+                volgende voorbeeld is een overzicht te zien van campings met de categorie waartoe ze
+                behoren.</p>
+            <fig>
+                <title>Invoer voor oefening met functie AANTAL.ALS</title>
+                <image keyref="Example_Countif">
+                    <alt>Invoer voor oefening met functie aantal als</alt>
+                </image>
+            </fig>
+            <p>In kolom E moet het aantal campings van elke categorie komen te staan.</p>
+            <note type="other" othertype="Bestand"><filepath>Campings.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>E2</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Alles</option> en de functie
+                        <option>AANTAL.ALS</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Bereik</varname> en selecteer dan in het
+                    werkblad <userinput>kolom B</userinput>. Plaats de cursor in het vak
+                        <varname>Criterium</varname> en selecteer dan in het werkblad cel
+                        <userinput>D2</userinput>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Argumenten voor de functie AANTAL.ALS</title>
+                        <image keyref="Function_Countif">
+                            <alt>Argumenten voor functie aantal als</alt>
+                        </image>
+                    </fig>
+                    <note type="attention">Door voor het bereik de hele kolom B te nemen kunnen er
+                        aan de onderkant nieuwe rijen met gegevens worden toegevoegd zonder dat de
+                        formules gewijzigd hoeven te worden.</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In cel D2 verschijnt nu het resultaat <systemoutput>4</systemoutput>.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>E2</uicontrol> en sleep de vulgreep naar beneden tot
+                    en met <uicontrol>E5</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Resultaten functie AANTAL.ALS</title>
+                        <image keyref="Example_Countif_Result">
+                            <alt>Resultaten functie aantal als</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

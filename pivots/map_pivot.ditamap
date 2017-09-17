@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_pivot" xml:lang="nl-NL">
+    <title>Draaitabellen</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_pivot.ditamap" processing-role="resource-only"/>
+    <!-- Links  -->
+    <mapref href="pivots_reltables.ditamap" format="ditamap"/>
+    <!-- Content -->
+    <topicref href="pivots.dita" scope="local" type="concept" audience="level2">
+        <topicref href="pivots_over.dita" scope="local" type="concept"/>
+        <topicref href="pivots_creating.dita" scope="local" type="task"/>
+        <topicref href="pivots_datasources.dita" scope="local" type="task"/>
+        <topicref href="pivots_grouping_data.dita" scope="local" type="concept"/>
+        <topicref href="pivots_grouping_example.dita" scope="local" type="task"/>
+        <topicref href="pivots_filters_slicers.dita" scope="local" type="task"/>
+		<topicref href="pivots_charts.dita" scope="local" type="task"/>
+        <topicref href="pivots_options.dita" scope="local" type="reference"/>
+    </topicref> 
+</map>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="solver_example_weatherleather" xml:lang="nl-NL">
+    <title>Taak: Gebruik Oplosser</title>
+    <shortdesc>Stapsgewijze beschrijving van het gebruik van de Oplosser voor de casus
+        WeatherLeather.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Oplosser</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Als voorbeeld wordt de casus WeatherLeather gebruikt. Bij deze casus moet de winst
+                gemaximaliseerd worden.</p>
+            <note type="other" othertype="Bestand"><filepath>WeatherLeather.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer de doelcel <uicontrol>D5</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Oplosser (groep Analyse)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Parameters van Oplosser</wintitle></title>
+                        <image keyref="weatherleather_solver_parameters1">
+                            <alt>Dialoogvenster parameters oplosser</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Controleer dat in het vak <uicontrol>Doelfunctie bepalen</uicontrol> het adres
+                        <uicontrol>$D$5</uicontrol> is ingevuld.</cmd>
+            </step>
+            <step>
+                <cmd>Controleer dat bij <uicontrol>Naar</uicontrol> de keuze <option>Max</option>
+                    geselecteerd is.</cmd>
+            </step>
+            <step>
+                <cmd>Klik in het vak <uicontrol>Door veranderen van variabelecellen</uicontrol> en
+                    selecteer daarna in het werkblad de cellen <userinput>B4:C4</userinput>.</cmd>
+                <stepresult>Excel maakt hier dan van <systemoutput>$B$4:$C$4</systemoutput>.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Toevoegen</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Randvoorwaarde toevoegen</wintitle></title>
+                        <image keyref="solver_constraint_add">
+                            <alt>Toevoegen beperking</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voer als randvoorwaarde in <userinput>D8 &lt;= E8</userinput> en klik op
+                        <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>Het dialoogvenster <wintitle>Parameters Oplosser</wintitle> verschijnt
+                    weer en Excel heeft de eerste randvoorwaarde omgezet in: <systemoutput>$D$8
+                        &lt;= $E$8</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Toevoegen</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Voer als randvoorwaarde in <userinput>D9 &lt;= E9</userinput> en klik nu op
+                        <uicontrol>Toevoegen</uicontrol>.</cmd>
+                <stepresult>Het lege dialoogvenster <wintitle>Toevoegen</wintitle> verschijnt weer.
+                    Je krijgt nu niet te zien dat Excel de tweede randvoorwaarde heeft toegevoegd.
+                        <note type="tip"> Door op <uicontrol>Toevoegen</uicontrol> te klikken in
+                        plaats van <uicontrol>OK</uicontrol> kun je snel achter elkaar de
+                        randvoorwaarden toevoegen zonder steeds weer naar het dialoogvenster
+                            <wintitle>Parameters Oplosser</wintitle> terug te
+                    keren.</note></stepresult>
+            </step>
+            <step>
+                <cmd>Voer als randvoorwaarde in <userinput>D10 &lt;= E10</userinput> en klik op
+                        <uicontrol>Toevoegen</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Voer als randvoorwaarde in <userinput>B4:C4 >= 0</userinput> en klik op
+                        <uicontrol>Toevoegen</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Voer als randvoorwaarde in <userinput>B4:C4 geh</userinput>.</cmd>
+                <stepresult>Excel plaatst nu automatisch <systemoutput>geheeltallig</systemoutput>
+                    in het vak <uicontrol>Randvoorwaarde</uicontrol>.</stepresult>
+            </step>
+            <step>
+                <cmd>Alle restricties zijn nu toegevoegd. Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Parameters Oplosser voor WeatherLeather</title>
+                        <image keyref="weatherleather_solver_parameters2">
+                            <alt>Dialoogvenster parameters oplosser (ingevuld)</alt>
+                        </image>
+                    </fig>
+                    <note type="notice">Excel heeft<systemoutput>geh</systemoutput> omgezet in
+                            <systemoutput>geheeltallig</systemoutput> in het vak met de
+                        randvoorwaarden.</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>Oplossen</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Na korte tijd verschijnt het resultaatvenster van de Oplosser.</p>
+                    <fig>
+                        <title>Resultaatvenster Oplosser</title>
+                        <image keyref="solver_results_solution_dialogbox">
+                            <alt>Resultaatvenster van de oplosser</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <uicontrol>Oplossing behouden</uicontrol> (standaard). Selecteer
+                        <uicontrol>Antwoord (vak Rapporten)</uicontrol> en klik dan op
+                        <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Op het werkblad wordt nu het resultaat getoond dat door de Oplosser gevonden
+                        is.</p>
+                    <fig>
+                        <title>Werkblad met oplossing</title>
+                        <image keyref="weatherleather_solution">
+                            <alt>Werkblad met gevonden oplossing</alt>
+                        </image>
+                    </fig>
+                    <p>En er is ook een nieuw werkblad gemaakt met de naam <wintitle>Antwoordrapport
+                            ...</wintitle>.</p>
+                    <fig>
+                        <title>Antwoordrapport voor WeatherLeather</title>
+                        <image keyref="weatherleather_solver_report">
+                            <alt>Antwoordrapport voor WeatherLeather</alt>
+                        </image>
+                    </fig>
+                    <note type="tip">De namen die in het rapport gebruikt worden zijn niet altijd
+                        juist of duidelijk. Dat komt omdat Excel deze namen haalt uit de de
+                        tekstcellen in de omgeving. Om te zorgen dat er wel goede namen in het
+                        rapport gebruikt worden moet je de relevante cellen in het werkblad eerst
+                        van een naam voorzien. Dit wordt sterk aanbevolen.</note>
+                    <note type="attention">Bij het onderdeel Randvoorwaarden in het Antwoordrapport
+                        is onder het kopje Status te zien welke restricties <term>Bindend</term>
+                        zijn. Wanneer dat het geval is wil dat zeggen dat de grens van de restrictie
+                        bereikt is en er geen speling meer is. Zo is in het voorbeeld te zien dat
+                        alle capaciteit voor de snijtijd en naaitijd gebruikt wordt. De marktafzet
+                        voor lange jacks is niet bindend, daar zouden nog 6 stuks meer afgezet
+                        kunnen worden.</note>
+                </stepresult>
+            </step>
+        </steps>
+        <result>Het probleem van WeatherLeather is nu opgelost. Er kan een maximale winst van € 2664
+            per week behaald worden door 20 korte jacks en 6 lange jacks per week te maken.</result>
+    </taskbody>
+</task>

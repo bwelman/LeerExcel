@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_chart" xml:lang="nl-NL">
+    <title>Keys Grafiek</title>
+    <keydef keys="bakery_chart_2008-2011" href="images/bakery_chart_2008-2011.png" format="png"/>
+    <keydef keys="bakery_chart_2009-2011" href="images/bakery_chart_2009-2011.png" format="png"/>
+    <keydef keys="bakery_column_quarters" href="images/bakery_column_quarters.png" format="png"/>
+    <keydef keys="bakery_column_years" href="images/bakery_column_years.png" format="png"/>  
+    <keydef keys="bakery_data" href="images/bakery_data.png" format="png"/>
+    <keydef keys="bakery_data_2011" href="images/bakery_data_2011.png" format="png"/>
+    <keydef keys="bakery_data_marked" href="images/bakery_data_marked.png" format="png"/>
+    <keydef keys="bakery_data2011_marked" href="images/bakery_data2011_marked.png" format="png"/>
+    <keydef keys="bakery_datalabels" href="images/bakery_datalabels.png" format="png"/>
+    <keydef keys="bakery_datasource_moveup" href="images/bakery_datasource_moveup.png" format="png"/>
+    <keydef keys="bakery_line" href="images/bakery_line.png" format="png"/> 
+    <keydef keys="bakery_plotarea" href="images/bakery_plotarea.png" format="png"/>
+    <keydef keys="bakery_select_datasource" href="images/bakery_select_datasource.png" format="png"/>
+    <keydef keys="case_chart" href="images/case_chart.png" format="png"/>
+    <keydef keys="case_data" href="images/case_data.png" format="png"/>
+    <keydef keys="case_data_april" href="images/case_data_april.png" format="png"/>
+    <keydef keys="chart_dimensions" href="images/chart_dimensions.png" format="png"/>
+    <keydef keys="chart_edit_series" href="images/chart_edit_series.png" format="png"/>
+    <keydef keys="chart_elements" href="images/chart_elements.png" format="png"/>
+    <keydef keys="chart_elements_currentselection" href="images/chart_elements_currentselection.png" format="png"/>
+    <keydef keys="chart_elements_dropdownlist" href="images/chart_elements_dropdownlist.png" format="png"/>
+    <keydef keys="chart_elements_sizinghandles" href="images/chart_elements_sizinghandles.png" format="png"/>
+    <keydef keys="chart_elements_title" href="images/chart_elements_title.png" format="png"/>
+    <keydef keys="chart_legend_options" href="images/chart_legend_options.png" format="png"/>
+    <keydef keys="chart_move_window" href="images/chart_move_window.png" format="png"/>
+    <keydef keys="chart_recommended" href="images/chart_recommended.png" format="png"/>
+    <keydef keys="chart_title_options" href="images/chart_title_options.png" format="png"/>
+    <keydef keys="chart_type_change" href="images/chart_type_change.png" format="png"/>
+</map>

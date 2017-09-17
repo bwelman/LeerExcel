@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_datatable" xml:lang="nl-NL">
+    <title>Keys Gegevenstabel</title>
+    <keydef keys="advertising_model" href="images/advertising_model.png" format="png"/>
+    <keydef keys="advertising_results" href="images/advertising_results.png" format="png"/>
+    <keydef keys="cottage_rental_fixed" href="images/cottage_rental_fixed.png" format="png"/>
+    <keydef keys="cottage_rental_variable" href="images/cottage_rental_variable.png" format="png"/>
+    <keydef keys="datatable_layout1_column" href="images/datatable_layout1_column.png" format="png"/>
+    <keydef keys="datatable_layout1_row" href="images/datatable_layout1_row.png" format="png"/>
+    <keydef keys="datatable_layout2" href="images/datatable_layout2.png" format="png"/> 
+    <keydef keys="datatable_dialogbox" href="images/datatable_dialogbox.png" format="png"/>
+    <keydef keys="datatable_formulas4" href="images/datatable_formulas4.png" format="png"/>
+    <keydef keys="datatable_formulas4_results" href="images/datatable_formulas4_results.png" format="png"/>
+    <keydef keys="formula_example" href="images/formula_example.png" format="png"/> 
+</map>

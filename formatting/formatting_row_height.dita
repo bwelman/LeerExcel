@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_row_height" xml:lang="nl-NL">
+    <title>Rijhoogte</title>
+    <shortdesc>De mogelijkheden om de hoogte van een rij in te stellen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Rij<indexterm>hoogte</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Normaal zal de rijhoogte zich automatisch aanpassen aan de grootte van de gegevens in de
+            rij. Maar soms is het voor opmaakdoeleinden nodig om de rijhoogte aan te passen. Je kunt
+            de rijhoogte opgeven van 0 (nul) tot en met 409. Deze waarde geeft de hoogte in punten
+            aan (1 punt is ongeveer gelijk aan 0,035 cm). De standaardrijhoogte bedraagt 12,75
+            punten (ongeveer 0,4 cm). Als de hoogte van een rij 0 is, wordt de rij verborgen.</p>
+        <p>Er zijn verschillende manieren om de hoogte van een rij aan te passen.</p>
+        <ul>
+            <li>Dubbelklik op de grenslijn onder de rijkop. De hoogte van de rij wordt nu passend gemaakt aan
+                de inhoud van de rij.</li>
+            <li>Plaats de muisaanwijzer boven de onderrand van de rijkop, druk dan de linkermuisknop in en
+                sleep de onderrand naar boven of naar onderen tot de rij de gewenste hoogte heeft.
+                Tijdens het slepen toont Excel in een klein infoschermpje de actuele hoogte van de
+                rij.<image keyref="Rowheight_Drag" placement="break"><alt>Rijhoogte aanpassen door slepen</alt></image></li>
+            <li>Klik met de rechtermuisknop op de rijkop en kies in het snelmenu voor
+                <uicontrol>Rijhoogte</uicontrol>. In het dialoogvenster kun je dan de gewenste
+                hoogte invoeren, klik daarna <uicontrol>OK</uicontrol>.<image keyref="Rowheight_Set" placement="break"><alt>Rijhoogte opgeven</alt></image></li>
+            <li>Selecteer een cel in de rij waarvan de hoogte aangepast moet worden. Kies dan <menucascade>
+                    <uicontrol>Start</uicontrol>
+                    <uicontrol>Opmaak (groep Cellen)</uicontrol>
+                    <uicontrol>Rijhoogte</uicontrol>
+                </menucascade>. Je krijgt dan hetzelfde dialoogvenster als hiervoor.</li>
+        </ul>
+        <note type="tip">Je kunt van meerdere rijen tegelijk de hoogte aanpassen door deze rijen eerst te
+            selecteren met ingedrukte <uicontrol>Ctrl</uicontrol> toets.</note>
+    </conbody>
+</concept>

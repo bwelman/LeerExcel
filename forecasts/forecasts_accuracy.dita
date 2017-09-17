@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="forecasts_accuracy" xml:lang="nl-NL">
+    <title>Nauwkeurigheid Voorspellingen</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het verschil tussen de werkelijke waarde en de voorspelde waarde wordt prognosefout
+            genoemd. Bij het ontwikkelen van prognosemodellen wordt getracht om deze prognosefouten
+            zo klein mogelijk te maken. Er zijn verschillende kentallen ontwikkeld om de
+            nauwkeurigheid te beoordelen. Je kunt niet zomaar een van deze kentallen als het beste
+            kental beschouwen. In het algemeen geldt hoe kleiner de waarde, des te beter.</p>
+        <p> De kentallen die standaard in Excel beschikbaar zijn:</p>
+        <dl>
+         <dlentry>
+            <dt>RMSE</dt>
+            <dd>Root Mean Square Error</dd>
+        </dlentry>
+            <dlentry>
+                <dt>MASE</dt>
+                <dd>Mean Absolute Scaled Error</dd>
+            </dlentry>
+            <dlentry>
+                <dt>SMAPE</dt>
+                <dd>Symmetric Mean Absolute Percentage Error</dd>
+            </dlentry>
+            <dlentry>
+                <dt>MAE</dt>
+                <dd>Mean Absolute Percentage Error</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_logical" xml:lang="nl-NL">
+    <title>Taak: Logische functie ALS</title>
+    <shortdesc>Een oefening om bewerkingen onder bepaalde voorwaarden uit te voeren via de functie
+        ALS.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>logisch</indexterm><indexterm>ALS</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Logische functies doen wat met de uitkomsten <q>WAAR</q> of <q>ONWAAR</q>. De
+                meest bekende en ook meest gebruikte logische functie uit deze categorie is de
+                functie ALS. Simpel gezegd komt de werking van deze functie neer op: als een
+                bepaalde conditie waar is, doe dan dit en is de conditie niet waar, doe dan dat. De
+                formulering van de formule is</p>
+            <codeph>=ALS(voorwaarde ; wat indien waar ; wat indien onwaar)</codeph>
+            <p>De voorwaarde is een logische test met als uitkomst WAAR of ONWAAR.</p>
+            <note type="tip">Wanneer je op meer dan één voorwaarde wilt testen, dan kun je een
+                nieuwe <userinput>ALS()</userinput> functie plaatsen binnen de eerste
+                    <userinput>ALS()</userinput> functie. Dergelijke constructies worden snel
+                ingewikkeld en moeilijk leesbaar. Het is vaak beter om in dat geval op de plaats van
+                de voorwaarde gebruik te maken van de logische functies <userinput>EN()</userinput>,
+                    <userinput>OF()</userinput> en <userinput>NIET()</userinput>.</note>
+            <p>In de volgende afbeelding staan een aantal cijfers. Naast de cijfers moet de
+                vermelding voldoende of onvoldoende komen. Een resultaat is onvoldoende wanneer het
+                cijfer kleiner is dan 5,5.<fig>
+                    <title>Invoer voor oefening met logische functie</title>
+                    <image keyref="Example_Logical">
+                        <alt>Invoer voor oefening met logische functie</alt>
+                    </image>
+                </fig></p></context>
+        <steps>
+            <step>
+                <cmd>Begin met een nieuw werkblad.</cmd>
+            </step>
+            <step>
+                <cmd>Voer de gegevens in zoals in de afbeelding is weergegeven.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B2</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Logisch</option> en de functie
+                        <option>ALS</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Logische-test</varname> en voer in
+                        <userinput>A2&lt;5,5</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Waarde-als-waar</varname> en voer in
+                        <userinput>onvoldoende</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Waarde-als-onwaar</varname> en voer in
+                        <userinput>voldoende</userinput>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster functie ALS</title>
+                        <image keyref="Example_Logical_If">
+                            <alt>Dialoogvenster functie als</alt>
+                        </image>
+                    </fig>
+                    <note type="attention">Excel plaatst automatisch dubbele aanhalingstekens om de
+                        teksten.</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B2</uicontrol> en sleep de vulgreep naar beneden tot
+                        <uicontrol>B6</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Resultaten van de functie ALS</title>
+                        <image keyref="Example_Logical_Result">
+                            <alt>Resultaten van de functie als</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

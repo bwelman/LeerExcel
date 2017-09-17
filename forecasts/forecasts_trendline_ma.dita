@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_trendline_ma" xml:lang="nl-NL">
+    <title>Taak: Zwevend gemiddelde trendlijn</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een zwevend gemiddelde (voortschrijdend gemiddelde) trendlijn strijkt schommelingen
+                in de gegevens glad, waardoor het patroon duidelijker zichtbaar wordt. </p>
+            <p>Het zwevend gemiddelde is het gemiddelde van een vast aantal opeenvolgende waarden in
+                een tijdreeks. De tijdsduur voor het vaste aantal elementen heet de periode. De lijn
+                door deze gemiddeldes is de trendlijn. Sterke schommelingen worden hierdoor
+                afgezwakt. Het kost soms wat experimenteren om een geschikte periode te vinden.</p>
+            <p>Deze lijn heeft geen formule en ook de R-kwadraatswaarde kan niet berekend worden.
+                Voor de beoordeling van de kwaliteit zijn andere methodes beschikbaar.</p>
+            <p>Het volgende voorbeeld gaat over de koers van een aandeel gedurende 20 dagen. Het
+                zwevend gemiddelde wordt berekend voor een periode van 3 dagen. Zo kan de eerste
+                waarde voor het zwevend gemiddelde pas op dag 3 berekend worden en de waarde is het
+                gemiddelde van dag 1, 2 en 3. De volgende waarde bij dag 4 is het gemiddelde van de
+                waarden op dag 2, 3 en 4. Enzovoorts.</p>
+            <note type="other" othertype="Bestand"><filepath>Trendlijnen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open het hulpbestand en selecteer het werkblad
+                        <wintitle>ZwevendGemiddelde</wintitle></cmd>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_Start"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_End">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer een willekeurige cel in het gegevensgebied.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg een <uicontrol>Spreidingsdiagram</uicontrol> in.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de grafiekreeks door op een gegevenspunt te klikken. Dan
+                    rechtermuisklik en kies <uicontrol>Trendlijn toevoegen</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>Selecteer bij Opties voor trendlijn: <option>Zwevend gemiddelde met Periode
+                        3</option>.</cmd>
+                <stepresult/>
+            </step>
+            <step>
+                <cmd>Wijzig titel in <userinput>Koers</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg astitels toe en wijzig titel Y-as in <userinput>Koers</userinput> en titel
+                    X-as in <userinput>Dag</userinput>.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Voorbeeld zwevend gemiddelde trendlijn</title>
+                <image keyref="example_ma">
+                    <alt>Voorbeeld zwevend gemiddelde trendlijn</alt>
+                </image>
+            </fig>
+            <p>Duidelijk is te zien dat de trendlijn de scherpe kantjes van de koersen
+            afhaalt.</p></result>
+    </taskbody>
+</task>

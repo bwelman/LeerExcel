@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="macro_editing" xml:lang="nl-NL" >
+	<title>Taak: Wijzigen van een macro</title>
+	<shortdesc>Uitleg hoe je opties van een macro en de programmacode kunt wijzigen</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Macro<indexterm>wijzigen</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<prereq>Om deze taak uit te kunnen voeren is het nodig dat de macro <cmdname>Celopmaak</cmdname> is gemaakt.</prereq>
+		<context>
+			<p>Een eenmaal gemaakte macro kan gewijzigd worden zonder de macro weer helemaal opnieuw op te
+				nemen. Zowel de opties van de macro als de programmacode kunnen bekeken en gewijzigd
+				worden.</p>
+			<p>Aan te brengen wijzigingen: Aan de macro Celopmaak moet de sneltoets Control t worden
+				toegekend en de lettergrootte moet 18 pt worden.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Kies tab <menucascade>
+					<uicontrol>Ontwikkelaars</uicontrol>
+					<uicontrol>Macro's (groep Programmacode)</uicontrol>
+				</menucascade>.</cmd>
+				<stepresult>
+					<fig>
+						<title>Macro celopmaak dialoogvenster</title>
+						<image keyref="macro_cellformat_run">
+							<alt>Macro celopmaak dialoogvenster</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Kies <uicontrol>Opties</uicontrol>.</cmd>
+				<stepresult>
+					<fig>
+						<title>Opties macro Celopmaak</title>
+						<image keyref="macro_cellformat_options">
+							<alt>Opties macro celopmaak</alt>
+						</image>
+					</fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Zet in het vakje voor de sneltoets de letter <uicontrol>t</uicontrol> en wijzig
+					in de beschrijving 16 pt in <uicontrol>18pt</uicontrol>. Klik op
+						<uicontrol>OK</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Kies nu <uicontrol>Bewerken</uicontrol>.</cmd>
+				<stepresult>
+					<p>Een nieuw venster <wintitle>Microsoft Visual Basic</wintitle> verschijnt nu met in het
+						codescherm de programmacode van de macro.</p>
+					<codeblock>Sub Celopmaak()
+'
+' Celopmaak Macro
+' Maakt cel op in Comic Sans, 16pt, vet, cursief en rood
+'
+
+'
+    With Selection.Font
+        .Name = "Comic Sans MS"
+        .FontStyle = "Vet en cursief"
+        .Size = 16
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = 255
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Selection.Columns.AutoFit
+End Sub</codeblock>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Op twee plaatsen staat het getal 16. Wijzig dit op beide plaatsen in
+						<uicontrol>18</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Sluit het venster <wintitle>Microsoft Visual Basic</wintitle> via de sluitknop in de
+					rechterbovenhoek.</cmd>
+			</step>
+			<step>
+				<cmd>Test de macro op een cel met tekst via de sneltoets <uicontrol>Ctrl
+						t</uicontrol>.</cmd>
+			</step>
+			
+		</steps>
+	</taskbody>
+</task>

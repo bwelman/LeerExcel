@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="data_decimal_operator" xml:lang="nl-NL">
+    <title>Taalafhankelijke getalnotaties</title>
+    <shortdesc>Scheidingstekens voor decimalen en duizendtallen zijn afhankelijk van de gebruikte
+        taal van Windwos, maar kunnen in Excel zelf ook gewijzigd worden.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Decimaal scheidingsteken</indexterm>
+                <indexterm>Duizendtallen scheidingsteken</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Excel gebruikt standaard de getalnotaties zoals die in Windows zijn vastgelegd. Hierdoor
+            zijn deze notaties afhankelijk van de gebruikte taalversie van Windows. Met name voor
+            het decimaalteken en het scheidingsteken voor duizendtallen kan dit voor verwarring en
+            problemen zorgen. Standaard gebruikt Windows de volgende tekens.</p>
+        <ul>
+            <li>Nederlandstalig<ul>
+                    <li>Decimaal scheidingsteken komma: 12,34</li>
+                    <li>Duizentallen scheidingsteken punt 12.345</li>
+                </ul></li>
+            <li>Engelstalig<ul>
+                    <li>Decimaal scheidingsteken punt 12.34</li>
+                    <li>Duizendtallen scheidingsteken komma 12,345</li>
+                </ul></li>
+        </ul>
+        <p>Wanneer je deze instellingen permanent wilt veranderen, dan moet je dat via de
+            landinstellingen in het configuratiescherm van Windows doen.</p>
+        <p>Gelukkig kun je deze instellingen tijdelijk ook in Excel wijzigen. Ga hiervoor als volgt
+            te werk.</p>
+        <ol>
+            <li>Klik op de <menucascade>
+                    <uicontrol>Bestand</uicontrol>
+                    <uicontrol>Opties</uicontrol>
+                    <uicontrol>Geavanceerd</uicontrol>
+                </menucascade></li>
+            <li>Schakel onder <q>Opties voor bewerken</q> het selectievakje
+                    <uicontrol>Scheidingstekens van systeem gebruiken</uicontrol> uit.</li>
+            <li>Typ nieuwe scheidingstekens in de invoervakken <uicontrol>Decimaalteken</uicontrol>
+                en <uicontrol>Scheidingsteken voor duizendtallen</uicontrol>.</li>
+        </ol>
+        <note type="tip">Wanneer je de scheidingstekens van het systeem weer wilt gebruiken, schakel
+            je het selectievakje <uicontrol>Scheidingstekens van systeem gebruiken</uicontrol>
+            in.</note>
+    </conbody>
+</concept>

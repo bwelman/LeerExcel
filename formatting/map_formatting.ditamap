@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_formatting" xml:lang="nl-NL">
+    <title>Opmaak werkblad en gegevens</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_formatting.ditamap" processing-role="resource-only"/>
+    <!-- Links  -->
+    <mapref href="reltable_formatting.ditamap" format="ditamap"/>
+    <!-- Content -->
+    <topicref href="formatting.dita" scope="local" type="concept">
+        <topicref href="formatting_over.dita" scope="local" type="concept"/>
+        <topicref href="formatting_column_width.dita" scope="local" type="concept"/>
+        <topicref href="formatting_row_height.dita" scope="local" type="concept"/>
+        <topicref href="formatting_font_group.dita" scope="local" type="concept"/>
+        <topicref href="formatting_cell_border.dita" scope="local" type="concept"/>
+        <topicref href="formatting_cell_alignment.dita" scope="local" type="concept"/>
+        <topicref href="formatting_numbers.dita" scope="local" type="concept"/>
+        <topicref href="formatting_numberformat_task.dita" scope="local" type="task"/>
+        <topicref href="formatting_cell_copy.dita" scope="local" type="concept"/>
+        <topicref href="formatting_table_style.dita" scope="local" type="task"/>
+        <topicref href="formatting_conditional.dita" scope="local" type="concept">
+            <topicref href="formatting_conditional_concept.dita" scope="local" type="concept"/>
+            <topicref href="formatting_conditional_1_task.dita" scope="local" type="task"/>
+            <topicref href="formatting_conditional_2_task.dita" scope="local" type="task"/>
+            <topicref href="formatting_conditional_bottom10pct_task.dita" scope="local" type="task"/>
+            <topicref href="formatting_conditional_delete.dita" scope="local" type="concept"/>
+            <topicref href="formatting_conditional_search.dita" scope="local" type="concept"/>
+        </topicref>
+    </topicref>
+</map>

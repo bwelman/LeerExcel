@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_pivot" xml:lang="nl-NL">
+    <title>Keys Pivot</title>
+    <keydef keys="cellformat_accounting" href="images/cellformat_accounting.png" format="png"/>
+    <keydef keys="dates_grouped" href="images/dates_grouped.png" format="png"/>
+    <keydef keys="dates_ungrouped" href="images/dates_ungrouped.png" format="png"/>
+    <keydef keys="invoices_fieldsettings_pct-rowtotal" href="images/invoices_fieldsettings_pct-rowtotal.png" format="png"/>
+    <keydef keys="invoices_pivot_create" href="images/invoices_pivot_create.png" format="png"/>
+    <keydef keys="invoices_pivot_datefields" href="images/invoices_pivot_datefields.png" format="png"/>
+    <keydef keys="invoices_pivot_drilldown" href="images/invoices_pivot_drilldown.png" format="png"/>
+    <keydef keys="invoices_pivot_quarters" href="images/invoices_pivot_quarters.png" format="png"/>
+    <keydef keys="invoices_sales_grouped" href="images/invoices_sales_grouped.png" format="png"/>
+    <keydef keys="invoices_sales-salesman" href="images/invoices_sales-salesman.png" format="png"/>
+    <keydef keys="invoices_sales-salesman-quarter" href="images/invoices_sales-salesman-quarter.png" format="png"/>
+    <keydef keys="invoices_sales-salesman-quarter_pct" href="images/invoices_sales-salesman-quarter_pct.png" format="png"/>
+    <keydef keys="pivottable_empty" href="images/pivottable_empty.png" format="png"/>
+    <keydef keys="pivottable_location" href="images/pivottable_location.png" format="png"/>
+    <keydef keys="pivottable_options_alttext" href="images/pivottable_options_alttext.png" format="png"/>
+    <keydef keys="pivottable_options_data" href="images/pivottable_options_data.png" format="png"/>
+    <keydef keys="pivottable_options_display" href="images/pivottable_options_display.png" format="png"/>
+    <keydef keys="pivottable_options_layout-format" href="images/pivottable_options_layout-format.png" format="png"/>
+    <keydef keys="pivottable_options_printing" href="images/pivottable_options_printing.png" format="png"/>
+    <keydef keys="pivottable_options_totals-filter" href="images/pivottable_options_totals-filter.png" format="png"/>
+	<keydef keys="sales_chart_clustered-column" href="images/sales_chart_clustered-column.png" format="png"/>
+    <keydef keys="sales_pivot" href="images/sales_pivot.png" format="png"/>
+    <keydef keys="sales_pivot_datasource" href="images/sales_pivot_datasource.png" format="png"/>
+    <keydef keys="slicer_button_clear-filter" href="images/slicer_button_clear-filter.png" format="png"/>
+    <keydef keys="slicer_button_multiple-items" href="images/slicer_button_multiple-items.png" format="png"/>
+    <keydef keys="slicer_insert_dialogbox" href="images/slicer_insert_dialogbox.png" format="png"/>
+    <keydef keys="supermarket_cat-products-town" href="images/supermarket_cat-products-town.png" format="png"/>
+    <keydef keys="supermarket_cat-products-town_fields" href="images/supermarket_cat-products-town_fields.png" format="png"/>   
+    <keydef keys="supermarket_pivot_create" href="images/supermarket_pivot_create.png" format="png"/>
+    <keydef keys="supermarket_pivot_fieldsettings" href="images/supermarket_pivot_fieldsettings.png" format="png"/>
+    <keydef keys="supermarket_pivot_taskpanel" href="images/supermarket_pivot_taskpanel.png" format="png"/>
+    <keydef keys="supermarket_productcategory-town" href="images/supermarket_productcategory-town.png" format="png"/>    
+    <keydef keys="supermarket_productcategory-town_fields" href="images/supermarket_productcategory-town_fields.png" format="png"/>
+    <keydef keys="supermarket_productcategory-town_formatted" href="images/supermarket_productcategory-town_formatted.png" format="png"/>
+    <keydef keys="supermarket_reportfilter_all" href="images/supermarket_reportfilter_all.png" format="png"/>
+    <keydef keys="supermarket_reportfilter_amsterdam" href="images/supermarket_reportfilter_amsterdam.png" format="png"/>
+    <keydef keys="supermarket_reportfilter_multiple" href="images/supermarket_reportfilter_multiple.png" format="png"/>    
+    <keydef keys="supermarket_sales_data" href="images/supermarket_sales_data.png" format="png"/>
+    <keydef keys="supermarket_slicer_town" href="images/supermarket_slicer_town.png" format="png"/>
+    <keydef keys="supermarket_slicer_town_add" href="images/supermarket_slicer_town_add.png" format="png"/>
+    <keydef keys="supermarket_timeline_months" href="images/supermarket_timeline_months.png" format="png"/>
+    <keydef keys="supermarket_timeline_quarters" href="images/supermarket_timeline_quarters.png" format="png"/>
+    <keydef keys="timeline_period_selector" href="images/timeline_period_selector.png" format="png"/>
+</map>

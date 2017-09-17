@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_intro" xml:lang="nl-NL" audience="level1">
+    <title>Beginnen met Excel</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <!-- Content -->
+    <topicref href="intro.dita" type="concept" scope="local">
+        <topicref href="intro_over.dita" type="concept" scope="local"/>
+        <topicref href="intro_excel_start.dita" type="task" scope="local"/>
+        <topicref href="intro_excel_close.dita" type="task" scope="local"/>
+        <topicref href="intro_excel_window.dita" type="concept" scope="local"/>
+        <topicref href="intro_document_new.dita" type="task" scope="local"/>
+        <topicref href="intro_document_open.dita" type="task" scope="local"/>
+        <topicref href="intro_document_save.dita" type="task" scope="local"/>
+        <topicref href="intro_document_saveas.dita" type="task" scope="local"/>
+        <topicref href="intro_excel_fileformats.dita" type="reference" scope="local"/>
+    </topicref>
+</map>

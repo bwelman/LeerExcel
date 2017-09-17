@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="meas_lineair" xml:lang="nl-NL">
+    <title>Lineair verband</title>
+    <shortdesc>In dit onderdeel wordt uitgelegd wat een lineair verband is.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Trendlijn</indexterm>
+                <indexterm>Lineair</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Wanneer tussen twee variabelen x en y een lineair verband bestaat dan kan de relatie
+            tussen deze twee variabelen worden weergegeven met de
+            vergelijking<codeblock>y = ax + b
+y is de afhankelijke variabele
+x is de onafhankelijke variabele
+a is een constante
+b is een constante</codeblock></p>
+        <p>De grafiek van <codeph>y = ax + b</codeph> is een rechte lijn, lineair. De
+            richtingscoëfficiënt van deze rechte lijn is a en het snijpunt met de y-as is b.</p>
+        <fig>
+            <title>Grafiek van <codeph>y = 2x + 3</codeph></title>
+            <image keyref="chart_linear">
+                <alt>Grafiek van y=2x+3</alt>
+            </image>
+        </fig>
+        <p>Wanneer een aantal meetresultaten bekend zijn, dan kun je met Excel<ul>
+                <li>een grafiek tekenen.</li>
+                <li>de trendlijn tekenen (de best passende lijn).</li>
+                <li>de vergelijking van de trendlijn bepalen.</li>
+                <li>de richtingscoeëfficiënt en het snijpunt met de y-as bepalen met Excel
+                    functies.</li>
+            </ul></p>
+    </conbody>
+</concept>

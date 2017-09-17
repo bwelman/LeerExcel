@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="worksheet_delete" xml:lang="nl-NL">
+    <title>Taak: Werkblad verwijderen</title>
+    <shortdesc>Hoe je een werkblad kunt verwijderen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkblad<indexterm>verwijderen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Het is een goede gewoonte om alleen werkbladen met inhoud in de werkmap te
+                bewaren en lege werkbladen te verwijderen. Elk werkblad kan verwijderd worden,
+                behalve de laatst overgeblevene, want elke werkmap moet tenminste één werkblad
+                hebben. Wanneer een werkblad gegevens bevat of leeg is gemaakt door alle inhoud te
+                verwijderen, dan vraagt Excel om een extra bevestiging van de verwijderactie. In het
+                andere geval wordt het werkblad direct verwijderd.</p></context>
+        <steps>
+            <step>
+                <cmd>Rechtermuisklik op de tabnaam en kies dan
+                    <uicontrol>Verwijderen</uicontrol>.</cmd>
+                <stepresult> Er zijn nu twee mogelijkheden:<ul>
+                        <li>Het werkblad wordt direct verwijderd. In dat geval is er geen volgende
+                            stap.</li>
+                        <li>Er verschijnt een dialoogvenster waarin om een bevestiging van de
+                            verwijdering gevraagd wordt.</li>
+                    </ul></stepresult>
+            </step>
+            <step>
+                <cmd>Klik <uicontrol>Verwijderen</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

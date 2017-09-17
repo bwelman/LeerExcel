@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="formatting_conditional_bottom10pct_task" xml:lang="nl-NL">
+    <title>Taak: Opmaak voor beste/slechtste 10%</title>
+    <shortdesc>Een oefening waarin de achtergrondkleur afhangt van de waarden in een reeks.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Voorwaardelijke opmaak<indexterm>beste/slechtste 10 procent</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Het is mogelijk om een voorwaarde te maken die afhangt van alle andere waarden in een reeks.
+                Zo kun je bijvoorbeeld een voorwaardelijke opmaak maken voor de top 3 van een reeks,
+                of de slechtste of beste 10% van de waarden.</p>
+            <p>In een spreadsheet staan allerlei gegevens van autos. In een van de kolommen staat het
+                brandstofverbruik. De opdracht is om een groene achtergrond te geven aan de 10%
+                auto's met het laagste brandstofverbruik.</p>
+            <note type="other" othertype="Bestand"><filepath>Auto.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer alle verbruikswaarden in kolom F.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Voorwaardelijke opmaak (groep Stijlen)</uicontrol>
+                        <uicontrol>Regels voor bovenste/onderste</uicontrol>
+                        <uicontrol>onderste 10%</uicontrol>
+                    </menucascade> en breng in het dialoogvenster de soort opvulling aan.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster voorwaardelijk opmaak voor onderste 10%</title>
+                        <image keyref="Format_Conditional_Bottom_10pct">
+                            <alt>Dialoogvenster voorwaardelijk opmaak voor onderste 10%</alt>
+                        </image>
+                    </fig>
+                    <note type="tip">Hier kan ook een ander percentage dan 10 worden
+                        ingesteld.</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="calculation_example_insurance" xml:lang="nl-NL">
+	<title>Taak: Premietabel</title>
+	<shortdesc>Een oefening in het kopieren van formules.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Formules<indexterm>kopiëren</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>In de volgende afbeelding is een lijst met premies voor autoverzekeringen te zien. De lijst
+				begint bij een waarde van € 10.000 en een premie van € 675. Daarna neemt de waarde
+				toe in stappen van € 1000 en de premie in stappen van € 45. Maak deze lijst met
+				gebruik van formules voor waarde en premie in de rijen 6 t/m 20.</p>
+			<fig>
+                <title>Premietabel</title>
+                <image keyref="Example_Insurance">
+                    <alt>Premietabel</alt>
+                </image>
+            </fig>
+			<note type="other" othertype="Bestand"><filepath>Premietabel.xlsx</filepath></note>
+		</context>
+		<steps>
+			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+				<cmd/>
+			</step>
+			<step>
+                <cmd>Maak de geldbedragen op met de knop voor de financiële getalnotatie (<menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>knop Financiële getalnotatie (groep Getal)</uicontrol>
+                    </menucascade>. Pas ook de breedte van de kolommen aan zodat alle inhoud
+                    past.</cmd>
+            </step>
+			<step>
+				<cmd>Voer in cel <uicontrol>A6</uicontrol> de formule
+						<userinput>=A5+$B$1</userinput>.</cmd>
+			</step>
+			<step>
+				<cmd>Voer in cel <uicontrol>B6</uicontrol> de formule <userinput>=B5+$D$1</userinput>.</cmd>
+			</step>
+			<step>
+				<cmd>Selecteer het gebied <uicontrol>A6:B6</uicontrol> en sleep de vulgreep naar
+					beneden tot <uicontrol>B20</uicontrol>.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

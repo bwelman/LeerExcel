@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="pivots_charts" xml:lang="nl-NL">
+    <title>Taak: Draaigrafieken</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Draaitabellen<indexterm>grafieken</indexterm></indexterm>
+                <indexterm>Draaigrafieken</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een draaigrafiek toont gegevensreeksen, categorieën en assen op dezelfde manier als
+                een gewone grafiek. Maar je krijgt tevens mogelijkheden voor interactieve filtering
+                direct op de grafiek zodat je snel een subset van de gegevens kunt bekijken. En je
+                kunt ook slicers gebruiken voor de filtering.</p>
+            <note type="other" othertype="File"><filepath>Omzet.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer werkblad <wintitle>draaitabel</wintitle> en selcteer dan een cel in
+                    de draaitabel op dit werkblad.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Draaigrafiek (groep Grafieken)</uicontrol>
+                        <uicontrol>Gegroepeerde kolom</uicontrol>
+                        <uicontrol>OK</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <fig>
+                        <image keyref="sales_chart_clustered-column"/>
+                    </fig>
+                    <p>In de draaigrafiek zijn filters voor Regio en Vertegenwoordiger. Wanneer je
+                        een filter in de grafiek gebruikt, dan worden ook de gegevens in de
+                        draaitabel gefilterd.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Experimenteer met filtering op vertegenwoordiger en bekijk de resultaten.
+                    Eindig met het tonen van de gegevens voor alle vertegenwoordigers.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg een slicer toe voor <varname>Maand</varname> en experimenteer
+                    hiermee.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

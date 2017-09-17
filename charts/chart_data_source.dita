@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_data_source" xml:lang="nl-NL">
+    <title>Taak: Gegevensreeks toevoegen of verwijderen</title>
+    <shortdesc>Via een aantal kleine oefeningen leer je diverse mogelijkheden om gegevensreeksen aan
+        een grafiek toe te voegen en te verwijderen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>gegevensreeks
+                        toevoegen</indexterm><indexterm>gegevensreeks
+                    verwijderen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Het komt regelmatig voor dat aan een bestaande grafiek een nieuwe gegevensreeks moet
+                worden toegevoegd of dat een reeds aanwezige gegevensreeks verwijderd moet worden.
+                Wanneer een grafiek geselecteerd is, worden de bijbehorende brongegevens in het
+                werkblad met gekleurde kaders gemarkeerd.</p>
+            <p>Wanneer de nieuwe reeks die toegevoegd moet worden aansluit bij het gemarkeerde
+                gebied, dan kan het gegevensbereik eenvoudig uitgebreid worden door te slepen. En
+                een reeks die aan het begin of het eind van het gemarkeerde gebied kan door slepen
+                verwijderd worden.</p>
+            <p>Wanneer een reeks niet door slepen toegevoegd of verwijderd kan worden, dan moet er
+                van het dialoogvenster <wintitle>Gegevensbron selecteren</wintitle> gebruik gemaakt
+                worden. Beide technieken zullen in dit onderdeel gebruikt worden.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <stepsection>Onderdeel: nieuwe gegevensreeks toevoegen</stepsection>
+            <step>
+                <cmd>Voeg nieuwe gegevens voor het jaar 2011 toe in het gebied E1:E5 zoals in de
+                    volgende figuur te zien is.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Nieuwe gegevens voor het jaar 2011</title>
+                        <image keyref="bakery_data_2011">
+                            <alt>Nieuwe gegevens voor het jaar 2011</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>Onderdeel: gegevensreeks 2011 toevoegen aan grafiek door slepen</stepsection>
+            <step>
+                <cmd>Selecteer de grafiek.</cmd>
+                <stepresult>
+                    <p>De brongegevens op het werkblad zijn geselecteerd met formaatgrepen.</p>
+                    <fig>
+                        <title>Gemarkeerde brongegevens voor grafiek</title>
+                        <image keyref="bakery_data_marked">
+                            <alt>Gemarkeerde brongegevens voor grafiek</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Versleep de formaatgreep rechtsonder om de nieuwe gegevens op te nemen.</cmd>
+                <stepresult>
+                    <p>De grafiek wordt automatisch bijgewerkt en bevat nu ook de gegevens voor
+                        2011.</p>
+                    <fig>
+                        <title>Grafiek met gegevensreeksen 2008-2011</title>
+                        <image keyref="bakery_chart_2008-2011">
+                            <alt>Grafiek met gegevensreeksen 2008-2011</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>Onderdeel: gegevensreeks 2008 verwijderen door slepen</stepsection>
+            <step>
+                <cmd>Selecteer de grafiek.</cmd>
+                <stepresult>
+                    <p>De brongegevens op het werkblad zijn geselecteerd met formaatgrepen.</p>
+                    <fig>
+                        <title>Gemarkeerde brongegevens 2008-2011</title>
+                        <image keyref="bakery_data2011_marked">
+                            <alt>Gemarkeerde brongegevens 2008-2011</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Versleep de fromaatgreep linksonderom de gegevens voor 2008 uit te
+                    sluiten.</cmd>
+                <stepresult>
+                    <p>De grafiek wordt automatisch bijgewerkt en bevat nu de gegevens voor
+                        2009-2011</p>
+                    <fig>
+                        <title>Grafiek met gegevensreeksen 2009-2011</title>
+                        <image keyref="bakery_chart_2009-2011">
+                            <alt>Grafiek met gegevensreeksen 2009-2011</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>Onderdeel: reeks 2008 toevoegen en reeks 2011 verwijderen via
+                dialoogvenster</stepsection>
+            <step>
+                <cmd>Klik met de rechter muisknop op de grafiek en kies uit het snelmenu voor
+                        <uicontrol>Gegevens selecteren...</uicontrol>.</cmd>
+                <info>
+                    <note type="tip">Een alternatief is <menucascade>
+                            <uicontrol>Ontwerpen</uicontrol>
+                            <uicontrol>Gegevens selecteren (groep Gegevens)</uicontrol>
+                        </menucascade>.</note>
+                </info>
+                <stepresult><fig>
+                        <title>Gegevensbron selecteren</title>
+                        <image keyref="bakery_select_datasource">
+                            <alt>Gegevensbron selecteren</alt>
+                        </image>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de knop <uicontrol>Toevoegen</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Toevoegen nieuwe reeks</title>
+                        <image keyref="chart_edit_series">
+                            <alt>Toevoegen van een nieuwe reeks</alt>
+                        </image>
+                    </fig>
+                    <dl>
+                        <dlentry>
+                            <dt>Reeksnaam</dt>
+                            <dd>De cel die de naam van de gegevensreeks bevat.</dd>
+                        </dlentry>
+                        <dlentry>
+                            <dt>Reekswaarden</dt>
+                            <dd>Het bereik van de cellen met de gegevenswaarden.</dd>
+                        </dlentry>
+                    </dl>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Zet de cursor in het vak <uicontrol>Reeksnaam</uicontrol> en selecteer dan in
+                    het werkblad cel <uicontrol>B1</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de inhoud van het vak <uicontrol>Reekswaarden</uicontrol> en
+                    selecteer dan in het werkblad het gebied <uicontrol>B2:B5</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Klik <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>In de grafiek en in het dialoogvenster <wintitle>Gegevensbron
+                            selecteren</wintitle> is de gegevensreeks 2008 toegevoegd. Echter deze
+                        gegevensreeks is achteraan toegevoegd, waardoor de volgorde niet meer
+                        logisch is.</p>
+                    <fig>
+                        <title>Volgorde gegevensreeksen wijzigen</title>
+                        <image keyref="bakery_datasource_moveup" alt="">
+                            <alt>Volgorde gegevensreeksen wijzigen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer in het dialoogvenster reeks <uicontrol>2008</uicontrol> en klik
+                    daarna 3 keer op de pijl <uicontrol>omhoog</uicontrol> zodat de gegevensreeks
+                    2008 de eerste reeks is.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer in het dialoogvenster reeks <uicontrol>2011</uicontrol> en klik op de
+                    knop <uicontrol>Verwijderen</uicontrol>.</cmd>
+                <stepresult>De gegevensreeks 2011 wordt verwijderd. De beginsituatie met daarin de
+                    gegevensreeks 2008-2010 is weer terug.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

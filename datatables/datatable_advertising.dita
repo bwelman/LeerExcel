@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task  id="datatable_advertising" xml:lang="nl-NL">
+    <title>Taak: Opbrengst reclamecampagne</title>
+    <shortdesc>Een voorbeeld waarbij een gegevenstabel met 2 <term>invoercellen</term> gebruikt
+    wordt om de opbrengst van een reclamecampagne te berekenen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een bedrijf wil een reclamecampagne voeren door folders via direct mail naar
+                potentiële klanten te sturen. In een berekeningsmodel wil men de verwachte winst van
+                deze reclamecampagne berekenen.</p>
+            <fig>
+                <title>Berekeningsmodel reclamecampagne</title>
+                <image keyref="advertising_model">
+                    <alt>Berekeningsmodel reclamecampagne</alt>
+                </image>
+            </fig>
+            <p>Het berekeningsmodel gebruikt 2 variabelen: het aantal te versturen folders en het
+                percentage reacties (respons). De druk- en verzendkosten zijn vaste gegevens,
+                evenals de verwachtte opbrengst per respons. Het aantal reacties en de totale
+                opbrengsten, kosten en winst worden via formules berekend.</p>
+            <p>De gegevenstabel komt in <userinput>B14:I23</userinput>. De twee invoercellen zijn B1
+                en B2.  De waarden voor invoercel <userinput>B1</userinput> staan in kolom
+                    <userinput>B15:B23</userinput>. De waarden dvoor invoercel
+                    <userinput>B2</userinput> staan in de rij <userinput>C14:I14</userinput>. In B14
+                is een verwijzing naar de formule voor de totale winst, die weer verwijzingen naar
+                de twee invoercellen bevat.</p>
+            <note type="other" othertype="Bestand"><filepath>Reclamecampagne.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer het bereik voor de gegevenstabel
+                    <uicontrol>B14:I23</uicontrol>.</cmd>
+            </step>
+            <step conref="datatable_rental_fixed.dita#datatable_rental_fixed/datatable_insert">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zet de cursor in het vak <option>Rij-invoercel</option> en klik daarna op cel
+                        <userinput>B2</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Zet de cursor in het vak <option>Kolominvoercel</option> en klik daarna op cel
+                        <userinput>B1</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Resultaten advertentiecampagne</title>
+                        <image keyref="advertising_results">
+                            <alt>Resultaten advertentiecampagne</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+        <result>In de resultaatcellen is door Excel een matrixformule geplaatst,
+                <systemoutput>{=TABEL(B2;B1)}</systemoutput>. Controleer dat.</result>
+    </taskbody>
+</task>

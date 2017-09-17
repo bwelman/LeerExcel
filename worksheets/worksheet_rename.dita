@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="worksheet_rename" xml:lang="nl-NL">
+    <title>Taak: Naam werkblad wijzigen</title>
+    <shortdesc>Hoe je de naam van een werkblad kunt veranderen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Werkblad<indexterm>naam wijzigen</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Het is aan te bevelen om het werkblad een zinvolle naam te geven en niet de
+                standaard gegenereerde namen als Blad1, Blad2, Blad3, ... te
+            gebruiken.</p></context>
+        <steps>
+            <step>
+                <cmd>Wijzig de naam van een werkblad op een van de volgende manieren: </cmd>
+                <choices>
+                    <choice>Rechtermuisklik op de tabnaam en kies dan <uicontrol>Naam
+                            wijzigen</uicontrol>.</choice>
+                    <choice>Dubbelklikken op de tabnaam.</choice>
+                </choices>
+                <stepresult>In beide gevallen wordt de naam geselecteerd.</stepresult>
+            </step>
+            <step>
+                <cmd>Typ de nieuwe naam op de tab en sluit af met
+                    <uicontrol>Enter</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

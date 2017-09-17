@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_staaf" xml:lang="nl-NL">
+    <title>Taak: Staafdiagram</title>
+    <shortdesc>Grafiektype dat zich goed leent voor de weergave van rangordes.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Staafdiagram</indexterm>
+                <indexterm>Grafieken<indexterm>staafdiagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Staafdiagrammen worden veel gebruikt om verschillen in rangorde duidelijk te maken.
+                Het onderlinge verschil in belang (de prioriteit) van bepaalde zaken op eenzelfde
+                moment worden tot uitdrukking gebracht.</p>
+            <p>De resultaten worden meestal eerst gesorteerd van hoog naar laag, zodat het hoogste
+                resultaat als eerste staaf wordt weergegeven.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>In de volgende afbeelding is het percentage rokers per leeftijdscategorie in 2009
+                weergegeven (bron: CBS)</p>
+            <fig>
+                <title>Percentage rokers in 2009</title>
+                <image keyref="bar_data">
+                    <alt>percentage rokers in 2009</alt>
+                </image>
+            </fig>
+            <p>De gegevens moeten in een kolomdiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Staafdiagram Percentage rokers in 2009</title>
+                <image keyref="bar_result">
+                    <alt>Staafdiagram percentage rokers in 2009</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Grafiek_staaf.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Sorteer de tabel op percentage rokers van hoog naar laag.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Gesorteerd percentage rokers in 2009</title>
+                        <image keyref="bar_data_sorted">
+                            <alt>Gesorteerd percentage rokers in 2009.</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer een willekeurige cel in het gegevensgebied.</cmd>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Kolom- of staafdiagram invoegen (groep Grafieken)</uicontrol>
+                        <uicontrol>Gegroepeerde staaf</uicontrol>
+                    </menucascade>. </cmd>
+                <stepresult>
+                    <p> Het staafdiagram verschijnt op het werkblad. Hierin staat de langste staaf
+                        onderaan. Dit is de standaard werkwijze van Excel. Deze volgorde moet dus
+                        nog gewijzigd worden naast een aantal andere aanpassingen.</p>
+                    <fig>
+                        <title>Standaard staafdiagram ( langste staaf onderaan)</title>
+                        <image keyref="bar_default">
+                            <alt>Standaard staafdiagram met langste staaf onderaan</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd><menucascade>
+                        <uicontrol>Selecteer verticale as</uicontrol>
+                        <uicontrol>rechter muisklik</uicontrol>
+                        <uicontrol>As opmaken</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>Het taakvenster <wintitle>As opmaken</wintitle> verschijnt.</stepresult>
+            </step>
+            <step>
+                <cmd><menucascade>
+                        <uicontrol>Opties voor as</uicontrol>
+                        <uicontrol>selecteer Categorieën in omgekeerde volgorde</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>As opmaken</title>
+                        <image keyref="bar_axis_options">
+                            <alt>As opmaken</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig grafiektitel in: <userinput>Percentage rokers in 2009</userinput>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

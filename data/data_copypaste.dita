@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="data_copypaste" xml:lang="nl-NL">
+    <title>Taak: Kopiëren en plakken</title>
+    <shortdesc>Een eenvoudige oefening in het kopiëren van gegevens naar een andere
+        plek.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Kopieren</indexterm>
+                <indexterm>Plakken</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Het kopiëren van de inhoud van cellen is een veelvoorkomende actie in Excel. Je
+                kunt zowel één cel als een heel gebied kopiëren. Standaard wordt zowel de inhoud als
+                de opmaak van de cel gekopieerd. Het is echter ook mogelijk om alleen de inhoud of
+                alleen de opmaak te kopiëren. Wanneer de cel een formule met celverwijzingen bevat
+                dan worden deze celverwijzingen in de gekopieerde formule aangepast aan de nieuwe
+                situatie.</p><note type="other" othertype="Bestand"
+                    ><filepath>Celopmaak.xlsx</filepath></note></context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer het gebied <userinput>A1:B13</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Kopiëren (groep Klembord)</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de begincel van de bestemming, bijv.
+                    <userinput>D20</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Plakken (groep Klembord)</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

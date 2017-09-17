@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="chart_legend" xml:lang="nl-NL">
+    <title>Taak: Legenda</title>
+    <shortdesc>Een aantal manieren om de legenda weer te geven.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken<indexterm>legenda</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een legenda is vak die waarin de patronen of kleuren van de gegevensreeksen met hun
+                betekenis worden weergegeven. Standaard wordt, indien van toepassing, de legenda aan
+                de rechterkant getoond. De legenda kan ook uitgeschakeld worden of naar een andere
+                plaats versleept worden.</p>
+            <note conref="../common/reuse_task_parts.dita#reuse_task_parts/Graf_File"/>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Chart_Select">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Ontwerpen</uicontrol>
+                        <uicontrol>Grafiekonderdeel toevoegen (groep Grafiekindelingen)</uicontrol>
+                        <uicontrol>Legenda</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Legenda opties</title>
+                        <image keyref="chart_legend_options">
+                            <alt>Opties legenda</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Maak de gewenste keuze.</cmd>
+                <info>
+                    <note type="tip">Wanneer de legenda geselecteerd is kan deze naar een andere
+                        plaats in het grafiekgebied gesleept worden.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>
+<!--Toevoegen op welke wijze lettertype, rand, vorm  e.d. gewijzigd kan worden-->

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="table_over" xml:lang="nl-NL">
+    <title>Kenmerken van tabellen</title>
+    <shortdesc>Een korte beschrijving wat tabellen (lijsten, databases).</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Lijst</indexterm>
+                <indexterm>Tabel</indexterm>
+                <indexterm>Database</indexterm>
+                <indexterm>Record</indexterm>
+                <indexterm>Veld</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een tabel is een georganiseerde verzameling van gegevens.</p>
+        <table frame="all">
+            <title>Database met 3 records, elk met 5 velden</title>
+            <tgroup cols="5">
+                <thead>
+                    <row>
+                        <entry>klant</entry>
+                        <entry>naam</entry>
+                        <entry>datum</entry>
+                        <entry>prijs</entry>
+                        <entry>korting</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>A104</entry>
+                        <entry>Anderson</entry>
+                        <entry>2-10-2010</entry>
+                        <entry>400</entry>
+                        <entry>0 %</entry>
+                    </row>
+                    <row>
+                        <entry>K102</entry>
+                        <entry>King</entry>
+                        <entry>3-11-2010</entry>
+                        <entry>395</entry>
+                        <entry>5 %</entry>
+                    </row>
+                    <row>
+                        <entry>S501</entry>
+                        <entry>Smith</entry>
+                        <entry>4-12-2010</entry>
+                        <entry>375</entry>
+                        <entry>8 %</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>Een tabel of database is een tabel bestaande uit rijen en kolommen. In de databasewereld
+            wordt zo'n rij ook wel <term>record</term> genoemd en een kolom een <term>veld</term>.
+            De soort gegevens die verzameld worden staan in kolommen. In de eerste rij van een tabel
+            staan de kolomlabels die aangeven wat de informatie in de kolom voorstelt. De
+            kolomlabels worden ook wel <term>veldnamen</term> genoemd. De veldnamen in het voorbeeld
+            zijn: klantnr, naam, datum, prijs en korting.</p>
+        <p>Om gegevens te kunnen analyseren is het belangrijk dat deze gegevens goed gestructureerd
+            in het werkblad komen te staan. Een tabel met gestructureerde gegevens heeft de volgende
+            kenmerken:</p>
+        <ul>
+            <li>De cellen in elke kolom bevatten dezelfde soort gegevens.</li>
+            <li>De cellen in elke rij staan bevatten de afzonderlijke gegevens van het
+                onderwerp.</li>
+            <li>De eerste rij van de tabel bevat de unieke namen van de velden. Deze namen zijn
+                meestal anders opgemaakt (groter lettertype, vet, cursief, ...) dan de rest van de
+                tabel.</li>
+            <li>Een tabel kan overal op het werkblad beginnen. Het is niet noodzakelijk dat de
+                eerste rij van een tabel, die met de veldnamen dus, ook de eerste rij van het
+                werkblad is.</li>
+            <li>Er mogen geen lege rijen in de tabel voorkomen. Wel mogen er lege cellen in een rij
+                staan, maar niet alle cellen mogen leeg zijn.</li>
+            <li>Er mogen geen lege kolommen in de tabel voorkomen. Wel mogen er lege cellen in een
+                kolom voorkomen, maar niet alle cellen mogen leeg zijn.</li>
+        </ul>
+        <p>In Excel is een tabel een rechthoekig gebied van cellen waarin gegevens zijn opgeslagen.
+            Hoewel een tabel veel lijkt op een normaal cellenbereik Excel, biedt het een aantal
+            functies die het onderscheiden van een bereik.</p>
+        <p>Een tabel kan gemaakt en onderhouden worden door gewoon de gegevens in de cellen te
+            typen. Om een goede structuur te waarborgen is het aante bevelen om hierbij gebruik te
+            maken van een formulier voor de gegevensinvoer. Het is niet nodig dat eerst alle
+            gegevens ingevoerd moeten zijn voordat het bereik omzet naar een tabel. Wanneer je
+            eenmaal een tabel hebt kun je daar altijd nieuwe rijen en kolommen aan toevoegen. Grote
+            lijsten met gegevens zijn meestal afkomstig van gegevens uit externe bestanden
+            (tekst/csv bestanden, webqueries, databases).</p>
+        <p>In Excel 2016 kun je niet vanaf nul een tabel maken en vervolgens die tabel met gegevens
+            vullen. In plaats hiervan moet je eerst een bereik maken dat tenminste een aantal van de
+            gegevens bevat die je in de tabel wilt gebruiken en daarna dat bereik omzetten in een
+            tabel. Wanneer een bereik met gegevens is omgezet naar een tabel, dan verandert het
+            uiterlijk, maar er komen ook ingebouwde functies beschikbaar voor filteren, sorteren en
+            de mogelijkheid om een totaalrij toe te voegen waarbij je voor het totaliseren voor een
+            aantal functies kunt kiezen.</p>
+    </conbody>
+</concept>

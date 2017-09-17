@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_ring" xml:lang="nl-NL">
+    <title>Taak: Ringdiagram</title>
+    <shortdesc>Een ringdiagram gebruik je wanneer je de procentuele verdeling van meerdere
+        gegevensreeksen weer wilt geven.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Ringdiagram</indexterm>
+                <indexterm>Grafieken<indexterm>ringdiagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een ringdiagram is een uitbreiding van het cirkeldiagram. Dit diagram kan één of
+                meerdere ringen bevatten en elke ring vertegenwoordigt een gegevensreeks.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>In de volgende afbeelding zijn de verkopen per kwartaal van een bedrijf in de jaren
+                2008 en 2009 te zien.</p>
+            <fig>
+                <title>Omzet per kwartaal</title>
+                <image keyref="doughnut_data">
+                    <alt>Omzet per kwartaal</alt>
+                </image>
+            </fig>
+            <p>De gegevens moeten in een cirkeldiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Ringdiagram omzet per kwartaal</title>
+                <image keyref="doughnut_result">
+                    <alt>Ringdiagram omzet per kwartaal</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Grafiek_ring.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Cirkel- of ringdiagram invoegen (groep Grafieken)</uicontrol>
+                        <uicontrol>Ring</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Standaard ringdiagram</title>
+                        <image keyref="doughnut_default">
+                            <alt>Standaard ringdiagram</alt>
+                        </image>
+                    </fig>
+                    <p>Er moeten nog een aantal aanpassingen gemaakt worden. Een deel van de opmaak
+                        wordt bij dit voorbeeld aangebracht door een voorgedefinieerde grafiekstijl
+                        toe te passen.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig de grafiektitel in <userinput>Verkopen 2008-2009 per
+                        kwartaal</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de grafiek en wijzig de stijl. Kies een stijl die je bevalt.</cmd>
+            </step> 
+        </steps>
+    </taskbody>
+</task>

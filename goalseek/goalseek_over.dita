@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="goalseek_over" xml:lang="nl-NL" >
+	<title>Wat is doelzoeken</title>
+	<shortdesc>Een korte beschrijving van de methode doelzoeken.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Doelzoeken<indexterm>methode</indexterm><indexterm>beperking</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Een formule is uit een of meerdere variabelen opgebouwd. Normaliter wil je de uitkomst van de
+			formule berekenen bij bepaalde waarden van de variabelen. Deze waarden voor de
+			variabelen zijn dus bekend, de uitkomst van de formule niet. Maar wat wanneer je wel
+			graag een bepaald resultaat wilt, maar niet weet welke waarden van de waarden daarbij
+			horen. Dan kun je Excel's <term>Doelzoeken</term> gebruiken. Met <term>Doelzoeken</term>
+			wordt de waarde in een bepaalde cel gewijzigd totdat een formule die afhankelijk is van
+			die cel het gewenste resultaat geeft.</p>
+		<p>Doelzoeken kan alleen de waarde in één cel wijzigen. Je moet Excels <term>Oplosser</term>
+			gebruiken wanneer de de uitkomst van de formule van meerdere variabelen afhangt.</p>
+	</conbody>
+</concept>

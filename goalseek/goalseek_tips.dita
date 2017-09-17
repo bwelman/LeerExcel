@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/reference.dtd">
+<reference id="goalseek_tips" xml:lang="nl-NL">
+    <title>Tips doelzoeken</title>
+    <shortdesc>Een aantal tips wanneer Doelzoeken niet het goede antwoord geeft.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2011-03-25"/>
+            <revised modified="2013-06-04"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Doelzoeken<indexterm>beperking</indexterm><indexterm>opties</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section>
+            <title>Doelzoeken geeft niet het goede antwoord</title>
+            <p>Het is mogelijk dat de resultaatfunctie zodanig in elkaar zit dat het gewenste
+                antwoord niet bestaat. Ook is het mogelijk dat het antwoord wel bestaat, maar dat
+                Excel het niet kan vinden. In dat geval verschijnt er een dialoogvenster waarin dat
+                wordt aangegeven.</p>
+            <p>Bestaat de oplossing wel, maar kan Excel deze niet vinden loop dan de volgende
+                oplossingsmogelijkheden langs:</p>
+            <ol>
+                <li>Controleer in het model of de cel waarin het resultaat berekend wordt wel
+                    afhangt van de te wijzigen cel. De resultaatcel moet ook altijd een formule of
+                    een functie bevatten. En de te wijzigen cel mag alleen waarde bevatten en geen
+                    formule of functie.</li>
+                <li>Kies andere beginwaarden voor de te wijzigen cel.</li>
+                <li>Verhoog het maximum aantal iteraties (standaard is dit 100) via <menucascade>
+                        <uicontrol>Bestand</uicontrol>
+                        <uicontrol>Opties</uicontrol>
+                        <uicontrol>Formules</uicontrol>
+                    </menucascade><fig>
+                        <title>Dialoogvenster <wintitle>Berekeningsopties</wintitle></title>
+                        <image keyref="workbook_calculation_options">
+                            <alt>Opties voor doelzoeken</alt>
+                        </image>
+                    </fig></li>
+            </ol>
+        </section>
+    </refbody>
+</reference>

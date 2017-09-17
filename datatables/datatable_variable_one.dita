@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="datatable_variable_one" xml:lang="nl-NL">
+    <title>Gegevenstabel met één variabele</title>
+    <shortdesc>De layout en werking van een gegevenstabel met één invoer variabele.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Wanneer je de uitkomsten van een formule met één variabele voor verschillende waarden
+            wilt berekenen, dan kun je dat doen door twee kolommen te maken, eentje met de waarden
+            voor de variabele en de andere voor de uitkomsten van de formule.</p>
+        <p>De volgende afbeelding toont dit voor de formule y = 2*x-1.</p>
+        <fig>
+            <title>Voorbeeld met formules in elke cel</title>
+            <image keyref="formula_example">
+                <alt>Voorbeeld met formules in elke cel</alt>
+            </image>
+        </fig>
+        <p>In dergelijke gevallen is het veel handiger om een gegevenstabel met 1
+                <term>invoervariabele</term> te maken.</p>
+        <p>Om van een gegevenstabel met één variabele gebruik te kunnen maken moet de tabel aan een
+            bepaalde layout voldoen. De invoerwaarden voor de variabele moeten onder elkaar staan in
+            een kolom (kolomgeoriënteerd) of naast elkaar in een rij (rijgeoriënteerd).</p>
+        <p>Bij een kolomgeoriënteerde tabel zitten de waarden voor de variabele in een kolom en de
+            formule in de rij erboven en één cel rechts van de kolom met waarden. Eventuele volgende
+            formules kunnen in de cellen ernaast getypt worden.</p>
+        <p>Bij een rijgeoriënteerde gegevenstabel zitten de waarden voor de variabele in een rij en
+            de formule in de cel één kolom links van de eerste waarde één cel onder de rij met
+            invoerwaarden. Eventuele volgende formules kunnen in de cellen eronder getypt
+            worden.</p>
+        <note type="notice">In plaats van formules kunnen ook verwijzingen naar formules gebruikt
+            worden.</note>
+        <p>De algemene layout van een gegevenstabel ziet er als volgt uit:</p>
+        <simpletable frame="none" relcolwidth="1* 1*">
+            <sthead>
+                <stentry>Kolom georienteerde gegevenstabel met 1 invoercel</stentry>
+                <stentry>Rij georienteerde gegevenstabel met 1 invoercel</stentry>
+            </sthead>
+            <strow>
+                <stentry><image keyref="datatable_layout1_column">
+                        <alt>Kolom georienteerde gegevenstabel met 1 invoercel</alt>
+                    </image></stentry>
+                <stentry><image keyref="datatable_layout1_row">
+                        <alt>Rij georienteerde gegevenstabel met 1 invoercel</alt>
+                    </image></stentry>
+            </strow>
+        </simpletable>
+        <p><term>invoercel</term></p>
+        <p>Dit kan een willekeurige cel op het werkblad zijn. Excel gebruikt deze als tijdelijke
+            opslagplaats. De formules moeten een verwijzing naar deze invoercel hebben. De waarden
+            voor de variabele worden naar deze invoercel gestuurd, dan wordt de uitkomst berekend en
+            wordt deze in de tabel geplaatst.</p>
+    </conbody>
+</concept>

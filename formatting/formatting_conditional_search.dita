@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_conditional_search" xml:lang="nl-NL">
+    <title>Voorwaardelijke opmaak zoeken</title>
+    <shortdesc>Hoe je de cellen met een voorwaardelijke opmaak kunt vinden.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Voorwaardelijke opmaak<indexterm>zoeken</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Soms is het lastig om te zien of er op een werkblad cellen met een voorwaardelijke opmaak
+            zijn. Excel biedt hulp om deze te vinden. Dat gaat als volgt:</p>
+        <p>Kies <menucascade>
+                <uicontrol>Start</uicontrol>
+                <uicontrol>Zoeken en selecteren (groep Bewerken)</uicontrol>
+                <uicontrol>Voorwaardelijke opmaak</uicontrol>
+            </menucascade>.</p>
+        <p>Alle cellen met een voorwaardelijke opmaak worden nu geselecteerd. Wanneer er geen cellen
+            met een voorwaardelijke opmaak zijn dan geeft Excel de volgende melding:
+                <systemoutput>Er zijn geen cellen gevonden.</systemoutput>.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_formatting" xml:lang="nl-NL">
+    <title>Keys Formatting</title>
+    <keydef keys="Cell_Alignment_Example" href="images/cell_alignment_example.png" format="png"/>
+    <keydef keys="Cell_Border_Button" href="images/cell_border_button.png" format="png"/>
+    <keydef keys="Cell_Border_List" href="images/cell_border_list.png" format="png"/>
+    <keydef keys="Columnwidth_Drag" href="images/columnwidth_drag.png" format="png"/>
+    <keydef keys="Columnwidth_Set" href="images/columnwidth_set.png" format="png"/>
+    <keydef keys="Font" href="images/font.png" format="png"/>
+    <keydef keys="Font_Color" href="images/font_color.png" format="png"/>
+    <keydef keys="Font_Fillcolor" href="images/font_fillcolor.png" format="png"/>
+    <keydef keys="Font_Size" href="images/font_size.png" format="png"/>
+    <keydef keys="Font_Size_Adjust" href="images/font_size_adjust.png" format="png"/>
+    <keydef keys="Font_Style" href="images/font_style.png" format="png"/>
+    <keydef keys="Format_Clear" href="images/format_clear.png" format="png"/>
+    <keydef keys="Format_Conditional_Bottom_10pct" href="images/format_conditional_bottom_10pct.png" format="png"/>
+    <keydef keys="Format_Conditional_Greater" href="images/format_conditional_greater.png" format="png"/>
+    <keydef keys="Format_Conditional_Less" href="images/format_conditional_less.png" format="png"/>
+    <keydef keys="Format_Conditional_Rules_2" href="images/format_conditional_rules_2.png" format="png"/>
+    <keydef keys="Format_Conditional_Rules_Manage" href="images/format_conditional_rules_manage.png" format="png"/>
+    <keydef keys="Format_Conditional_Rules_New" href="images/format_conditional_rules_new.png" format="png"/>
+    <keydef keys="Format_Painter" href="images/format_painter.png" format="png"/>
+    <keydef keys="Mouse_Pointer_Formatpainter" href="images/mouse_pointer_formatpainter.png" format="png"/>
+    <keydef keys="Number_Format_Accounting" href="images/number_format_accounting.png" format="png"/>
+    <keydef keys="Number_Format_Decimal_Decrease" href="images/number_format_decimal_decrease.png" format="png"/>
+    <keydef keys="Number_Format_Decimal_Increase" href="images/number_format_decimal_increase.png" format="png"/>
+    <keydef keys="Number_Format_Example" href="images/number_format_example.png" format="png"/>
+    <keydef keys="Number_Format_List" href="images/number_format_list.png" format="png"/>
+    <keydef keys="Number_Format_Percent" href="images/number_format_percent.png" format="png"/>
+    <keydef keys="Number_Format_Thousands" href="images/number_format_thousands.png" format="png"/>
+    <keydef keys="Ribbon_Group_Alignment" href="images/ribbon_group_alignment.png" format="png"/>
+    <keydef keys="Ribbon_Group_Number" href="images/ribbon_group_number.png" format="png"/>
+    <keydef keys="Rowheight_Drag" href="images/rowheight_drag.png" format="png"/>
+    <keydef keys="Rowheight_Set" href="images/rowheight_set.png" format="png"/>
+    <keydef keys="Tablestyle_Dialogbox" href="images/tablestyle_dialogbox.png" format="png"/>
+    <keydef keys="Tablestyle_Result" href="images/tablestyle_result.png" format="png"/>
+</map>

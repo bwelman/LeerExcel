@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="function_overview_text" xml:lang="nl-NL">
+  <title>Overzicht Tekst functies</title>
+  <shortdesc>Een overzicht van een aantal functies voor het manipuleren van teksten.</shortdesc>
+  <prolog>
+    <critdates>
+        <created date="2017-08-31"/>
+        <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Functies<indexterm>tekst</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <title>DEEL</title>
+      <p>Deze functie geeft als resultaat een gedeelte van een tekst.</p>
+      <codeblock>DEEL(tekst;begin-getal;aantal-tekens)</codeblock>
+      <parml>
+        <plentry>
+          <pt>tekst</pt>
+          <pd>Verplicht. De tekenreeks waaruit je de tekens wilt ophalen.</pd>
+        </plentry>
+        <plentry>
+          <pt>begin-getal</pt>
+          <pd>Verplicht. De plaats van het eerste teken dat je op wilt halen. De telling begint bij
+            1.</pd>
+        </plentry>
+        <plentry>
+          <pt>aantal-tekens</pt>
+          <pd>Verplicht. Het aantal tekens dat je op wilt halen.</pd>
+        </plentry>        
+      </parml>
+    </section>
+    <section>
+      <title>LENGTE</title>
+      <p>Deze functie geeft als resultaat het aantal tekens waaruit een tekst bestaat.</p>
+      <codeblock>LENGTE(tekst)</codeblock>
+      <parml>
+        <plentry>
+          <pt>tekst</pt>
+          <pd>Verplicht. De tekst waarvan je de lengte wilt bepalen.</pd>
+        </plentry>        
+      </parml>
+    </section>
+    <section>
+      <title>LINKS</title>
+      <p>Deze functie geeft als resultaat het linkerdeel van een tekst.</p>
+      <codeblock>LINKS(tekst; [aantal-tekens])</codeblock>
+      <parml>
+        <plentry>
+          <pt>tekst</pt>
+          <pd>Verplicht. De tekst waarvan je het linkerdeel wilt hebben.</pd>
+        </plentry>
+        <plentry>
+          <pt>aantal-tekens</pt>
+          <pd>Optioneel. Het aantal tekens van het linkerdeel. Wanneer je de waarde hiervoor weglaat
+            wordt er uitgegaan van 1.</pd>
+        </plentry>        
+      </parml>
+    </section>
+    <section>
+      <title>RECHTS</title>
+      <p>Deze functie geeft als resultaat het rechterdeel  van een tekst.</p>
+      <codeblock>RECHTS(tekst; [aantal-tekens])</codeblock>
+      <parml>
+        <plentry>
+          <pt>tekst</pt>
+          <pd>Verplicht. De tekst waarvan je het rechterdeel wilt hebben.</pd>
+        </plentry>
+        <plentry>
+          <pt>aantal-tekens</pt>
+          <pd>Optioneel. Het aantal tekens van het rechterdeel. Wanneer je de waarde hiervoor
+            weglaat wordt er uitgegaan van 1.</pd>
+        </plentry>        
+      </parml>
+    </section>
+    <section>
+      <title>VIND.SPEC</title>
+      <p>Deze functie zoekt naar de plaats waar een tekst binnen een grotere tekst begint.</p>
+      <codeblock>VIND.SPEC(zoeken_tekst;in_tekst; [begin_getal])</codeblock>
+      <parml>
+        <plentry>
+          <pt>zoeken_tekst</pt>
+          <pd>Verplicht. De tekst die je zoekt.</pd>
+        </plentry>
+        <plentry>
+          <pt>in_tekst</pt>
+          <pd>Verplicht. De tekst waarbinnen gezocht moet worden.</pd>
+        </plentry>
+        <plentry>
+          <pt>begin_getal</pt>
+          <pd>Optioneel. De plaats binnen de in_tekst vanaf waar het zoeken moet beginnen. Wanneer
+            je de waarde hiervoor weglaat wordt er uitgegaan van 1.</pd>
+        </plentry>        
+      </parml>
+    </section>
+  </refbody>
+</reference>

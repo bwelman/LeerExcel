@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="solver_activation" xml:lang="nl-NL">
+	<title>Taak: Beschikbaarheid Oplosser</title>
+	<shortdesc>Dit onderdeel bevat aanwijzingen om te controleren of het onderdeel
+			<term>Oplosser</term> binnen Excel beschikbaar en indien nodig hoe deze beschikbaar
+		gesteld kan worden.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Oplosser<indexterm>beschikbaarheid</indexterm></indexterm>
+				<indexterm>Invoegtoepassing<indexterm>oplosser</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<taskbody>
+		<context>
+			<p>De <term>Oplosser</term> is een zogenaamde <term>invoegtoepassing</term> welke niet
+				standaard via het menu van Excel beschikbaar is. Wanneer de Oplosser
+				niet op het lint aanwezig is dan moet deze eerst geactiveerd worden. Dit is een
+				eenmalige actie.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Kies <uicontrol>tab Gegevens</uicontrol> en controleer of de <uicontrol>groep
+						Analyse</uicontrol> bestaat en zoja of hierin de
+						<uicontrol>Oplosser</uicontrol> aanwezig is.</cmd>
+				<stepresult>
+					<fig>
+						<title>Groep Analyse met Oplosser op het lint</title>
+					    <image keyref="excel_ribbon_analyze">
+							<alt>Groep analyse met oplosser op het lint</alt>
+						</image>
+					</fig>
+					<note type="attention">Ga alleen verder wanneer de <uicontrol>groep
+							Analyse</uicontrol> met <uicontrol>Oplosser</uicontrol> niet aanwezig
+						is.</note>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Kies <menucascade>
+						<uicontrol>Bestand</uicontrol>
+						<uicontrol>Opties</uicontrol>
+						<uicontrol>Invoegtoepassingen</uicontrol>
+					</menucascade></cmd>
+				<stepresult>Er verschijnt een lijst met Microsoft Office
+					Invoegtoepassingen.</stepresult>
+			</step>
+			<step>
+				<cmd>Selecteer onder in het scherm in het vak <varname>Beheren</varname> voor
+						<option>Excel-invoegtoepassingen</option>.</cmd>
+				<stepresult>
+					<fig>
+                        <title>Keuze soort invoegtoepassingen</title>
+                        <image keyref="excel_options_addins_manage">
+                            <alt>Keuze soort invoegtoepassingen</alt>
+                        </image>
+                    </fig>
+				</stepresult>
+			</step>
+			<step>
+				<cmd>Klik op <uicontrol>Start...</uicontrol>.</cmd>
+				<stepresult>Een lijst met beschikbare invoegtoepassingen wordt getoond.</stepresult>
+			</step>
+			<step>
+				<cmd>Vink het selectievakje <uicontrol>Oplosser-invoegtoepassing</uicontrol> aan en klik op
+						<uicontrol>OK</uicontrol>.</cmd>
+			</step>
+			<step>
+				<cmd>Herhaal de controle in de eerste stap.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

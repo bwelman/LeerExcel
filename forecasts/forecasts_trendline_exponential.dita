@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_trendline_exponential" xml:lang="nl-NL">
+    <title>Taak: Exponentiële trendlijn</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een exponentiële trendlijn is een gebogen trendlijn die vooral geschikt is voor
+                gegevensverzamelingen waarvan de waarden steeds sneller stijgen of dalen.<note
+                    type="attention">Er mogen geen nulwaarden of negatieve waarden in de
+                    gegevensverzameling zitten.</note></p>
+            <p>De vergelijking van de trendlijn is: <codeph>y = a*e<sup>b*x</sup></codeph> waarbij a
+                en b constanten zijn.</p>
+            <p>Het volgende voorbeeld gaat over het aantal spelers in een tennistoernooi dat na elke
+                ronde overblijft. Het toernooi is met 128 spelers begonnen.</p>
+            <note type="other" othertype="Bestand"><filepath>Trendlijnen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open het hulpbestand en selecteer het werkblad
+                        <wintitle>Exponentieel</wintitle></cmd>
+            </step>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_Start"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Trendline_End">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer bij Opties voor trendlijn: <option>Exponentieel</option>. En laat de
+                    vergelijking en R-kwadraat in de grafiek weergeven.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig titel in <userinput>Aantal spelers per ronde</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg astitels toe en wijzig titel Y-as in <userinput>Aantal spelers</userinput>
+                    en titel X-as in <userinput>Speelronde</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Versleep in de grafiek de vergelijking naar een overzichtelijke plaats.</cmd>
+            </step>
+        </steps>
+        <result>
+            <fig>
+                <title>Voorbeeld exponentiële trendlijn</title>
+                <image keyref="example_exp">
+                    <alt>Voorbeeld exponentiële trendlijn</alt>
+                </image>
+            </fig>
+            <p>R<sup>2</sup> = 1 wat betekent dat de trendlijn perfect is. Dit komt omdat in dit
+                voorbeeld de waarden de exact zijn.</p>
+        </result>
+        <example>
+            <title>Werkbladfuncties</title>
+            <p>Vergelijking: y = a*e<sup>(b*x)</sup><ul>
+                    <li>a =EXP(INDEX(LIJNSCH(LN(y-bekend) ; x-bekend) ; 1 ; 2))</li>
+                    <li>b =INDEX(LIJNSCH(LN(y-bekend) ; x-bekend) ; 1)</li>
+                </ul></p>
+        </example>
+    </taskbody>
+</task>

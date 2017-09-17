@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_tren_resources" xml:lang="nl-NL">
+ <title>Resources</title>
+ <shortdesc/>
+ <conbody>
+  <p>Nuttige informatiebronnen voor ontwikkelaar.</p>
+  <ul>
+            <li>Forprin website: <xref href="http://www.forecastingprinciples.com/index.php"
+                    format="html" scope="external"/></li>
+   <li>Eboek: Excel Scientific and Engineering Cookbook, hfst 6.</li>
+      <li>Eboek: Excel Sales Forecasting for Dummies.</li>
+      <li>Eboek: Microsoft Excel Data Analysis and Business Modeling</li>
+   <li>Time Series Analysis and forcasting.pdf  bevat hfst 15 uit boek Addison-Wesley, erg
+    interessant, veel voorbeelden en oefeningen. In excelbestand met dezelfde naam heb ik een aantal
+    oefeningen gemaakt.</li>
+   <li><xref href="https://www.otexts.org/book/fpp" format="html" scope="external"/>, online boek
+    Forecasting: principles and practice, nuttig, veel R code met voorbeelden. Ik heb hiervoor ook
+    een R project met de naam fpp gestart.</li>
+   <li><xref
+     href="http://www.ncss.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Decomposition_Forecasting.pdf"
+     format="pdf" scope="external"/> , NCSS stappenplan, goed uitgelegd, aanpak is goed te
+    gebruiken, geen echt voorbeeld erbij.</li>
+   <li><xref href="https://www.economicsnetwork.ac.uk/showcase/cook_timeseries" format="html"
+     scope="external"/>, Time Series Decomposition: A practical example using a classic data set,
+    met link naar DHSY_Decomposition.xlsx. Weinig echte uitleg, data misschien bruikbaar.</li>
+   <li><xref href="http://www.mikemiddleton.com/" format="html" scope="external"/>, Website Mike
+    Middleton, materiaal mag ik met bronverwijzing gebruiken. Bevat pdf's en spreadsheets over
+    regressie en trendlijnen.</li>
+   <li><xref href="http://faculty.wiu.edu/F-Dehkordi/" format="html" scope="external"/>, website
+    Farideh Dehkordi-Vakil, serie interessante presentaties over forecasting en decomposition, o.a.
+    presentatie week5-1 . Een aantal lessen zijn gedownload.</li>
+   <li><xref
+     href="http://www.stats.govt.nz/methods/data-analysis/seasonal-adjustment/the-underlying-model.aspx#howdo"
+     format="html" scope="external"/>,  Seasonal adjustment in Statistics New Zealand, website met
+    veel interessant materiaal.</li>
+   <li><xref href="http://people.duke.edu/~rnau/411home.htm" format="html" scope="external"/>,
+    Statistical forecasting: notes on regression and time series analysis, veel goede uitleg met
+    pdf's.</li>
+   <li><xref href="http://feb.kuleuven.be/public/NDBAD13/old_infosys_members_web_site/Excel.doc"
+     format="doc" scope="external"/>, o.a. met statistiek en Excel van Uni Leuven, vrij
+    eenvoudig.</li>
+   <li>Een trendlijn of een gemiddelde aan een grafiek toevoegen:<ul id="ul_zzs_thd_gv">
+     <li>NL: <xref
+       href="https://support.office.com/nl-nl/article/Een-trendlijn-of-gemiddelde-aan-een-grafiek-toevoegen-3c4323b1-e377-43b9-b54b-fae160d97965"
+       format="html" scope="external"/></li>
+     <li>EN: <xref
+       href="https://support.office.com/en-us/article/Add-a-trend-or-moving-average-line-to-a-chart-3c4323b1-e377-43b9-b54b-fae160d97965"
+       format="html" scope="external"/></li>
+    </ul></li>
+   <li>Trendlijnen toevoegen, wijzigen of verwijderen in een grafiek:<ul id="ul_hm1_b3d_gv">
+     <li>NL: <xref
+       href="https://support.office.com/nl-nl/article/Trendlijnen-toevoegen-wijzigen-of-verwijderen-in-een-grafiek-fa59f86c-5852-4b68-a6d4-901a745842ad"
+       format="html" scope="external"/></li>
+     <li>EN: <xref
+       href="https://support.office.com/en-us/article/Add-change-or-remove-a-trendline-in-a-chart-fa59f86c-5852-4b68-a6d4-901a745842ad?ui=en-US&amp;rs=en-US&amp;ad=US"
+       format="html" scope="external"/></li>
+    </ul></li>
+   <li> De beste trendlijn voor uw gegevens kiezen:<ul id="ul_pzv_f3d_gv">
+     <li>NL: <xref
+       href="https://support.office.com/nl-nl/article/De-beste-trendlijn-voor-uw-gegevens-kiezen-1bb3c9e7-0280-45b5-9ab0-d0c93161daa8?ui=nl-NL&amp;rs=nl-NL&amp;ad=NL"
+       format="html" scope="external"/></li>
+     <li>EN: <xref
+       href="https://support.office.com/en-us/article/Choosing-the-best-trendline-for-your-data-1bb3c9e7-0280-45b5-9ab0-d0c93161daa8"
+       format="html" scope="external"/></li>
+    </ul></li>
+   <li>Een prognose maken in Excel 2016 (voorbeeld Erik Horsthuis)<ul id="ul_tv3_xgd_gv">
+     <li>NL: <xref
+       href="https://support.office.com/nl-nl/article/Een-prognose-maken-in-Excel-2016-voor-Windows-22c500da-6da7-45e5-bfdc-60a7062329fd?ui=nl-NL&amp;rs=nl-NL&amp;ad=NL"
+       format="html" scope="external"/></li>
+     <li>EN: <xref
+       href="https://support.office.com/en-us/article/Create-a-forecast-in-Excel-2016-for-Windows-22c500da-6da7-45e5-bfdc-60a7062329fd?ui=en-US&amp;rs=en-US&amp;ad=US"
+       format="html" scope="external"/></li>
+    </ul></li>
+   <li><xref
+     href="https://support.office.com/nl-nl/article/Voorspellingsfuncties-overzicht-897a2fe9-6595-4680-a0b0-93e0308d5f6e?ui=nl-NL&amp;rs=nl-NL&amp;ad=NL"
+     format="html" scope="external"/>, nieuwe functie VOORSPELLEN in Excel 2016.</li>
+   <li>Data bronnen:<ul id="ul_wyt_zdd_gv">
+     <li><xref href="http://economagic.com/" format="html" scope="external"/>, veel economische
+      data.</li>
+     <li><xref
+       href="https://datamarket.com/data/set/22ry/quarterly-beer-production-in-australia-megalitres-march-1956-june-1994#!ds=22ry&amp;display=line"
+       format="html" scope="external"/>, Datamarket</li>
+    </ul></li>
+  </ul>
+ </conbody>
+</concept>

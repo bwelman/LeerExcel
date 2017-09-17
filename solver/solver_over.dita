@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="solver_over" xml:lang="nl-NL" >
+	<title>Wat is de <term>Oplosser</term>?</title>
+	<shortdesc>Een korte beschrijving van het hulpprogramma <term>Oplosser</term>.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+				<indexterm>Oplosser<indexterm>doelcel</indexterm><indexterm>beslissingsvariabelen</indexterm><indexterm>variabele
+						cellen</indexterm><indexterm>veranderende
+						cellen</indexterm><indexterm>randvoorwaarden</indexterm><indexterm>restricties</indexterm><indexterm>constraints</indexterm></indexterm>
+			</keywords>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>De <term>Oplosser</term> is een hulpprogramma (<term>invoegtoepassing</term>) binnen Excel om
+			optimalisatieberekeningen uit te voeren. Bij zo'n berekening wil je een optimale waarde
+			voor een formule in een bepaalde cel vinden, meestal een <term>minimum</term> of een
+				<term>maximum</term> en soms een heel specifieke waarde.</p>
+		<p>De cel waarvoor je de optimale waarde wilt vinden wordt de <term>doelcel</term> genoemd. De
+			uitkomst van de formule in de doelcel hangt altijd af van de waarden in andere cellen.
+			Die waarden kunnen gewijzigd worden, waardoor dan het resultaat in de doelcel ook
+			wijzigt. Deze cellen, waarvan je de waarde kunt veranderen om het resultaat in de
+			doelcel te beïnvloeden heten de <term>variabele cellen</term>, <term>veranderende
+				cellen</term> of ook wel <term>beslissingsvariabelen</term>.</p>
+		<p>Verder is het vaak zo dat de waarden in de <term>variabele cellen</term> niet zo maar elke
+			waarde kunnen aannemen. Die waarden zijn vaak aan bepaalde grenzen gebonden. Dat kan ook
+			het geval zijn voor andere cellen die de waarde van de doelcel beïnvloeden. Dus voor de
+			waarde in cellen kunnen beperkingen gelden. Dit soort beperkingen worden
+				<term>restricties</term>, <term>randvoorwaarden</term> of <term>constraints</term>
+			genoemd. De mogelijke oplossing kan dus afhangen van beperkingen of grenzen aan de
+			waarden van andere cellen. De Oplosser past de waarden van de beslissingsvariabelen aan,
+			binnen de grenzen van de restricties, om tot de optimale waarde van de doelcel te
+			komen.</p>
+		<p>Samengevat heb je bij een optimalisatieberekening met de <term>Oplosser</term> te maken
+			met:</p>
+		<ul>
+			<li>Eén <term>doelcel</term> waarvoor je de optimale waarde (minimum, maximum, anders) wilt
+				vinden.</li>
+			<li>Eén of meer <term>variabele cellen</term> waarvan de waarde aangepast kan worden om een ander
+				resultaat voor de doelcel te krijgen.</li>
+			<li>Mogelijke <term>restricties</term> voor de waarden van sommige cellen.</li>
+		</ul>
+		<p>Om zo'n optimalisatieberekening uit te kunnen voeren moet je eerst in Excel een geschikt
+			berekeningsmodel opzetten. Dat is vaak veel moeilijker dan het gebruik van de Oplosser
+			zelf.</p>
+	</conbody>
+</concept>

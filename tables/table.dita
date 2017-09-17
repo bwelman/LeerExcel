@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="table" xml:lang="nl-NL">
+    <title>Tabellen</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Veel informatie wordt in Excel bijgehouden in tabellen met gegevens, een soort van
+            databases in een werkblad. Hoewel Excel geen echt databaseprogramma is zoals MS Access,
+            kan Excel voor eenvoudige databases goed gebruikt worden. Dit zijn databases die uit één
+            tabel bestaan zoals adressenlijsten, telefoonlijsten e.d. De naam database wordt meestal
+            voor externe bestanden gebruikt die bij databaseprogramma's behoren. Een tabel met
+            gegevens in een Excel werkblad werd in oudere Excel versies een lijst genoemd. Het
+            werken met goed opgezette tabellen is een veel voorkomende bezigheid, vooral bij data
+            analyse. Gestructureerde tabellen zijn een noodzakelijkheid voor het werken met
+            draaitabellen.</p>
+    </conbody>
+</concept>

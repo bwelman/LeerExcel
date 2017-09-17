@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="chart_operations" xml:lang="nl-NL" >
+	<title>Grafiekbewerkingen</title>
+    <shortdesc>Enkele algemene aanwijzingen hoe je de onderdelen van een grafiek kunt
+        wijzigen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Grafieken
+                    <indexterm>onderdelen bewerken</indexterm>
+                    <indexterm>verwijderen</indexterm>
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Op de individuele onderdelen van een grafiek kun je verschillende bewerkingen uitvoeren.
+            De mogelijkheden hangen af van het grafiekonderdeel. Zo kun je bijvoorbeeld voor een
+            onderdeel dat tekst bevat de grootte, lettertype, kleur, enz. wijzigen. Voordat een
+            bewerking kan worden uitgevoerd moet het betreffende onderdeel eerst geselecteerd
+            worden. Daarna kan uit het menu of snelmenu de bewerking worden uitgekozen.</p>        
+        <section>
+            <title>Selecteren van het grafiekonderdeel</title>
+            <p>Meestal is dit erg gemakkelijk. Maar soms niet, vooral wanneer de elementen dicht bij
+                elkaar liggen.</p>
+            <p>Nadat eerst de grafiek geselecteerd is heb je de volgende mogelijkheden om een
+                element te selecteren:<ul>
+                    <li>Klik op het grafiekelement.</li>
+                    <li>Via het menu <menucascade>
+                            <uicontrol>Indeling</uicontrol>
+                            <uicontrol>Keuzepijl grafiekelementen (groep Huidige
+                                selectie)</uicontrol>
+                        </menucascade>.</li>
+                </ul></p>
+            <fig>
+                <title>Huidige selectie</title>
+                <image keyref="chart_elements_currentselection">
+                    <alt>Huidige selectie</alt>
+                </image>
+            </fig>
+            <fig>
+                <title>Grafiekelement selecteren</title>
+                <image keyref="chart_elements_dropdownlist">
+                    <alt>Grafiekelement selecteren</alt>
+                </image>
+            </fig>
+            <note type="tip">In de <wintitle>Huidige selectie</wintitle> kun je altijd zien welk
+                element geselecteerd is.</note>
+            <p>Wanneer een onderdeel geselecteerd is dan wordt het onderdeel met
+                    <term>formaatgrepen</term> gemarkeerd:  </p>
+        </section>
+        <section>
+            <title>Verplaatsen element</title>
+            <p>Selecteer het element. Plaats dan de muisaanwijzer op de rand (niet op een
+                formaatgreep) en sleep het element naar de gewenste plek.</p>
+        </section>
+        <section>
+            <title>Afmetingen wijzigen</title>
+            <p>Wanneer een element geselecteerd is waarvan de grootte aangepast kan worden,dan wordt
+                het element met formaatgrepen <image keyref="chart_elements_sizinghandles"
+                    id="image_pv2_k25_q1b"/> omgeven. Sleep zo'n formaatgreep om de hoogte en
+                breedte te wijzigen.</p>
+        </section>
+        <section>
+            <title>Opmaak onderdeel wijzigen</title>
+            <p>Selecteer het onderdeel. Kies <menucascade>
+                    <uicontrol>Indeling</uicontrol>
+                    <uicontrol>Selectie opmaken (groep Huidige selectie)</uicontrol>
+                </menucascade>. Er verschijnt dan een taakvenster aan de rechterkant met
+                mogelijkheden voor de opmaak van het element.</p>
+            <note type="tip">Het taakvenster verschijnt ook via: <menucascade>
+                    <uicontrol>rechter muisklik</uicontrol>
+                    <uicontrol>Opmaak ...</uicontrol>
+                </menucascade>.</note>
+        </section>        
+        <section>
+            <title>Grafiekstijl toepassen</title>
+            <p>Excel bevat een groot aantal voorgedefinieerde opmaken, stijlen genoemd. Je kunt een
+                stijl toepassen met de knop <image keyref="button_chart_styles"/>.</p>
+        </section>
+        <section>
+            <title>Grafiek verwijderen</title>
+            <p>Zowel een ingesloten grafiek als een grafiekblad kunnen eenvoudig verwijderd
+                worden.</p>
+            <p>Kies uit een van de volgende mogelijkheden:<ul>
+                    <li><term>Ingesloten grafiek</term>: selecteer de grafiek en druk op de toets
+                            <uicontrol>Delete</uicontrol>.</li>
+                    <li><term>Grafiekblad</term>: klik met de rechtermuisknop op de tab van het
+                        grafiekblad en kies uit het snelmenu
+                        <uicontrol>Verwijderen</uicontrol>.</li>
+                </ul></p>
+        </section>        
+    </conbody>
+</concept>

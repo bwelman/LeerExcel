@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="worksheet" xml:lang="nl-NL">
+    <title>Het werkblad</title>
+    <shortdesc>Een introductie in het programma Excel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>In een werkmap komen 1 of meerdere werkbladen te staan. Elk werkblad heeft een tab die
+            onderaan in het venster van de werkmap te zien is. Op de tab staat de naam van het
+            werkblad. In het werkblad worden de gegevens en de formules ingevoerd. De belangrijkste
+            onderwerpen die in dit onderdeel aan bod komen zijn hoe en waar je deze gegevens in het
+            werkblad invoert en hoe ze worden weergegeven.</p>
+    </conbody>
+</concept>

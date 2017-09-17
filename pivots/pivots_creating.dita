@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="pivots_creating" xml:lang="nl-NL">
+    <title>Taak: Draaitabellen maken</title>
+    <shortdesc>Stap voor stap instructies voor het maken van een draaitabel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Draaitabel<indexterm>maken</indexterm><indexterm>layout</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In het hulpbestand staan de maandelijkse verkopen in 2016 van drie supermarkten voor
+                verschillende producten. Deze producten zijn in drie productgroepen verdeeld: agf
+                (aarappelen, groente, fruit), vlees en zuivel.</p>
+            <fig>
+                <title>Tabel met omzetgegevens</title>
+                <image keyref="supermarket_sales_data">
+                    <alt>Tabel met omzetgegevens</alt>
+                </image>
+            </fig>
+            <p>Deze gegevens wil men analyseren met behulp van een draaitabel. De eerste vraag waar
+                een antwoord op verkregen moet worden is: <q>Wat is de totale omzet per plaats per
+                    productcategorie?</q>.</p>
+            <note type="other" othertype="Bestand"><filepath>Supermarkt.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step id="pivot_create_start">
+                <cmd>Selecteer een cel ergens in de tabel, bijv. C3. Kies <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Draaitabel (groep Tabellen)</uicontrol>
+                    </menucascade> .</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Draaitabel maken</wintitle> verschijnt. Het
+                        bereik van de tabel is hierin reeds ingevuld.</p>
+                    <fig>
+                        <title>Gegevens voor draaitabel selecteren</title>
+                        <image keyref="supermarket_pivot_create">
+                            <alt>Gegevens voor draaitabel selecteren</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step id="pivot_create_end">
+                <cmd>Bij deze oefening moet de draaitabel in het bestaande werkblad verschijnen.
+                    Selecteer <userinput>Bestaand werkblad</userinput> en klik in het werkblad op
+                    een lege plek, bijv. cel <userinput>G3</userinput>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Selectie van de locatie voor het draaitabelrapport</title>
+                        <image keyref="pivottable_location">
+                            <alt>Locatie voor draaitabelrapport specificeren</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Op het werkblad wordt een lege <wintitle>Draaitabel</wintitle> aangemaakt en
+                        aan de rechterkant verschijnt een taakvenster met de draaitabelvelden zodat
+                        je velden aan het rapport kunt toevoegen.</p>
+                    <simpletable>
+                        <sthead>
+                        <stentry>Draaitabel rapport</stentry>
+                        <stentry>Taakvenster</stentry>
+                    </sthead>     
+                        <strow>
+                            <stentry><image keyref="pivottable_empty"><alt>Lege draaitabel</alt></image></stentry>
+                            <stentry><image keyref="supermarket_pivot_taskpanel">
+                                    <alt>Taakvenster draaitabel</alt>
+                                </image></stentry>
+                        </strow>
+                    </simpletable>
+                    <note type="attention"> Het taakvenster met de lijst van velden wordt getoond
+                        wanneer een cel in de draaitabel de actieve cel is. Wanneer je op een cel
+                        buiten de draaitabel klikt, verdwijnt het taakvenster. Het taakvenster
+                        verschijnt weer wanneer je op een cel binnen de draaitabel klikt.</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Sleep in het Taakvenster veld <varname>plaats</varname> naar het vak
+                        <uicontrol>Rijen</uicontrol>, veld <varname>productcategorie</varname> naar
+                    het vak <uicontrol>Kolommen</uicontrol> en veld <varname>omzet</varname> naar
+                    het vak <uicontrol>Waarden</uicontrol>. Bij de laatste actie wordt automatisch
+                    de berekeningsmethode <varname>Som</varname> van de omzet toegepast.</cmd>
+                <info>
+                    <note type="tip">Je kunt een veld uit de draaitabel verwijderen door deze uit
+                        het vak te slepen.</note>
+                </info>
+                <stepresult>
+                    <fig>
+                        <title>Gebruikte velden voor de draaitabel</title>
+                        <image keyref="supermarket_productcategory-town_fields">
+                            <alt>Gebruikte velden voor de draaitabel</alt>
+                        </image>
+                    </fig>
+                    <p>De draaitabel op het werkblad wordt met de gegevens gevuld.</p>
+                    <fig>
+                        <title>Draaitabel: omzet per maand per product</title>
+                        <image keyref="supermarket_productcategory-town">
+                            <alt>Omzet per maand per product</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>Onderdeel: omzettotalen opmaken met de getalnotatie financieel</stepsection>
+            <step id="fieldsettings">
+                <cmd>Selecteer een numerieke waarde in de draaitabel. Kies <menucascade>
+                        <uicontrol>Tab Analyseren</uicontrol>
+                        <uicontrol>Veldinstellingen (groep Actief veld</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Waardeveldinstellingen
+                        verschijnt</wintitle>.</p>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Waardeveldinstellingen</wintitle></title>
+                        <image keyref="supermarket_pivot_fieldsettings">
+                            <alt>Dialoogvenster waardeveldinstellingen</alt>
+                        </image>
+                    </fig>
+                    <note type="tip">Via dit venster kun je ook de weer te geven naam wijzigen in
+                        het tekstvak <uicontrol>Aangepaste naam</uicontrol>.</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op de knop <uicontrol>Getalnotatie</uicontrol>.</cmd>
+                <stepresult>Het dialoogvenster <wintitle>Celeigenschappen</wintitle>
+                    verschijnt.</stepresult>
+            </step>
+            <step>
+                <cmd>Kies categorie <menucascade>
+                        <uicontrol>Financieel</uicontrol>
+                        <uicontrol>Decimalen: 0</uicontrol>
+                        <uicontrol>Symbool: €</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <fig>
+                        <title>Opmaak van het veld <varname>Som van omzet</varname></title>
+                        <image keyref="cellformat_accounting">
+                            <alt>Opmaak van het veld som van omzet</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik <menucascade>
+                        <uicontrol>OK</uicontrol>
+                        <uicontrol>OK</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>De waardevelden in de draaitabel verschijnen in de gespecificeerde
+                    opmaak.</stepresult>
+            </step>
+            <stepsection>Onderdeel: kolomlabels en rijlabels in de draaitabel vervangen door de veldnaam</stepsection>
+            <step>
+                <cmd>Selecteer een willekeurige cel in de draaitabel. Kies <menucascade>
+                        <uicontrol>tab Ontwerpen</uicontrol>
+                        <uicontrol>Rapportindeling (groep Indeling)</uicontrol>
+                        <uicontrol>Overzichtsweergave</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Draaitabel met opmaak: omzet per maand per productcategorie</title>
+                        <image keyref="supermarket_productcategory-town_formatted">
+                            <alt>Draaitabel met opmaak: omzet per maand per productcategorie</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>Onderdeel: Analyseren van de producten binnen elke
+                productcategorie</stepsection>
+            <step>
+                <cmd>Sleep veld <varname>productcategorie</varname> van Kolommen naar Rijen en veld
+                        <varname>plaats</varname> van Rijen naar Kolommen. Sleep vervolgens veld
+                        <varname>product</varname> naar Rijen en onder het veld
+                        <varname>productcategorie</varname>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Twee velden voor Rijen</title>
+                        <image keyref="supermarket_cat-products-town_fields">
+                            <alt> velden voor Rijen</alt>
+                        </image>
+                    </fig>
+                    <fig>
+                        <title>Rapport met twee velden voor rijen</title>
+                        <image keyref="supermarket_cat-products-town">
+                            <alt>Rapport met twee velden voor rijen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>In plaats van omzettotalen kun je ook andere waarden berekenen,
+                bijvoorbeeld de gemiddelde maandelijkse omzetten.</stepsection>
+            <step>
+                <cmd>Selecteer een numerieke waarde in de draaitabel en wijzig via de
+                        <uicontrol>Veldinstellingen</uicontrol> (zie stap <xref
+                        href="#pivots_creating/fieldsettings" format="dita"/>) het berekeningstype
+                    van <option>Som</option> in <option>Gemiddelde</option>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_measurement" xml:lang="nl-NL">
+    <title>Keys Measurement</title>
+    <keydef keys="chart_linear" href="images/chart_linear.png" format="png"/>
+    <keydef keys="prodtime_chart_trendline" href="images/prodtime_chart_trendline.png" format="png"/>
+    <keydef keys="prodtime_chart_xy" href="images/prodtime_chart_xy.png" format="png"/>
+    <keydef keys="prodtime_chart_xy_complete" href="images/prodtime_chart_xy_complete.png" format="png"/>
+    <keydef keys="trendline_options" href="images/trendline_options.png" format="png"/>
+</map>

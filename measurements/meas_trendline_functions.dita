@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="meas_trendlijn_functies" xml:lang="nl-NL">
+    <title>Taak: Functies voor lineaire trendlijn</title>
+    <shortdesc>Hoe je de functies RICHTING en SNIJPUNT kunt gebruiken voor een lineaire
+        trendlijn.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Trendlijn</indexterm>
+                <indexterm>Lineaire trendlijn</indexterm>
+                <indexterm>RICHTING</indexterm>
+                <indexterm>SNIJPUNT</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>De <term>richtingscoëfficiënt</term> van de trendlijn en het <term>snijpunt</term>
+                met de y-as kunnen berekend worden met de functies <option>RICHTING</option> en
+                    <option>SNIJPUNT</option>.</p>
+            <note type="other" othertype="Bestand"
+                ><filepath>Productietijd_Gewicht.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer een lege cel op het werkblad en roep de wizard <wintitle>Functie
+                        invoegen</wintitle> op.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer in de <varname>categorie</varname>
+                    <varname>Statistisch</varname> de functie <option>RICHTING</option>. Klik op
+                        <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Specificeer voor <varname>Y-bekend</varname> het bereik
+                        <userinput>B2:B11</userinput> en voor <varname>X-bekend</varname> het bereik
+                        <userinput>A2:A11</userinput>. Klik daarna op
+                    <uicontrol>OK</uicontrol></cmd>
+                <stepresult>In de cel verschijnt de waarde van de richtingscoëfficient:
+                        <systemoutput>2,95503212</systemoutput></stepresult>
+            </step>
+            <step>
+                <cmd>Bepaal op dezelfde manier in een andere cel de waarde van
+                        <option>SNIJPUNT</option>.</cmd>
+                <stepresult>De waarde van snijpunt is
+                    <systemoutput>41,99036403</systemoutput>.</stepresult>
+            </step>
+        </steps>
+        <result>Uit de waarden voor <option>RICHTING</option> en <option>SNIJPUNT</option> kan de
+            vergelijking van de trendlijn bepaald
+            worden:<codeblock>Bewerkingstijd = 2,95503212*Gewicht + 41,99036403</codeblock></result>
+    </taskbody>
+</task>

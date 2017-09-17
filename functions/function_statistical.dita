@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_statistical" xml:lang="nl-NL">
+    <title>Taak: Statistische functies</title>
+    <shortdesc>Een oefening voor de berekening van het gemiddelde, aantal, minimum en maximum van
+        een reeks getallen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="28-05-2011"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>statistische</indexterm><indexterm>GEMIDDELDE</indexterm><indexterm>AANTAL</indexterm><indexterm>MIN</indexterm><indexterm>MAX</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In de categorie Statistisch zitten naast functies voor het uitvoeren van allerlei
+                statistische analyses ook de functies Gemiddelde, Aantal, Minimum en Maximum. Het
+                gebruik van deze laatste vier komt in de volgende oefening aan de orde.</p>
+            <fig>
+                <title>Invoer voor oefening met statistische functies</title>
+                <image keyref="Example_Statistical">
+                    <alt>Invoer voor oefening met statistische functies</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Statistiek.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B9</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Statistisch</option> en de functie
+                        <option>GEMIDDELDE</option>. Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Getal1</varname> en selecteer dan in het
+                    werkblad het bereik <userinput>B1:B8</userinput>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster functie GEMIDDELDE</title>
+                        <image keyref="Example_Statistical_Average">
+                            <alt>Dialoogvenster functie gemiddelde</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>In cel B9 verschijnt nu het resultaat <systemoutput>53,125</systemoutput> en
+                        op de formulebalk zie je de formule
+                            <systemoutput>=GEMIDDELDE(B1:B8)</systemoutput></p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voer op dezelfde manier de volgende functies in:</cmd>
+                <choices>
+                    <choice>in cel <uicontrol>B10</uicontrol> de functie
+                            <userinput>AANTAL</userinput></choice>
+                    <choice>in cel <uicontrol>B11</uicontrol> de functie
+                        <userinput>MIN</userinput></choice>
+                    <choice>in cel <uicontrol>B12</uicontrol> de functie
+                        <userinput>MAX</userinput></choice>
+                </choices>
+                <info>
+                    <note type="attention">Let er op dat je steeds het gebied B1:B8 als argument
+                        gebruikt.</note>
+                </info>
+            </step>
+        </steps>
+        <result>Het eindresultaat is<simpletable frame="all">
+                <strow>
+                    <stentry>gemiddelde</stentry>
+                    <stentry>53,125</stentry>
+                </strow>
+                <strow>
+                    <stentry>aantal</stentry>
+                    <stentry>8</stentry>
+                </strow>
+                <strow>
+                    <stentry>minimum</stentry>
+                    <stentry>2</stentry>
+                </strow>
+                <strow>
+                    <stentry>maximum</stentry>
+                    <stentry>96</stentry>
+                </strow>
+            </simpletable>
+        </result>
+    </taskbody>
+</task>

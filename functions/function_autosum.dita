@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_autosum" xml:lang="nl-NL">
+    <title>Taak: Autosom</title>
+    <shortdesc>Voor de meest gebruikte bewerking <term>optellen</term> kun je de knop
+            <uicontrol>Autosom</uicontrol> op het lint gebruiken.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Autosom</indexterm>
+                <indexterm>Som</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Voor het invoeren van de meeste functies maak je gebruik van de functiewizard.
+                Daarvoor zijn meerdere kliks met de muis nodig. Omdat <varname>optellen</varname> de
+                meest gebruikte bewerking is heeft Excel daarvoor een afzonderlijke knop <image
+                    keyref="Button_Autosum"/>, <uicontrol>Autosom</uicontrol> geheten, op het lint
+                staan in de <uicontrol>groep Bewerken (tab Home)</uicontrol> waardoor je sneller
+                deze functie kunt invoeren. Via de driehoekige pijlpunt kun je ook nog een
+                keuzelijstje krijgen voor de functies <varname>Gemiddelde</varname>, <varname>Aantal
+                    getallen</varname>, <varname>Max</varname> en <varname>Min</varname>, zodat ook
+                deze functies snel bereikbaar zijn.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Begin met een nieuw werkblad.</cmd>
+            </step>
+            <step>
+                <cmd>Voer in de cellen <uicontrol>A1:A6</uicontrol> achter elkaar de volgende
+                    getallen in: <userinput>120, 121, 122, 123, 124 en 125</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>A7</uicontrol> en klik dan op <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>knop Autosom <image keyref="Button_Autosum"/>(groep
+                            Bewerken)</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult> Excel plaatst een selectiekader rond cellen die je waarschijnlijk wilt
+                    optellen. <fig>
+                        <title>Selectiekader om cellen voor optelling</title>
+                        <image keyref="Example_Autosum">
+                            <alt>Selectiekader om cellen voor optelling</alt>
+                        </image>
+                    </fig>
+                    <note type="attention">Wanneer dit niet het goede optelgebied is, selecteer dan
+                        met de muis het juiste gebied.</note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Bevestig de keuze op een van de volgende manieren:</cmd>
+                <choices>
+                    <choice>Klik opnieuw op de knop <uicontrol>Autosom</uicontrol>.</choice>
+                    <choice>Klik op de knop <uicontrol>Invoeren</uicontrol> aan het begin van de
+                        formulebalk.</choice>
+                    <choice>Druk op de <uicontrol>Enter</uicontrol> toets op het
+                        toetsenbord.</choice>
+                </choices>
+                <stepresult>In cel <uicontrol>A7</uicontrol> verschijnt het antwoord
+                        <systemoutput>735</systemoutput>. De formule in cel A7 is
+                        <systemoutput>=SOM(A1:A6)</systemoutput>. Deze formule is korter en
+                    overzichtelijker en daardoor beter dan de formule
+                        <userinput>=A1+A2+A3+A4+A5+A6</userinput>.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

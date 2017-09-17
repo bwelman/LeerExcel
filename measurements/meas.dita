@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="meas" xml:lang="nl-NL">
+    <title>Meetresultaten verwerken</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Bij het uitvoeren van metingen wordt veel cijfermateriaal verzameld dat vaak verwerkt
+            moet worden tot bijvoorbeeld grafieken en waaruit men conclusies wil kunnen trekken. In
+            dit hoofdstuk wordt hier aandacht aan besteed.</p>
+    </conbody>
+</concept>

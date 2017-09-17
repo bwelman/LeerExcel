@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting_conditional_concept" xml:lang="nl-NL">
+    <title>Wat is voorwaardelijke opmaak?</title>
+    <shortdesc>Hoe je het uiterlijk van een cel kunt laten afhangen van bepaalde voorwaarden zoals
+        bijvoorbeeld de inhoud van een cel.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Voorwaardelijke opmaak</indexterm>
+                <indexterm>Opmaak<indexterm>voorwaardelijk</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het is mogelijk om de opmaak van een cel af te laten hangen van bepaalde voorwaarden. Zo zou
+            bijvoorbeeld de achtergrondkleur rood gemaakt kunnen worden wanneer de waarde in de cel
+            kleiner dan 6 is. Dit heet een <term>voorwaardelijke opmaak</term>. De opmaak wordt
+            toegepast wanneer aan de voorwaarde(n) wordt voldaan. Zo niet, dan wordt de
+            <q>gewone</q> opmaak toegepast.</p>
+        <p>Je kunt bij de voorwaardelijke opmaak elke combinatie van de volgende opmaakmogelijkheden
+            toepassen: getalopmaak, lettertype, rand en achtergrond.</p>
+        <p>Voor de voorwaarde wordt de getalswaarde in de cel(len) vergeleken met een andere waarde. Het
+            is ook mogelijk om de getalswaarde te vergelijken met een reeks andere waarden om zo
+            vast te stellen of er van het gemiddelde afgeweken wordt, of bijvoorbeeld bij de top 3
+            hoort. Er is geen beperking in het aantal voorwaarden.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="intro_over" xml:lang="nl-NL">
+    <title>Wat is Excel?</title>
+    <shortdesc>Over wat rekenbladen (spreadsheets) zijn.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Rekenblad</indexterm>
+                <indexterm>Spreadsheet</indexterm>
+                <indexterm>Werkblad</indexterm>
+                <indexterm>Werkmap</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een <term>spreadsheet</term> is een computerprogramma waarin je gegevens (teksten,
+            getallen, ...) kunt vastleggen in bladen die bestaan uit rijen en kolommen. Naast het
+            vastleggen van gegevens kun je daar ook allerlei bewerkingen mee uitvoeren. Microsoft
+            Excel is zo'n programma.</p>
+        <p>De term <term>spreadsheet</term> wordt ook vaak gebruikt voor het bestand dat je met het
+            programma maakt. En in Excel wordt zo'n bestand ook wel <term>werkmap</term> genoemd.
+            Het bestandsformaat in Excel is standaard <term>XLSX</term>. Echter Excel kan een
+            werkmap ook in andere bestandsformaten opslaan en kan ook verschillende bestandsformaten
+            lezen.</p>
+        <p>Een werkmap kan één of meerdere <term>werkbladen</term> hebben. Een <term>werkblad</term>
+            is ingedeeld in <term>rijen</term> en <term>kolommen</term>. Het snijpunt van een rij en
+            een kolom heet een <term>cel</term>. Afzonderlijke cellen worden aangeduid met een
+            kolomletter en een rijnummer. Bijvoorbeeld B3 verwijst naar de cel in kolom B en rij 3.
+            In deze cellen kunnen teksten, getallen en formules worden gezet. Met de formules kun je
+            berekeningen op getallen uitvoeren of bewerkingen op teksten. In de formules mogen
+            verwijzingen naar andere cellen voorkomen. Hierdoor heb je de mogelijkheid om grote en
+            ingewikkelde berekeningsmodellen op te zetten. En bij elke wijziging wordt alles
+            automatisch opnieuw doorgerekend. Hierdoor zijn spreadsheets zeer geschikt voor het
+            uitvoeren van zogenaamde <term>Wat-als analyses</term>. Hierbij wijzig je een aantal
+            waarden in het model en kijkt dan welke gevolgen dit heeft op de resultaten in het
+            model. Je kunt dan snel een aantal verschillende scenario's doorrekenen. Daarnaast is
+            het niet moeilijk om mooie grafieken te maken met Excel.</p>
+    </conbody>
+</concept>

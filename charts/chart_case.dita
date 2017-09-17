@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="chart_case" xml:lang="nl-NL">
+ <title>Casus</title>
+ <shortdesc>Een casus met aanwijzingen om een lijngrafiek met diverse aanpassingen te
+  maken.</shortdesc>
+ <prolog>
+  <critdates>
+   <created date="2017-08-31"/>
+   <revised modified="2017-08-31"/>
+  </critdates>
+  <metadata>
+   <keywords>
+    <indexterm>Grafieken<indexterm>casus</indexterm></indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ <conbody>
+  <example>
+   <title>Casus Aandelenkoersen</title>
+   <p>Van een viertal bedrijven is de gemiddelde maandkoers voor de maanden januari t/m maart in de
+    volgende afbeelding weergegeven:</p>
+   <fig>
+                <title>Gemiddelde maandkoersen</title>
+                <image keyref="case_data">
+                    <alt>Gemiddelde maandkoersen</alt>
+                </image>
+            </fig>
+   <p>Maak van deze gegevens een lijndiagram.<note type="other" othertype="Bestand"
+      ><filepath>Aandelen.xlsx</filepath></note></p>
+   <p>In een later stadium worden de gegevens voor april gepubliceerd: <fig>
+                    <title>Gemiddelde koersen april</title>
+                    <image keyref="case_data_april">
+                        <alt>Gemiddelde koersen april</alt>
+                    </image>
+                </fig> Deze gegevens moeten later aan de grafiek worden toegevoegd. </p>
+   <p>Het eindresultaat dient er als volgt uit te zien: <fig>
+                    <title>Grafiek gemiddelde maandkoersen</title>
+                    <image keyref="case_chart">
+                        <alt>Grafiek gemiddelde maandkoersen april</alt>
+                    </image>
+                </fig>
+            </p>
+  </example>
+  <section>
+   <title>Aanwijzingen voor grafiek</title>
+   <ul>
+    <li>Gegevens voor januari t/m april staan in het hulpbestand.</li>
+    <li>Grafiektype is een lijndiagram (lijn met gegevensmarkeringen)</li>
+    <li>Bij het maken van de grafiek neemt Excel de rijen als gegevensreeksen i.p.v. de kolommen.
+     Deze situatie wijzigen door Rijen/kolommen omdraaien.</li>
+    <li>Grafiektitel toevoegen. De tekst van de titel opmaken in Palatino, 14 pt, vet.</li>
+    <li>Titel langs verticale as toevoegen.</li>
+    <li>Schaling verticale as aanpassen zodat de primaire eenheid 10 wordt.</li>
+    <li>Legenda onder de horizontale as plaatsen en deze uitrekken zodat de legendateksten in een
+     rij komen te staan.</li>
+    <li>Horizontale gestippelde rasterlijnen</li>
+    <li>Afmeting grafiek: 10 cm breed en 10 cm hoog.</li>
+   </ul>
+  </section>
+ </conbody>
+</concept>

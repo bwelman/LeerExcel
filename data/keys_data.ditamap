@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_data" xml:lang="nl-NL">
+    <title>Keys Data</title>
+    <keydef keys="Data_Entry_Example" href="images/data_entry_example.png" format="png"/>
+    <keydef keys="Months_Names_Long" href="images/months_names_long.png" format="png"/>
+    <keydef keys="Numbers_Autofill" href="images/numbers_autofill.png" format="png"/>
+</map>

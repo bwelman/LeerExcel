@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="meas_over" xml:lang="nl-NL">
+    <title>Metingen en hun resultaten</title>
+    <shortdesc>Een korte beschrijving van wat meetresultaten zijn en hoe je deze met Excel kunt
+        verwerken.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Variabelen</indexterm>
+                <indexterm>Afhankelijke variabele</indexterm>
+                <indexterm>Onafhankelijke variabele</indexterm>
+                <indexterm>Regressielijn</indexterm>
+                <indexterm>Kleinste kwadratenmethode</indexterm>
+                <indexterm>Lineair verband</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Onderzoekers willen graag een antwoord hebben op de vraag of de waarde van een variabele
+            afhangt van de waarde van een andere variabele. Om daar achter te komen voeren zij
+            metingen uit. Bij het uitvoeren van de metingen wordt de waarde van één variabele steeds
+            gewijzigd (de <term>onafhankelijke variabele</term>) en wordt de waarde van een andere
+            variabele (de <term>afhankelijke variabele</term>) gemeten. Dit levert een serie
+            meetwaarden op die in een grafiek worden uitgezet. Het verloop van de grafiek levert
+            vaak al een eerste indruk op of er een relatie is tussen de twee variabelen en zoja welk
+            relatie: lineair, exponentieel, logaritmisch, ... Een relatie tussen variabelen wordt
+            weergegeven door een wiskundige functie en aangeduid met een vergelijking. Wanneer de
+            relatie lineair is, is de grafiek een rechte lijn.</p>
+        <p>Bij het grafisch weergeven van meetresultaten zal er bijna nooit een lijn zijn die
+            precies past bij alle meetpunten. Met behulp van statistische technieken zijn
+            programma's als Excel in staat om de best passende lijn bij deze meetpunten te bepalen.
+            Zo'n lijn wordt ook wel <term>regressielijn</term> genoemd. De rekenmethode om de best
+            passende lijn te vinden staat bekend als de <term>kleinste kwadratenmethode</term>. De
+            achtergronden van deze methode en de statistische technieken worden niet behandeld.
+            Wanneer je hierover meer wilt weten moet je de literatuur bestuderen.</p>
+    </conbody>
+</concept>

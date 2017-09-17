@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="xls_type_spreiding" xml:lang="nl-NL">
+    <title>Taak: Spreidingsdiagram</title>
+    <shortdesc>Een spreidingsdiagram (XY diagram) kun je gebruiken wanneer je het verband tussen
+        twee numerieke variabelen wilt analyseren en weer wilt geven. Ook kun je hiermee een
+            <term>trendlijn</term> laten bepalen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Spreidingsdiagram</indexterm>
+                <indexterm>Trendlijn</indexterm>
+                <indexterm>Trend</indexterm>
+                <indexterm>XY diagram</indexterm>
+                <indexterm>Grafieken<indexterm>spreidingsdiagram</indexterm><indexterm>XY
+                        diagram</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Bij een <term>spreidingsdiagram</term>, ook wel <term>XY diagram</term> genoemd,
+                worden de waarden van twee numerieke variabelen tegen elkaar uitgezet. Elk paar
+                getallen levert een punt in het diagram op. Een spreidingsdiagram wordt vaak
+                gebruikt om te onderzoeken of er een bepaald verband, een <term>correlatie</term>,
+                tussen de twee variabelen is.</p>
+        </context>
+        <section>
+            <title>Opdracht</title>
+            <p>Om te onderzoeken of er een verband is tussen de lichaamslengte en gewicht is zijn
+                deze gegevens bij 10 studenten gemeten. De meetgegevens zijn in de volgende
+                afbeelding weergegeven..</p>
+            <fig>
+                <title>Onderzoek lichaamslengte - gewicht</title>
+                <image keyref="scatter_data">
+                    <alt>Onderzoek lichaamslengte - gewicht</alt>
+                </image>
+            </fig>
+            <p>De gegevens moeten in een spreidingsdiagram worden weergegeven, zoals in de volgende
+                afbeelding.</p>
+            <fig>
+                <title>Relatie lichaamslengte - gewicht</title>
+                <image keyref="scatter_result">
+                    <alt>Relatie lichaamslengte versus gewicht</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Grafiek_spreiding.xlsx</filepath></note>
+        </section>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Kies het menu <menucascade>
+                        <uicontrol>Invoegen</uicontrol>
+                        <uicontrol>Spreidings- of bellendiagram invoegen (groep
+                            Grafieken)</uicontrol>
+                        <uicontrol>Spreiding</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Het diagram verschijnt op het werkblad. Er moeten nog een aantal aanpassingen
+                        gemaakt worden.</p>
+                    <fig>
+                        <title>Standaard spreidingsdiagram</title>
+                        <image keyref="scatter_default">
+                            <alt>Standaard spreidingsdiagram</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig de grafiektitel in <userinput>Relatie lichaamslengte -
+                        gewicht</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Maak een horizontale astitel met de tekst <userinput>Lengte
+                    (cm)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Maak een verticale astitel met de tekst <userinput>Gewicht
+                    (kg)</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de schaal van de horizontale as zo dat deze loopt van <userinput>160 t/m
+                        190</userinput>, steeds oplopend met <userinput>5</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig de schaal van de verticale as zo dat deze loopt van <userinput>50 t/m
+                        80</userinput>, steeds oplopend met <userinput>5</userinput>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

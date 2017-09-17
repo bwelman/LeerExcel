@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="macro" xml:lang="nl-NL" >
+	<title>Macro's</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Met macro's kunnen veel voorkomende handelingen geautomatiseerd worden. Gebruik maken van
+			macro's kan de efficiency verhogen en het aantal fouten verminderen. Eenvoudige macro's
+			welke uit een aantal achter elkaar uitgevoerde handelingen bestaan, kunnen met de
+			ingebouwde macrorecorder worden opgenomen. Complexe macro's worden geprogrammeerd in de
+			programmeertaal VBA (Visual Basic for Applications). Alleen eenvoudige macro's komen
+			hier aan bod, programmeerkennis is dus niet nodig.</p>
+	</conbody>
+</concept>

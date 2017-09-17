@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="solver" xml:lang="nl-NL" >
+	<title>Oplosser</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>De <term>Oplosser</term> is een invoegtoepassing voor voor Excel waarmee je
+			optimalisatievraagstukken kunt oplossen, zoals bijvoorbeeld het berekenen van de
+			maximale winst of de minimale kosten. De methode Oplosser behoort tot de groep van
+			methodes waarmee <term>Wat als analyses</term> uitgevoerd kunnen worden, net als de
+			methode <term>Doelzoeken</term>. Alleen heeft Oplosser meer mogelijkheden.</p>
+	</conbody>
+</concept>

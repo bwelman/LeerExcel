@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="formatting_conditional_1_task" xml:lang="nl-NL">
+    <title>Taak: Opmaak met 1 voorwaarde</title>
+    <shortdesc> oefening waarin de achtergrondkleur afhangt van 1 voorwaarde.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Voorwaardelijke opmaak</indexterm>
+                <indexterm>Opmaak<indexterm>voorwaardelijk met 1 voorwaarde</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een docent heeft in een spreadsheet de cijfers van zijn studenten staan en wil alle
+                onvoldoendes (de cijfers lager dan 6) van een lichtrode achtergrond voorzien.</p>
+            <note type="other" othertype="Bestand"><filepath>Cijfers.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer alle cijfers.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>Voorwaardelijke opmaak (Groep Stijlen)</uicontrol>
+                        <uicontrol>Markeringsregels voor cellen</uicontrol>
+                        <uicontrol>Kleiner dan</uicontrol>
+                    </menucascade> en breng in het dialoogvenster de gewenste voorwaarde en opmaak
+                    aan.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster voorwaardelijke opmaak voor cellen met een waarde
+                            kleiner dan een bepaalde waarde</title>
+                        <image keyref="Format_Conditional_Less">
+                            <alt>Dialoogvenster voorwaardelijke opmaak voor cellen met een waarde
+                                kleiner dan een bepaalde waarde</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>Alle onvoldoendes hebben nu een lichtrode achtergrondkleur gekregen.</stepresult>
+            </step>
+        </steps>
+        <postreq>
+            <p>Test de werking van de voorwaardelijke opmaak door de waarde in sommige cellen te veranderen
+                van een onvoldoende in een voldoende en omgekeerd. De achtergrondkleur moet zich dan
+                aanpassen.</p>
+        </postreq>
+    </taskbody>
+</task>

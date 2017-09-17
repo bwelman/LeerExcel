@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_forecasts" xml:lang="nl-NL">
+    <title>Prognoses en Tijdreeksen</title>
+    <topicmeta>
+        <author>Ben Welman</author>
+        <publisher>Softwijs</publisher>
+        <copyright>
+            <copyryear year="2017"/>
+            <copyrholder>Softwijs Neede</copyrholder>
+        </copyright>
+        <keywords/>
+        <prodinfo>
+            <prodname>Excel</prodname>
+            <vrmlist>
+                <vrm version="1.0" release="31 augustus 2017"/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <!-- Keys -->
+    <mapref href="../common/keys_common.ditamap" processing-role="resource-only"/>
+    <mapref href="keys_forecasts.ditamap" processing-role="resource-only"/>
+    <!-- Content -->
+    <topicref href="forecasts.dita" scope="local" type="concept" audience="level3">
+        <topicref href="forecasts_timeserie_introduction.dita" scope="local" type="concept">
+            <topicref href="forecasts_timeserie_analyse.dita" scope="local" type="concept"/>
+            <topicref href="forecasts_timeserie_components.dita" scope="local" type="concept"/>
+            <topicref href="forecasts_timeserie_example.dita" scope="local" type="concept"/>
+        </topicref>
+        <topicref href="forecasts_regression.dita" scope="local" type="concept"/>
+        <topicref href="forecasts_trendline_excel.dita" scope="local" type="concept">
+            <topicref href="forecasts_trendline_linear.dita" scope="local" type="task"/>
+            <topicref href="forecasts_trendline_logarithmic.dita" scope="local" type="task"/>
+            <topicref href="forecasts_trendline_polynomial.dita" scope="local" type="task"/>
+            <topicref href="forecasts_trendline_power.dita" scope="local" type="task"/>
+            <topicref href="forecasts_trendline_exponential.dita" scope="local" type="task"/>
+            <topicref href="forecasts_trendline_ma.dita" scope="local" type="task"/>
+        </topicref>
+        <topicref href="forecasts_excel.dita" scope="local" type="concept"/>
+        <topicref href="forecasts_accuracy.dita" scope="local" type="concept"/>
+        <topicref href="forecasts_ets.dita" scope="local" type="concept"/>
+        <topicref href="forecasts_forecastsheet.dita" scope="local" type="task">
+            <topicref href="forecasts_forecastsheet_options.dita" scope="local" type="concept"/>
+        </topicref>
+    </topicref>
+</map>

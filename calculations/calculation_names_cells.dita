@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="calculation_names_cells" xml:lang="nl-NL">
+    <title>Namen voor cellen</title>
+    <shortdesc>Het gebruik van zinvolle namen voor cellen en de regels voor de
+        naamgeving.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Celnamen</indexterm>
+                <indexterm>Naamgeving cellen</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Het werken met celadressen in formules kan verwarrend werken, een formule wordt daardoor
+            slecht leesbaar en het is moeilijk om te zien wat de bedoeling van de formule is.
+            Gelukkig kun je zinvolle namen aan cellen en gebieden geven. Een formule zou dan
+            bijvoorbeeld kunnen worden <codeph>=Verkopen-Inkopen</codeph>.</p>
+        <p>Regels voor naamgeving:</p>
+        <ul>
+            <li>Namen moeten beginnen met een letter of met het underscoresymbool (_), daarna mogen
+                er ook cijfers komen. Een naam mag niet beginnen met een cijfer.</li>
+            <li>Namen mogen geen spaties bevatten. Om een spatie te simuleren kun je het
+                underscoresymbool gebruiken, bijvoorbeeld Verkoop_2010.</li>
+            <li>De meeste symbolen (komma, dubbele punt, uitroepteken, enz.) kun je niet
+                gebruiken.</li>
+        </ul>
+        <draft-comment>Aanvulling: Aantal namen tegelijk toekennen</draft-comment>
+    </conbody>
+</concept>

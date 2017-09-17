@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="worksheet_print" xml:lang="nl-NL">
+    <title>Afdrukken werkblad</title>
+    <shortdesc>Wat er voor komt kijken om een werkblad af te drukken (printen).</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Afdrukken</indexterm>
+                <indexterm>Afdrukken<indexterm>werkblad</indexterm></indexterm>
+                <indexterm>Afdrukken<indexterm>werkmap</indexterm></indexterm>
+                <indexterm>Werkblad<indexterm>afdrukken</indexterm></indexterm>
+                <indexterm>Werkmap<indexterm>afdrukken</indexterm></indexterm>
+                <indexterm>Printen</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>De meeste werkbladen met berekeningsmodellen worden vaak ook afgedrukt. Bij het afdrukken
+            heb je een aantal opties beschikbaar om de pagina-opmaak aan te passen. Zo kun je
+            bijvoorbeeld kop- en voetteksten invoegen, marges instellen, kiezen voor staand of
+            liggend afdrukken, de indeling van de pagina's, enz.</p>
+        <p>Het is aan te bevelen om voordat je echt gaat afdrukken eerst een afdrukvoorbeeld op het
+            scherm te bekijken. Van hieruit kun je dan desgewenst de instellingen voor de afdruk
+            wijzigen.</p>
+        <p>Om af te drukken kies je <menucascade>
+                <uicontrol>Bestand</uicontrol>
+                <uicontrol>Afdrukken</uicontrol>
+            </menucascade>.</p>
+        <p>Van hieruit selecteer je onder andere de soort printer en de af te drukken werkbladen.
+            Standaard wordt alleen het geselecteerde werkblad afgedrukt. Maar je kunt er ook voor
+            kiezen om meerdere werkbladen en zelfs de hele werkmap af te laten drukken.</p>
+    </conbody>
+</concept>

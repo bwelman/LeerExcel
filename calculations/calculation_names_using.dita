@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="calculation_names_using" xml:lang="nl-NL">
+    <title>Taak: Namen in bestaande formules gebruiken</title>
+    <shortdesc>Een oefening hoe je in bestaande formules de celadressen kunt vervangen door hun
+        namen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Namen<indexterm>gebruiken</indexterm></indexterm>
+                <indexterm>Celnamen<indexterm>gebruiken</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Wanneer je een naam aan een cel of celreeks toekent, dan gaat Excel deze wel
+                automatisch in nieuwe formules gebruiken, maar niet in reeds bestaande formules. In
+                het volgende voorbeeld staat in cel B5 de formule <codeph>=B2+B3+B4</codeph>.
+                Wanneer je nu namen aan de cellen B2, B3 en B4 gaat toekennen, dan blijft de formule
+                ongewijzigd.</p>
+            <fig>
+                <title>Formule met celadressen i.p.v. namen</title>
+                <image keyref="Example_Expenses">
+                    <alt>Formule met celadressen i.p.v. namen</alt>
+                </image>
+            </fig>
+            <p>Je kunt echter vrij gemakkelijk nieuwe namen in bestaande formules gebruiken. In het
+                hulpbestand bij dit voorbeeld hebben de cellen in de formule reeds een naam
+                gekregen. In de hierna volgende stappen worden de adressen in de formule vervangen
+                door deze namen.</p>
+            <note type="other" othertype="Bestand"><filepath>Kantoorkosten.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B5</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <uicontrol>Formules</uicontrol> en klik op de <uicontrol>pijl van de knop
+                        Naam definiëren (groep Gedefinieerde namen)</uicontrol> en kies dan voor
+                        <uicontrol>Namen gebruiken</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Naam gebruiken</wintitle></title>
+                        <image keyref="Name_Apply">
+                            <alt>Dialoogvenster naam gebruiken</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer alle namen en klik dan op <uicontrol>OK</uicontrol>.</cmd>
+                <info>
+                    <note type="tip">Om meerdere namen te selecteren de <uicontrol>Ctrl</uicontrol>
+                        toets ingedrukt houden.</note>
+                </info>
+                <stepresult>De formule in cel B5 is nu
+                        <systemoutput>=Inventaris+Reclame+Kantoorkosten</systemoutput>.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

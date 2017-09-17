@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="forecasts" xml:lang="nl-NL">
+    <title>Prognoses en Tijdreeksen</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Veel bedrijfskritische beslissingen zijn afhankelijk van goede prognoses voor de
+            toekomst. Het maken van een prognose is gebaseerd op historische gegevens.</p>
+        <p>De historische gegevens omvatten vaak trends, seizoenpatronen en externe factoren. Een
+            tweetal veel voorkomende scenario's zijn:</p>
+        <ul>
+            <li>Financiële prognoses voor het voorspellen van omzet, kosten en winst alsmede van
+                indicatoren hiervoor zoals aantal nieuwe klanten of verkoopprijs.</li>
+            <li>Vraagvoorspellingen voor producten vormen een kritische stap in de supply-chain
+                management van een organisatie. Hierop is de inkoop van grondstoffen en inzetten van
+                mensen en machines weer gebaseerd. Vraagvoorspelling is vaak uniek voor een
+                bedrijfstak. Zo zal een electriciteitsbedrijf een schatting willen maken van de te
+                leveren energie in de toekomst. En een ziekenhuis zal het aantal benodigde bedden
+                willen plannen.</li>
+        </ul>
+        <p>Voor een gedegen begrip van tijdreeksen en de verschillende prognosetechnieken is
+            behoorlijke statistische kennis vereist. In dit studieboek worden de statistische
+            achtergronden niet behandeld. Ook de hoeveelheid formules wordt zoveel mogelijk beperkt.
+            De doelstellingen van dit hoofdstuk zijn:</p>
+        <ol>
+            <li>introductie in de analyse van tijdreeksen</li>
+            <li>introductie van prognosetechnieken in het algemeen en de mogelijkheden met
+                Excel</li>
+            <li>het opdoen van praktische vaardigheden via taken en oefeningen</li>
+        </ol>
+    </conbody>
+</concept>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="pivots_grouping_data" xml:lang="nl-NL">
+	<title>Groeperen van gegevens</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords>
+                <indexterm>Groeperen</indexterm>
+            </keywords>			
+		</metadata>
+	</prolog>
+	<conbody>
+        <p>Door gegevens te groeperen kun je een subset van de gegevens tonen, wat je kan helpen bij
+            de analyse. Dit is vooral van belang wanneer je een lijst met datums wilt groeperen tot
+            jaren, kwartalen of maanden. Groeperen wordt bij veel bedrijfsscenario's toegepast.</p>
+	    <fig>
+            <title>Voorbeeld ongegroepeerde lijst met datums</title>
+            <image href="images/dates_ungrouped.png">
+                <alt>Voorbeeld ongegroepeerde lijst met datums</alt>
+            </image>
+        </fig>
+	    <fig>
+            <title>Voorbeeld lijst met datums gegroepeerd per kwartaal en maand</title>
+            <image href="images/dates_grouped.png">
+                <alt>Voorbeeld lijst met datums gegroepeerd per kwartaal en maand</alt>
+            </image>
+        </fig>
+        <p><term>Automatische tijdgroepering</term> is een nieuwe functie voor Excel 2016.
+            Tijd-gerelateerde velden worden automatisch ontdekt en gegroepeerd. Deze automatische
+            groepering maakt nieuwe relevante velden aan zoals Jaren, Kwartalen en Maanden en werkt
+            ook automatisch de draaitabel bij. In het voorbeeld hierboven zijn kwartaal en maand
+            geen velden in de originele gegevenstabel.</p>
+        <p>Welke datum/tijd kolommen worden toegevoegd hangt af van het detailniveau van de
+            datums/tijden in de gegevenstabel. Bijvoorbeeld als de datumgegevens in dagen zijn en
+            over meer dan een jaar gaan, dan worden er extra groepkolommen gemaakt voor maanden,
+            kwartalen en jaren.</p>
+        <p>Zodra de datum/tijd kolommen zijn toegevoegd kun je snel beginnen met het analyseren van
+            de gegevens over de verschillende tijdsperiodes met inzoom mogelijkheden. Op deze manier
+            kun je soms extra inzichten vinden. Bijvoorbeeld om een maandvergelijking over meerdere
+            jaren te krijgen kun je het veld <varname>Jaren</varname> naar de
+                <uicontrol>Kolommen</uicontrol> verplaatsen terwijl je het veld
+                <varname>Maand</varname> in de <uicontrol>Rijen</uicontrol> laat staan.</p>
+        <p>De <uicontrol>+</uicontrol> (plus) knop in de draaitabel duidt op een samengevouwen
+            niveau. Wanneer je hierop klikt worden alle elementen in de draaitabel uitgevouwen tot
+            het volgende niveau. Dit heet ook wel <term>drill-down</term>.</p>
+        <p>De velden waarop gegroepeerd wordt kunnen altijd via de gebruikelijke interface gewijzigd
+            worden. Klik met de rechtermuisknop in de draaitabel op een datumveld en kies
+                <uicontrol>Groeperen</uicontrol>. In het dialoogvenster Groeperen dat dan
+            verschijnt, kun je andere tijdniveaus toevoegen of verwijderen.</p>
+        <p>Wanneer de automatische tijdgroepering je niet bevalt kun je deze altijd ongedaan maken,
+            net als bij andere veranderingen. De eerste keer dat je kiest voor de actie Ongedaan
+            maken (Ctrl+Z) worden de automatisch toegevoegde velden uit de Rijen verwijderd. Nog een
+            keer ongedaan maken verwijdert alle nieuw toegevoegde velden. Voor het geval dat deze
+            velden ook in een andere draaitabel gebruikt worden en daardoor niet verwijderd worden,
+            kun je rechts klikken en kiezen voor <uicontrol>Degroeperen</uicontrol>.</p>
+    </conbody>
+</concept>

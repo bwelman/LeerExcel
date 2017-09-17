@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="chart" xml:lang="nl-NL" >
+	<title>Grafieken</title>
+	<shortdesc/>
+	<prolog>
+		<critdates>
+			<created date="2017-08-31"/>
+			<revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>			
+		</metadata>
+	</prolog>
+	<conbody>
+		<p>Grafieken zijn een belangrijk hulpmiddel bij het analyseren van cijfers. Grafieken kunnen
+			informatie helder en duidelijk weergeven en de kracht ervan moet niet onderschat worden.
+			Trends en patronen kunnen in grafieken weergegeven worden en afwijkingen en fluctuaties
+			vallen gemakkelijk op.</p>
+	</conbody>
+</concept>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="solver_model">
+    <title>Opzetten berekeningsmodel</title>
+    <shortdesc>Uitleg over het opzetten van een berekeningsmodel aan de hand van een
+        voorbeeld.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Oplosser</indexterm>
+                <indexterm>Berekeningsmodel</indexterm>
+                <indexterm>Beslissingsvariabelen</indexterm>
+                <indexterm>Doelfunctie</indexterm>
+                <indexterm>Restricties</indexterm>
+                <indexterm>Constraints</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <example>
+            <title>Casus</title>
+            <p>WeatherLeather, een fabrikant van dure leren jacks, heeft twee ontwerpen gemaakt voor
+                het nieuwe seizoen, een lang jack en een kort jack. Voor het maken van een kort jack
+                is 1 uur werktijd op de snijafdeling en 3 uur werktijd op de naaiafdeling nodig.
+                Voor een lang jack zijn deze tijden respectievelijk 2 uur en 4 uur. De hoeveelheid
+                werktijd op de snijafdeling en de naaiafdeling is beperkt. De beschikbare capaciteit
+                op de snijafdeling is 32 uur per week en op de naaiafdeling 84 uur per week. De
+                marktvraag naar lange leren jacks is beperkt. Niet meer dan 12 lange leren jacks
+                kunnen per week afgezet worden. Voor de korte jacks geldt dat alle gemaakte jacks
+                verkocht kunnen worden. Er wordt niet op voorraad geproduceerd. De winst op een kort
+                jack is 90 Euro en op een lang jack 144 Euro. Hoeveel jacks van elk type moeten per
+                week gemaakt worden om een zo groot mogelijke winst te krijgen?</p>
+        </example>
+        <section>
+            <title>Begrijp het probleem</title>
+            <p>Deze stap lijkt zo vanzelfsprekend dat het misschien nauwelijks de moeite waard lijkt
+                deze te vermelden. Toch is het van belang om hier bij stil te staan voordat je
+                begint met het formuleren van de doelcel, de veranderende cellen en de restricties.
+                Wanneer je het probleem niet volledig begrijpt loop je de kans op onjuiste
+                formuleringen in het model. De probleemstelling in dit voorbeeld is vrij
+                eenvoudig:</p>
+            <p>Hoeveel korte en lange jacks moet je per week produceren om een maximale winst te
+                krijgen, terwijl je niet meer dan 32 uur snijtijd en 84 uur naaitijd tot je
+                beschikking hebt.</p>
+        </section>
+        <section>
+            <title>Beslissingsvariabelen (<term>veranderende cellen</term>)</title>
+            <p>Stel de beslissingsvariabelen vast. Dit zijn de variabelen waarvoor je een waarde
+                moet vast stellen die tot het optimale resultaat leiden. In het Excel model worden
+                dit de <term>veranderende cellen</term>. In dit voorbeeld zijn er twee
+                beslissingsvariabelen welke gemakshalve met een letter worden aangeduid:</p>
+            <ul>
+                <li>K = aantal korte jacks per week</li>
+                <li>L = aantal lange jacks per week</li>
+            </ul>
+        </section>
+        <section>
+            <title>Doelfunctie</title>
+            <p>Er moet een formule bepaald worden waarvan de uitkomst de optimale waarde moet
+                krijgen. In deze formule komen de beslissingsvariabelen voor. In dit voorbeeld is de
+                doelfunctie de behaalde winst per week en deze hangt af van het aantal geproduceerde
+                korte jacks (K) en lange jacks (L):</p>
+            <p><codeph>Winst = 90*K + 144*L</codeph> (deze moet gemaximaliseerd worden)</p>
+            <note type="attention">Bij wat ingewikkelder modellen is het soms lastig om het probleem
+                zo te formuleren dat één doelfunctie verkregen wordt. Dan kan het gebeuren dat de
+                beslissingsvariabelen niet rechtstreeks in de doelfunctie voorkomen, maar via een
+                omweg. In de doelfunctie komen dan variabelen voor waarvan de waarden uiteindelijk
+                weer afhangen van de beslissingsvariabelen.</note>
+        </section>
+        <section>
+            <title>Restricties</title>
+            <p>Meestal zijn er beperkingen voor de waarden die de beslissingsvariabelen kunnen
+                aannemen. Deze beperkingen moeten opgespoord en geformuleerd worden. In dit
+                voorbeeld zijn er drie restricties die rechtstreeks uit de casus komen, de beperkte
+                capaciteiten voor de snij- en naaiafdeling en de marktvraag voor de lange jacks.</p>
+            <p>Daarnaast zijn er vaak algemene restricties die te maken hebben met het gegevenstype
+                van de beslissingsvariabelen. Zo moeten in dit voorbeeld de twee
+                beslissingsvariabelen, het aantal geproduceerde jacks, altijd positieve en gehele
+                getallen zijn.<note type="attention">In Excel heet een geheel getal een
+                        <term>integer</term>.</note></p>
+            <p>Dit alles leidt tot de formulering van de volgende constraints:</p>
+            <ul>
+                <li>Restrictie snijtijd per week: <codeph>1*K + 2*L &lt;= 32</codeph>.</li>
+                <li>Restrictie naaitijd per week: <codeph>3*K + 4*L &lt;= 84</codeph>.</li>
+                <li>Restrictie marktvraag lange jacks: <codeph>L &lt;= 12</codeph>.</li>
+                <li>Restricties positieve waarden: <codeph>K >= 0</codeph> en <codeph>L >=
+                        0</codeph></li>
+                <li>Restricties gehele waarden: <codeph>K = integer</codeph> en <codeph>L =
+                        integer</codeph></li>
+            </ul>
+        </section>
+        <section>
+            <title>Model in Excel</title>
+            <p>Het model moet nu in Excel worden gebouwd zodat het probleem straks met het
+                hulpprogramma <term>Oplosser</term> kan worden opgelost. Een manier waarop dat kan
+                is in de volgende afbeelding te zien.</p>
+            <fig>
+                <title>Berekeningsmodel WeatherLeather</title>
+                <image keyref="weatherleather_model"
+                    alt="Schermafbeelding berekeningsmodel WeatherLeather"/>
+            </fig>
+            <p>Er is niet één goede manier om een dergelijk model in Excel te bouwen. Wel zijn er
+                een aantal richtlijnen te geven. Deze richtlijnen worden hierna besproken aan de
+                hand van de voorgaande afbeelding. Je kunt uiteraard het model met behulp van deze
+                aanwijzingen en de afbeelding nabouwen, maar het is ook in het hulpbestand
+                    <filepath>WeatherLeather.xlsx</filepath> beschikbaar.</p>
+            <p>Richtlijnen voor een Oplosser model in Excel:</p>
+            <ol>
+                <li>Organiseer de gegevens op een logische en overzichtelijke wijze en zet voldoende
+                    toelichtende tekst in de buurt van de cellen met getallen en formules. Een model
+                    wordt later vaak in rapportages gebruikt en dan moet duidelijk zijn wat alles
+                    voorstelt en waar het om draait. Markeer de cellen met de beslissingsvariabelen
+                    (B4 en C4) en de doelfunctie (D5) zodat ze gemakkelijk herkend worden. Zet de
+                    constraints in een afzonderlijk deel.</li>
+                <li>Zet elke beslissingsvariabele in een aparte cel en geef ze een startwaarde. Zo
+                    staat in het voorbeeld het aantal geproduceerde korte en lange jacks in
+                    respectievelijk cel B4 en cel C4. Als startwaarde is in beide gevallen 1
+                    gebruikt. Hierdoor kan in ieder geval de juistheid van de formules gecontroleerd
+                    worden. </li>
+                <li>Maak een formule voor de doelcel. In D5 is de formule
+                        <codeph>=B5*B4+C5*C4</codeph>.</li>
+                <li>Maak voor elke restrictie een formule in een aparte cel en zet in de cel rechts
+                    er van de grenswaarde van de restrictie.<simpletable>
+                        <sthead>
+                            <stentry>cel</stentry>
+                            <stentry>formule</stentry>
+                            <stentry>toelichting</stentry>
+                        </sthead>
+                        <strow>
+                            <stentry>D8</stentry>
+                            <stentry><codeph>=B8*B4+C8*C4</codeph></stentry>
+                            <stentry>berekening totale snijtijd</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>D9</stentry>
+                            <stentry><codeph>=B9*B4+C9*C4</codeph></stentry>
+                            <stentry>berekening totale naaitijd</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>D10</stentry>
+                            <stentry><codeph>=C4</codeph></stentry>
+                            <stentry>aantal lange jacks</stentry>
+                        </strow>
+                    </simpletable></li>
+            </ol>
+        </section>
+    </conbody>
+</concept>

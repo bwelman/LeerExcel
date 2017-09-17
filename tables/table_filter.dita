@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="table_filter" xml:lang="nl-NL">
+    <title>Taak: Tabel filteren</title>
+    <shortdesc>Hoe je een tabel kunt filteren.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Aangepast filter</indexterm>
+                <indexterm>Datumfilter</indexterm>
+                <indexterm>Filter</indexterm>
+                <indexterm>Getalfilter</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>Bij het filteren van een tabel worden alleen die <term>records</term> getoond die
+            aan bepaalde voorwaarden voldoen. De andere <term>records</term> worden verborgen.<note
+                type="other" othertype="Bestand"
+            ><filepath>Personeel.xlsx</filepath></note></context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
+                conrefend="../common/reuse_task_parts.dita#reuse_task_parts/Select_Cell">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zet het gegevensbereik om naar een tabel.</cmd>
+            </step>
+            <step>
+                <cmd>Klik op de pijl naast de veldnaam <varname>Divisie</varname> en selecteer
+                    alleen <option>Kopieerapp.</option>, dan <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>Alleen de records voor de divisie Kopieerapp. worden nu getoond. De
+                    filterpijl bij kolomlabel Divisie is gewijzigd in het filtersymbool <image
+                        keyref="icon_filter"/></stepresult>
+            </step>
+            <step>
+                <cmd>Verfijn de selectie door nu op de afdeling Accounting te filteren.</cmd>
+                <stepresult>In de statusbak onderaan wordt getoond hoeveel records er zijn
+                    gevonden.</stepresult>
+            </step>
+            <step id="filter_clear">
+                <cmd>Wis het filter via <menucascade>
+                        <uicontrol>Gegevens</uicontrol>
+                        <uicontrol>Wissen (groep Sorteren en filteren)</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <stepsection>
+                <p>Wanneer de inhoud van een veld uit getallen bestaat kunnen er specifieke
+                    filteracties worden uitgevoerd. Dergelijke filters vallen onder de categorie
+                        <term>Getalfilters</term>. In het volgende voorbeeld wordt hiervan gebruik
+                    gemaakt om de top 10 van de salarissen te bepalen.</p>
+            </stepsection>
+            <step>
+                <cmd>Klik op de pijl naast de veldnaam <varname>Salaris</varname> en kies <menucascade>
+                        <uicontrol>Getalfilters</uicontrol>
+                        <uicontrol>Top 10...</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Autofilter top 10</wintitle></title>
+                        <image keyref="filter_top10">
+                            <alt>Dialoogvenster autofilter top 10</alt>
+                        </image>
+                    </fig>
+                    <note type="tip"> In dit venster zijn drie keuzemogelijkheden:<ul>
+                            <li>Bovenste of Onderste</li>
+                            <li>Willekeurige getal voor het aantal</li>
+                            <li>Procent of Items</li>
+                        </ul></note>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>De tien records met het hoogste salaris worden nu getoond.</stepresult>
+            </step>
+            <step conref="#table_filter/filter_clear">
+                <cmd/>
+            </step>
+            <stepsection>
+                <p>Wanneer je op de getalvelden andere filters wilt gebruiken dan de filters die
+                    standaard worden aangeboden, zul je gebruik moeten maken van een aangepast
+                    filter. In het volgende voorbeeld wordt hiervan gebruik gemaakt om de records te
+                    tonen van alle personen met een salaris van € 20.000 tot € 25.000.</p>
+            </stepsection>
+            <step>
+                <cmd>Klik op de pijl naast de veldnaam <varname>Salaris</varname> en kies <menucascade>
+                        <uicontrol>Getalfilters</uicontrol>
+                        <uicontrol>Aangepast filter ...</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Aangepast Autofilter</wintitle> verschijnt
+                        waarin je de voorwaarden voor de filtering kunt invoeren.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Maak de volgende twee voorwaarden voor het salaris.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster <wintitle>Aangepast Autofilter</wintitle> met twee
+                            voorwaarden</title>
+                        <image keyref="personnel_filter_custom">
+                            <alt>Dialoogvenster aangepast autofilter met twee voorwaarden</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> 10 records worden gevonden.</stepresult>
+            </step>
+            <step conref="#table_filter/filter_clear">
+                <cmd/>
+            </step>
+            <stepsection>
+                <p>Wanneer de inhoud van een veld uit datums bestaat kunnen specifieke filteracties
+                    voor datums worden uitgevoerd. Dergelijke filters vallen onder de categorie
+                        <term>Datumfilters</term>. In het volgende voorbeeld wordt hiervan gebruik
+                    gemaakt om de records te vinden met een begindatum in september.</p>
+            </stepsection>
+            <step>
+                <cmd>Klik op de pijl naast de veldnaam <varname>Begindatum</varname> en kies <menucascade>
+                        <uicontrol>Datumfilters</uicontrol>
+                        <uicontrol>Alle datums in de periode</uicontrol>
+                        <uicontrol>september</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>11 records worden gevonden.</stepresult>
+            </step>
+            <step conref="#table_filter/filter_clear">
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

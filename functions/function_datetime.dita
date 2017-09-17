@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_datetime" xml:lang="nl-NL">
+    <title>Taak: Datum en tijd functies</title>
+    <shortdesc>Een voorbeeld in het rekenen met datum en tijd.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>datum en
+                        tijd</indexterm><indexterm>JAAR</indexterm><indexterm>MAAND</indexterm><indexterm>DAG</indexterm><indexterm>UUR</indexterm><indexterm>MINUUT</indexterm><indexterm>SECONDE</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In de categorie Datum en tijd zitten meerdere functies om bewerkingen uit te voeren
+                op datum en tijd. En omdat Excel een datum en een tijd intern als getallen beschouwt
+                kun je ook gewoon rekenen met datum en tijd. In de volgende oefening komen een paar
+                datum- en tijdfuncties aan bod.</p>
+            <fig>
+                <title>Rekenen met data en tijden</title>
+                <image keyref="Example_Datetime">
+                    <alt>Rekenen met data en tijden</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Datum.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>C2</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Datum en tijd</option> en de functie
+                        <option>JAAR</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle> verschijnt.
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Serieel-getal</varname> en selecteer dan
+                    in het werkblad de cel <userinput>B2</userinput> en klik op
+                        <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>In cel C2 verschijnt het antwoord
+                    <systemoutput>2011</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Voer op dezelfde manier de volgende functies in:</cmd>
+                <choices>
+                    <choice>in cel <uicontrol>D2</uicontrol> de functie
+                            <userinput>=MAAND(B2)</userinput></choice>
+                    <choice>in cel <uicontrol>E2</uicontrol> de functie
+                            <userinput>=DAG(B2)</userinput></choice>
+                </choices>
+                <stepresult>
+                    <fig>
+                        <title>Resultaten voor begindatum</title>
+                        <image keyref="Example_Datetime_Startdate">
+                            <alt>Resultaten voor begindatum</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer <uicontrol>C2:E2</uicontrol> en sleep de vulgreep 1 rij naar
+                    beneden.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Resultaten voor einddatum</title>
+                        <image keyref="Example_Datetime_Enddate">
+                            <alt>Resultaten voor einddatum</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer cel B4 en voer in de formule <userinput>=B3-B2</userinput>.</cmd>
+                <stepresult>Het resultaat wordt <systemoutput>27</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B5</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Datum en tijd</option> en de functie
+                        <option>NETTO.WERKDAGEN</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Vul in het dialoogvenster <wintitle>Functieargumenten</wintitle> de celadressen
+                    voor begindatum en einddatum in.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Dialoogvenster voor functie NETTO.WERKDAGEN</title>
+                        <image keyref="Example_Datetime_Networkdays">
+                            <alt>Dialoogvenster voor functie werkdagen</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>Het resultaat is <systemoutput>20</systemoutput>.</stepresult>
+            </step>
+            <step>
+                <cmd>Bereken op dezelfde wijze als hiervoor de uren minuten en seconden uit de
+                    begin- en eindtijd. Gebruik de functies <userinput>UUR</userinput>,
+                        <userinput>MINUUT</userinput> en <userinput>SECONDE</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Bereken in cel <uicontrol>B10</uicontrol> het tijdsverschil via de formule
+                        <userinput>=B9-B8</userinput>.</cmd>
+            </step>
+        </steps>
+        <result>Het eindresultaat is <fig>
+                <title>Resultaten van de datum- en tijdfuncties</title>
+                <image keyref="Example_Datetime_Result">
+                    <alt>Resultaten van de datum en tijd functies</alt>
+                </image>
+            </fig></result>
+    </taskbody>
+</task>

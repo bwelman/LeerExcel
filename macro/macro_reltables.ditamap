@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Relation Tables Macros</title>
+ <reltable>
+  <title>Links</title>
+  <relheader>
+   <relcolspec type="topic"  linking="sourceonly"/>
+   <relcolspec type="concept" linking="targetonly"/>
+   <relcolspec type="task" linking="targetonly"/>
+   <relcolspec type="reference" linking="targetonly"/>
+   <relcolspec linking="targetonly"/>
+  </relheader>
+  <relrow>
+   <relcell>
+       <topicref href="macro_command_button.dita" type="task"/>
+       <topicref href="macro_editing.dita" type="task"/>
+   </relcell>
+   <relcell/>
+   <relcell>
+       <topicref href="macro_cell_format.dita" type="task"/>
+   </relcell>   
+   <relcell/>
+   <relcell/>   
+  </relrow>
+ </reltable>
+</map>

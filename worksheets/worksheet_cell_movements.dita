@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="worksheet_cell_movements" xml:lang="nl-NL">
+    <title>Sneltoetsen celverplaatsingen</title>
+    <shortdesc>Sneltoetsen voor het verplaatsen van de muisaanwijzer</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Sneltoetsen</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <simpletable>
+            <sthead>
+                <stentry>Sneltoets</stentry>
+                <stentry>Actieve cel wordt</stentry>
+            </sthead>
+            <strow>
+                <stentry>pijl omhoog</stentry>
+                <stentry>1 cel hoger</stentry>
+            </strow>
+            <strow>
+                <stentry>pijl rechts</stentry>
+                <stentry>1 cel naar rechts</stentry>
+            </strow>
+            <strow>
+                <stentry>pijl omlaag</stentry>
+                <stentry>1 cel lager</stentry>
+            </strow>
+            <strow>
+                <stentry>pijl links</stentry>
+                <stentry>1 cel naar links</stentry>
+            </strow>
+            <strow>
+                <stentry>Ctrl pijl rechts</stentry>
+                <stentry>De meest rechtse cel in het huidige gegevensgebied, anders de laatste cel in de
+                    rij</stentry>
+            </strow>
+            <strow>
+                <stentry>Ctrl pijl links</stentry>
+                <stentry>De meest linkse cel in het huidige gegevensgebied, anders de eerste cel in de
+                    rij</stentry>
+            </strow>
+            <strow>
+                <stentry>Ctrl pijl omhoog</stentry>
+                <stentry>De bovenste cel met gegevens in het huidige gegevensgebied, anders de eerste cel in
+                    de kolom</stentry>
+            </strow>
+            <strow>
+                <stentry>Ctrl pijl omlaag</stentry>
+                <stentry>De onderste cel met gegevens in het huidige gegevensgebied, anders de laatste cel
+                    in de kolom</stentry>
+            </strow>
+            <strow>
+                <stentry>Home</stentry>
+                <stentry>De eerste cel in de rij</stentry>
+            </strow>
+            <strow>
+                <stentry>Ctrl Home</stentry>
+                <stentry>De eerste cel in het werkblad, dus A1</stentry>
+            </strow>
+        </simpletable>
+    </refbody>
+</reference>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="solver_constraints" xml:lang="nl-NL" >
+	<title>Solver Constraints</title>
+	<shortdesc>Enige achtergrondinformatie over het toevoegen van constraints in de
+        Oplosser.</shortdesc>
+	<prolog>
+		<critdates>
+		    <created date="2017-08-31"/>
+		    <revised modified="2017-08-31"/>
+		</critdates>
+		<metadata>
+			<keywords/>
+		</metadata>
+	</prolog>
+	<conbody>
+	    <p>Je kunt randvoorwaarden toevoegen via <wintitle>Parameters van Oplosser</wintitle>:</p>
+	    <fig>
+            <title>Dialoogvenster Randvoorwaarde toevoegen</title>
+            <image keyref="solver_constraint_add">
+                <alt>Dialoogvenster randvoorwaarde toevoegen</alt>
+            </image>
+        </fig>
+	    <p>Elke randvoorwaarde in de Oplosser heeft een celverwijzing, een relatie en een Randvoorwaarde.<dl>
+                <dlentry>
+                    <dt>Celverwijzing</dt>
+                    <dd>Celadres of naam of cellenbereik waarvan je de waarden wilt beperken. Je
+                        kunt een enkele cel of een bereik gebruiken, maar niet meerdere
+                        bereiken.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Relatie</dt>
+                    <dd>Selecteer een van de mogelijke operatoren: &lt;=, =, >=, geh, bin of dif die
+                        je wilt hebben tussen de celverwijzing en de randvoorwaarde.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Randvoorwaarde</dt>
+                    <dd>Een getal, celverwijzing, naam of een formule waaraan voldaan moet
+                        worden.</dd>
+                </dlentry>
+            </dl></p>
+        <p>De operatoren geh, bin en dif kunnen alleen gebruikt worden bij beslissingsvariabelen.
+            Wanneer geh, bin of dif gekozen wordt dan wordt dat weergegeven als respectievelijk
+            geheeltallig, binair of AllDifferent.</p>
+        <dl>
+            <dlentry>
+                <dt>geh (geheeltallig)</dt>
+                <dd>De waarden in de celverwijzingen moeten dan gehele getallen zijn, zoals -1, 0 of
+                    2, binnen een bepaalde kleine tolerantie (vastgelegd met de Precisie van
+                    randvoorwaarde in de opties van de Oplosser).</dd>
+            </dlentry>
+            <dlentry>
+                <dt>bin (binair)</dt>
+                <dd>De waarden in de celverwijzingen moeten of 0 of 1 zijn. Deze mogelijkheid kun je
+                    dus ook gebruiken voor <q>ja/nee</q> beslissingen.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>dif (AllDifferent)</dt>
+                <dd>De waarden in alle celverwijzingen moeten verschillend zijn.</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

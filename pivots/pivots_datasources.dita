@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="pivots_datasources" xml:lang="nl-NL">
+    <title>Taak: Brongegevens opsporen</title>
+    <shortdesc>Een draaitabel bevat samengevatte gegevens. In deze oefening leer je hoe je hiervan
+        de brongegevens kunt vinden.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Draaitabel<indexterm>Brongegevens</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In een werkblad staan een aantal gegevens van buitendienstmedewerkers zoals omzet,
+                reiskosten en provisie per maand en per regio. In een ander werkblad is van deze
+                gegevens een draaitabel gemaakt met daarin de omzet per regio per medewerker.</p>
+            <fig>
+                <title>Omzet per regio per medewerker</title>
+                <image keyref="sales_pivot">
+                    <alt>Omzet per regio per medewerker</alt>
+                </image>
+            </fig>
+            <p>Wanneer je wilt weten uit welke individuele waarden een resultaat is bepaald dan kan
+                Excel die snel en eenvoudig tonen. Door dubbel te klikken op een resultaat in de
+                draaitabel maakt Excel een nieuw werkblad aan met daarin een tabel met de
+                brongegevens.</p>
+            <note type="other" othertype="Bestand"><filepath>Omzet.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer het werkblad <wintitle>draaitabel</wintitle> en dubbelklik op de
+                    resultaten van <uicontrol>Jansen</uicontrol> in de regio
+                        <uicontrol>Oost</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Excel maakt een nieuw werkblad met daarin een lijst met alle gegevens van
+                        Jansen in de regio Oost.</p>
+                    <fig>
+                        <title>Gegevens van Jansen in de regio Oost</title>
+                        <image keyref="sales_pivot_datasource">
+                            <alt>Gegegevens van Jansen in de regio Oost.</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

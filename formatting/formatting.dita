@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="formatting" xml:lang="nl-NL">
+    <title>Opmaak werkblad en gegevens</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>Excel biedt veel mogelijkheden om het uiterlijk van het werkblad en de gegevens in de
+            cellen op te maken. Hierdoor wordt een werkblad beter leesbaar en presenteerbaar.</p>
+    </conbody>
+</concept>

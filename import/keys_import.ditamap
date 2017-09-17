@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="keys_import" xml:lang="nl-NL">
+    <title>Keys Import</title>
+    <keydef keys="replace_values_dialogbox" href="images/replace_values_dialogbox.png" format="png"/>
+    <keydef keys="ribbon_datatype_wholenumber" href="images/ribbon_datatype_wholenumber.png" format="png"/>
+    <keydef keys="ribbon_queries" href="images/ribbon_queries.png" format="png"/>
+    <keydef keys="salesjan2009_preview" href="images/salesjan2009_preview.png" format="png"/>
+    <keydef keys="uefa_navigatorpane" href="images/uefa_navigatorpane.png" format="png"/>
+    <keydef keys="web_url_textbox" href="images/web_url_textbox.png" format="png"/>
+</map>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="function_nper" xml:lang="nl-NL">
+    <title>Taak: Aantal betalingstermijnen berekenen</title>
+    <shortdesc>Voorbeeld van het berekenen van het aantal maanden waarin een persoonlijke lening
+        afgelost kan worden.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2011-03-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Functies<indexterm>NPER</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Bij het afsluiten van een persoonlijke lening van € 4000 ben je overeengekomen om
+                maandelijks een bedrag van € 125 af te lossen. Bereken het aantal maanden dat je dit
+                bedrag moet betalen om de lening volledig af te lossen bij een vaste jaarrente van
+                6%. Gebruik hiervoor de Excelfunctie <varname>NPER</varname>. Deze functie berekent
+                het aantal termijnen voor een investering op basis van periodieke, vaste betalingen
+                en een vast rentepercentage.</p>
+            <note type="attention">Betalingen worden als negatieve getallen ingevoerd.</note>
+            <fig>
+                <title>Berekening aantal termijnen</title>
+                <image keyref="Example_Nper">
+                    <alt>Invoer voor oefening aantal termijnen</alt>
+                </image>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Termijnen.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer cel <uicontrol>B4</uicontrol> en druk op de knop <uicontrol>Functie
+                        invoegen</uicontrol> op de formulebalk.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer de categorie <option>Financieel</option> en de functie
+                        <option>NPER</option> en klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult> Het dialoogvenster <wintitle>Functieargumenten</wintitle>
+                    verschijnt.</stepresult>
+            </step>
+            <step>
+                <cmd>Plaats de cursor in het vak <varname>Rente</varname> en typ in
+                        <userinput>B2/12</userinput>. Plaats de cursor in het vak
+                        <varname>Bet</varname> en typ in <userinput>B3</userinput>. Plaats de cursor
+                    in het vak <varname>Hw</varname> en typ in <userinput>B1</userinput>.</cmd>
+                <info>
+                    <note type="important">Omdat de termijn hier een maand is en geen jaar, moet de
+                        jaarrente door 12 gedeeld worden.</note>
+                </info>
+                <stepresult>
+                    <fig>
+                        <title>Argumenten voor de functie NPER</title>
+                        <image keyref="Example_Nper_Arguments">
+                            <alt>Argumenten voor de functie NPER</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Klik op <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Het antwoord 34,95778166 verschijnt, dus bijna 35 maanden.</p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
