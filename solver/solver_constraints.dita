@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="solver_constraints" xml:lang="nl-NL" >
-	<title>Solver Constraints</title>
-	<shortdesc>Enige achtergrondinformatie over het toevoegen van constraints in de
+	<title>Randvoorwaarden oplosser</title>
+	<shortdesc>Enige achtergrondinformatie over het toevoegen van randvoorwaarden in de
         Oplosser.</shortdesc>
 	<prolog>
 		<critdates>

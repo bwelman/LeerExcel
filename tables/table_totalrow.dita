@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="table_totalrow" xml:lang="en-US">
 	<title>Taak: Totaalrij</title>
-	<shortdesc>Hoe een totaalrij toe te voegen</shortdesc>
+	<shortdesc>Hoe je aan een kolom een rij toevoegt met de kolomtotalen.</shortdesc>
 	<prolog>
 		<critdates>
 		    <created date="2017-08-31"/>
@@ -17,8 +17,7 @@
 	</prolog>
 	<taskbody>
 		<context>
-            <p>?</p>
-            <note type="other" othertype="File"><filepath>Personeel.xlsx</filepath></note>
+            <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
         </context>
 		<steps>
 			<step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">

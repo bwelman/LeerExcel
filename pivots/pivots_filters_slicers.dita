@@ -2,7 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="pivots_filters_slicers" xml:lang="nl-NL">
     <title>Taak: Filters, slicers en tijdlijnen</title>
-    <shortdesc>Het</shortdesc>
+    <shortdesc>Hoe je gegevens in een draaitabel kunt filteren met behulp van rapportfilters,
+        slicers en tijdlijnen.</shortdesc>
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
@@ -33,7 +34,7 @@
                     href="pivots_creating.dita#pivots_creating"/> welke de maandelijkse
                 verkoopgegevens in 2016 bevat van sommige producten, welke in drie productgroepen
                 zijn ondergebracht: agf (aardappelen, groente en fruit), vlees en zuivel.</p>
-            <note type="other" othertype="File"><filepath>Supermarket.xlsx</filepath></note>
+            <note type="other" othertype="Bestand"><filepath>Supermarket.xlsx</filepath></note>
         </context>
         <steps>
             <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open"
@@ -155,7 +156,7 @@
                     </fig></stepresult>
             </step>
             <step>
-                <cmd>Select <varname>Maanden</varname> and click <uicontrol>OK</uicontrol>.</cmd>
+                <cmd>Selecteer <varname>Maanden</varname> and click <uicontrol>OK</uicontrol>.</cmd>
                 <info>Via het lint <uicontrol>Opties (Hulpmiddelen voor slicers)</uicontrol> kun je
                     de opmaak van een slicer wijzigen, zoals stijl, kleur, ...</info>
             </step>
@@ -175,7 +176,7 @@
                         <uicontrol>Tijdlijn invoegen (groep Filter)</uicontrol>
                     </menucascade></cmd>
                 <stepresult>Het dialoogvenster Tijdlijn invoegen verschijnt met alleen het veld
-                        <varname>date</varname>.</stepresult>
+                        <varname>datum</varname>.</stepresult>
             </step>
             <step>
                 <cmd>Selecteer <varname>datum</varname> en klik <uicontrol>OK</uicontrol>.</cmd>
