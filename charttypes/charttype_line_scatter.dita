@@ -46,9 +46,9 @@
             spreidingsdiagram te zien.</p>
         <section>
             <title>Lijndiagram</title>
-            <p>A line chart has one value axis, the vertical axis. The horizontal axis is a category
-                axis, with evenly spaced categories of data (text or dates). A date axis displays
-                dates in chronological order.</p>
+            <p>Een lijndiagram heeft één waardeas, de verticale as.De horizontale as is een
+                categorie-as, met gelijk verdeelde gegevenscategorieën (tekst of datums). Een
+                datumas geeft datums in chronologische volgorde weer.</p>
             <p>Een lijndiagram is goed voor het weergeven van de verandering van een variabele in de
                 tijd. Voorbeelden zijn de verkoop, de omzet, de winst, de prijs enz. per dag, week,
                 maand, kwartaal, jaar. De tijdseenheid wordt altijd langs de horizontale as uitgezet
@@ -56,10 +56,10 @@
         </section>
         <section>
             <title>Spreidingsdiagram</title>
-            <p>A scatter chart has always two value axes, both to set numerical values. The
-                horizontal axis can display numeric values or date values. And you can change the
-                scaling options of both axes. The chart displays points at the intersection of an x
-                value and an y value.</p>
+            <p>Een spreidingsdiagram heeft altijd twee waardeassen, beide voor numerieke waarden. De
+                horizontale as kan numerieke waarden of datumwaarden weergeven. En je kunt de
+                schaalopties van beide assen wijzigen. Het diagram geeft punten weer op het snijpunt
+                van een x-waarde en een y-waarde.</p>
             <p>Een spreidingsdiagram wordt gebruikt om de relatie, het verband, tussen twee
                 variabelen te onderzoeken. Als de ene variabele groter of kleiner wordt, wat gebeurt
                 er dan met de andere variabele, wordt deze dan ook groter of kleiner. De

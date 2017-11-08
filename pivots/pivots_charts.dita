@@ -21,7 +21,7 @@
                 een gewone grafiek. Maar je krijgt tevens mogelijkheden voor interactieve filtering
                 direct op de grafiek zodat je snel een subset van de gegevens kunt bekijken. En je
                 kunt ook slicers gebruiken voor de filtering.</p>
-            <note type="other" othertype="File"><filepath>Omzet.xlsx</filepath></note>
+            <note type="other" othertype="Bestand"><filepath>Omzet.xlsx</filepath></note>
         </context>
         <steps>
             <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
