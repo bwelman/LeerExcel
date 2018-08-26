@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="part_analysis" xml:lang="nl-NL">
+    <title>Geavanceerde  Data-Analyse</title>
+    <body>
+        <p>De hoofdstukken in dit deel behandelen de mogelijkheden om Excel te gebruiken als een
+            hulpmiddel voor het analyseren van gegevens. Als eerste het importeren van gegevens uit
+            verschillende bronnen en het transformeren van deze gegevens met Power Query, zodat de
+            gegevens geschikt zijn om te analyseren. Een ander hoofdstuk gaat over tijdreeksen en
+            het maken van voorspellingen. De hoofdstukken in dit deel zijn continu in ontwikkeling
+            en nieuwe hoofdstukken zijn te verwachten, bijvoorbeeld over statistiek en het gebruik
+            van de Analysis ToolPak.</p>
+    </body>
+</topic>
