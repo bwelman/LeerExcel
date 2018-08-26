@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo002" xml:lang="nl-NL">
+    <title>Opgave: pivo002 - Salaris totalen</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Maak een draaitabelrapport om het totale salaris per functie en per divisie te
+                bepalen. Verder moet er op afdeling gefilterd kunnen worden. Het rapport moet er
+                uitzien zoals hierna is aangegeven.</p>
+            <fig>
+                <image keyref="ex_pivo002_report"/>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Afdeling</stentry>
+                    <stentry>Divisie</stentry>
+                    <stentry>Functie</stentry>
+                    <stentry>Salaris</stentry>
+                </strow>
+            </simpletable>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig Getalnotatie in <uicontrol>Financieel met 0 decimalen</uicontrol>.</p>
+            <p conkeyref="pivot/labels"/>
+        </section>
+    </body>
+</topic>

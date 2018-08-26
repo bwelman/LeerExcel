@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_scen003" xml:lang="nl-NL">
+  <title>Opgave: scen003 - Scenario's bedrijfswinst</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een bedrijf maakt drie producten (A, B en C). Om deze producten te maken is een
+        verschillend aantal arbeidsuren en hoeveelheid materialen nodig. In volgende afbeelding zijn
+        de tarieven voor arbeidsloon en materiaalkosten alsmede de benodigde hoeveelheden om deze
+        producten te maken. Tevens zijn de kosten en opbrengsten berekend bij de huidige
+        productieaantallen.</p>
+      <fig>
+                <image keyref="ex_scen003_data"/>
+            </fig>
+      <p>Voer het model in een werkblad in. Zorg voor de juiste formules in de cellen waarvan de
+        uitkomst berekend moet worden.</p>
+      <p>Het management wil een voorspelling van de bedrijfswinst, maar er is nog wat onzekerheid
+        over de hoogte van het arbeidsloon en de materiaalkosten. Voor de voorspelling zijn daarom
+        drie scenario’s bedacht: het meest gunstige geval, het meest slechte geval en het huidige
+        (meest waarschijnlijke) geval. De verschillende tarieven zijn in de volgende tabel te
+        zien.</p>
+      <simpletable frame="all" id="simpletable_xqz_gkv_dl">
+        <sthead>
+          <stentry>scenario</stentry>
+          <stentry>arbeidsloon</stentry>
+          <stentry>materiaalkosten</stentry>
+        </sthead>
+        <strow>
+          <stentry>gunstig</stentry>
+          <stentry>€ 60</stentry>
+          <stentry>€ 114</stentry>
+        </strow>
+        <strow>
+          <stentry>slecht</stentry>
+          <stentry>€ 76</stentry>
+          <stentry>€ 124</stentry>
+        </strow>
+        <strow>
+          <stentry>huidig</stentry>
+          <stentry>€ 68</stentry>
+          <stentry>€ 118</stentry>
+        </strow>
+      </simpletable>
+
+      <p>Maak met behulp van de scenariomanager een samenvattingsrapport voor deze drie
+      scenario’s.</p>
+      <note type="other" othertype="Bestand"><filepath>Scen003.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+            <title>Antwoord</title>
+            <image keyref="ex_scen003_report"/>
+        </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak de scenario's via <menucascade>
+        <uicontrol>tab Gegevens</uicontrol>
+        <uicontrol>Wat-als-analyse (groep Hulpmiddelen)</uicontrol>
+        <uicontrol>Scenariobeheer</uicontrol>
+      </menucascade>. <ul>
+        <li>Veranderende cellen Arbeidsloon en Materiaalkosten.</li>
+        <li>Scenariosamenvatting met resultaatcel Bedrijfswinst.</li>
+      </ul>
+        <note type="tip">Om in het samenvattingsrapport namen in plaats van celadressen te laten
+          vermelden moeten vooraf aan de cellen namen worden toegekend.</note>
+      </p>
+    </section>
+  </body>
+</topic>

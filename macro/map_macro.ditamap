@@ -32,5 +32,6 @@
         <topicref href="macro_command_button.dita" scope="local" type="task" audience="level2"/>
         <topicref href="macro_security.dita" scope="local" type="reference" audience="level2"/>
         <topicref href="macro_tips.dita" scope="local" type="reference" audience="level2"/>
+        <mapref href="exercises/map_ex_macr.ditamap" format="ditamap"/>
     </topicref>
 </map>

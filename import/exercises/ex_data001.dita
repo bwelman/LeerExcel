@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_data001" xml:lang="nl-NL">
+    <title>Opgave: data001 - Eenvoudig csv bestand importeren</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <note type="other" othertype="Bestand"><filepath>Verkopen.csv</filepath></note>
+            <p>Open dit bestand eerst met een kale tekstverwerker (Kladblok, Notepad) om te
+                onderzoeken hoe het bestand er uit ziet. Belangrijk om te weten is of er veldnamen
+                in staan en welk scheidingssymbool (komma, puntkomma, ...) gebruikt is. Meestal
+                herkent Excel dit zelf, maar het is toch wel nuttig om dit zelf ook te weten.</p>
+            <p>Importeer de gegevens via <uicontrol>Gegevens ophalen en transformeren</uicontrol>.
+                Gebruik hierbij ook de query editor om te controleren of de de velden naar het
+                juiste gegevenstype zijn omgezet. Zo niet, wijzig dan het gevenstype.</p>
+        </section>
+        <!--<section otherprops="solution">
+            <title>Uitwerking</title>
+        </section>-->
+    </body>
+</topic>

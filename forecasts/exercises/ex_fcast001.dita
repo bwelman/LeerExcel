@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_fcast001" xml:lang="nl-NL">
+    <title>Opgave: fcast001 - Inkomsten uit advertenties</title>
+    <shortdesc>Niveau: 3</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <note type="other" othertype="Bestand"><filepath>Fcast001.xlsx</filepath></note>
+            <p>In dit bestand staan de inkomsten uit advertenties van een tweewekelijks verschijnend
+                huis-aan-huisblad.</p>
+            <ol>
+                <li>Maak een grafiek waarin de inkomsten tegen het weeknummer zijn uitgezet.</li>
+                <li>Voeg een polynoom trendlijn toe. Experimenteer met een polynoom van de 2e, 3e en
+                    4e graad. Verzamel voor elk van deze trendlijnen de R-kwadraat waarde. Maak een
+                    keuze voor de meest geschikte trendlijn.</li>
+            </ol>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <simpletable frame="all">
+                <sthead>
+                    <stentry>graad</stentry>
+                    <stentry>R-kwadraat</stentry>
+                </sthead>
+                <strow>
+                    <stentry>2</stentry>
+                    <stentry>0,8135</stentry>
+                </strow>
+                <strow>
+                    <stentry>3</stentry>
+                    <stentry>0,9514</stentry>
+                </strow>
+                <strow>
+                    <stentry>4</stentry>
+                    <stentry>0,9883</stentry>
+                </strow>
+            </simpletable>
+            <p>De 4e graads polynoom heeft de hoogste R-kwadraatwaarde en is de beste keuze.</p>
+            <fig>
+                <title>Grafiek met 4e graads polynoom</title>
+                <image keyref="ex_fcast001_chart">
+                    <alt>Grafiek met 4e graads polynoom</alt>
+                </image>
+            </fig>
+        </section>
+    </body>
+</topic>

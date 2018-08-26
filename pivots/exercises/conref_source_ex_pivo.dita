@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conref_source_ex_pivo" xml:lang="nl-NL">
+    <title>Reusable objects</title>
+    <body>
+        <p id="start">Selecteer een willekeurige cel in de tabel en kies <menucascade>
+            <uicontrol>tab Invoegen</uicontrol>
+            <uicontrol>Draaitabel (groep Tabellen)</uicontrol>
+            <uicontrol>Accepteer het reeds ingevulde bereik</uicontrol>
+            <uicontrol>selecteer Bestaand werkblad</uicontrol>
+            <uicontrol>Specificeer een cel als start locatie</uicontrol>
+            <uicontrol>OK</uicontrol>
+        </menucascade>.</p>
+        <p id="end">Plaats de velden als volgt:</p>
+        <p id="options">Selecteer een willekeurig getal in de draaitabel en kies dan <menucascade>
+            <uicontrol>tab Opties</uicontrol>
+            <uicontrol>Veldinstellingen (groep Actief veld)</uicontrol>
+        </menucascade>.</p>
+        <p id="labels">Wijzig de layout van het rapport in <option>Overzichtsweergave</option>.</p>
+    </body>
+</topic>

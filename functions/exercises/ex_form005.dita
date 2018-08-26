@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form005" xml:lang="nl-NL">
+  <title>Opgave: form005 - Geboortedata</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een moeder-kind centrum in een ziekenhuis wil dagelijks een overzicht hebben van baby's die
+        te vroeg, te laat en op tijd geboren zijn. Bij te vroeg en te laat wil men ook het aantal
+        dagen te vroeg of te laat kunnen zien. En van baby's die nog geboren moeten worden wil men
+        kunnen zien welke overtijd zijn. Hiervoor is het volgende berekeningsmodel gemaakt.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_form005_data"/>
+                </fig>
+      </p>
+      <p>Maak dit berekeningsmodel in een werkblad. Zorg ook voor een gelijksoortige lay-out.</p>
+      <note type="other" othertype="Bestand"><filepath>Form005.xlsx</filepath></note>
+      <note type="tip"><ol>
+        <li>In de laatste vier kolommen hangt het antwoord van één of meerdere voorwaarden af, wat
+            dus inhoudt dat er steeds een ALS functie gebruikt moet worden.</li>
+          <li>Voor het gebruik van twee voorwaarden kun je binnen een ALS functie een nieuwe ALS
+            functie opnemen. Een alternatief is om binnen de ALS functie van de EN functie gebruik
+            te maken.</li>
+          <li>Een geboortedatum is te vroeg wanneer deze eerder dan de verwachte datum is.</li>
+          <li>Een datum is in Excel in werkelijkheid gewoon een getal, waarmee dus gerekend kan
+            worden. Je kunt dus bepalen of een datum kleiner, groter dan wel hetzelfde is als een
+            andere datum.</li>
+          <li>Wanneer er nog geen datum bekend is, dan is het betreffende veld leeg. Hierop kun je
+            ook controleren.</li>
+      </ol></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Formule Dagen te vroeg. Hier moet op 2 voorwaarden gecontroleerd worden. Allereerst
+        controleren of er een geboorte is door te testen of de geboortedatum ingevuld is. En als er
+        een geboorte is moet er getest worden of de geboortedatum voor de verwachte datum is. Twee
+        mogelijke oplossingen:<ul>
+          <li><codeph>=ALS(GeboorteDatum>&lt;>"";ALS(GeboorteDatum&lt;VerwachtDatum;VerwachtDatum-GeboorteDatum;"");"")</codeph></li>
+          <li><codeph>=ALS(EN(GeboorteDatum&lt;>"";GeboorteDatum&lt;VerwachtDatum);VerwachtDatum-GeboorteDatum;"")</codeph></li>
+        </ul>De laatste variant heeft een lichte voorkeur omdat deze beter leesbaar en te begrijpen
+        is.</p>
+      <p>Formule Dagen Te laat. Analoog aan hiervoor. Een oplossing:<ul>
+          <li><codeph>=ALS(EN(geboortedatum&lt;>"";Geboortedatum>Verwachtdatum);Geboortedatum-Verwachtdatum;"")</codeph></li>
+        </ul></p>
+      <p>Formule Op tijd. Analoog aan hiervoor. Een oplossing:<ul>
+          <li><codeph>=ALS(EN(Geboortedatum&lt;>"";Geboortedatum=Verwachtdatum);"ja";"")</codeph></li>
+      </ul></p>
+      <p>Formule Overtijd. Analoog aan hiervoor. Een oplossing:<ul>
+        <li><codeph>=ALS(EN(Geboortedatum="";Verwachtdatum&lt;RapportDatum);"ja";"")</codeph></li>
+      </ul></p>
+      <p>De cellen in de kolommen dagen te vroeg en dagen te laat hebben een aangepaste getalopmaak
+        met formaat <codeph># "dagen"</codeph>.</p>
+    </section>
+  </body>
+</topic>

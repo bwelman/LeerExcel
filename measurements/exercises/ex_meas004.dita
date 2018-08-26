@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_meas004" xml:lang="nl-NL">
+  <title>Opgave: meas004 - Weerstand en temperatuur</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>RICHTING</indexterm>
+        <indexterm>SNIJPUNT</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>De weerstand van een metalen blokje hangt o.a. af van de temperatuur. In de afbeelding
+        hierna is de de gemeten weerstand te zien bij een zevental temperaturen.</p>
+      <fig>
+                <title>Resultaten weerstand en temperatuur</title>
+                <image keyref="ex_meas004_data" alt="Resultaten weerstand en temperatuur"/>
+            </fig>
+      <ol>
+        <li>Veronderstel een lineair verband en bepaal de vergelijking waarbij de weerstand
+          verklaard kan worden uit de temperatuur.</li>
+        <li>Voorspel met behulp hiervan de weerstand van het blokje bij een temperatuur van 400
+            <sup>o</sup>C</li>
+      </ol>
+      <note type="other" othertype="Bestand"><filepath>Meas004.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <codeblock>Weerstand = 0,0786*Temp + 21,214
+Bij een temperatuur van 400<sup>o</sup>C is de voorspelde weerstand 52,6 Ohm.</codeblock>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>De onafhankelijke variabele (x) is temp en de afhankelijke variabele (y) is Weerstand.
+        Bepaal de richtingscoëfficient van de lijn met de functie <uicontrol>RICHTING()</uicontrol>
+        en het snijpunt met de functie <uicontrol>SNIJPUNT()</uicontrol>.</p>
+      <p>Formule voor Weerstand. bij 400 <sup>o</sup>C is <codeph>= 0,0786*400 + 21,214</codeph></p>
+    </section>
+  </body>
+</topic>

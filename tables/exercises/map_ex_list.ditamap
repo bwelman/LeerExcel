@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_ex_list" xml:lang="nl-NL">
+    <title>Opgaven Tabellen</title>
+    <keydef keys="ex_list001_data" href="images/ex_list001_data.png" format="png"/>
+    <keydef keys="ex_list001_solution" href="images/ex_list001_solution.png" format="png"/>
+    <keydef keys="ex_list002_data" href="images/ex_list002_data.png" format="png"/>
+    <keydef keys="ex_list003_data" href="images/ex_list003_data.png" format="png"/>
+    <keydef keys="ex_list004_solution" href="images/ex_list004_solution.png" format="png"/>
+    <topichead navtitle="Opgaven">
+        <topicref href="ex_list001.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_list002.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_list003.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_list004.dita" scope="local" type="topic" audience="level2"/>
+    </topichead>
+</map>

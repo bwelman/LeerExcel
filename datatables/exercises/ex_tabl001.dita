@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_tabl001" xml:lang="nl-NL">
+  <title>Opgave: tabl001 - Aflossing Lening</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-31-08"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een lening van € 10.000 moet in een aantal maandelijkse termijnen terugbetaald worden bij
+        een jaarlijkse rente van 5%. Het te betalen maandelijkse bedrag wordt met de functie BET
+        berekend. In de volgende afbeelding is dit te zien voor een aflossingstermijn van 36
+        maanden.</p>
+      <fig>
+                <title>Berekening maandbedrag aflossing lening</title>
+                <image keyref="ex_tabl001_data">
+                    <alt>Berekening maandbedrag aflossing lening</alt>
+                </image>
+            </fig>
+      <p><ol>
+          <li>Maak bovenstaand model in een nieuw werkblad en stel een formule voor de maandbetaling
+            op.</li>
+          <li>Maak via een gegevenstabel een overzicht van de maandbedragen voor aflossingstermijnen
+            van 12, 18, 24, 30, ..., 72 maanden.</li>
+          <li>Maak een nieuwe gegevenstabel met een overzicht van de maandbedragen voor
+            aflossingstermijnen van 12, 18, 24, 30, ..., 72 maanden en jaarlijkse rentepercentages
+            van 3%, 3½%, 4%, 4½% ... 6%.</li>
+        </ol></p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <fig>
+                <title>Gegevenstabel maandbetalingen voor verschillende aflossingstermijnen</title>
+                <image keyref="ex_tabl001_result1">
+                    <alt>Gegevenstabel maandbetalingen voor verschillende aflossingstermijnen</alt>
+                </image>
+            </fig>
+      <fig>
+                <title>Gegevenstabel maandbetalingen voor verschillende aflossingstermijnen en
+                    rentepercentages</title>
+                <image keyref="ex_tabl001_result2">
+                    <alt>Gegevenstabel maandbetalingen voor verschillende aflossingstermijnen en
+                        rentepercentages</alt>
+                </image>
+            </fig>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <ol>
+        <li>Formule in B4: <userinput>=-BET(B2/12;B3;B1)</userinput></li>
+        <li>In B7 staat een verwijzing naar deze formule: <userinput>=B4</userinput>.
+          Kolominvoercel: <userinput>B3</userinput></li>
+        <li>In A7 staat een verwijzing naar deze formule: <userinput>=B4</userinput>.
+          Kolominvoercel: <userinput>B3</userinput>. Rij-invoercel: <userinput>B2</userinput></li>
+      </ol>
+    </section>
+  </body>
+</topic>

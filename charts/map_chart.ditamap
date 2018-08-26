@@ -39,5 +39,6 @@
             <topicref href="chart_type_change.dita" scope="local" type="task"/>
             <topicref href="chart_case.dita" scope="local" type="concept"/>
         </topicref>
+        <mapref href="exercises/map_ex_graf.ditamap" format="ditamap"/>
     </topicref>
 </map>

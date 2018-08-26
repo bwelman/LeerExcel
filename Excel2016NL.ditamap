@@ -55,7 +55,7 @@
         <chapter href="formatting/map_formatting.ditamap" format="ditamap" scope="local"/>
         <chapter href="calculations/map_calculation.ditamap" format="ditamap" scope="local"/>
         <chapter href="functions/map_function.ditamap" format="ditamap" scope="local"/>
-        <chapter href="array/map_array.ditamap" format="ditamap" scope="local"/>
+        <chapter href="arrays/map_array.ditamap" format="ditamap" scope="local"/>
         <chapter href="tables/map_table.ditamap" format="ditamap" scope="local"/>
         <chapter href="charts/map_chart.ditamap" format="ditamap" scope="local"/>
         <chapter href="charttypes/map_charttype.ditamap" format="ditamap" scope="local"/>

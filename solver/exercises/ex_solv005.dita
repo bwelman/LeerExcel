@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv005" xml:lang="nl-NL">
+  <title>Opgave: solv005 - Productie hondenvoer</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Er zijn twee soorten hondevoer te koop: gewoon en speciaal. Een zak gewoon voer bevat 3
+        eenheden mineralen, 2 eenheden eiwit en 3 eenheden vet. Deze zak kost € 8. Een zak speciaal
+        voer bevat 8 eenheden mineralen, 2 eenheden eiwit en 1 eenheid vet. De prijs van deze zak is
+        € 14. Over een bepaalde periode moet de hond minstens 72 eenheden mineralen, 36 eenheden vet
+        en 36 eenheden eiwit binnen krijgen.</p>
+      <p>Bepaal met behulp van de oplosser welke hoeveelheden van beide zakken gekocht moeten worden
+        om de maaltijdkosten zo laag mogelijk te houden.</p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Aantal zakken gewoon = 14, aantal zakken speciaal = 4, maaltijdkosten = € 168.</p>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_list003" xml:lang="nl-NL">
+  <title>Opgave: list003 - Verkoopgegevens samenvoegen</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende tabel staan de verkoopaantallen van broodsoorten in de filialen Noord en
+        Zuid van een winkelbedrijf. Verder zijn via het samenvoegen van gegevens de totalen van
+        beide filialen bepaald.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_list003_data"/>
+                </fig>
+      </p>
+      <p>Voer in een werkblad de gegevens voor de twee filialen in. Laat via het samenvoegen van
+        gegevens het totaal ontstaan.</p>
+      <note type="other" othertype="Bestand"><filepath>List003.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Selecteer de cel waar het begin van de uitvoer terecht moet komen. Kies <menucascade>
+          <uicontrol>tab Gegevens</uicontrol>
+          <uicontrol>Samenvoegen (groep Hulpmiddelen voor gegevens)</uicontrol>
+        </menucascade>. Ste in het dialoogvenster het volgende in: <ul>
+          <li>Functie <uicontrol>Som</uicontrol>.</li>
+          <li>Voeg de tabellen met de gegevens van filiaal Noord en filiaal Zuid als verwijzingen
+            toe.</li>
+          <li>Selecteer <uicontrol>Labels gebruiken in Bovenste rij en Linkerkolom</uicontrol>.</li>
+        </ul>
+      </p>
+    </section>
+  </body>
+</topic>

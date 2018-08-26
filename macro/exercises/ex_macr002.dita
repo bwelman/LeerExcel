@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_macr002" xml:lang="nl-NL">
+    <title>Opgave: macr002 - Procentuele opmaak</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Neem een macro op met de naam <userinput>ProcentOpmaak</userinput> die een getal
+                opmaakt als procenten met 1 decimaal en het getal in de cel centreert.</p>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <p>Een mogelijke oplossing.</p>
+            <codeblock>Sub Procentopmaak()
+'
+' Getal als percentage met 1 dec. en horizontaal gecentreerd
+'
+    Selection.NumberFormat = "0.0%"
+    With Selection
+        .HorizontalAlignment = xlCenter
+    End With
+End Sub</codeblock>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="macro/start"/>
+            <p>Rechtermuisklik op een cel en kies <menucascade>
+                    <uicontrol>Celeigenschappen</uicontrol>
+                    <uicontrol>tab Getal</uicontrol>
+                    <uicontrol>Percentage met 1 decimaal</uicontrol>
+                    <uicontrol>tab Uitlijning</uicontrol>
+                    <uicontrol>Horizontaal gecentreerd</uicontrol>
+                    <uicontrol>OK</uicontrol>
+                </menucascade>.</p>
+            <p conkeyref="macro/stop"/>
+        </section>
+    </body>
+</topic>

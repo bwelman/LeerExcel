@@ -30,5 +30,6 @@
         <topicref href="solver_constraints.dita" scope="local" type="concept"/>
         <topicref href="solver_example_weatherleather.dita" scope="local" type="task"/>
         <topicref href="solver_problems.dita" scope="local" type="concept"/>
+        <mapref href="exercises/map_ex_solv.ditamap" format="ditamap"/>
     </topicref>
 </map>

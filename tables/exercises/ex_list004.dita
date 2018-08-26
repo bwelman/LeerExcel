@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_list004" xml:lang="nl-NL">
+  <title>Opgave: list004 - Overzicht auto's filteren</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In een werkblad staat een aantal gegevens van auto’s. Een klant is geïnteresseerd in auto’s
+        die voldoen aan de volgende voorwaarden:<ul>
+          <li>6 cilinders</li>
+          <li>topsnelheid van minstens 180 km/uur</li>
+          <li>benzine (super of normaal) als brandstof</li>
+        </ul></p>
+      <p>Maak een lijst van alle auto's met de bijbehorende gegevens die aan deze voorwaarden
+        voldoen.</p>
+      <note type="other" othertype="Bestand"><filepath>Auto.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <fig>
+                <image keyref="ex_list004_solution"/>
+            </fig>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Schakel filter in via <menucascade>
+          <uicontrol>tab Gegevens</uicontrol>
+          <uicontrol>Filter (groep Sorteren en filteren)</uicontrol>
+        </menucascade>.<ul>
+          <li>Selecteer bij <uicontrol>Cilinders</uicontrol> de waarde
+            <userinput>6</userinput>.</li>
+          <li>Selecteer bij <uicontrol>Brandstof</uicontrol> de waarden <userinput>S</userinput> en
+              <userinput>N</userinput>.</li>
+          <li>Selecteer keuzepijl bij Topsnelheid en kies <menucascade>
+              <uicontrol>Getalfilters</uicontrol>
+              <uicontrol>Is groter dan of gelijk aan</uicontrol>
+            </menucascade> en typ in 180.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

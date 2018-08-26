@@ -42,5 +42,6 @@
         <topicref href="forecasts_forecastsheet.dita" scope="local" type="task">
             <topicref href="forecasts_forecastsheet_options.dita" scope="local" type="concept"/>
         </topicref>
+        <mapref href="exercises/map_ex_fcast.ditamap" format="ditamap"/>
     </topicref>
 </map>

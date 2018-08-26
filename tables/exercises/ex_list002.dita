@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_list002" xml:lang="nl-NL">
+  <title>Opgave:  list002 - Tentamencijfers samenvoegen</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende tabel staan de resultaten van een groep studenten voor een tentamen en een
+        herkansing. Verder is via het samenvoegen van gegevens het eindresultaat bepaald. Dit
+        eindresultaat is het hoogst behaalde cijfer.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_list002_data"/>
+                </fig>
+      </p>
+      <p>Voer in een werkblad de gegevens voor het tentamen en de herkansing in. Laat via het
+        samenvoegen van gegevens het eindresultaat ontstaan.</p>
+      <note type="other" othertype="Bestand"><filepath>List002.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Selecteer de cel waar het begin van de uitvoer terecht moet komen. Kies <menucascade>
+          <uicontrol>tab Gegevens</uicontrol>
+          <uicontrol>Samenvoegen (groep Hulpmiddelen voor gegevens)</uicontrol>
+        </menucascade>. Stel in het dialoogvenster het volgende in:<ul>
+          <li>Functie <uicontrol>Max</uicontrol>.</li>
+          <li>Voeg de tabellen met de gegevens van het tentamen en de herkansing als verwijzingen
+            toe.</li>
+          <li>Selecteer <uicontrol>Labels gebruiken in Linkerkolom</uicontrol>.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

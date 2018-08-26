@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_stat001" xml:lang="nl-NL">
+  <title>Opgave: stat001 - Schoenmaten verdeling</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-31-08"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Frequentieverdeling</indexterm>
+        <indexterm>Gemiddelde</indexterm>
+        <indexterm>Mediaan</indexterm>
+        <indexterm>Modus</indexterm>
+        <indexterm>Variantie</indexterm>
+        <indexterm>Standaarddeviatie</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Gebruik een functie om 85 willekeurige schoenmaten (uit de reeks 37 t/m 43) te trekken.
+                Maak hierna een frequentieverdeling en bereken gemiddelde, mediaan, modus, variantie
+                en standaarddeviatie.</p>
+    </section>
+      <section otherprops="solution">
+          <title>Uitwerking</title>
+          <p>Maak eerst een tabel met twee kolommen. In de eerste kolom de schoenmaten 37, 38, ...,
+                43. In de tweede kolom de kans op deze schoenmaat. Voor elke schoenmaat is de kans
+                even groot, dus 1/7.</p>
+      </section>
+  </body>
+</topic>

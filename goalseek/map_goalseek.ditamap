@@ -25,5 +25,6 @@
         <topicref href="goalseek_over.dita" scope="local" type="concept" audience="level2"/>
         <topicref href="goalseek_stadiumcoffee.dita" scope="local" type="task" audience="level2"/>
         <topicref href="goalseek_tips.dita" scope="local" type="reference" audience="level2"/>
+        <mapref href="exercises/map_ex_goal.ditamap" format="ditamap"/>
     </topicref>
 </map>

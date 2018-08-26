@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_macr003" xml:lang="nl-NL">
+    <title>Opgave: macr003 - Opmaak cel A1</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Neem een macro op die het volgende uitvoert:</p>
+            <ul>
+                <li>Rijhoogte rij 1 wordt 18</li>
+                <li>Kolombreedte van de eerste kolom wordt 3</li>
+                <li>Tekst in cel A1 wordt Tahoma 14, vet, blauwe kleur</li>
+            </ul>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <p>Een mogelijke oplossing.</p>
+            <codeblock>Sub OpmaakA1()
+'
+' opgave macr003
+'
+    Rows("1:1").Select
+    Selection.RowHeight = 18
+    Columns("A:A").Select
+    Selection.ColumnWidth = 3
+    Range("A1").Select
+    With Selection.Font
+        .Name = "Tahoma"
+        .Size = 14
+        .Bold = True
+        .Color = -4165632
+    End With
+End Sub</codeblock>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="macro/start"/>
+            <p>Rechtermuisklik op rij 1 en kies <menucascade>
+                    <uicontrol>Rijhoogte</uicontrol>
+                    <uicontrol>18</uicontrol>
+                    <uicontrol>OK</uicontrol>
+                </menucascade>.</p>
+            <p>Rechtermuisklik op kolom 1 en kies <menucascade>
+                    <uicontrol>Kolombreedte</uicontrol>
+                    <uicontrol>3</uicontrol>
+                    <uicontrol>OK</uicontrol>
+                </menucascade>.</p>
+            <p>Selecteer cel A1 <menucascade>
+                    <uicontrol>Lettertype</uicontrol>
+                    <uicontrol>Tahoma</uicontrol>
+                    <uicontrol>Tekengrootte</uicontrol>
+                    <uicontrol>14</uicontrol>
+                    <uicontrol>Vet</uicontrol>
+                    <uicontrol>Tekstkleur</uicontrol>
+                    <uicontrol>Blauw</uicontrol>
+                </menucascade>.</p>
+            <p conkeyref="macro/stop"/>
+        </section>
+    </body>
+</topic>

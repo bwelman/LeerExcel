@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_ex_meas" xml:lang="nl-NL">
+    <title>Opgaven Meetresultaten verwerken</title>
+    <keydef keys="ex_meas001_data" href="images/ex_meas001_data.png" format="png"/>
+    <keydef keys="ex_meas002_data" href="images/ex_meas002_data.png" format="png"/>
+    <keydef keys="ex_meas003_data" href="images/ex_meas003_data.png" format="png"/>
+    <keydef keys="ex_meas004_data" href="images/ex_meas004_data.png" format="png"/>
+    <topichead navtitle="Opgaven">
+        <topicref href="ex_meas001.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_meas002.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_meas003.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_meas004.dita" scope="local" type="topic" audience="level2"/>
+    </topichead>
+</map>

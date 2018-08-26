@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form007" xml:lang="nl-NL">
+  <title>Opgave: form007 - Prijs kaartje</title>
+  <shortdesc>Niveau: 1</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende tabel staan de prijzen van een toegangskaartje voor een sportwedstrijd. Er
+        zijn twee categorieën: kinderen en volwassenen. Daaronder staat een cel waar de leeftijd (in
+        hele jaren) kan worden ingevoerd, waarna de prijs van het keertje automatisch berekend
+        wordt.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_form007_model"/>
+                </fig>
+      </p>
+      <p>Maak dit overzicht in een werkblad. Na het invoeren van de leeftijd moet de prijs via een
+        ALS functie bepaald worden. Test de oplossing met verschillende leeftijden.</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Te betalen tarief <codeph>=ALS(leeftijd > 12;tarief volwassenen;tarief kind)</codeph></p>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form003" xml:lang="nl-NL">
+  <title>Opgave: form003 - Datum rekenen</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende tabel kun je de geboortedatum en de AOW leeftijd (67 jaar) invullen. De
+        datum waarop je AOW krijgt, de huidige datum en het aantal dagen dat je nog te gaan hebt tot
+        de AOW datum moeten met formules berekend worden.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_form003_dita"/>
+                </fig>
+      </p>
+      <p>Maak dit overzicht in een werkblad en gebruik formules om de resultaten onder Uitvoer te
+        berekenen.</p>
+      <note type="other" othertype="Bestand"><filepath>Form003.xlsx</filepath></note>
+      <note type="tip">
+        <ol>
+          <li>Te gebruiken functies bij deze opgave: Datum, Jaar, Maand, Dag, Vandaag.</li>
+          <li>Een datumopmaak als <systemoutput>wo 01-3-1967</systemoutput> kan ingesteld worden via
+                        de getalopmaak voor de cel. Kies daar <menucascade>
+                            <uicontrol>tab Getal</uicontrol>
+                            <uicontrol>Categorie Aangepast (groep Getal)</uicontrol>
+                        </menucascade>. In het vak voor <uicontrol>Type</uicontrol> kun je dan de
+                        gewenste opmaak regelen. De hier gebruikte opmaak is <userinput>ddd
+                            dd-m-jjjj</userinput>. Gebruik ook eens een opmaak als bijvoorbeeld
+                            <userinput>dddd d-mm-jj</userinput> en probeer op deze manier te
+                        achterhalen hoe de opmaak werkt.</li>
+          <li>Een datum is in Excel in werkelijkheid gewoon een getal, waarmee dus gerekend kan
+            worden. Om het tijdsverschil tussen twee data te bepalen kun je dus twee data van elkaar
+            aftrekken.</li>
+        </ol>
+      </note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Formules bij Uitvoer:<ul>
+          <li>AOW datum
+              <codeph>=DATUM(JAAR(geboortedatum)+AOW_Leeftijd;MAAND(geboortedatum);DAG(geboortedatum))</codeph>.</li>
+          <li>Huidige datum <codeph>=VANDAAG()</codeph>.</li>
+          <li>Aantal dagen tot AOW <codeph>=AOW_Datum-Huidige_datum</codeph> of
+              <codeph>=AOW_Datum-VANDAAG()</codeph>.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

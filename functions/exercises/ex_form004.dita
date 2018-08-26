@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form004" xml:lang="nl-NL">
+  <title>Opgave: form004 - Commissie bepalen</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een bedrijf met drie vertegenwoordigers heeft als doelstelling dat elke verkoper voor
+        150.000 euro per jaar verkoopt. Wanneer dat bedrag gehaald wordt bedraagt hun commissie
+        6,25% van de verkoop. Halen ze dat bedrag niet, dan is de commissie slechts 5,5%. Om de
+        commissie voor elke verkoper te bepalen is het volgende model gemaakt.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_form004_dita"/>
+                </fig>
+      </p>
+      <p>Maak dit berekeningsmodel in een werkblad en gebruik formules om de commissie voor elke
+      verkoper te berekenen.</p>
+      <note type="other" othertype="Bestand"><filepath>Form004.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Formule commissie <codeph>=ALS(Verkoop &lt;
+          VerkoopDoelstelling;CommissieLaag*Verkoop;CommissieHoog*Verkoop)</codeph></p>
+    </section>
+  </body>
+</topic>

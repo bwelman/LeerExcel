@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form011" xml:lang="nl-NL">
+  <title>Opgave: form011 - Investering obligatie</title>
+  <shortdesc>Niveau: 1</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een staatsobligatie met een looptijd van vijf jaar keert jaarlijks 3,5% rente uit.
+        Veronderstel dat je over 5 jaar de beschikking wilt hebben over € 300.000, hoeveel moet je
+        dan in deze obligatie investeren? Gebruik Excels functie voor de huidige waarde (HW) om het
+        antwoord te berekenen.</p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>€ 252.592</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Formule: <codeph>=HW(3,5%;5;;300000)</codeph></p>
+      <p>Het resultaat van deze formule is negatief omdat het geld vertegenwoordigt dat je moet
+        betalen, een uitgave. Om een positief antwoord te krijgen kun je een - voor de formule
+        zetten of de toekomstige waarde als een negatief getal invoeren (-300000).</p>
+    </section>
+  </body>
+</topic>

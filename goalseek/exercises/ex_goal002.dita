@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_goal002" xml:lang="nl-NL">
+  <title>Opgave: goal002 - Betaling lening</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section><p>Met behulp van de functie BET kan de periodieke betaling van een
+        lening worden berekend op basis van constante betalingen en een constant rentepercentage. In
+        de volgende afbeelding is een voorbeeld van een dergelijke berekening te zien. Hierbij wordt
+        de betaling aan het begin van elke termijn gedaan en na de laatste termijn is de lening
+        volledig afgelost.</p>
+      <fig>
+                <image keyref="ex_goal002_model"/>
+            </fig>
+      <ol>
+        <li>Maak in een werkblad dit model.</li>
+        <li>Bepaal met Doelzoeken hoeveel je kunt lenen wanneer je maximaal € 750,- per maand kunt
+          aflossen.</li>
+      </ol>
+      <note type="attention">Omdat een betaling als een uitgaande kasstroom wordt gezien wordt de
+        uitkomst als een negatief getal weergegeven.</note>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Geleend bedrag € 7280.</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak het model volgens het voorbeeld. Formule in resultaatcel: <codeph>=BET(jaarlijks
+          renteperc /12;aantal maanden;leenbedrag;0;1)</codeph>.</p>
+      <p>Omdat de betalingen per maand gebeuren moet het rente percentage ook per maand worden
+        opgegeven. Vandaar dat in de formule het jaarlijkse rentepercentage door 12 gedeeld moet
+        worden. Het derde argument is 0 omdat na de laatste betaling alles afgelost moet zijn. Het
+        vierde argument is 1 omdat de betaling aan het begin van elke maand gedaan wordt.</p>
+      <p>Kies <menucascade>
+          <uicontrol>tab Gegevens</uicontrol>
+          <uicontrol>Wat-als-analyse (groep Hulpmiddelen voor gegevens)</uicontrol>
+          <uicontrol>Doelzoeken</uicontrol>
+        </menucascade>.</p>
+      <p>De in te stellen cel is de resultaatcel. Deze moet ingesteld worden op de waarde -750 door
+        het wijzigen van de cel met het leenbedrag.</p>
+    </section>
+  </body>
+</topic>

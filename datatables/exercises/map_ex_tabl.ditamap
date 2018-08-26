@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_ex_tabl" xml:lang="nl-NL">
+    <title>Opgaven Gegevenstabellen</title>
+    <keydef keys="ex_tabl001_data" href="images/ex_tabl001_data.png" format="png"/>
+    <keydef keys="ex_tabl001_result1" href="images/ex_tabl001_result1.png" format="png"/>
+    <keydef keys="ex_tabl001_result2" href="images/ex_tabl001_result2.png" format="png"/>
+    <keydef keys="ex_tabl002_data" href="images/ex_tabl002_data.png" format="png"/>
+    <keydef keys="ex_tabl002_result" href="images/ex_tabl002_result.png" format="png"/>
+    <topichead  navtitle="Opgaven">
+        <topicref href="ex_tabl001.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_tabl002.dita" scope="local" type="topic" audience="level2"/>
+    </topichead>
+</map>

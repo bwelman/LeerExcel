@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo001" xml:lang="nl-NL">
+    <title>Opgave: pivo001 - Salaris gemiddeldes</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Maak een draaitabelrapport om het gemiddelde salaris per afdeling en per divisie te
+                bepalen. Het rapport moet er uitzien zoals hierna is aangegeven.</p>
+            <fig>
+                <image keyref="ex_pivo001_report"/>
+            </fig>
+            <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry/>
+                    <stentry>Divisie</stentry>
+                    <stentry>Afdeling</stentry>
+                    <stentry>Salaris</stentry>
+                </strow>
+            </simpletable>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig type berekening in <uicontrol>Gemiddelde</uicontrol> en Getalnotatie in
+                    <uicontrol>Financieel</uicontrol>.</p>
+            <p conkeyref="pivot/labels"/>
+        </section>
+    </body>
+</topic>

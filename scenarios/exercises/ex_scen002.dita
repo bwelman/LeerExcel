@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_scen002" xml:lang="nl-NL">
+  <title>Opgave: scen002 - Begroting sportvereniging</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende afbeelding is een vereenvoudigde begroting van een sportvereniging
+        weergegeven. De huur is precies bekend. Van de andere posten kan redelijk goed een onder- en
+        een bovengrens aangegeven worden:</p>
+      <ul>
+        <li>De contributieopbrengsten liggen tussen de 1800 en 2400 euro.</li>
+        <li>De kantineopbrengsten liggen tussen de 600 en 800 euro.</li>
+        <li>De materiaalkosten liggen tussen de 500 en 800 euro.</li>
+        <li>De diverse kosten tussen de 400 en 700 euro..</li>
+      </ul>
+      <fig>
+                <image keyref="ex_scen002_data"/>
+            </fig>
+      <p>Maak met de scenariomanager een meest positieve en een meest negatieve scenario. De uitvoer
+        moet er ongeveer als volgt uitzien:</p>
+      <fig>
+                <image keyref="ex_scen002_report"/>
+            </fig>
+      <note type="other" othertype="Bestand"><filepath>Scen002.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak de scenario's via <menucascade>
+        <uicontrol>tab Gegevens</uicontrol>
+        <uicontrol>Wat-als-analyse (groep Hulpmiddelen)</uicontrol>
+        <uicontrol>Scenariobeheer</uicontrol>
+      </menucascade>. <ul>
+        <li>Veranderende cellen zijn Contributies, Kantine, Materialen en Diversen.</li>
+        <li>Scenariosamenvatting met resultaatcel de winst.</li>
+      </ul>
+        <note type="tip">Om in het samenvattingsrapport namen in plaats van celadressen te laten
+          vermelden moeten vooraf aan de cellen namen worden toegekend.</note>
+      </p>
+    </section>
+  </body>
+</topic>

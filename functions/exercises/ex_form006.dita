@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form006" xml:lang="nl-NL">
+  <title>Opgave: form006 - BTW aangifte</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een onderneming koopt goederen in bij leveranciers en betaalt omzetbelasting (BTW) aan deze
+        leveranciers. Vervolgens verkoopt de onderneming goederen aan klanten en brengt de klant BTW
+        in rekening. Elk kwartaal moet deze onderneming met de belastingdienst afrekenen. Het
+        verschil tussen de via verkopen ontvangen BTW en de via inkopen reeds betaalde BTW (de
+        voorbelasting) moet aan de belastingdienst worden afgedragen. Is dit verschil negatief, dan
+        krijgt de onderneming dit verschil van de belastingdienst terug. Een kleine ondernemer kan
+        in aanmerking komen voor vermindering van deze in beginsel af te dragen omzetbelasting via
+        de zogenaamde <term>Regeling Kleine Ondernemers</term> (RKO). In de volgende tabel is deze
+        regeling uitgewerkt. </p>
+      <fig>
+                <image keyref="ex_form006_data"/>
+            </fig>
+      <ol>
+        <li>Maak een model waarbij de totale verkopen en de voorbelasting kunnen worden ingevoerd.
+          Bereken op basis hiervan de verschuldigde BTW, de eventuele vermindering volgens de RKO en
+          het uiteindelijke bedrag dat betaald moet worden of terug ontvangen wordt. Je mag uitgaan
+          van uitsluitend het BTW percentage van 21%. Bij het eindbedrag moet automatisch vermeld
+          worden of het om een betaling of terugontvangst gaat. Alle bedragen moeten in hele euro’s
+          worden aangegeven.</li>
+        <li>Test het model grondig.</li>
+      </ol>
+      <note type="other" othertype="Bestand"><filepath>Form006.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <fig>
+                <image keyref="ex_form006_solution"/>
+            </fig>
+      <p>Formules bij Berekening: <ul>
+          <li>te betalen BTW <codeph>=B8*B2</codeph></li>
+          <li>Voorbelasting <codeph>=B3</codeph></li>
+          <li>In beginsel af te dragen BTW <codeph>=B11-B12</codeph></li>
+          <li>vermindering RKO
+              <codeph>=ALS(B13&lt;0;0;ALS(B13>B7;0;ALS(B13&lt;=B6;B13;2,5*(B7-B13))))</codeph></li>
+          <li>Te betalen <codeph>=ABS(B13-B14)</codeph></li>
+          <li>Formule voor tekst in A15 <codeph>=ALS(B13&lt;0;"Terug te ontvangen";"Te
+              betalen")</codeph></li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

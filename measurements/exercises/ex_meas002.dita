@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_meas002" xml:lang="nl-NL">
+  <title>Opgave: meas002 - Studietijd en tentamencijfer</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>RICTING</indexterm>
+        <indexterm>SNIJPUNT</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Van een zestal studenten is het aantal studie-uren bijgehouden dat zij aan een bepaald vak
+        hebben besteed en verder het tentamencijfer dat voor dat vak behaald is. In de afbeelding
+        hierna staan de resultaten.</p>
+      <fig>
+                <title>Resultaten behaald cijfer en de studietijd</title>
+                <image keyref="ex_meas002_data" alt="Resultaten behaald cijfer en de studietijd"/>
+            </fig>
+      <p>Veronderstel een lineair verband en bepaal de vergelijking waarbij het cijfer verklaard kan
+        worden uit de studietijd.</p>
+      <note type="other" othertype="Bestand"><filepath>Meas002.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <codeblock>Cijfer = 0,2038*Studietijd + 3,3637</codeblock>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>De onafhankelijke variabele (x) is Studietijd en de afhankelijke variabele (y) is Cijfer.
+        Bepaal de richtingscoëfficient van de lijn met de functie <uicontrol>RICHTING()</uicontrol>
+        en het snijpunt met de y-as met de functie <uicontrol>SNIJPUNT()</uicontrol>.</p>
+    </section>
+  </body>
+</topic>

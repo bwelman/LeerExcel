@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo009" xml:lang="nl-NL">
+    <title>Opgave: pivo009 - Vervoersonderzoek</title>
+    <shortdesc>Niveau: 3</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Onder de bezoekers van een stadcentrum is een marktonderzoek uitgevoerd naar het
+                gebruik van de auto en het gebruik van de bus. In de volgende tabel staan de
+                gegevens van de geënquêteerden die ondervraagd zijn over hun manier van verplaatsen
+                naar het centrum om te gaan winkelen. Gingen ze met de auto, met de bus, hoe ver ze
+                wonen ze van het centrum (in km.) en de reistijd (in min.).</p>
+            <fig>
+                <image keyref="ex_pivo009_data"/>
+            </fig>
+            <p>Plaats de gegevens in een werkblad en bepaal met behulp van een draaitabel de
+                gemiddelde tijd met de auto voor inwoners die verder dan 15 km van het centrum
+                wonen.</p>
+            <note type="other" othertype="Bestand"><filepath>Pivo009.xlsx</filepath></note>
+            <note type="tip">Maak een extra kolom waarin bepaald wordt of de afstand tot het centrum
+                meer dan 15 km is.</note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <p>28,5 min.</p>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p>Maak eerst de extra kolom en bepaal de waarden met de formule <codeph>=ALS(celadres
+                    afstand>15;"ja";"nee")</codeph><image keyref="ex_pivo009_dataplus"
+                    placement="break"/></p>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry>inwoner auto afstand>15</stentry>
+                    <stentry/>
+                    <stentry/>
+                    <stentry>tijd met auto</stentry>
+                </strow>
+            </simpletable>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig type berekening in <uicontrol>Gemiddelde</uicontrol>.</p>
+            <fig>
+                <image keyref="ex_pivo009_report"/>
+            </fig>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_goal003" xml:lang="nl-NL">
+  <title>Opgave: goal003 - Break-even bepalen</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een ondernemer heeft te maken met kosten en opbrengsten die afhankelijk zijn van de
+        geproduceerde hoeveelheid Q. Het verband tussen de totale kosten (TK) resp. de totale
+        opbrengst (TO) en de geproduceerde hoeveelheid Q is als
+        volgt:<codeblock>TK = Q<sup>2</sup> + 8Q + 15
+TO = -5Q<sup>2</sup> + 80Q</codeblock></p>
+      <p>In de grafiek hierna zijn TK en TO uitgezet als functie van Q.</p>
+      <fig>
+                <image keyref="ex_goal003_chart"/>
+            </fig><ol>
+        <li>Teken deze grafiek.</li>
+        <li>Bepaal het break-even punt. Dit is de hoeveelheid Q waarvoor de opbrengsten en de kosten
+          aan elkaar gelijk zijn. De grafiek laat zien dat er twee van deze punten zijn. Bepaal ze
+          beide m.b.v. Doelzoeken en geef de antwoorden op 4 decimalen nauwkeurig.</li>
+      </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Oplossing 1: Q=0,2120 en TK=TO=16,74</p>
+      <p>Oplossing 2: Q=11,7879 en TK=TO=248,26</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak een tabel met daarin als eerste kolom de verschillende waarden van Q. Begin met de
+        waarde 0, laat deze steeds oplopen met bijvoorbeeld 0,2 en eindig met de waarde 16. Dus 0,0
+        0,2 0,4 0,6 ... 16,0. In de tweede kolom worden steeds formules ingevoerd om de waarde van
+        TK te berekenen. En in de derde kolom komen de formules voor de waarden van TO.</p>
+      <p>Teken een grafiek van het type spreiding en maak deze op volgens het voorbeeld.</p>
+      <p>De grafiek heb je nodig om een schatting te kunnen maken voor de break-even punten. Voor
+        een break-even punt moeten de twee grafieken elkaar snijden. In de grafiek is te zien dat er
+        een snijpunt is voor een Q-waarde tussen 0 en 1 en nog een snijpunt voor een Q-waarde tussen
+        11 en 12.</p>
+      <p>Maak een tweede tabel voor de bepaling van de twee break-even punten. Voor het break-even
+                punt moeten de waarden van TK en TO even hoog zijn, dus het verschil tussen TK en TO
+                is 0. In de doelcel wordt dus het verschil tussen TK en TO berekend.<image
+                    keyref="ex_goal003_breakeven" placement="break"/>Gebruik voor de waarde van Q voor
+                het eerste punt de startwaarde 0 en voor het tweede punt de startwaarde 11. De
+                waarden voor TK en TO worden weer via de bekende formules berekend. In de cellen
+                voor de laatste kolom wordt de waarde berekend via de formule <codeph>= TO -
+                    TK</codeph>. Het Doelzoeken moet nu twee keer uitgevoerd worden. De eerste keer
+                voor de berekening van punt 1 en de tweede keer voor de berekening van punt 2.</p>
+      <p>Kies <menucascade>
+        <uicontrol>tab Gegevens</uicontrol>
+        <uicontrol>Wat-als-analyse (groep Hulpmiddelen voor gegevens)</uicontrol>
+        <uicontrol>Doelzoeken</uicontrol>
+      </menucascade>.</p>
+      <p>De in te stellen cel is de cel met de waarde van TO-TK voor punt 1. Deze moet ingesteld
+        worden op de waarde 0 door het wijzigen van de cel met de Q-waarde voor punt 1. Herhaal
+        daarna het proces voor punt 2.</p>
+    </section>
+  </body>
+</topic>

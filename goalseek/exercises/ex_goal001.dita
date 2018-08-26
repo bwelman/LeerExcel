@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_goal001" xml:lang="nl-NL">
+  <title>Opgave: goal001 - Freelancer</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Stel je wilt als freelancer gaan werken en je hebt je voorgenomen dit alleen te doen
+        wanneer je tenminste € 5000,- per maand kunt verdienen. Voor elke uitgevoerde opdracht krijg
+        je een provisie van 7,8%.</p>
+      <ol>
+        <li>Maak in een werkblad een model waarin het percentage provisie en de omzet kunnen worden
+          ingevoerd en waarin het provisiebedrag berekend wordt.</li>
+        <li>Bepaal via Doelzoeken de omzet die gemaakt moet worden zodat een
+          provisie van € 5000 behaald wordt.</li>
+      </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Omzet € 64102,56</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak twee invoercellen: provisiepercentage en omzet. Bereken in een andere cel het
+        provisiebedrag via de formule <codeph>= provisiepercentage * omzet</codeph>.</p>
+      <p>Kies <menucascade>
+          <uicontrol>tab Gegevens</uicontrol>
+          <uicontrol>Wat-als-analyse (groep Hulpmiddelen voor gegevens)</uicontrol>
+          <uicontrol>Doelzoeken</uicontrol>
+        </menucascade>.</p>
+      <p>De in te stellen cel is de cel met het provisiebedrag. Deze moet ingesteld worden op de
+        waarde 5000 door het wijzigen van de cel met de omzet.</p>
+    </section>
+  </body>
+</topic>

@@ -29,5 +29,6 @@
         <topicref href="datatable_formulas_multiple.dita" scope="local" type="task"/>
         <topicref href="datatable_rental_variable.dita" scope="local" type="task"/>
         <topicref href="datatable_advertising.dita" scope="local" type="task"/>
+        <mapref href="exercises/map_ex_tabl.ditamap" format="ditamap"/>
     </topicref>
 </map>

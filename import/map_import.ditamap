@@ -25,5 +25,6 @@
         <topicref href="import_over.dita" scope="local" type="concept"/>
         <topicref href="import_csv.dita" scope="local" type="task"/>
         <topicref href="import_webdata.dita" scope="local" type="task"/>
+        <mapref href="exercises/map_ex_data.ditamap" format="ditamap"/>
     </topicref>
 </map>

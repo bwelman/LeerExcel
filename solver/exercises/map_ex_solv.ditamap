@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_ex_solv" xml:lang="nl-NL">
+    <title>Opgaven Oplosser</title>
+    <keydef keys="ex_solv001_model" href="images/ex_solv001_model.png" format="png"/>
+    <keydef keys="ex_solv002_data" href="images/ex_solv002_data.png" format="png"/>
+    <keydef keys="ex_solv002_model" href="images/ex_solv002_model.png" format="png"/>
+    <keydef keys="ex_solv003_model" href="images/ex_solv003_model.png" format="png"/>
+    <keydef keys="ex_solv004_data" href="images/ex_solv004_data.png" format="png"/>
+    <keydef keys="ex_solv006_data" href="images/ex_solv006_data.png" format="png"/>
+    <keydef keys="ex_solv008_model" href="images/ex_solv008_model.png" format="png"/>
+    <keydef keys="ex_solv008_result" href="images/ex_solv008_result.png" format="png"/>
+    <keydef keys="ex_solv009_data" href="images/ex_solv009_data.png" format="png"/>
+    <keydef keys="ex_solv009_result" href="images/ex_solv009_result.png" format="png"/>
+    <topichead navtitle="Opgaven">
+        <topicref href="ex_solv001.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_solv002.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_solv003.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_solv004.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_solv005.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_solv006.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_solv007.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_solv008.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_solv009.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_solv010.dita" scope="local" type="topic" audience="level3"/>
+    </topichead>
+</map>

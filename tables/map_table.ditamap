@@ -34,6 +34,7 @@
         <topicref href="table_calculated_column.dita" scope="local" type="task"/>
         <topicref href="table_totalrow.dita" scope="local" type="task"/>
         <topicref href="table_overview.dita" scope="local" type="reference"/>
+        <mapref href="exercises/map_ex_list.ditamap" format="ditamap"/>
     </topicref>
     <mapref href="reltable_table.ditamap" format="ditamap"/>
 </map>

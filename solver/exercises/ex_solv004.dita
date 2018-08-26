@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv004" xml:lang="nl-NL">
+  <title>Opgave: solv004 - Productie aluminium ladders</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een fabrikant van aluminium ladders maakt drie typen ladders. Om een ladder te maken moet
+        eerst materiaal afgezaagd worden. Daarna vindt de assemblage plaats en tenslotte de
+        afwerking. De productietijden alsmede de winst per ladder staan in de volgende tabel.</p>
+      <fig>
+                <image keyref="ex_solv004_data"/>
+            </fig>
+      <p>De totaal beschikbare productiecapaciteit is 80 voor zagen, 100 voor assemblage en 120 voor
+        de afwerking.</p>
+      <p>Bepaal met behulp van de oplosser hoeveel ladders van elk type geproduceerd moeten worden
+        opdat de winst maximaal is.</p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Aantal type 1 = 0, aantal type 2 = 4, aantal type 3 = 10, winst = € 1080.</p>
+    </section>
+  </body>
+</topic>

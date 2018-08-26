@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_scen004" xml:lang="nl-NL">
+  <title>Opgave: scen004 - Inkomsten automatiseringsbedrijf</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>De inkomsten en uitgaven van een automatiseringsbedrijf voor 2010 zijn in de volgende
+        afbeelding te zien. De directie wil graag een winstverwachting voor de jaren 2011 en 2012.
+        De inkomsten en uitgaven voor deze twee jaren worden beïnvloed door de volgende
+        factoren.</p>
+      <ul>
+        <li>Een stijging van alle inkomsten met een groeifactor welke op dit moment 10% is.</li>
+        <li>Een stijging van alle uitgaven behalve de rente met een inflatiefactor welke op dit
+          moment 3% is.</li>
+        <li>De hoogte van de rente welke op dit moment 8% is.</li>
+        <li>Het belastingpercentage, op dit moment 35%.</li>
+      </ul>
+      <fig>
+                <image keyref="ex_scen004_data"/>
+            </fig>
+      <p>Zet deze model in een werkblad. De inkomsten en uitgaven voor 2010 liggen vast, voor 2011
+        en 2012 moeten deze berekend worden. Zorg voor de juiste formules in de cellen waarvan de
+        uitkomst berekend moet worden.</p>
+      <p>Het management wil een voorspelling van de winstverwachting, maar er is nog wat onzekerheid
+        over de ontwikkeling van een aantal factoren die de winst beïnvloeden. Het centraal
+        planbureau heeft voorspellingen van deze factoren uitgebracht. Op basis hiervan zijn drie
+        scenario's berekend:</p>
+      <fig>
+                <image keyref="ex_scen004_scenarios"/>
+            </fig>
+      <p>Maak met behulp van de scenariomanager een samenvattingsrapport voor deze drie
+      scenario’s.</p>
+      <note type="other" othertype="Bestand"><filepath>Scen004.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+            <title>Antwoord</title>
+            <image keyref="ex_scen004_report"/>
+        </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Formules voor de tabel. De waarden voor 2011 en 2011 moeten met formules berekend worden.
+        In deze formules komen de verwijzingen naar de cellen met de percentages voor.  </p>
+      <p>Maak de scenario's via <menucascade>
+        <uicontrol>tab Gegevens</uicontrol>
+        <uicontrol>Wat-als-analyse (groep Hulpmiddelen)</uicontrol>
+        <uicontrol>Scenariobeheer</uicontrol>
+      </menucascade>. <ul>
+        <li>Veranderende cellen zijn Groei, Inflatie, Rente en Belasting.</li>
+        <li>Scenariosamenvatting met resultaatcellen de winst in 2011 en in 2012.</li>
+      </ul>
+        <note type="tip">Om in het samenvattingsrapport namen in plaats van celadressen te laten
+          vermelden moeten vooraf aan de cellen namen worden toegekend.</note>
+      </p>
+    </section>
+  </body>
+</topic>

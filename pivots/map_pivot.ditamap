@@ -32,5 +32,6 @@
         <topicref href="pivots_filters_slicers.dita" scope="local" type="task"/>
 		<topicref href="pivots_charts.dita" scope="local" type="task"/>
         <topicref href="pivots_options.dita" scope="local" type="reference"/>
+        <mapref href="exercises/map_ex_pivo.ditamap" format="ditamap"/>
     </topicref> 
 </map>

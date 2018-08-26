@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_graf005" xml:lang="nl-NL">
+  <title>Opgave: graf005 - Relatie productietijd - kostprijs</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Bij een fabriek van speelgoed heeft men het vermoeden dat de prijs van speelgoed voor een
+        groot deel afhangt van de productietijd. Om dit te onderzoeken wordt de productie van
+        speelgoed gemeten. De resultaten en de bijbehorende kostprijs staan in de volgende
+        afbeelding.</p>
+      <fig>
+                <image keyref="ex_graf005_data"/>
+            </fig>
+      <ol>
+        <li>Teken een grafiek waarbij de kostprijs uitgezet wordt tegen de productietijd (de
+          onafhankelijke variabele).</li>
+        <li>Voeg aan de grafiek een lineaire trendlijn toe. Laat ook de vergelijking van deze
+          trendlijn in de grafiek zetten.</li>
+      </ol>
+      <note type="other" othertype="Bestand"><filepath>Graf005.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+            <title>Antwoord</title>
+            <image keyref="ex_graf005_chart"/>
+        </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak de grafiek als volgt:<ul>
+          <li>Begin met grafiektype Spreiding.</li>
+          <li>Layout aanpassingen: schaling assen, legenda, horizontale rasterlijnen.</li>
+          <li>Lineaire trendlijn aanbrengen en in de grafiek plaatsen.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

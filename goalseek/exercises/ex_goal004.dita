@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_goal004" xml:lang="nl-NL">
+  <title>Opgave: goal004 - Spaarbedrag</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Op 1 januari 2010 wordt een bedrag van € 1000 op een spaarrekening gestort. De
+        renteopbrengst is 2,7% op jaarbasis en deze wordt steeds aan de spaarrekening toegevoegd. In
+        de volgende afbeelding is de ontwikkeling van het bedrag op de spaarrekening voor eerste
+        tien jaar te zien. </p>
+      <fig>
+                <image keyref="ex_goal004_model"/>
+            </fig>
+      <ol>
+        <li>Maak in een werkblad dit model.</li>
+        <li>Bepaal met Doelzoeken hoeveel je aan het begin had moeten storten
+          om na 10 jaar € 2500 euro op de spaarrekening te hebben.</li>
+      </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Storting € 1915,29.</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak een tabel volgens het voorbeeld. De waarden in de kolom met jaren typ je in. Voor het
+        jaar 2010 blijft de cel voor de rente leeg en voor de waarde voer je de volgende formule in:
+        = abs. celadres van de cel met het stortingsbedrag.</p>
+      <p>Voor het jaar 2011 bepaal je de rente via de formule <codeph>= abs. celadres rente/jaar *
+          rel. celadres waarde 2010</codeph>. De waarde voor het jaar 2011 bepaal je met de formule
+          <codeph>= rel. celadres waarde 2010 + rel. celadres rente 2011</codeph>. Voor de andere
+        jaren kopieer je de twee formules voor het jaar 2011 naar beneden.</p>
+      <p>Kies <menucascade>
+        <uicontrol>tab Gegevens</uicontrol>
+        <uicontrol>Wat-als-analyse (groep Hulpmiddelen voor gegevens)</uicontrol>
+        <uicontrol>Doelzoeken</uicontrol>
+      </menucascade>.</p>
+      <p>De in te stellen cel is de cel met de waarde voor het jaar 2020. Deze moet ingesteld worden
+        op de waarde 2500 door het wijzigen van de cel met het stortingsbedrag.</p>
+    </section>
+  </body>
+</topic>

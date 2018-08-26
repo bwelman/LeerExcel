@@ -27,5 +27,6 @@
             <topicref href="meas_trendline_linear.dita" scope="local" type="task"/>
             <topicref href="meas_trendline_functions.dita" scope="local" type="task"/>
         </topicref>
+        <mapref href="exercises/map_ex_meas.ditamap" format="ditamap"/>
     </topicref>
 </map>

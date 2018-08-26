@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form013" outputclass="exercise" xml:lang="nl-NL">
+    <title>Exercise: form013 - Prijs olijfolie</title>
+    <shortdesc>Level: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2018-08-25"/>
+            <revised modified="2018-08-25"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Olijfolie kan gekocht worden in blikken van 5 liter. De prijs hangt af van het aantal blikken:<ul>
+                    <li>$45 per blik voor de eerste 20 blikken</li>
+                    <li>$40 voor elk blik meer dan 20</li>
+                </ul></p>
+            <p>Maar een rekenmodel waar je het totaal aantal blikken kunt invoeren en de totale
+                prijs wordt berekend. Gebruik cellen voor de prijs per blik en de limiet van 20
+                blikken. Voorzie de cellen ook van namen.</p>
+        </section>
+        <section otherprops="answer"/>
+        <section otherprops="solution">
+            <title>Solution</title>
+            
+        </section>
+        <simpletable frame="all" relcolwidth="1* 1* 1* 1*">
+            <strow>
+                <stentry>staffel_limiet</stentry>
+                <stentry>20</stentry>
+                <stentry>blikken_totaal</stentry>
+                <stentry>25</stentry>
+            </strow>
+            <strow>
+                <stentry>prijs_hoog</stentry>
+                <stentry>$ 45</stentry>
+                <stentry>prijs_totaal</stentry>
+                <stentry>$ 1100</stentry>
+            </strow>
+            <strow>
+                <stentry>prijs_laag</stentry>
+                <stentry>$ 40</stentry>
+                <stentry/>
+                <stentry/>
+            </strow>
+        </simpletable>
+        <p>Formule prijs_totaal: <codeph>=ALS(blikken_totaal&lt;=staffel_limiet;
+                blikken_totaal*prijs_hoog;
+                staffel_limiet*prijs_hoog+(blikken_totaal-staffel_limiet)*prijs_laag)</codeph></p>
+    </body>
+</topic>

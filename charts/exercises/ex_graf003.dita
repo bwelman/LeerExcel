@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_graf003" xml:lang="nl-NL">
+  <title>Opgave: graf003 - Verkoopcijfers</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende tabel zijn de begrootte en werkelijke verkoopcijfers over 2010 per kwartaal
+        weergegeven, alsmede de afwijking tussen werkelijk en begroot. Van de afwijkingspercentages
+        is tevens het gemiddelde bepaald.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_graf003_data"/>
+                </fig>
+      </p>
+      <p>Zet de gegevens in een werkblad en gebruik formules voor de afwijkingen en het gemiddelde.
+                Maak daarna de volgende grafiek. <fig>
+                    <image keyref="ex_graf003_chart"/>
+                </fig></p>
+      <note type="other" othertype="Bestand"><filepath>Graf003.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Bereken in de tabel de afwijking met een formule <codeph>= (werkelijk - begroot) /
+          begroot</codeph>. Geef de waarden een procentopmaak met 0 decimalen.</p>
+      <p>Maak de grafiek als volgt:<ul>
+          <li>Begin met grafiektype Gegroepeerde kolom. Je krijgt dan per kwartaal 2 kolommen naast
+            elkaar, eentje voor begroot en eentje voor werkelijk.</li>
+          <li>Vervolgens <menucascade>
+              <uicontrol>selecteer kolom werkelijk</uicontrol>
+              <uicontrol>rechter muisklik</uicontrol>
+              <uicontrol>ander type grafiekreeks</uicontrol>
+              <uicontrol>lijndiagram met gegevensmarkering</uicontrol>
+            </menucascade>.</li>
+          <li>Breng layout aanpassingen aan: grafiektitel, plaats legenda, breedte tussenruimte
+            kolommen, schaal verticale as.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

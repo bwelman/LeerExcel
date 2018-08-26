@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_list001" xml:lang="nl-NL">
+    <title>Opgave: list001 - Selecteren</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In de volgende tabel staan de cijfers van een aantal leerlingen.</p>
+            <p>
+                <fig>
+                    <image keyref="ex_list001_data"/>
+                </fig>
+            </p>
+            <p>Breng nu een filter aan zodat alleen die rijen getoond worden van leerlingen die geen
+                cijfer hebben of waar het cijfer 3 of lager is.Voor deze opgave is de tabel klein
+                gehouden. Voor de oplossing moet je rekening houden met veel grotere tabellen.</p>
+            <note type="other" othertype="Bestand"><filepath>List001.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <p>
+                <fig>
+                    <image keyref="ex_list001_solution"/>
+                </fig>
+            </p>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p>Schakel filter in via <menucascade>
+                    <uicontrol>tab Gegevens</uicontrol>
+                    <uicontrol>Filter (groep Sorteren en filteren)</uicontrol>
+                </menucascade>. Klik op de keuzepijl naast cijfer en kies <menucascade>
+                    <uicontrol>Getalfilters</uicontrol>
+                    <uicontrol>Aangepast filter</uicontrol>
+                    <uicontrol>is kleiner dan of gelijk aan</uicontrol>
+                </menucascade> en typ als getal in <userinput>3</userinput>. Vink daarna aan
+                    <uicontrol>keuzerondje Of</uicontrol> en kies <uicontrol>is gelijk
+                    aan</uicontrol> en vul geen getal in. Klik <uicontrol>OK</uicontrol>.</p>
+        </section>
+    </body>
+</topic>

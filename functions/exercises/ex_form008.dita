@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form008" xml:lang="nl-NL">
+  <title>Opgave: form008 - OZB belasting</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>De OZB belasting bestaat uit twee delen: een eigenaarsdeel en een gebruikersdeel. Bewoont
+        de eigenaar zelf het pand, dan moet hij beide delen betalen. Het tarief van beide delen
+        hangt af van de WOZ waarde van de woning. Het OZB tarief voor 2010 in een bepaalde gemeente
+        bedraagt voor de eigenaar 0,1064% en voor de gebruiker 0,1224% van de WOZ-waarde.</p>
+      <fig>
+                <image keyref="ex_form008_model"/>
+            </fig>
+      <p>Maak dit berekeningsmodel in een werkblad. De berekende bedragen voor eigenaar en gebruiker
+        hangen af van de vraag of er met <q>ja</q> of <q>nee</q> geantwoord is op de vraag of men
+        eigenaar en bewoner is.</p>
+      <note type="other" othertype="Bestand"><filepath>Form008.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Formule bedrag eigenaar <codeph>=ALS(eigenaar="ja";tarief_eigenaar*waarde_woning;0)</codeph></p>
+      <p>Formule bedrag gebruiker <codeph>=ALS(gebruiker="ja";tarief_gebruiker*waarde_woning;0)</codeph></p>
+      <p>Formule totaal <codeph>=bedrag_eigenaar + bedrag_gebruiker</codeph></p>
+    </section>
+  </body>
+</topic>

@@ -48,5 +48,6 @@
             <topicref href="function_overview_math.dita" scope="local" type="reference"/>
             <topicref href="function_overview_lookup.dita" scope="local" type="reference"/>
         </topicref>
+        <mapref href="exercises/map_ex_form.ditamap" format="ditamap"/>
     </topicref>
 </map>

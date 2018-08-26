@@ -19,7 +19,6 @@
     <keydef keys="doughnut_data" href="images/doughnut_data.png" format="png"/>
     <keydef keys="doughnut_default" href="images/doughnut_default.png" format="png"/>
     <keydef keys="doughnut_result" href="images/doughnut_result.png" format="png"/>
-    <keydef keys="line-scatter_data" href="images/line-scatter_data.png" format="png"/>
     <keydef keys="line-scatter_line" href="images/line-scatter_line.png" format="png"/>
     <keydef keys="line-scatter_scatter" href="images/line-scatter_scatter.png" format="png"/>
     <keydef keys="line_data" href="images/line_data.png" format="png"/>

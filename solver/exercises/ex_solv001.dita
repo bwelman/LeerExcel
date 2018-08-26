@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv001" xml:lang="nl-NL">
+  <title>Opgave: solv001 - Bonbondoos</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een bekende bonbonfabrikant wil een assortimentdoos uitbrengen met 2 soorten bonbons
+        (kersenbonbons en hazelnootbonbons) en daarbij zoveel mogelijk winst behalen. Bekend is
+        verder:</p>
+      <ul>
+        <li>Een kersenbonbon neemt 16 cm<sup>2</sup> ruimte in en een hazelnootbonbon 8
+            cm<sup>2</sup>. De bonbons worden door papier van elkaar gescheiden. Minimaal 320
+            cm<sup>2</sup> van de doos moet met bonbons bedekt zijn.</li>
+        <li>Een kersenbonbon weegt 2 gram en een hazelnootbonbon weegt 1 gram. Uit marktonderzoek is
+          gebleken dat het ideale gewicht van de inhoud van de doos tussen de 40 gram en 60 gram
+          moet liggen.</li>
+        <li>Ook is uit marktonderzoek gebleken dat de doos minstens 35 bonbons moet bevatten waarvan
+          zeker 10 kersenbonbons.</li>
+        <li>De winst op een kersenbonbon is 28 eurocent en op een hazelnootbonbon 20 eurocent.</li>
+      </ul>
+      <ol>
+        <li>Wat zijn de beslissingsvariabelen?</li>
+        <li>Wat is de doelfunctie?</li>
+        <li>Welke restricties zijn er?</li>
+        <li>Bouw het model in Excel en gebruik de in dit studieboek aangegeven richtlijnen. Een
+                    voorbeeld zie je in de volgende figuur. In de lege cellen moeten nog formules
+                    komen. Beide beslissingsvariabelen hebben hierin als startwaarde 10 gekregen.
+                    Bij dit getal kun je gemakkelijk controleren of de formules de juiste uitkomsten geven.<fig>
+                        <image keyref="ex_solv001_model"/>
+                    </fig></li>
+        <li>Voer het model in het dialoogvenster van de Oplosser in en bepaal daarna het optimale
+          aantal bonbons per doos van elke soort.</li>
+      </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <ol>
+        <li>Twee beslissingsvariabelen: Aantal kersenbonbons per doos (= K) en Aantal
+          hazelnootbonbons per doos (= H).</li>
+        <li>Doelfunctie is de maximale winst op een doos (= W): <codeph>W = 0,28*K +
+          0,20*H</codeph></li>
+        <li>Restricties:
+          <ul>
+            <li>Aantal kersenbonbons per doos: <codeph>K >= 10</codeph></li>
+            <li>Totaal aantal bonbons per doos: <codeph>K + H >= 35</codeph></li>
+            <li>Gewicht doos: <codeph>2*K + 1*H >= 40</codeph></li>
+            <li>Gewicht doos: <codeph>2*K +1*H &lt;= 60</codeph></li>
+            <li>Oppervlakte bonbons: <codeph>16*K + 8*H >= 320</codeph></li>
+            <li>Aantal bonbons is een geheel getal: <codeph>K = integer , H = integer</codeph></li>
+            <li>Aantal bonbons is een positief getal: <codeph>K >= 0 , H >= 0</codeph></li>
+          </ul>
+        </li>
+      </ol>
+      <p>Optimale inhoud doos: aantal kersenbonbons = 10, aantal hazelnootbonbons = 40. De winst per
+        doos is dan € 10,80 en aan alle restricties wordt voldaan.</p>
+    </section>
+  </body>
+</topic>

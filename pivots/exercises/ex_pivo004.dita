@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo004" xml:lang="nl-NL">
+    <title>Opgave: pivo004 - Gemiddeld cijfer</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In de volgende tabel staan de cijfers voor het vak informatica van een aantal
+                studenten uit twee verschillende klassen.</p>
+            <fig>
+                <image keyref="ex_pivo004_data"/>
+            </fig>
+            <p>Bepaal met behulp van een draaitabel het gemiddelde per klas en per geslacht.</p>
+            <note type="other" othertype="Bestand"><filepath>Pivo004.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <fig>
+                <image keyref="ex_pivo004_report"/>
+            </fig>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry/>
+                    <stentry>geslacht</stentry>
+                    <stentry>klas</stentry>
+                    <stentry>inf</stentry>
+                </strow>
+            </simpletable>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig type berekening in <uicontrol>Gemiddelde</uicontrol>.</p>
+        </section>
+    </body>
+</topic>

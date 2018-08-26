@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form002" xml:lang="nl-NL">
+  <title>Opgave: form002 - Artikelgegevens opzoeken</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een computerwinkel heeft van de artikelen in een tabel de volgende gegevens staan:
+        artikelnr, naam en prijs. Om snel de gegevens van een bepaald artikel op te kunnen zoeken
+        kan in een cel het artikelnummer ingevoerd worden. De bijbehorende naam en prijs worden dan
+        automatisch in de tabel opgezocht.</p>
+      <fig>
+        <image keyref="ex_form002_dita"/>
+      </fig>
+      <p>Maak dit werkblad na en gebruik formules (verticaal zoeken) om de zoekresultaten te
+        bepalen.</p>
+      <note type="other" othertype="Bestand"><filepath>Form002.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Zoekresultaat Naam <codeph>=VERT.ZOEKEN(artnr;opzoektabel;2;ONWAAR)</codeph></p>
+      <p>Zoekresultaat Prijs <codeph>=VERT.ZOEKEN(artnr;opzoektabel;3;ONWAAR)</codeph></p>
+    </section>
+  </body>
+</topic>

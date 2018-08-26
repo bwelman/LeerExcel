@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_ex_form" xml:lang="nl-NL">
+    <title>Opgaven Formules en Functies</title>
+    <keydef keys="ex_form001_dita" href="images/ex_form001_data.png" format="png"/>
+    <keydef keys="ex_form002_dita" href="images/ex_form002_data.png" format="png"/>
+    <keydef keys="ex_form003_dita" href="images/ex_form003_data.png" format="png"/>
+    <keydef keys="ex_form004_dita" href="images/ex_form004_data.png" format="png"/>
+    <keydef keys="ex_form005_data" href="images/ex_form005_data.png" format="png"/>
+    <keydef keys="ex_form006_data" href="images/ex_form006_rules.png" format="png"/>
+    <keydef keys="ex_form006_solution" href="images/ex_form006_solution.png" format="png"/>
+    <keydef keys="ex_form007_model" href="images/ex_form007_model.png" format="png"/>
+    <keydef keys="ex_form008_model" href="images/ex_form008_model.png" format="png"/>
+    <keydef keys="ex_form009_solution" href="images/ex_form009_solution.png" format="png"/>
+    <keydef keys="ex_form010_solution" href="images/ex_form010_solution.png" format="png"/>
+    <keydef keys="ex_form012_table" href="images/ex_form012_table.png" format="png"/>
+    <topichead  navtitle="Opgaven">
+        <topicref href="ex_form001.dita" scope="local" type="topic" audience="level1"/>
+        <topicref href="ex_form002.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_form003.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_form004.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_form005.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_form006.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_form007.dita" scope="local" type="topic" audience="level1"/>
+        <topicref href="ex_form008.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_form009.dita" scope="local" type="topic" audience="level1"/>
+        <topicref href="ex_form010.dita" scope="local" type="topic" audience="level1"/>
+        <topicref href="ex_form011.dita" scope="local" type="topic" audience="level1"/>
+        <topicref href="ex_form012.dita" scope="local" type="topic" audience="level1"/>
+        <topicref href="ex_form013.dita" scope="local" type="topic" audience="level2"/>
+    </topichead>
+</map>

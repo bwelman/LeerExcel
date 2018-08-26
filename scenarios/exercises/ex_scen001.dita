@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_scen001" xml:lang="nl-NL">
+  <title>Opgave: scen001 - Winstmarge - Verkoopprijs</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Neem de volgende tabel zo nauwkeurig mogelijk over. Gebruik formules voor de bepaling van
+        de marge, BTW en de verkoopprijzen.</p>
+      <fig>
+                <image keyref="ex_scen001_data"/>
+            </fig>
+      <p>Bepaal via Scenario manager de verkoopprijzen (incl. btw) voor een winstmarge van
+        achtereenvolgens: 15%, 20%, 25% en 30%. De uitvoer moet er ongeveer als volgt uitzien:</p>
+      <fig>
+                <image keyref="ex_scen001_report"/>
+            </fig>
+      <note type="other" othertype="Bestand"><filepath>Scen001.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Formules voor de tabel:
+        <ul>
+          <li>Marge <codeph>=Winstmarge * Inkoopprijs</codeph></li>
+          <li>Verkoopprijs excl <codeph>=Inkoopprijs + Marge</codeph></li>
+          <li>BTW <codeph>=BTWpercentage * Verkoopprijs excl</codeph></li>
+          <li>Verkoopprijs incl <codeph>=Verkoopprijs excl + BTW</codeph></li>
+        </ul>
+        <note type="tip">Het is aan te bevelen om voor de berekening van de marge en de BTW
+          gebruik te maken van een afrondfunctie om de getallen op 2 decimalen af te
+          ronden.</note>
+      </p>
+      <p>Maak de scenario's via <menucascade>
+          <uicontrol>tab Gegevens</uicontrol>
+          <uicontrol>Wat-als-analyse (groep Hulpmiddelen)</uicontrol>
+          <uicontrol>Scenariobeheer</uicontrol>
+        </menucascade>. <ul>
+          <li>Veranderende cel is Winstmarge</li>
+          <li>Scenariosamenvatting met resultaatcellen de verkoopprijzen incl. van de drie
+            producten.</li>
+        </ul>
+        <note type="tip">Om in het samenvattingsrapport namen in plaats van celadressen te laten
+          vermelden moeten vooraf aan de cellen namen worden toegekend.</note>
+      </p>
+    </section>
+  </body>
+</topic>

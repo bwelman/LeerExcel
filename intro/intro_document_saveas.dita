@@ -25,7 +25,7 @@
         <steps>
             <step>
                 <cmd>Klik op de <menucascade>
-                    <uicontrol><keyword keyref="menu"/></uicontrol>
+                    <uicontrol>Bestand</uicontrol>
                     <uicontrol>Opslaan als</uicontrol>
                 </menucascade>.</cmd>
             </step>

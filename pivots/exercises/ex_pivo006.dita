@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo006" xml:lang="nl-NL">
+  <title>Opgave: pivo006 - Kledingverkoop per regio</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende tabel staan de verkopen aan dames- en herenkleding in de vier regio’s voor
+        de jaren 2009 en 2010.</p>
+      <fig>
+                <image keyref="ex_pivo006_data"/>
+            </fig>
+      <p>Plaats de gegevens in een werkblad en bepaal met behulp van een draaitabel de totale
+        verkopen per jaar in de vier regio’s, uitgesplitst naar dames- en herenkleding.</p>
+      <note type="other" othertype="Bestand"><filepath>Pivo006.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <fig>
+                <image keyref="ex_pivo006_report"/>
+            </fig>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+        <p conkeyref="pivot/start" conrefend="pivot/end"/>
+      <simpletable>
+        <sthead>
+          <stentry>Rapportfilter</stentry>
+          <stentry>Kolomlabels</stentry>
+          <stentry>Rijlabels</stentry>
+          <stentry>Waarden</stentry>
+        </sthead>
+        <strow>
+          <stentry/>
+          <stentry>Regio</stentry>
+          <stentry>Jaar Kledingsoort</stentry>
+          <stentry>Verkopen</stentry>
+        </strow>
+      </simpletable>
+      <p conkeyref="pivot/options"/>
+      <p>Wijzig Getalnotatie in <uicontrol>Financieel met 0 decimalen</uicontrol>.</p>
+      <p>Kies <menucascade>
+          <uicontrol>tab Opties</uicontrol>
+          <uicontrol>Opties (groep Draaitabel)</uicontrol>
+          <uicontrol>tabblad Weergave</uicontrol>
+        </menucascade> en schakel uit <uicontrol>Veldbijschriften en filterkeuzelijsten
+          weergeven</uicontrol>.</p>
+    </section>
+  </body>
+</topic>

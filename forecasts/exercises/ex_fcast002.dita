@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_fcast002" outputclass="exercise" xml:lang="nl-NL">
+  <title>Opgave: fcast002 - Omzet voorspelling</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+        <note type="other" othertype="Bestand"><filepath>Fcast002.xlsx</filepath></note>
+      <p>In dit bestand staan de omzetten van een bedrijf over de jaren 2007-2015.</p>
+      <ol>
+        <li>Maak een grafiek van de omzet tegen het jaar.</li>
+        <li>Voeg achtereenvolgens de volgende trendlijnen toe; lineair, logaritmisch em
+                    exponentieel.Verzamel voor elk van deze trendlijnen de R-kwadraat waarde. Maak
+                    een keuze voor de meest geschikte trendlijn.</li>
+        <li>Maak via de opties voor de trendlijn een voorspelling van de omzet voor 2016 en lees de
+          waarde in de grafiek af.</li>
+        <li>Bereken een wat nauwkeuriger voorspelling met een werkbladformule.</li>
+        <li>Experimenteer met de opties voor de trendlijn om uit te zoeken wanneer een omzet van
+          €25.000.000 te verwachten is.</li>
+      </ol>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <simpletable frame="all">
+        <sthead>
+          <stentry>trendlijn</stentry>
+          <stentry>R-kwadraat</stentry>
+        </sthead>
+        <strow>
+          <stentry>lineair</stentry>
+          <stentry>0,9669</stentry>
+        </strow>
+        <strow>
+          <stentry>logaritmisch</stentry>
+          <stentry>0,9667</stentry>
+        </strow>
+        <strow>
+          <stentry>exponentieel</stentry>
+          <stentry>0,9829</stentry>
+        </strow>
+      </simpletable>
+      <p>De exponentiele trendlijn heeft de hoogste R-kwadraatwaarde en is de beste keuze.</p>
+      <fig>
+        <title>Grafiek met exponentiele trendlijn</title>
+        <image keyref="ex_fcast002_chart">
+          <alt>Grafiek met exponentiele trendlijn</alt>
+        </image>
+      </fig>
+      <p>Voorspelling voor 2016, afgelezen uit de grafiek: ca. € 20.000.000</p>
+      <p>Omdat de beste trend een exponentiele is kan de functie GROEI gebruikt worden.
+          <codeph>=GROEI(B2:B10;A2:A10;A11)</codeph> levert op €20.600.000.</p>
+      <p>In trendlijn opties moet het aantal punten vooruit op 3 gezet worden om boven de 25.000.000
+        uit te komen. Dit zal dus ergens in 2018 plaatsvinden.</p>
+    </section>
+  </body>
+</topic>

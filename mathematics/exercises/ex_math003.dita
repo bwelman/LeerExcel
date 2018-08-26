@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_math003" xml:lang="nl-NL">
+  <title>Opgave: math003 - Maximum functie bepalen</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-31-08"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Wiskunde</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Gegeven drie functies:</p>
+      <fig>
+                <image keyref="ex_math003_function"/>
+            </fig>
+            <ol id="ol_gvm_cvm_1bb">
+                <li>Teken de grafiek van deze drie functies in één figuur op het domein [1,20].
+                    Bereken hiervoor eerst  20 punten voor elke grafiek.</li>
+                <li>Bepaal op dit domein het maximum van y<sub>3</sub> in 4 decimalen
+                    nauwkeurig.</li>
+            </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <fig>
+                <image keyref="ex_math003_chart"/>
+            </fig>
+      <p>Maximum van y<sub>3</sub> is 2,1479.</p>
+    </section>
+  </body>
+</topic>

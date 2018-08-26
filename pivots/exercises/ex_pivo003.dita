@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo003" xml:lang="nl-NL">
+    <title>Opgave: pivo003 - Omzet, reiskosten en provisie</title>
+    <shortdesc>Niveau: 3</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In een werkblad zijn voor elke buitendienstmedewerker de volgende gegevens
+                bijgehouden: Maand, Regio, Vertegenwoordiger, Omzet, Reiskosten en Provisie.</p>
+            <p>Maak één draaitabelrapport waarmee je de totale omzet, reiskosten en provisie kunt
+                verkrijgen per maand, per vertegenwoordiger en per regio.</p>
+            <note type="other" othertype="Bestand"><filepath>Pivo003.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <fig>
+                <image keyref="ex_pivo003_report"/>
+            </fig>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Regio</stentry>
+                    <stentry>Maand</stentry>
+                    <stentry>Vertegenwoordiger</stentry>
+                    <stentry>Omzet Reiskosten Provisie</stentry>
+                </strow>
+            </simpletable>
+            <p>Sleep daarna het veld Waarden van Kolomlabels naar Rijlabels onder
+                Vertegenwoordiger.</p>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig Getalnotatie in <uicontrol>Financieel met 0 decimalen</uicontrol>.</p>
+            <p conkeyref="pivot/labels"/>
+        </section>
+    </body>
+</topic>

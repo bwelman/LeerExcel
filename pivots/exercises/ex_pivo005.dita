@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo005" xml:lang="nl-NL">
+    <title>Opgave: pivo005 - Frequentieverdeling cijfers</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In de volgende tabel staan de cijfers van een aantal leerlingen.</p>
+            <fig>
+                <image keyref="ex_pivo005_data"/>
+            </fig>
+            <p>Maak met behulp van een draaitabel een frequentieverdeling van de cijfers.</p>
+            <note type="other" othertype="Bestand"><filepath>Pivo005.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <fig>
+                <image keyref="ex_pivo005_report"/>
+            </fig>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry/>
+                    <stentry/>
+                    <stentry>Cijfer</stentry>
+                    <stentry>Cijfer</stentry>
+                </strow>
+            </simpletable>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig type berekening in <uicontrol>Aantal</uicontrol>.</p>
+            <p conkeyref="pivot/labels"/>
+        </section>
+    </body>
+</topic>

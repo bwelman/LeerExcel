@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_graf001" xml:lang="nl-NL">
+  <title>Opgave: graf001 - Derdegraads grafiek</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Maak de volgende grafiek. Maak ook de opmaak zo goed mogelijk na.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_graf001_chart"/>
+                </fig>
+      </p>
+      <note type="tip">Maak eerst in een werkblad twee kolommen met waarden voor X en berekende
+        waarden voor Y. Maak dan een spreidingsdiagram en pas vervolgens de opmaak aan.</note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak allereerst twee kolommen voor de X en Y waarden. De X-waarden lopen van -1 naar +2 met
+        steeds een stapgrootte van 0,1. De Y-waarden moeten berekend worden via de formule <codeph>=
+          (X -0,5)^3</codeph>.</p>
+      <p>Maak een grafiek van het type <uicontrol>Spreiding</uicontrol>. Breng daarna de grafiek in
+        de gewenste opmaak.</p>
+    </section>
+  </body>
+</topic>

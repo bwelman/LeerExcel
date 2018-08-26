@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv010" xml:lang="nl-NL">
+  <title>Opgave: solv010 - Spaarbank</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een spaarbank heeft 3 miljoen euro om te beleggen. De beleggingsportefeuilles zijn
+        persoonlijke leningen, hypotheken (eerste en tweede hypotheken) en autoleasing. In de
+        statuten van de bank staan een aantal voorwaarden t.a.v. de besteding van de gelden:</p>
+      <ul>
+        <li>Minimaal 30% van het totaal uitgeleende bedrag moet voor hypotheken bestemd zijn.</li>
+        <li>Van het voor hypotheken bestemde bedrag moet minstens 50% voor eerste hypotheken
+          aangewend worden.</li>
+        <li>Maximaal 25% van het totaal uitgeleende bedrag mag aan persoonlijke leningen en
+          autoleasing samen besteed worden.</li>
+        <li>Maximaal 15% van het totaal uitgeleende bedrag mag aan persoonlijke leningen bestemd
+          worden.</li>
+      </ul>
+      <p>De jaarlijkse opbrengst van elk type lening is in de volgende tabel weergegeven.</p>
+      <simpletable frame="all">
+        <sthead>
+          <stentry>Type lening</stentry>
+          <stentry>Opbrengst</stentry>
+        </sthead>
+        <strow>
+          <stentry>Persoonlijke lening</stentry>
+          <stentry>18%</stentry>
+        </strow>
+        <strow>
+          <stentry>Eerste hypotheek</stentry>
+          <stentry>12%</stentry>
+        </strow>
+        <strow>
+          <stentry>Tweede hypotheek</stentry>
+          <stentry>14%</stentry>
+        </strow>
+        <strow>
+          <stentry>Autolease</stentry>
+          <stentry>16%</stentry>
+        </strow>
+      </simpletable>
+      <p>Bepaal met de oplosser hoeveel geld (in veelvouden van € 1000,-) voor elk van de vier typen
+        leningen uitgegeven moet worden zodat de opbrengst zo hoog mogelijk wordt.</p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <simpletable frame="all">
+        <sthead>
+          <stentry>Type lening</stentry>
+          <stentry>Bedrag</stentry>
+        </sthead>
+        <strow>
+          <stentry>Persoonlijke lening</stentry>
+          <stentry>450 K€</stentry>
+        </strow>
+        <strow>
+          <stentry>Eerste hypotheek</stentry>
+          <stentry>1125 K€</stentry>
+        </strow>
+        <strow>
+          <stentry>Tweede hypotheek</stentry>
+          <stentry>1125 K€</stentry>
+        </strow>
+        <strow>
+          <stentry>Autolease</stentry>
+          <stentry>300 K€</stentry>
+        </strow>
+      </simpletable>
+      <p>Totale opbrengst 422 K€. Bij weergave op eurocent nauwkeurig kunnen er
+        afrondingsverschillen zijn.</p>
+    </section>
+  </body>
+</topic>

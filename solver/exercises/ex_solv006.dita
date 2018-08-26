@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv006" xml:lang="nl-NL">
+  <title>Opgave: solv006 - Vitamines in veevoer</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een boer gebruikt drie typen veevoer, type 1, type 2 en type 3. De voedingssamenstelling en
+        de kosten per kg van elk type is in de volgende afbeelding weergegeven.</p>
+      <fig>
+                <image keyref="ex_solv006_data"/>
+            </fig>
+      <p>In een vaktijdschrift zijn de minimale dagbehoeftes (MDB) in milligram per dier voor de
+        vitamines A, B en C gepubliceerd. Deze zijn 120 mg A, 180 mg B en 100 mg C. Verder kan een
+        dier niet meer eten dan 7½ kg van type 1 en 5 kg van type 2 en 2½ kg van type 3.</p>
+      <p>Hoeveel kg van elk type moet de boer elke dag verstrekken om de kosten zo laag mogelijk te
+        krijgen en toch te voldoen aan de minimale dagbehoefte?</p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Per dag: type 1 = 7,500 kg, type 2 = 1,397 kg, type 3 = 1,426 kg , kosten = € 68,37.</p>
+    </section>
+  </body>
+</topic>

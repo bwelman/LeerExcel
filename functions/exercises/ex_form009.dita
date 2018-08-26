@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form009" xml:lang="nl-NL">
+  <title>Opgave: form009 - Spaardeposito</title>
+  <shortdesc>Niveau: 1</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een bedrag van € 20.000 wordt in een spaardeposito een jaar lang vastgezet tegen een rente
+        van 2,75%. Maak een berekeningsmodel waarin zowel de rente als het totale bedrag na 1 jaar
+        wordt berekend.</p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Rente = € 550,00 en Bedrag = € 20.550,00</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <fig>
+                <image keyref="ex_form009_solution"/>
+            </fig>
+      <p>Formules: Rente <codeph>=Bedrag*Rentepercentage</codeph> en Bedrag
+          <codeph>=Bedrag+Rente</codeph>.</p>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv003" xml:lang="nl-NL">
+  <title>Opgave: solv003 - Hardloopschoenen</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een bedrijf in Hongkong heeft zich toegelegd op het fabriceren van amerikaanse
+        hardloopschoenen. Het bedrijf maakt drie modellen: Runner, Lady T, en Super A en wil hiermee
+        zoveel mogelijk winst maken.</p>
+      <ul>
+        <li>Het vervaardigen van 1 paar Runner kost 0,31 uur, van 1 paar Lady T kost 0,20 uur en van
+          1 paar Super A kost 0,25 uur. In totaal kan per week niet meer dan 150 uur geproduceerd
+          worden.</li>
+        <li>De kapitaalinvestering bedraagt per paar Runner, Lady T, Super A respectievelijk € 16, €
+          12 en € 10. Er is per week € 8000 hiervoor beschikbaar.</li>
+        <li>Vanwege de beperkte machinecapaciteit kan er per week hoogstens 300 paar Runner, 400
+          paar Lady T en 400 paar Super A geproduceerd worden.</li>
+        <li>Op 1 paar Runner wordt een winst gemaakt van € 6 en de winst per paar Lady T is € 5 en
+          per paar Super A bedraagt deze € 4.</li>
+      </ul>
+      <p>Bereken met de oplosser de optimale productieaantallen en de maximale winst per week.</p>
+      <ol>
+        <li>Wat zijn de beslissingsvariabelen?</li>
+        <li>Wat is de doelfunctie?</li>
+        <li>Welke restricties zijn er?</li>
+        <li>Bouw het model in Excel en gebruik de in dit studieboek aangegeven richtlijnen. Een
+                    voorbeeld zie je in de volgende figuur. In de lege cellen moeten nog formules
+                    komen. Beide beslissingsvariabelen hebben hierin als startwaarde 100 gekregen.<fig>
+                        <image keyref="ex_solv003_model"/>
+                    </fig></li>
+        <li>Voer het model in het dialoogvenster van de Oplosser in en bepaal daarna het optimale
+          aantal modellen en de maximale winst per week.</li>
+      </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <ol>
+        <li>Drie beslissingsvariabelen: Aantal model Runner per week (= R), aantal model Lady T per
+          week (= T) en aantal model Super A per week (= A).</li>
+        <li>Doelfunctie is de maximale winst per week (= W): <codeph>W = 6*R + 5*T +
+          4*A</codeph></li>
+        <li>Restricties:
+          <ul>
+            <li>Aantal model Runner per week: <codeph>R &lt;= 300</codeph></li>
+            <li>Aantal model Lady T per week: <codeph>T &lt;= 400</codeph></li>
+            <li>Aantal model Super A per week: <codeph>A &lt;= 400</codeph></li>
+            <li>Maximale productietijd per week: <codeph>0,31*R 0,20*T + 0,25*A &lt;=
+              150</codeph></li>
+            <li>Maximale investering per week: <codeph>16*R + 12*T +10*A &lt;= 8000</codeph></li>
+            <li>Aantal van elk model is een geheel getal: <codeph>R = integer , T = integer , A =
+                integer</codeph></li>
+            <li>Aantal van elk model is een positief getal: <codeph>R >= 0 , T >= 0 en A >=
+                0</codeph></li>
+          </ul>
+        </li>
+      </ol>
+      <p>Optimaal aantal Runner = 111, aantal lady T = 400, aantal Super A = 142. De winst per week
+        is € 3234.</p>
+    </section>
+  </body>
+</topic>

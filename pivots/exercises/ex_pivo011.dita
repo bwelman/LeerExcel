@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo011" xml:lang="nl-NL">
+    <title>Opgave: pivo011 - Brandstofverbruik auto's</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Bepaal per merk en per brandstofsoort het minimum en het maximum verbruik met behulp
+                van een draaitabel.</p>
+            <note type="other" othertype="Bestand"><filepath>Auto.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <fig>
+                <image keyref="ex_pivo011_report"/>
+            </fig>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry/>
+                    <stentry>Brandstof</stentry>
+                    <stentry>Merk</stentry>
+                    <stentry>Verbruik Verbruik</stentry>
+                </strow>
+            </simpletable>
+            <p>Selecteer in de draaitabel een getal behorende bij Verbruik en kies dan <menucascade>
+                    <uicontrol>tab Opties</uicontrol>
+                    <uicontrol>Veldinstellingen (groep Actief veld)</uicontrol>
+                </menucascade> en wijzig het type berekening in <uicontrol>Max</uicontrol> en de
+                naam in <userinput>Max verbruik</userinput>.</p>
+            <p>Selecteer in de draaitabel een getal behorende bij Verbruik2 en kies dan <menucascade>
+                    <uicontrol>tab Opties</uicontrol>
+                    <uicontrol>Veldinstellingen (groep Actief veld)</uicontrol>
+                </menucascade> en wijzig het type berekening in <uicontrol>Min</uicontrol> en de
+                naam in <userinput>Min verbruik</userinput>.</p>
+            <p>Sleep in het ontwerpraster het veld Waarden van Kolomlabels naar Rijlabels onder het
+                veld Merk.</p>
+            <p>Kies <menucascade>
+                    <uicontrol>tab Ontwerpen</uicontrol>
+                    <uicontrol>Eindtotalen (groep Indeling)</uicontrol>
+                    <uicontrol>Uit voor rijen en kolommen</uicontrol>
+                </menucascade>.</p>
+            <p>Wijzig de tekst <q>Rijlabels</q> in <q>Merk</q> en de tekst <q>Kolomlabels</q> in
+                    <q>Brandstof</q>.</p>
+        </section>
+    </body>
+</topic>

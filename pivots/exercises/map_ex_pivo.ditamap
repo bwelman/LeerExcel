@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_ex_pivo" xml:lang="nl-NL">
+    <title>Opgaven Draaitabellen</title>
+    <keydef keys="ex_pivo001_report" href="images/ex_pivo001_report.png" format="png"/>
+    <keydef keys="ex_pivo002_report" href="images/ex_pivo002_report.png" format="png"/>
+    <keydef keys="ex_pivo003_report" href="images/ex_pivo003_report.png" format="png"/>
+    <keydef keys="ex_pivo004_data" href="images/ex_pivo004_data.png" format="png"/>
+    <keydef keys="ex_pivo004_report" href="images/ex_pivo004_report.png" format="png"/>
+    <keydef keys="ex_pivo005_data" href="images/ex_pivo005_data.png" format="png"/>
+    <keydef keys="ex_pivo005_report" href="images/ex_pivo005_report.png" format="png"/>
+    <keydef keys="ex_pivo006_data" href="images/ex_pivo006_data.png" format="png"/>
+    <keydef keys="ex_pivo006_report" href="images/ex_pivo006_report.png" format="png"/>
+    <keydef keys="ex_pivo007_data" href="images/ex_pivo007_data.png" format="png"/>
+    <keydef keys="ex_pivo007_report" href="images/ex_pivo007_report.png" format="png"/>
+    <keydef keys="ex_pivo008_data" href="images/ex_pivo008_data.png" format="png"/>
+    <keydef keys="ex_pivo008_report" href="images/ex_pivo008_report.png" format="png"/>
+    <keydef keys="ex_pivo009_data" href="images/ex_pivo009_data.png" format="png"/>
+    <keydef keys="ex_pivo009_dataplus" href="images/ex_pivo009_dataplus.png" format="png"/>
+    <keydef keys="ex_pivo009_report" href="images/ex_pivo009_report.png" format="png"/>
+    <keydef keys="ex_pivo010_report" href="images/ex_pivo010_report.png" format="png"/>
+    <keydef keys="ex_pivo011_report" href="images/ex_pivo011_report.png" format="png"/>
+    <keydef keys="ex_pivo012_members_count" href="images/ex_pivo012_members_count.png" format="png"/>
+    <keydef keys="ex_pivo012_members_percent" href="images/ex_pivo012_members_percent.png" format="png"/>
+    <keydef keys="ex_pivo012_meetings_count" href="images/ex_pivo012_meetings_count.png" format="png"/>
+    <keydef keys="pivot" href="conref_source_ex_pivo.dita" type="topic"/>
+    <topichead navtitle="Opgaven">
+        <topicref href="ex_pivo001.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo002.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo003.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_pivo004.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo005.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo006.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo007.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo008.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_pivo009.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_pivo010.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo011.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_pivo012.dita" scope="local" type="topic" audience="level3"/>
+    </topichead>
+</map>

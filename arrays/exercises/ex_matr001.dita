@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_matr001" audience="level2" xml:lang="nl-NL">
+  <title>Opgave: matr001 - Matrixoptelling</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Voer de volgende optelling uit met behulp van de Excel matrix methode. </p>
+      <p>
+        <fig>
+                    <image keyref="ex_matr001_data"/>
+                </fig>
+      </p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Selecteer het resultaatgebied, typ in <userinput>=</userinput>, selecteer de eerste matrix,
+        typ in <userinput>+</userinput>, selecteer de tweede matrix, druk op
+          <uicontrol>Ctrl-Shift-Enter</uicontrol>.</p>
+    </section>
+  </body>
+</topic>

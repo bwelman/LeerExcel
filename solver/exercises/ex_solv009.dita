@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv009" xml:lang="nl-NL">
+  <title>Opgave: solv009 - Stelsel lineaire vergelijkingen oplossen</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+        <section>
+            <p>Los met behulp van de oplosser het volgende stelsel vergelijkingen op.</p>
+            <fig>
+                <image keyref="ex_solv009_data"/>
+            </fig>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+        </section>
+        <image keyref="ex_solv009_result"/>
+    </body>
+</topic>

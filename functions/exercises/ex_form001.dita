@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form001" xml:lang="nl-NL">
+  <title>Opgave: form001 - Resultaten computerbedrijf</title>
+  <shortdesc>Niveau: 1</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body><section>
+    <p>In onderstaande tabel staan de resultaten over het jaar 2010 van een computerbedrijf. Het
+      bedrijf had als doelstelling dat per productgroep de bruto winst meer dan 5000,- euro moest
+      worden en dat de behaalde marge meer dan 15% moest zijn. Alleen wanneer aan beide
+      doelstellingen voldaan wordt kan het bedrijfsresultaat als goed gekenmerkt worden, in alle
+      andere gevallen als slecht.</p>
+    <p>
+      <fig>
+        <image keyref="ex_form001_dita"/>
+      </fig>
+    </p>
+    <p>Maak dit overzicht in een werkblad. Voor de bepaling van de bruto winst, de behaalde marge en
+      het resultaat moet van formules gebruik gemaakt worden. Ook wanneer de doelstellingen voor de
+      bruto winst en de marge wijzigen, moet het resultaat zich hierbij aanpassen.</p>
+    <note type="other" othertype="Bestand"><filepath>Form001.xlsx</filepath></note>
+  </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <ul>
+        <li>Bruto Winst = Opbrengst - Kosten</li>
+        <li>Marge behaald = Bruto Winst / Kosten. Opmaak als percentage zonder decimalen.</li>
+        <li>Voor de bepaling van het resultaat moet van de functie ALS gebruik gemaakt worden. Omdat
+          er op 2 voorwaarden getest moet worden moet er een tweede ALs binnen de eerste ALS komen.
+          Een alternatief is het gebruik van de functie EN binnen de functie ALS.
+          <ul>
+            <li><codeph>=ALS(D4>Doel_Winst;ALS(E4>Doel_Marge;"goed";"slecht");"slecht")</codeph></li>
+            <li><codeph>=ALS(EN(D4>Doel_Winst;E4>Doel_Marge);"goed";"slecht")</codeph></li>
+          </ul></li>
+      </ul>
+    </section>
+  </body>
+</topic>

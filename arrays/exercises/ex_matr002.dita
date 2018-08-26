@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_matr002" audience="level3" xml:lang="nl-NL">
+  <title>Opgave: matr002 - Storingen per district</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section><p>Het nutsbedrijf van een stad houdt een lijst bij waarin per district de gemelde storingen aan
+        gas, water en electra worden vermeld. In de volgende afbeelding is deze lijst te zien. De
+        leiding van het bedrijf wil graag een overzicht van het totaal aantal storingen per district
+        zoals onder Samenvatting berekend. Dit gaat het eenvoudigst met matrixformules.</p>
+        <fig>
+                <image keyref="ex_matr002_data"/>
+            </fig>
+      <note type="other" othertype="Bestand"><filepath>Matr002.xlsx</filepath></note>
+      <p>Voer in het werkblad de matrixformules in de cellen C16, C17, C18 en C19 in om het totaal
+        aantal storingen per district te berekenen.</p>
+      <note type="tip">
+        <ol>
+          <li>De formule {(B2:B11)=B16} levert een matrixkolom van 10 rijen. Als de waarde in een
+                        cel uit de reeks B2:B11 gelijk is aan de waarde in cel B16 (= Noord) dan is
+                        de waarde in de matrix gelijk aan WAAR (=1) en anders ONWAAR (=0).<fig>
+                            <image keyref="ex_matr002_tip1"/>
+                        </fig>
+                    </li>
+          <li>Door deze kolommatrix te vermenigvuldigen met de matrix {C2:E11} krijg je een nieuwe
+                        matrix van 10 rijen en 3 kolommen. De cellen in de rijen die met ONWAAR
+                        worden vemenigvuldigd bevatten allemaal een nul. De cellen in de rijen die
+                        met WAAR worden vermenigvuldigd behouden de oorspronkelijke waarden:<fig>
+                            <image keyref="ex_matr002_tip2"/>
+                        </fig>
+                    </li>
+          <li>Door hiervan de som te bepalen krijg je het totaal aantal storingen voor het district
+            NOORD.</li>
+        </ol>
+      </note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Selecteer de cel voor het totaal van Noord en voer de matrixformule in
+          <codeph>=SOM(($B$2:$B$11=B16)*($C$2:$E$11))}</codeph>. Kopieer daarna deze formule naar
+        beneden.</p>
+    </section>
+  </body>
+</topic>

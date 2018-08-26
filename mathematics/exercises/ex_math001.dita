@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_math001" xml:lang="nl-NL">
+    <title>Opgave: math001 - Benadering functie</title>
+    <shortdesc>Niveau: 3</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-31-08"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Wiskunde</indexterm>
+                <indexterm>Grafiek</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Teken de grafiek van de functie <image keyref="ex_math001_function"/> op het interval
+                [0.1 , 1.0].</p>
+            <p>Op dit interval kan deze functie benaderd worden door een derdegraads polynoom van de
+                vorm <codeph>ax<sup>3</sup> + bx<sup>2</sup> +cx +d</codeph>. Bepaal via de trendlijn de coëfficienten a, b en c.</p>
+            <p>Maak een schatting van de nauwkeurigheid van de benadering van de functie door het
+                polynoom door de som van de kwadratische afwijkingen uit te rekenen.</p>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <image keyref="ex_math001_result"/>
+            <p>Som kwadratische afwijkingen is 0,0000001245 dus nagenoeg 1.</p>
+        </section>
+    </body>
+</topic>

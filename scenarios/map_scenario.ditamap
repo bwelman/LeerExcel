@@ -24,5 +24,6 @@
     <topicref href="scen.dita" type="concept">
         <topicref href="scen_over.dita" scope="local" type="concept" audience="level2"/>
         <topicref href="scen_coffeebar.dita" scope="local" type="task" audience="level2"/>
+        <mapref href="exercises/map_ex_scen.ditamap" format="ditamap"/>
     </topicref>
 </map>

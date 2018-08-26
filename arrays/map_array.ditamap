@@ -26,5 +26,6 @@
         <topicref href="array_simple.dita" scope="local" type="task"/>
         <topicref href="array_single.dita" scope="local" type="task"/>
         <topicref href="array_complex.dita" scope="local" type="task"/>
+        <mapref href="exercises/map_ex_matr.ditamap" format="ditamap"/>
     </topicref>
 </map>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo010" xml:lang="nl-NL">
+    <title>Opgave: pivo010 - Opbrengst koffie per regio</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In een werkblad staan de opbrengsten van een aantal soorten koffie per maand per
+                gebied. Het management wil graag op een eenvoudige wijze de totale opbrengst van de
+                producten per regio kunnen bepalen. Maak een draaitabel waaruit per maand de
+                opbrengst per koffiesoort berekend is. De regio moet met een rapportfilter gekozen
+                kunnen worden.</p>
+            <note type="other" othertype="Bestand"><filepath>Koffie.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <fig>
+                <image keyref="ex_pivo010_report"/>
+            </fig>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Regio</stentry>
+                    <stentry>Produkt</stentry>
+                    <stentry>Maand</stentry>
+                    <stentry>Opbrengst</stentry>
+                </strow>
+            </simpletable>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig Getalnotatie in <uicontrol>Financieel met 0 decimalen</uicontrol>.</p>
+        </section>
+    </body>
+</topic>

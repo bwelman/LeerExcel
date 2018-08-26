@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form012" outputclass="exercise" xml:lang="nl-NL">
+    <title>Opgave: form012 - Vermenigvuldigingstabel</title>
+    <shortdesc>Niveau: 1</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2018-08-25"/>
+            <revised modified="2018-08-25"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Maak eerst de volgende tabel:</p>
+            <fig>
+                <image keyref="ex_form012_table"></image>
+            </fig>
+            <p>Voer dan in cel B2 een formule in die je naar beneden en naar rechts in de tabel kunt
+                kopieren zo dat de waarde in elke cel de vermigvuldiging is van het nummer voor de
+                rij en het nummer boven de kolom.</p>
+            <note type="tip">Je hebt een combinatie van absolute en relatieve adressering nodig in
+                de formule.</note>
+        </section>
+        <section otherprops="answer"/>
+        <section otherprops="solution">
+            <title>Solution</title>
+            <p>Formule: <codeph>=B$1*$A2</codeph></p>
+        </section>
+    </body>
+</topic>

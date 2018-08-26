@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_meas001" xml:lang="nl-NL">
+  <title>Opgave: meas001 - Lengte en gewicht</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>RICHTING</indexterm>
+        <indexterm>SNIJPUNT</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Van een aantal schoolkinderen zijn lengte en gewicht bepaald. In de afbeelding hierna staan
+        de meetresultaten.</p>
+      <fig>
+                <title>Resultaten lengte en gewicht</title>
+                <image keyref="ex_meas001_data" alt="Resultaten lengte en gewicht"/>
+            </fig>
+      <p>Veronderstel een lineair verband en bepaal de vergelijking waarbij het gewicht een functie
+        is van de lengte.</p>
+      <note type="other" othertype="Bestand"><filepath>Meas001.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <codeblock>Gewicht = 1,65*Lengte - 153,3</codeblock>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>De onafhankelijke variabele (x) is Lengte en de afhankelijke variabele (y) is Gewicht.
+        Bepaal de richtingscoëfficient van de lijn met de functie <uicontrol>RICHTING()</uicontrol>
+        en het snijpunt met de y-as met de functie <uicontrol>SNIJPUNT()</uicontrol>.</p>
+    </section>
+  </body>
+</topic>

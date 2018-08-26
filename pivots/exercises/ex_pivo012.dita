@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo012" xml:lang="nl-NL">
+    <title>Opgave: pivo012 - Hobbyclub</title>
+    <shortdesc>Niveau: 3</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In een werkblad staan in de laatste twee kolommen het aantal bezochte clubavonden in
+                2009 en 2010. Maak m.b.v. draaitabellen de volgende overzichten.</p>
+            <ol>
+                <li>Het aantal leden van de club per woonplaats en per geslacht.</li>
+                <li>Het percentage leden per hobby en per geslacht.</li>
+                <li>Een overzicht van de aanwezigheid in 2010 per geslacht, waarbij het bezochte
+                    aantal clubavonden in drie groepen verdeeld is zoals in het volgende
+                        overzicht:<image keyref="ex_pivo012_meetings_count" placement="break"/>
+                </li>
+            </ol>
+            <note type="other" othertype="Bestand"><filepath>Pivo012.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <ol>
+                <li>Aantal leden per plaats en per geslacht<image keyref="ex_pivo012_members_count"
+                        placement="break"/></li>
+                <li>Percentage leden per hobby en per geslacht<image
+                        keyref="ex_pivo012_members_percent" placement="break"/></li>
+                <li>Deelname leden in 2010 per geslacht<image keyref="ex_pivo012_meetings_count"
+                        placement="break"/></li>
+            </ol>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <ol>
+                <li>Maak een draaitabel met <uicontrol>Kolomlabels</uicontrol>
+                    <userinput>geslacht</userinput>, <uicontrol>Rijlabels</uicontrol>
+                    <userinput>woonplaats</userinput> en <uicontrol>Waarden</uicontrol>
+                    <userinput>naam (Aantal</userinput>). Rapportindeling = Overzichtsweergave en
+                    veldkopteksten niet weer laten geven.</li>
+                <li>Maak een draaitabel met <uicontrol>Kolomlabels</uicontrol>
+                    <userinput>geslacht</userinput>, <uicontrol>Rijlabels</uicontrol>
+                    <userinput>hobby</userinput> en <uicontrol>Waarden</uicontrol>
+                    <userinput>naam (Aantal</userinput>). Kies <menucascade>
+                        <uicontrol>tab Opties</uicontrol>
+                        <uicontrol>Veldinstellingen (groep Actief veld)</uicontrol>
+                        <uicontrol>tab Waarden weergeven als</uicontrol>
+                        <uicontrol>% van totaal</uicontrol>
+                    </menucascade>. Getalnotatie in <uicontrol>Percentage met 0
+                        decimalen</uicontrol>. Rapportindeling = Overzichtsweergave en
+                    veldkopteksten niet weer laten geven.</li>
+                <li>Maak een draaitabel met <uicontrol>Kolomlabels</uicontrol>
+                    <userinput>geslacht</userinput>, <uicontrol>Rijlabels</uicontrol>
+                    <userinput>2010</userinput> en <uicontrol>Waarden</uicontrol>
+                    <userinput>2010 (Aantal</userinput>). Selecteer een getal onder Rijlabels en
+                    kies <menucascade>
+                        <uicontrol>tab Opties</uicontrol>
+                        <uicontrol>Veld groeperen (groep Groeperen)</uicontrol>
+                    </menucascade> en laat het groeperen beginnen bij 20, eindigen op 49 en oplopen
+                    met 10. Rapportindeling = Overzichtsweergave en veldkopteksten niet weer laten
+                    geven.</li>
+            </ol>
+        </section>
+    </body>
+</topic>

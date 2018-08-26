@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_math004" xml:lang="nl-NL">
+  <title>Opgave: math004 - Verkoopprognoses</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-31-08"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Wiskunde</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een startend bedrijf wil voor de komende 10 jaar verkoopprognoses maken. Uit ervaring
+                blijkt dat bij soortgelijke bedrijven de verkopen exponentieel kunnen groeien
+                volgens de formule <codeph>Q<sub>t</sub> = a * c<sup>t</sup></codeph>. In deze formule is</p>
+      <ul>
+        <li>a = een constante gelijk aan verkoop eerste jaar (t=0)</li>
+        <li>c = groeicoëfficiënt</li>
+        <li>t = een variabele gerelateerd aan de tijd (t =0, 1, 2, 3, …, 9)</li>
+        <li>Q<sub>t</sub>= verkoop op tijd t</li>
+      </ul>
+      <p>Uit marktonderzoek blijkt dat de geschatte verkopen voor het eerste jaar 250.000 Euro en de
+        groeicoëfficient 1,35 zullen bedragen. De doelstelling is om na 10 jaar een verkoop van 5
+        miljoen Euro te realiseren. Men wil nu bij deze verkoopdoelstelling de bijbehorende
+        groeicoëfficiënt bepalen.</p>
+      <ol>
+        <li>Maak een model waarin de verkopen voor de jaren t=0 t/m t=9 berekend worden.</li>
+        <li>Bepaal via doelzoeken de waarde van de groeicoëfficient waarbij in jaar 9 de
+          verkoopdoelstelling van 5 miljoen gehaald wordt.</li>
+      </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Groeicoëfficiënt is 1,395.</p>
+    </section>
+  </body>
+</topic>

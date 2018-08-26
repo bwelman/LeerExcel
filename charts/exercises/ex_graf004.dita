@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_graf004" xml:lang="nl-NL">
+  <title>Opgave: graf004 - Leeftijdsopbouw</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de tabel staat voor de jaren 1950-2010 de procentuele leeftijdsopbouw van de bevolking
+        Nederland, verdeeld over negen leeftijdsklassen (bron: CBS).</p>
+      <fig>
+                <image keyref="ex_graf004_data"/>
+            </fig>
+      <p>Maak uit deze gegevens de volgende grafiek.</p>
+      <fig>
+                <image keyref="ex_graf004_chart"/>
+            </fig>
+      <note type="other" othertype="Bestand"><filepath>Graf004.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak de grafiek als volgt:<ul>
+          <li>Begin met grafiektype Lijn met gegevensmarkering.</li>
+          <li>Om jaartallen op categorieas te krijgen <menucascade>
+              <uicontrol>tab Ontwerpen</uicontrol>
+              <uicontrol>Rijen/kolommen omdraaien (groep Gegevens)</uicontrol>
+            </menucascade>.</li>
+          <li>Tekstvak toevoegen voor de bronvermelding.</li>
+          <li>Getallen verticale as opmaken zonder decimalen.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

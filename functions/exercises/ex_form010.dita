@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_form010" xml:lang="nl-NL">
+  <title>Opgave: form010 - Wet van Joule</title>
+  <shortdesc>Niveau: 1</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>De hoeveelheid warmte die een bepaalde stroomdraad afgeeft kan berekend worden met de wet
+        van Joule: <codeph>Q = 0,24*i<sup>2</sup>*R*t</codeph></p>
+      <p>
+        <simpletable frame="none">
+          <strow>
+            <stentry>Q</stentry>
+            <stentry> = </stentry>
+            <stentry>Hoeveelheid warmte (cal)</stentry>
+          </strow>
+          <strow>
+            <stentry>i</stentry>
+            <stentry> = </stentry>
+            <stentry>Stroomsterkte (amp)</stentry>
+          </strow>
+          <strow>
+            <stentry>R</stentry>
+            <stentry> = </stentry>
+            <stentry>Weerstand (ohm)</stentry>
+          </strow>
+          <strow>
+            <stentry>t</stentry>
+            <stentry> = </stentry>
+            <stentry>Tijd (sec)</stentry>
+          </strow>
+        </simpletable>
+      </p>
+      <p>Maak een werkblad waarin de stroomsterkte, de weerstand en de tijd ingevuld kan worden. De
+        hoeveelheid warmte moet dan automatisch berekend worden.</p>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <fig>
+                <image keyref="ex_form010_solution"/>
+            </fig>
+      <p>Formule warmte <codeph>=0,24*E7^2*E8*E9</codeph>.</p>
+    </section>
+  </body>
+</topic>

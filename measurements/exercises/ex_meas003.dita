@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_meas003" xml:lang="nl-NL">
+  <title>Opgave: meas003 - Krimp en temperatuur</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>RICHTING</indexterm>
+        <indexterm>SNIJPUNT</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een fabrikant van synthetische vezels onderzoekt of het krimpen van de vezels samenhangt
+        met de temperatuur waarbij ze gewassen worden. Er worden 8 experimenten uitgevoerd waarbij
+        de vezels bij verschillende temperaturen worden gewassen. De gemeten krimp is hierna
+        weergegeven in procenten van de oorspronkelijke lengte.</p>
+      <fig>
+                <title>Resultaten krimppercentage en wastemperatuur</title>
+                <image keyref="ex_meas003_data" alt="Resultaten krimppercentage en wastemperatuur"/>
+            </fig>
+      <ol>
+        <li>Veronderstel een lineair verband en bepaal de vergelijking waarbij het krimppercentage
+          verklaard kan worden uit de temperatuur.</li>
+        <li>Voorspel met behulp hiervan de krimp bij een temperatuur van 65 <sup>o</sup>C</li>
+      </ol>
+      <note type="other" othertype="Bestand"><filepath>Meas003.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <codeblock>Krimpperc = 0,0796*Temp - 3,546
+Bij een temperatuur van 65 <sup>o</sup>C is het voorspelde krimppercentage 1,6%.</codeblock>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>De onafhankelijke variabele (x) is Temp en de afhankelijke variabele (y) is Krimpperc.
+        Bepaal de richtingscoëfficient van de lijn met de functie <uicontrol>RICHTING()</uicontrol>
+        en het snijpunt met de functie <uicontrol>SNIJPUNT()</uicontrol>.</p>
+      <p>Formule voor Krimpperc. bij 65 <sup>o</sup>C is <codeph>= 0,0796*65 - 3,546</codeph></p>
+    </section>
+  </body>
+</topic>

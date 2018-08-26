@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv007" xml:lang="nl-NL">
+  <title>Opgave: solv007 - Vitaminetabletten</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een voedingsdeskundige beveelt een patient de volgende minimale dagbehoeftes vitamine B en
+        C aan: 400 eenheden vitamine B en 800 eenheden vitamine C. De plaatselijke apotheek kan twee
+        verschillende vitaminetabletten leveren, merk Y en merk Z. Een vitaminetablet van merk Y
+        bevat 75 eenheden vitamine B en 100 eenheden vitamine C en kost € 0,10. Een vitaminetablet
+        van merk Z bevat 50 eenheden vitamine B en 200 eenheden vitamine C en kost € 0,08. Hoeveel
+        vitaminetabletten van elk soort moeten elke dag genuttigd worden tegen zo laag mogelijke
+        kosten?</p>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <p>Per dag: aantal per merk Y = 4, aantal merk Z = 2, kosten = € 0,56.</p>
+    </section>
+  </body>
+</topic>

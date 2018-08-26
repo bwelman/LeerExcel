@@ -9,13 +9,6 @@
             </keywords>
         </topicmeta>
     </keydef>
-    <keydef keys="menu">
-        <topicmeta>
-            <keywords>
-                <keyword>Bestand</keyword>
-            </keywords>
-        </topicmeta>
-    </keydef>
     <keydef keys="versionnr">
         <topicmeta>
             <keywords>
@@ -27,13 +20,6 @@
         <topicmeta>
             <keywords>
                 <keyword>8 november 2017</keyword>
-            </keywords>
-        </topicmeta>
-    </keydef>
-    <keydef keys="licensename">
-        <topicmeta>
-            <keywords>
-                <keyword>Softwijs Neede</keyword>
             </keywords>
         </topicmeta>
     </keydef>

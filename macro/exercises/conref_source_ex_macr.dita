@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conref_source_ex_macr" xml:lang="nl-NL">
+    <title>Reusable macro parts</title>
+    <body>
+        <p id="start">Kies <menucascade>
+            <uicontrol>tab Ontwikkelaars</uicontrol>
+            <uicontrol>Macro opnemen (groep Programmacode)</uicontrol>
+        </menucascade>. Geef de macro een naam en een beschrijving en klik
+            <uicontrol>OK</uicontrol>.</p>
+        <p id="stop">Kies <menucascade>
+            <uicontrol>tab Ontwikkelaars</uicontrol>
+            <uicontrol>Opname stoppen (groep Programmacode)</uicontrol>
+        </menucascade>.</p>
+    </body>
+</topic>

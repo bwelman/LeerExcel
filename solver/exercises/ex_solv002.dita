@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv002" xml:lang="nl-NL">
+  <title>Opgave: solv002 - Aantal supermarkten</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een supermarktketen wil voor maximaal 14 miljoen euro een aantal nieuwe vestigingen openen.
+        De keten heeft 4 soorten winkels, te weten van type A, B, C en D. De kosten voor het
+        opzetten van de vier typen winkels en de (verwachte) omzet in het volgend boekjaar zijn in
+        de volgende afbeelding te zien.</p>
+      <fig>
+                <image keyref="ex_solv002_data"/>
+            </fig>
+      <p>Alle nieuw te bouwen vestigingen kunnen voor het komende boekjaar gereed zijn. De eventuele
+        vestigingsplaatsen zijn qua bevolking vergelijkbaar. De directie wenst een zo groot
+        mogelijke omzet van de nieuwe vestigingen in het komende boekjaar. Bepaal met de oplosser
+        hoeveel winkels van welk type gebouwd dienen te worden en wat de te verwachten totale omzet
+        zal zijn.</p>
+      <ol>
+        <li>Wat zijn de beslissingsvariabelen?</li>
+        <li>Wat is de doelfunctie?</li>
+        <li>Welke restricties zijn er?</li>
+        <li>Bouw het model in Excel en gebruik de in dit studieboek aangegeven richtlijnen. Een
+                    voorbeeld zie je in de volgende figuur. In de lege cellen moeten nog formules
+                    komen. Alle beslissingsvariabelen hebben hierin als startwaarde 2 gekregen.<fig>
+                        <image keyref="ex_solv002_model"/>
+                    </fig></li>
+        <li>Voer het model in het dialoogvenster van de Oplosser in en bepaal daarna het optimale
+          aantal winkels van elke type.</li>
+      </ol>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <ol>
+        <li>Vier beslissingsvariabelen: Aantal winkels type A (= A), type B (= B), type C (= C) en
+          type D (= D).</li>
+        <li>Doelfunctie is de totale omzet (= O): <codeph>O = 24*A + 20*B + 11*C + 5*D</codeph></li>
+        <li>Restricties:
+          <ul>
+            <li>Maximale investering: <codeph>4*A + 3*B + 2*C + 1*D &lt;= 14</codeph></li>
+            <li>Elk aantal winkels is een geheel getal: <codeph>A = integer , B = integer , C =
+                integer , D = integer</codeph></li>
+            <li>Elk aantal winkels is een positief getal: <codeph>A >= 0 , B >= 0 , C >= 0 , D >=
+                0</codeph></li>
+          </ul>
+        </li>
+      </ol>
+      <p>Optimale aantal winkels type A = 0, aantal type B = 4, aantal type C = 1, aantal type D =
+        0. De totale omzet = 91 miljoen EUR.</p>
+    </section>
+  </body>
+</topic>

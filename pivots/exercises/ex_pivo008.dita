@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo008" xml:lang="nl-NL">
+    <title>Opgave: pivo008 - Eigen huis en gemiddelde waarde</title>
+    <shortdesc>Niveau: 3</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In de volgende tabel staat van een aantal personen aangegeven hoeveel jaren studie ze
+                na de basisschool gevolgd hebben, of ze al dan niet een eigen huis hebben en zoja
+                wat daarvan de waarde is.</p>
+            <fig>
+                <image keyref="ex_pivo008_data"/>
+            </fig>
+            <p>Plaats de gegevens in een werkblad en bepaal met behulp van een draaitabel het aantal
+                personen met een eigen huis en de gemiddelde waarde ervan als functie van het aantal
+                jaren studie.</p>
+            <note type="other" othertype="Bestand"><filepath>Pivo008.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <fig>
+                <image keyref="ex_pivo008_report"/>
+            </fig>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry>eigen huis</stentry>
+                    <stentry/>
+                    <stentry>studiejaren</stentry>
+                    <stentry>eigen huis waarde</stentry>
+                </strow>
+            </simpletable>
+            <p conkeyref="pivot/options"/>
+            <p>Wijzig type berekening in <uicontrol>Gemiddelde</uicontrol> en Getalnotatie in
+                    <uicontrol>Financieel met 0 decimalen</uicontrol>.</p>
+            <p>Kies <menucascade>
+                    <uicontrol>tab Ontwerpen</uicontrol>
+                    <uicontrol>Rapportindeling (groep Indeling)</uicontrol>
+                    <uicontrol>Overzichtsweergave</uicontrol>
+                </menucascade>.</p>
+        </section>
+    </body>
+</topic>

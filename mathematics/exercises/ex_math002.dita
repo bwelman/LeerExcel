@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_math002" xml:lang="nl-NL">
+  <title>Opgave: math002 - Kortste afstand bepalen</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-31-08"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords>
+        <indexterm>Wiskunde</indexterm>
+        <indexterm>Grafiek</indexterm>
+        <indexterm>Oplosser</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de figuur hierna staan de grafieken getekend van <codeph>y = x<sup>2</sup></codeph> en
+                    <codeph>y = x</codeph>. Ook is de kortste afstand tussen de twee grafieken
+                getekend. Dit lijnstuk loopt van een punt op de ene grafiek naar een punt op de
+                andere grafiek.</p>
+      <fig>
+                <image keyref="ex_math002_chart"/>
+            </fig>
+      <ol>
+        <li>Teken de twee grafieken.</li>
+        <li>Bepaal met de oplosser de punten op beide grafieken waarvoor de afstand de afstand
+          minimaal is.</li>
+        <li>Voeg aan de figuur het lijnstukje toe dat de kortste verbindingslijn weergeeft.</li>
+      </ol>
+    </section>
+    <section otherprops="answer"><title>Antwoord</title><image keyref="ex_math002_result"/></section>
+  </body>
+</topic>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_solv008" xml:lang="nl-NL">
+  <title>Opgave: solv008 - Transportkosten minimaliseren</title>
+  <shortdesc>Niveau: 3</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>Een bedrijf heeft winkels in 6 plaatsen (Amersfoort, Eindhoven, Enschede, Lelystad, Tiel,
+        Zwolle). De bevoorrading van de winkels gebeurt vanuit drie distributiecentra (DC) in
+        Coevorden, Venlo en Woerden. Wekelijks maken de winkels een afzetprognose voor de week erop
+        en geven het benodigde aantal produkten door aan het hoofdkantoor. Op het hoofdkantoor maakt
+        men aan de hand van de beschikbare voorraden in de DC’s een vervoersplanning om de winkels
+        van het benodigde aantal produkten te voorzien.</p>
+      <fig>
+                <image keyref="ex_solv008_model"/>
+            </fig>
+      <p>Toelichting:</p>
+      <ul>
+        <li>In de bovenste tabel staan de vervoerskosten in euro's per eenheid product van het DC
+          naar de winkel. Zo kost het vervoer van 1 product van het DC Coevorden naar de winkel in
+          Amersfoort € 100.</li>
+        <li> In de kolo <q>Aantal Nodig</q> staat het aantal producten dat de winkel moet ontvangen.
+          Zo moet Amersfoort 225 producten ontvangen. </li>
+        <li>In het gebied <q>Aantal vervoerd van</q> moet het aantal producten komen te staan dat
+          van het desbetreffende DC naar de winkel vervoerd wordt. De Oplosser moet deze aantallen
+          bepalen.</li>
+        <li>De rij <q>Beginvoorraad</q> bevat het aantal producten dat op dit moment in het DC in
+          voorraad is.</li>
+      </ul>
+      <p>Maak met behulp van de oplosser een zodanige vervoersplanning te maken dat de kosten
+        minimaal zijn.</p>
+      <note type="other" othertype="Bestand"><filepath>Solv008.xlsx</filepath></note>
+    </section>
+    <section otherprops="answer"><title>Antwoord</title><image keyref="ex_solv008_result"/></section>
+  </body>
+</topic>

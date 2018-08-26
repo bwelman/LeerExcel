@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_graf006" xml:lang="nl-NL">
+  <title>Opgave: graf006 - Telling vliegenzwammen</title>
+  <shortdesc>Niveau: 1</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In een bepaald gebied wordt jaarlijks het aantal vliegenzwammen geteld. In de volgende
+        afbeelding is het aantal vliegenzwammen per hectare voor een aantal jaren weergegeven.</p>
+      <fig>
+                <image keyref="ex_graf006_data"/>
+            </fig>
+      <p>Maak uit deze gegevens de volgende grafiek.</p>
+      <fig>
+                <image keyref="ex_graf006_chart"/>
+            </fig>
+      <note type="other" othertype="Bestand"><filepath>Graf006.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>Maak de grafiek als volgt:<ul>
+          <li>Begin met grafiektype <uicontrol>Radar</uicontrol>.</li>
+          <li>Layout aanpassingen: titel, legenda verwijderen, eventueel grootte aanpassen.</li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

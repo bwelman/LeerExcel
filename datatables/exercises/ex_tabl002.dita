@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_tabl002" xml:lang="nl-NL">
+  <title>Opgave: tabl002 - Verkoopprognose</title>
+  <shortdesc>Niveau: 2</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-31-08"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In een werkblad wordt een prognose van de verkoop in 2014 berekend op basis van de verkoop
+        in 2013 en een geschatte groei van de verkoop.</p>
+      <fig>
+                <title>Prognose verkoop</title>
+                <image keyref="ex_tabl002_data">
+                    <alt>Prognose verkoop</alt>
+                </image>
+                <ol>
+                    <li>Maak bovenstaand model in een nieuw werkblad en stel een formule voor de
+                        prognose van de verkoop in 2014.</li>
+                    <li>Maak via een gegevenstabel een overzicht van de verkoopprognose voor
+                        groeifactoren van 1%, 2%, ... 10%.</li>
+                </ol>
+            </fig>
+    </section>
+    <section otherprops="answer">
+      <title>Antwoord</title>
+      <fig>
+                <title>Gegevenstabel verkoopprognose</title>
+                <image keyref="ex_tabl002_result">
+                    <alt>Gegevenstabel verkoopprognose</alt>
+                </image>
+            </fig>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <ol>
+        <li>Formule in B3: <userinput>=B1*(1+B2)</userinput></li>
+        <li>In B5 staat een verwijzing naar deze formule: <userinput>=B3</userinput>.
+          Kolominvoercel: <userinput>B2</userinput></li>
+      </ol>
+    </section>
+  </body>
+</topic>

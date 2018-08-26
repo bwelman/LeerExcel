@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_pivo007" xml:lang="nl-NL">
+    <title>Opgave: pivo007 - Winkelsluiting</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>In opdracht van de winkeliersvereniging is een enquête uitgevoerd naar de
+                avondopenstelling van winkels. De resultaten van de geïnterviewde personen zijn in
+                de volgende tabel te zien.</p>
+            <fig>
+                <image keyref="ex_pivo007_data"/>
+            </fig>
+            <p>Plaats de gegevens in een werkblad en bepaal met behulp van een draaitabel het aantal
+                voor- en tegenstanders per leeftijdscategorie en deze weer uitgesplitst per
+                geslacht.</p>
+            <note type="other" othertype="Bestand"><filepath>Pivo007.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <fig>
+                <image keyref="ex_pivo007_report"/>
+            </fig>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="pivot/start" conrefend="pivot/end"/>
+            <simpletable>
+                <sthead>
+                    <stentry>Rapportfilter</stentry>
+                    <stentry>Kolomlabels</stentry>
+                    <stentry>Rijlabels</stentry>
+                    <stentry>Waarden</stentry>
+                </sthead>
+                <strow>
+                    <stentry/>
+                    <stentry>voor/tegen</stentry>
+                    <stentry>leeftijd geslacht</stentry>
+                    <stentry>voor/tegen</stentry>
+                </strow>
+            </simpletable>
+            <p>Selecteer een willekeurig getal in de draaitabel en kies dan <menucascade>
+                    <uicontrol>tab Ontwerpen</uicontrol>
+                    <uicontrol>Rapportindeling (groep Indeling)</uicontrol>
+                    <uicontrol>Tabelweergave</uicontrol>
+                </menucascade>.</p>
+        </section>
+    </body>
+</topic>

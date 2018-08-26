@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_macr001" xml:lang="nl-NL">
+    <title>Opgave: macr001 - Achtergrondkleur</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2017-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Neem een macro op die de actieve cel een grijze achtergrondkleur geeft.</p>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <p>Een mogelijke oplossing.</p>
+            <codeblock>Sub Achtergrond_Grijs()
+'
+' Lichtgrijze achtergrond voor cel
+'
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = -0.14996795556505
+        .PatternTintAndShade = 0
+    End With
+End Sub</codeblock>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p conkeyref="macro/start"/>
+            <p>Rechtermuisklik op een cel en kies <menucascade>
+                    <uicontrol>Celeigenschappen</uicontrol>
+                    <uicontrol>tab Opvulling</uicontrol>
+                    <uicontrol>selecteer grijze kleur</uicontrol>
+                    <uicontrol>OK</uicontrol>
+                </menucascade>.</p>
+            <p conkeyref="macro/stop"/>
+        </section>
+    </body>
+</topic>

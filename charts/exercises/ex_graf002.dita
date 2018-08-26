@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_graf002" xml:lang="nl-NL">
+  <title>Opgave: graf002 - Reizen</title>
+  <shortdesc>Niveau: 1</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2017-08-31"/>
+      <revised modified="2017-08-31"/>
+    </critdates>
+    <metadata>
+      <keywords/>
+    </metadata>
+  </prolog>
+  <body>
+    <section>
+      <p>In de volgende tabel staan de gegevens over de reisboekingen in de jaren 2008 t/m 2010.</p>
+      <p>
+        <fig>
+                    <image keyref="ex_graf002_data"/>
+                </fig>
+      </p>
+      <p>Zet de gegevens in een werkblad en gebruik formules voor de totalen. Maak daarna de
+                volgende grafiek.<fig>
+                    <image keyref="ex_graf002_chart"/>
+                </fig></p>
+      <note type="other" othertype="Bestand"><filepath>Graf002.xlsx</filepath></note>
+    </section>
+    <section otherprops="solution">
+      <title>Uitwerking</title>
+      <p>De totaalbedragen moeten berekend worden met de functie SOM.</p>
+      <p>Omdat de Excel de jaartallen als getallen interpreteert kun je het beste voor het maken
+        van de grafiek de jaartallen niet selecteren en als gegevensgebied alleen de gegevens van de
+        vijf reizen selecteren. Maak daarna de grafiek als volgt:</p>
+      <ul>
+        <li>grafiektype Gestapelde kolom</li>
+        <li>Kies <menucascade>
+            <uicontrol>tab Ontwerpen</uicontrol>
+            <uicontrol>Rijen/kolommen omdraaien (groep Gegevens)</uicontrol>
+          </menucascade></li>
+        <li>Kies <menucascade>
+            <uicontrol>tab Ontwerpen</uicontrol>
+            <uicontrol>Gegevens selecteren (groep Gegevens)</uicontrol>
+            <uicontrol>Horizontale aslabels bewerken</uicontrol>
+          </menucascade>. Neem voor het Aslabelbereik het gebied met de jaartallen.</li>
+        <li>Desgewenst kun je de kolommen wat breder maken door de tussenruimte te verkleinen via <menucascade>
+            <uicontrol>selecteer kolom</uicontrol>
+            <uicontrol>Rechter muisklik</uicontrol>
+            <uicontrol>Gegevensreeks opmaken</uicontrol>
+            <uicontrol>verklein tussenruimte</uicontrol>
+          </menucascade>.</li>
+      </ul>
+    </section>
+  </body>
+</topic>
