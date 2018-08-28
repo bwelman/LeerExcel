@@ -24,40 +24,27 @@
                     >http://www.softwijs.nl/</xref></p>
             <p>Email: <xref href="mailto:info@softwijs.nl" format="html" scope="external"
                     >info@softwijs.nl</xref></p>
-            <p>Alle uitgaven van Softwijs zijn leverbaar in de volgende formaten: PDF, EPUB, MOBI,
-                CHM en HTML.</p>
         </section>
         <section id="Edition">
             <title>Editie</title>
             <p>Editie <keyword keyref="versionnr"/>, <keyword keyref="versiondate"/></p>
-        </section>
-        <section id="Design">
-            <p>Vormgeving: softwijs.nl</p>
-            <p>Omslag ontwerp: Jeremy Taylor</p>
-            <p>Omslag illustratie: Baris Onal</p>
         </section>
         <section id="Copyright">
             <title>Copyright</title>
             <p>© 2017, Softwijs Neede</p>
             <p>Niets uit deze uitgave mag worden verveelvoudigd en/of openbaar gemaakt door middel
                 van druk, fotokopie, microfilm, elektronisch of op welke andere wijze ook zonder
-                voorafgaande schriftelijke toestemming van Softwijs.</p>
+                voorafgaande toestemming van Softwijs.</p>
         </section>
         <section id="DRM">
-            <title>Beveiliging - DRM - Watermerk - Versies</title>
-            <p>De digitale uitgaven van Softwijs zijn niet met DRM beveiligd. En om ze te kunnen
-                lezen of af te drukken is ook geen wachtwoord nodig. We willen namelijk graag onze
-                kwalitatief hoogwaardige cursusboeken op een zo eenvoudige wijze bij de klant
-                brengen.</p>
-            <p>Wel zijn de uitgaven van een watermerk voorzien. Elke digitale uitgave is
-                gepersonaliseerd door zichtbare en onzichtbare kenmerken die met de klant verbonden
-                zijn. Maar wees gerust, deze kenmerken bevatten geen persoonlijke informatie.</p>
+            <title>Beveiliging - DRM - Watermerk</title>
+            <p>De digitale uitgaven van Softwijs zijn niet met DRM beveiligd. En je hebt geen
+                wachtwoord nodig om ze te kunnen lezen of af te drukken. Wel zijn alle uitgaven
+                gepersonaliseerd met een watermerk welke de uitgave met de klant verbindt, maar geen
+                persoonlijke informatie bevat.</p>
             <p>Van een bestand mogen kopieën gemaakt worden voor persoonlijk gebruik. De bestanden
                 mogen niet aan andere personen gegeven worden en mogen ook niet op servers geplaatst
-                worden waar anderen de inhoud van het bestand kunnen lezen, behalve wanneer Softwijs
-                hiervoor toestemming heeft gegeven.</p>
-            <p>Wanneer nieuwe versies van een cursusboek uitkomen dan heeft de koper gratis recht op
-                een nieuwe versie die dezelfde samenstelling heeft.</p>
+                worden zonder toestemming van Softwijs.</p>
         </section>
     </body>
 </topic>
