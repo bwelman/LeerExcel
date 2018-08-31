@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="preface-online" xml:lang="nl-NL">
+    <title>Voorwoord</title>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2018-08-28"/>
+        </critdates>
+    </prolog>
+    <body>
+        <p>Welkom bij dit online studieboek van <ph keyref="productname"/> <ph keyref="productversion"/>.</p>
+        <p>Dit studieboek is bedoeld als een grondige kennismaking met <ph keyref="productname"/> en om genoeg informatie
+            te verstrekkenover de mogelijkheden van <ph keyref="productname"/> zodat lezers ze kunnen gebruiken.</p>
+        <p>Dit boek is geschreven voor:<ol>
+                <li>studenten in het middelbaar en hoger onderwijs</li>
+            <li>mensen in het bedrijfsleven die <ph keyref="productname"/> gebruiken</li>
+            </ol></p>
+        <p>het boek verschilt op meerdere manieren van andere <ph keyref="productname"/> studieboeken.</p>
+        <ul>
+            <li>Het is gratis en online, waardoor het voor een breed publiek toegankelijk is.</li>
+            <li>De online versie wordt regelmatig bijgewerkt. Je hoeft niet tot de volgende editie
+                te wachten tot fouten gecorrigeerd zijn of nieuwe onderwerpen (vooral voor
+                gegevensanalyse) zijn toegevoegd.</li>
+            <li>De onderdelen zijn ontwikkeld om te leren een bepaalde taak te kunnen uitvoeren en
+                te beheersen, niet meer en niet minder. Dat heeft geresulteerd in concrete
+                stapsgewijs opgebouwde taken zonder extra informatie die alleen maar voor afleiding
+                kan zorgen. Elke taak heeft een titel welke begint met het woord
+                    <wintitle>Taak:</wintitle> zodat het duidelijk is dat iets uitgevoerd moet
+                worden.</li>
+            <li>Aan het einde van de meeste hoofdstukken staat een serie Opgaven. De titel van een
+                opgave begint steeds met het woord <wintitle>Opgave:</wintitle> gevolgd door een
+                unieke code en een korte omschrijving. Wanneer de opgave een eindantwoord heeft dan
+                wordt deze vermeld.</li>
+            <li>De inhoud van de taken en opgaven is vooral bepaald door competenties die het hoger
+                onderwijs stelt. Veel van de opgaven zijn voortgekomen uit ervaringen van studenten
+                in de beroepspraktijk tijdens stages en afstuderen.</li>
+        </ul>
+        <p><b>Een digitale versie van het studieboek kan gekocht worden in PDF en EPUB formaat</b>.<ul>
+                <li>PDF: geschikt voor het lezen op een pc/laptop en voor het maken van een papieren
+                    afdruk. De inhoud is doorzoekbaar en er kan in- en uitgezoomd worden.</li>
+                <li>EPUB: geschikt voor het lezen op een pc/laptop, e-reader, ipad, tablet.
+                    Lettertype en -grootte kunnen aangepast worden (afhankelijk van het apparaat).
+                    De inhoud is doorzoekbaar.</li>
+            </ul></p>
+        <p>Informatie over hoe een digitale versie aangeschaft kan worden volgt spoedig.</p>
+    </body>
+</topic>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap id="Excel2016NL-online" xml:lang="nl-NL">
+    <booktitle>
+        <mainbooktitle>Excel 2016</mainbooktitle>
+        <booktitlealt>Een taakgericht studieboek</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <author>Ben Welman</author>
+        <authorinformation>
+            <organizationinfo>
+                <namedetails>
+                    <organizationnamedetails>
+                        <organizationname>Softwijs</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+                <emailaddresses>
+                    <emailaddress>info@softwijs.nl</emailaddress>
+                </emailaddresses>
+                <urls>
+                    <url>http://www.softwijs.nl</url>
+                </urls>
+            </organizationinfo>
+        </authorinformation>
+        <publisherinformation>
+            <organization>Softwijs</organization>
+        </publisherinformation>
+        <keywords>
+            <keyword>Excel</keyword>
+            <keyword>Studieboek</keyword>
+            <keyword>Handleiding</keyword>
+        </keywords>
+        <prodinfo>
+            <prodname>Excel 2016</prodname>
+        </prodinfo>
+        <bookrights>
+            <bookowner>
+                <organization>Softwijs Neede</organization>
+                <person>Ben Welman</person>
+            </bookowner>
+        </bookrights>
+        <data name="covergraphic" value="common/images/cover_excel.png"/>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+        <topicref href="common/keys_common.ditamap" format="ditamap" scope="local"
+            processing-role="resource-only"/>
+        <topicref href="common/preface-online.dita" type="topic" format="dita" scope="local"/>
+    </frontmatter>
+    <part href="part_excel.dita">
+        <chapter href="intro/map_intro.ditamap" format="ditamap" scope="local"/>
+        <chapter href="worksheets/map_worksheet.ditamap" format="ditamap" scope="local"/>
+        <chapter href="data/map_data.ditamap" format="ditamap" scope="local"/>
+        <chapter href="formatting/map_formatting.ditamap" format="ditamap" scope="local"/>
+        <chapter href="calculations/map_calculation.ditamap" format="ditamap" scope="local"/>
+        <chapter href="functions/map_function.ditamap" format="ditamap" scope="local"/>
+        <chapter href="arrays/map_array.ditamap" format="ditamap" scope="local"/>
+        <chapter href="tables/map_table.ditamap" format="ditamap" scope="local"/>
+        <chapter href="charts/map_chart.ditamap" format="ditamap" scope="local"/>
+        <chapter href="charttypes/map_charttype.ditamap" format="ditamap" scope="local"/>
+        <chapter href="scenarios/map_scenario.ditamap" format="ditamap" scope="local"/>
+        <chapter href="datatables/map_datatable.ditamap" format="ditamap" scope="local"/>
+        <chapter href="pivots/map_pivot.ditamap" format="ditamap" scope="local"/>
+        <chapter href="goalseek/map_goalseek.ditamap" format="ditamap" scope="local"/>
+        <chapter href="solver/map_solver.ditamap" format="ditamap" scope="local"/>
+        <chapter href="macro/map_macro.ditamap" format="ditamap" scope="local"/>
+        <chapter href="measurements/map_measurement.ditamap" format="ditamap" scope="local"/>
+    </part>
+    <part href="part_analysis.dita">
+        <chapter href="import/map_import.ditamap" format="ditamap" scope="local"/>
+        <chapter href="forecasts/map_forecasts.ditamap" format="ditamap" scope="local"/>
+    </part>
+    <backmatter>
+        <booklists/>
+        <colophon href="common/colofon.dita" format="dita" scope="local"/>
+    </backmatter>
+</bookmap>

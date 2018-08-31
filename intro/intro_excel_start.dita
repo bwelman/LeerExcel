@@ -19,7 +19,7 @@
         <context>
             <p>De mogelijkheden om Excel op te starten hangen af van de manier waarop het systeem
                 geïnstalleerd is. Deze cursus gaat uit van een standaard installatie van Microsoft
-                Office <ph keyref="officeversion"/> NL op een systeem met Windows 10. Op bijna alle
+                Office <ph keyref="productversion"/> NL op een systeem met Windows 10. Op bijna alle
                 computers kan Excel via de startknop van Windows gestart worden en deze methode
                 wordt hierna beschreven.</p>
             <note type="tip">De handigste manier om Excel te starten is via een snelkoppeling op het

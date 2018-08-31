@@ -2,7 +2,14 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/map.dtd">
 <map id="keys_common" xml:lang="nl-NL">
     <title>Keys Common</title>
-    <keydef keys="officeversion">
+    <keydef keys="productname">
+        <topicmeta>
+            <keywords>
+                <keyword>Excel</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="productversion">
         <topicmeta>
             <keywords>
                 <keyword>2016</keyword>
