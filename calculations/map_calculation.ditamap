@@ -30,12 +30,10 @@
         <topicref href="calculation_example_insurance.dita" scope="local" type="task"/>
         <topicref href="calculation_example_prices.dita" scope="local" type="task"/>
         <topicref href="calculation_boolean.dita" scope="local" type="concept"/>
-        <topichead navtitle="Names">
-            <topicref href="calculation_names_cells.dita" scope="local" type="concept"/>
-            <topicref href="calculation_names_create.dita" scope="local" type="task"/>
-            <topicref href="calculation_names_using.dita" scope="local" type="task"/>
-            <topicref href="calculation_names_manager.dita" scope="local" type="task"/>
-            <topicref href="calculation_names_list.dita" scope="local" type="task"/>
-        </topichead>
+        <topicref href="calculation_names_cells.dita" scope="local" type="concept"/>
+        <topicref href="calculation_names_create.dita" scope="local" type="task"/>
+        <topicref href="calculation_names_using.dita" scope="local" type="task"/>
+        <topicref href="calculation_names_manager.dita" scope="local" type="task"/>
+        <topicref href="calculation_names_list.dita" scope="local" type="task"/>
     </topicref>
 </map>

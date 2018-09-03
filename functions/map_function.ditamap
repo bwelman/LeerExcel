@@ -26,13 +26,11 @@
         <topicref href="function_over.dita" scope="local" type="concept"/>
         <topicref href="function_autosum.dita" scope="local" type="task"/>
         <topicref href="function_enter.dita" scope="local" type="concept"/>
-        <topichead navtitle="Basisfuncties">
-            <topicref href="function_math.dita" scope="local" type="task"/>
-            <topicref href="function_statistical.dita" scope="local" type="task"/>
-            <topicref href="function_datetime.dita" scope="local" type="task"/>
-            <topicref href="function_logical.dita" scope="local" type="task"/>
-            <topicref href="function_text.dita" scope="local" type="task"/>
-        </topichead>
+        <topicref href="function_math.dita" scope="local" type="task"/>
+        <topicref href="function_statistical.dita" scope="local" type="task"/>
+        <topicref href="function_datetime.dita" scope="local" type="task"/>
+        <topicref href="function_logical.dita" scope="local" type="task"/>
+        <topicref href="function_text.dita" scope="local" type="task"/>
         <topicref href="function_nesting.dita" scope="local" type="task"/>
         <topicref href="function_countif.dita" scope="local" type="task"/>
         <topicref href="function_sumif.dita" scope="local" type="task"/>

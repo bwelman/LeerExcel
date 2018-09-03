@@ -23,24 +23,22 @@
     <!-- Content -->
     <topicref href="charttype.dita" scope="local" type="concept">
         <topicref href="charttype_over.dita" scope="local" type="concept"/>
-        <topicref href="charttype_base.dita" scope="local" type="concept">
-            <topicref href="charttype_column.dita" scope="local" type="task"/>
-            <topicref href="charttype_bar.dita" scope="local" type="task"/>
-            <topicref href="charttype_pie.dita" scope="local" type="task"/>
-            <topicref href="charttype_line.dita" scope="local" type="task"/>
-            <topicref href="charttype_scatter.dita" scope="local" type="task"/>
-            <topicref href="charttype_line_scatter.dita" scope="local" type="concept"/>
-            <topicref href="charttype_doughnut.dita" scope="local" type="task"/>
-            <topicref href="charttype_area.dita" scope="local" type="task"/>
-            <topicref href="charttype_bubble.dita" scope="local" type="task"/>
-            <topicref href="charttype_radar.dita" scope="local" type="task"/>
-        </topicref>
+        <topicref href="charttype_column.dita" scope="local" type="task"/>
+        <topicref href="charttype_bar.dita" scope="local" type="task"/>
+        <topicref href="charttype_pie.dita" scope="local" type="task"/>
+        <topicref href="charttype_line.dita" scope="local" type="task"/>
+        <topicref href="charttype_scatter.dita" scope="local" type="task"/>
+        <topicref href="charttype_line_scatter.dita" scope="local" type="concept"/>
+        <topicref href="charttype_doughnut.dita" scope="local" type="task"/>
+        <topicref href="charttype_area.dita" scope="local" type="task"/>
+        <topicref href="charttype_bubble.dita" scope="local" type="task"/>
+        <topicref href="charttype_radar.dita" scope="local" type="task"/>
         <topicref href="charttype_translations.dita" scope="local" type="reference"/>
     </topicref>
     <reltable>
         <title>Links</title>
         <relheader>
-            <relcolspec type="topic"  linking="sourceonly"/>
+            <relcolspec type="topic" linking="sourceonly"/>
             <relcolspec type="concept" linking="targetonly"/>
             <relcolspec type="task" linking="targetonly"/>
             <relcolspec type="reference" linking="targetonly"/>
@@ -51,7 +49,7 @@
                 <topicref href="charttype.dita" type="concept"/>
             </relcell>
             <relcell/>
-            <relcell/>   
+            <relcell/>
             <relcell/>
             <relcell>
                 <topicref href="https://www.softwijs.nl/" scope="external" format="html">

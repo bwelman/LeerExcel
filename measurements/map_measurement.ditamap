@@ -23,10 +23,9 @@
     <!-- Content -->
     <topicref href="meas.dita" scope="local" type="concept" audience="level2">
         <topicref href="meas_over.dita" scope="local" type="concept"/>
-        <topicref href="meas_linear.dita" scope="local" type="concept">
-            <topicref href="meas_trendline_linear.dita" scope="local" type="task"/>
-            <topicref href="meas_trendline_functions.dita" scope="local" type="task"/>
-        </topicref>
+        <topicref href="meas_linear.dita" scope="local" type="concept"/>
+        <topicref href="meas_trendline_linear.dita" scope="local" type="task"/>
+        <topicref href="meas_trendline_functions.dita" scope="local" type="task"/>
         <mapref href="exercises/map_ex_meas.ditamap" format="ditamap"/>
     </topicref>
 </map>
