@@ -8,32 +8,34 @@
             <revised modified="2018-08-28"/>
         </critdates>
     </prolog>
-    <body>
-        <p>De studieboeken van Softwijs onderscheiden zich van andere studieboeken door inhoud,
-            samenstelling en uitleverformaat. De onderdelen zijn ontwikkeld vanuit de gedachte dat
-            de cursist een bepaalde taak moet leren uitvoeren, een bepaalde competentie moet
-            beheersen, niet meer en niet minder. Dat heeft geresulteerd in concrete stapsgewijs
-            opgebouwde taken zonder extra informatie die alleen maar voor afleiding kan zorgen. Elke
-            taak heeft een titel welke begint met het woord <wintitle>Taak:</wintitle> zodat het
-            duidelijk is dat iets uitgevoerd moet worden.</p>
-        <p>Aan het einde van de meeste hoofdstukken staat een serie Opgaven. De titel van een opgave
-            begint steeds met het woord <wintitle>Opgave:</wintitle> gevolgd door een unieke code en
-            een korte omschrijving. Wanneer de opgave een eindantwoord heeft dan wordt deze
-            vermeld.</p>
-        <p>De inhoud van de taken en opgaven is vooral bepaald door competenties die het hoger
-            onderwijs stelt. Veel van de opgaven zijn voortgekomen uit ervaringen van studenten in
-            de beroepspraktijk tijdens stages en afstuderen.</p>
-        <p>De online versie van de studieboeken zijn gratis en worden regelmatig bijgewerkt. Je
-            hoeft niet tot de volgende editie te wachten tot fouten gecorrigeerd zijn of nieuwe
-            onderwerpen zijn toegevoegd.</p>
-        <p>PDF en EPUB versies van de studieboeken kunnen gekocht worden.
-            <ul>
-                <li>PDF: geschikt voor het lezen op een pc/laptop en voor het maken van een papieren
-                    afdruk. De inhoud is doorzoekbaar en er kan in- en uitgezoomd worden.</li>
-                <li>EPUB: geschikt voor het lezen op een pc/laptop, e-reader, ipad, tablet.
-                    Lettertype en -grootte kunnen aangepast worden (afhankelijk van het apparaat).
-                    De inhoud is doorzoekbaar.</li>
-            </ul>
-        </p>
+    <body><p>Welkom bij dit studieboek van <ph keyref="productname"/>
+            <ph keyref="productversion"/>.</p>
+        <p>Dit studieboek is bedoeld als een grondige kennismaking met <ph keyref="productname"/> en
+            om genoeg informatie te verstrekken over de mogelijkheden van <ph keyref="productname"/>
+            zodat lezers ze kunnen gebruiken.</p>
+        <p>Dit boek is geschreven voor<ol>
+                <li>studenten in het middelbaar en hoger onderwijs.</li>
+                <li>mensen in het bedrijfsleven die <ph keyref="productname"/> gebruiken.</li>
+            </ol></p>
+        <p>Het boek verschilt op meerdere manieren van andere <ph keyref="productname"/>
+            studieboeken.</p>
+        <ul>
+            <li>De onderdelen zijn ontwikkeld om te leren een bepaalde taak te kunnen uitvoeren en
+                te beheersen, niet meer en niet minder. Dat heeft geresulteerd in concrete
+                stapsgewijs opgebouwde taken zonder extra informatie die alleen maar voor afleiding
+                kan zorgen. Elke taak heeft een titel welke begint met het woord
+                <wintitle>Taak:</wintitle> zodat het duidelijk is dat iets uitgevoerd moet
+                worden.</li>
+            <li>Aan het einde van de meeste hoofdstukken staat een serie Opgaven. De titel van een
+                opgave begint steeds met het woord <wintitle>Opgave:</wintitle> gevolgd door een
+                unieke code en een korte omschrijving. Wanneer de opgave een eindantwoord heeft dan
+                wordt deze vermeld.</li>
+            <li>De inhoud van de taken en opgaven is vooral bepaald door competenties die het hoger
+                onderwijs stelt. Veel van de opgaven zijn voortgekomen uit ervaringen van studenten
+                in de beroepspraktijk tijdens stages en afstuderen.</li>
+        </ul>
+        <note type="important">Bij dit studieboek horen hulpbestanden die je nodig hebt bij het
+            maken van de taken en de opgaven. Download deze via <xref keyref="practicefiles"
+                >hulpbestanden</xref>.</note>
     </body>
 </topic>

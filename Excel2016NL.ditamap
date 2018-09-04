@@ -7,24 +7,6 @@
     </booktitle>
     <bookmeta>
         <author>Ben Welman</author>
-        <authorinformation>
-            <organizationinfo>
-                <namedetails>
-                    <organizationnamedetails>
-                        <organizationname>Softwijs</organizationname>
-                    </organizationnamedetails>
-                </namedetails>
-                <emailaddresses>
-                    <emailaddress>info@softwijs.nl</emailaddress>
-                </emailaddresses>
-                <urls>
-                    <url>http://www.softwijs.nl</url>
-                </urls>
-            </organizationinfo>
-        </authorinformation>
-        <publisherinformation>
-            <organization>Softwijs</organization>
-        </publisherinformation>
         <keywords>
             <keyword>Excel</keyword>
             <keyword>Studieboek</keyword>
@@ -39,7 +21,7 @@
                 <person>Ben Welman</person>
             </bookowner>
         </bookrights>
-        <data name="covergraphic" value="common/images/cover_excel.png"/>
+        <data name="covergraphic" value="common/images/cover_excel_nl.png"/>
     </bookmeta>
     <frontmatter>
         <booklists>

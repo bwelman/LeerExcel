@@ -12,13 +12,13 @@
         <p>Welkom bij dit online studieboek van <ph keyref="productname"/>
             <ph keyref="productversion"/>.</p>
         <p>Dit studieboek is bedoeld als een grondige kennismaking met <ph keyref="productname"/> en
-            om genoeg informatie te verstrekkenover de mogelijkheden van <ph keyref="productname"/>
+            om genoeg informatie te verstrekken over de mogelijkheden van <ph keyref="productname"/>
             zodat lezers ze kunnen gebruiken.</p>
-        <p>Dit boek is geschreven voor:<ol>
+        <p>Dit boek is geschreven voor<ol>
                 <li>studenten in het middelbaar en hoger onderwijs</li>
                 <li>mensen in het bedrijfsleven die <ph keyref="productname"/> gebruiken</li>
             </ol></p>
-        <p>het boek verschilt op meerdere manieren van andere <ph keyref="productname"/>
+        <p>Het boek verschilt op meerdere manieren van andere <ph keyref="productname"/>
             studieboeken.</p>
         <ul>
             <li>Het is gratis en online, waardoor het voor een breed publiek toegankelijk is.</li>
@@ -49,6 +49,6 @@
                     Lettertype en -grootte kunnen aangepast worden (afhankelijk van het apparaat).
                     De inhoud is doorzoekbaar.</li>
             </ul></p>
-        <p>Voor het aanschaffen van een PDF en EPUB klik op: <xref keyref="buylink"><image keyref="cover" scale="10"/></xref>.</p>
+        <p>Voor het aanschaffen van een PDF en EPUB klik op: <xref keyref="buylink"><image keyref="cover" scale="5"/></xref>.</p>
     </body>
 </topic>

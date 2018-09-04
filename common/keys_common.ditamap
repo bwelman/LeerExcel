@@ -19,19 +19,19 @@
     <keydef keys="versionnr">
         <topicmeta>
             <keywords>
-                <keyword>1.3</keyword>
+                <keyword>1.31</keyword>
             </keywords>
         </topicmeta>
     </keydef>
     <keydef keys="versiondate">
         <topicmeta>
             <keywords>
-                <keyword>28 augustus 2018</keyword>
+                <keyword>3 september 2018</keyword>
             </keywords>
         </topicmeta>
     </keydef>
-    <keydef keys="buylink" href="https://gumroad.com/l/XSaPi" scope="external" format="html"/>
-    <keydef keys="cover" href="images/cover_excel.png" scope="local" format="png"/>
+    <keydef keys="buylink" href="https://gum.co/XSaPi" scope="external" format="html"/>
+    <keydef keys="cover" href="images/cover_excel_nl.png" scope="local" format="png"/>
     <keydef keys="practicefiles" href="http://www.leerexcel.softwijs.nl/_download/Excel2016NL_hulpbestanden.zip" scope="external" format="html"/>
     <keydef keys="button_chart_elements" href="images/button_chart_elements.png" format="png"/>
     <keydef keys="button_chart_filters" href="images/button_chart_filters.png" format="png"/>

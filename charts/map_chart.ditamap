@@ -25,20 +25,19 @@
         <topicref href="chart_over.dita" scope="local" type="concept"/>
         <topicref href="chart_elements.dita" scope="local" type="concept"/>
         <topicref href="chart_create.dita" scope="local" type="task"/>
-        <topicref href="chart_operations.dita" scope="local" type="concept">
-            <topicref href="chart_switch_dataranges.dita" scope="local" type="task"/>
-            <topicref href="chart_move.dita" scope="local" type="task"/>
-            <topicref href="chart_dimensions.dita" scope="local" type="task"/>
-            <topicref href="chart_title.dita" scope="local" type="task"/>
-            <topicref href="chart_legend.dita" scope="local" type="task"/>
-            <topicref href="chart_axis_titles.dita" scope="local" type="task"/>
-            <topicref href="chart_data_labels.dita" scope="local" type="task"/>
-            <topicref href="chart_gridlines.dita" scope="local" type="task"/>
-            <topicref href="chart_plotarea.dita" scope="local" type="task"/>
-            <topicref href="chart_data_source.dita" scope="local" type="task"/>
-            <topicref href="chart_type_change.dita" scope="local" type="task"/>
-            <topicref href="chart_case.dita" scope="local" type="concept"/>
-        </topicref>
+        <topicref href="chart_operations.dita" scope="local" type="concept"/>
+        <topicref href="chart_switch_dataranges.dita" scope="local" type="task"/>
+        <topicref href="chart_move.dita" scope="local" type="task"/>
+        <topicref href="chart_dimensions.dita" scope="local" type="task"/>
+        <topicref href="chart_title.dita" scope="local" type="task"/>
+        <topicref href="chart_legend.dita" scope="local" type="task"/>
+        <topicref href="chart_axis_titles.dita" scope="local" type="task"/>
+        <topicref href="chart_data_labels.dita" scope="local" type="task"/>
+        <topicref href="chart_gridlines.dita" scope="local" type="task"/>
+        <topicref href="chart_plotarea.dita" scope="local" type="task"/>
+        <topicref href="chart_data_source.dita" scope="local" type="task"/>
+        <topicref href="chart_type_change.dita" scope="local" type="task"/>
+        <topicref href="chart_case.dita" scope="local" type="concept"/>
         <mapref href="exercises/map_ex_graf.ditamap" format="ditamap"/>
     </topicref>
 </map>
