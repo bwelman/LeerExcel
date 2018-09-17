@@ -47,20 +47,5 @@
          </relcell>
          <relcell/>
      </relrow>
-     <relrow>
-         <relcell>
-             <topicref href="function_over.dita" type="concept"/>
-         </relcell>
-         <relcell/>
-         <relcell/>
-         <relcell/>
-   <relcell>
-    <topicref href="http://nl.wikipedia.org/wiki/Lijst_van_Excel-functies" scope="external" format="html">
-     <topicmeta>
-      <linktext>Wikipedia: Excel functies met hun Nederlandstalige en Engelstalige namen</linktext>
-     </topicmeta>
-    </topicref>
-   </relcell>
-  </relrow>
  </reltable>
 </map>

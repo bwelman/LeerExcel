@@ -68,14 +68,14 @@
     </conbody>
     <related-links>
         <link
-            href="http://www.cbs.nl/nl-NL/menu/themas/dossiers/conjunctuur/publicaties/conjunctuurbericht/inhoud/"
+            href="https://www.cbs.nl/nl-nl/dossier/dossier-conjunctuur"
             format="html" scope="external">
-            <linktext>CBS conjunctuurbericht</linktext>
+            <linktext>CBS Dossier Conjunctuur</linktext>
         </link>
         <link
-            href="http://www.cbs.nl/nl-NL/menu/informatie/onderwijs/gereedschappen/economie/links/2010-klok.htm"
+            href="https://www.cbs.nl/nl-nl/visualisaties/conjunctuurklok"
             format="html" scope="external">
-            <linktext>CBS conjunctuurklok</linktext>
+            <linktext>CBS Conjunctuurklok</linktext>
         </link>
     </related-links>
 </concept>
