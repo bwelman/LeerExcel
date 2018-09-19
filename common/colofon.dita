@@ -15,29 +15,20 @@
         </metadata>
     </prolog>
     <body>
-        <section id="Publisher">
-            <title>Dit is een uitgave van</title>
-            <p>Softwijs</p>
-            <p>Julianastraat 17</p>
-            <p>7161 CP Neede</p>
-            <p>Website: <xref href="http://www.softwijs.nl/" format="html" scope="external"
-                    >http://www.softwijs.nl/</xref></p>
-            <p>Email: <xref href="mailto:info@softwijs.nl" format="html" scope="external"
-                    >info@softwijs.nl</xref></p>
-        </section>
-        <section id="Edition">
-            <title>Editie</title>
+        <bodydiv id="Edition">
             <p>Editie <keyword keyref="versionnr"/>, <keyword keyref="versiondate"/></p>
-        </section>
-        <section id="Copyright">
-            <title>Copyright</title>
-            <p>© 2017, Softwijs Neede</p>
-            <p>Niets uit deze uitgave mag worden verveelvoudigd en/of openbaar gemaakt door middel
-                van druk, fotokopie, microfilm, elektronisch of op welke andere wijze ook zonder
-                voorafgaande toestemming van Softwijs.</p>
-        </section>
-        <section id="DRM">
-            <title>Beveiliging - DRM - Watermerk</title>
+        </bodydiv>
+        <bodydiv id="Publisher">
+            <p>Dit is een uitgave van Softwijs Neede : <xref href="http://www.softwijs.nl/"
+                    format="html" scope="external">Website</xref> , <xref
+                    href="mailto:softwijsinfo@gmail.com" format="html" scope="external">Email</xref></p>
+        </bodydiv>
+        <bodydiv id="Copyright">
+            <p>Copyright © 2017, Softwijs Neede. Niets uit deze uitgave mag worden verveelvoudigd
+                en/of openbaar gemaakt door middel van druk, fotokopie, microfilm, elektronisch of
+                op welke andere wijze ook zonder voorafgaande toestemming van Softwijs.</p>
+        </bodydiv>
+        <bodydiv id="DRM">
             <p>De digitale uitgaven van Softwijs zijn niet met DRM beveiligd. En je hebt geen
                 wachtwoord nodig om ze te kunnen lezen of af te drukken. Wel zijn alle uitgaven
                 gepersonaliseerd met een watermerk welke de uitgave met de klant verbindt, maar geen
@@ -45,6 +36,6 @@
             <p>Van een bestand mogen kopieën gemaakt worden voor persoonlijk gebruik. De bestanden
                 mogen niet aan andere personen gegeven worden en mogen ook niet op servers geplaatst
                 worden zonder toestemming van Softwijs.</p>
-        </section>
+        </bodydiv>
     </body>
 </topic>
