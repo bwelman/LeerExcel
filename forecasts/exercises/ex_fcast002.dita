@@ -18,14 +18,19 @@
       <p>In dit bestand staan de omzetten van een bedrijf over de jaren 2007-2015.</p>
       <ol>
         <li>Maak een grafiek van de omzet tegen het jaar.</li>
-        <li>Voeg achtereenvolgens de volgende trendlijnen toe; lineair, logaritmisch em
-                    exponentieel.Verzamel voor elk van deze trendlijnen de R-kwadraat waarde. Maak
-                    een keuze voor de meest geschikte trendlijn.</li>
+        <li>Voeg achtereenvolgens de volgende trendlijnen toe; lineair, logaritmisch en
+                    exponentieel.Verzamel voor elk van deze trendlijnen de waarde van R-kwadraat.
+                    Maak op basis hiervan een keuze voor het meest geschikte model.</li>
         <li>Maak via de opties voor de trendlijn een voorspelling van de omzet voor 2016 en lees de
           waarde in de grafiek af.</li>
-        <li>Bereken een wat nauwkeuriger voorspelling met een werkbladformule.</li>
-        <li>Experimenteer met de opties voor de trendlijn om uit te zoeken wanneer een omzet van
-          €25.000.000 te verwachten is.</li>
+                <li>Experimenteer met de opties voor de trendlijn om uit te zoeken wanneer een omzet
+                    van €25.000.000 te verwachten is.</li>
+        <li>Bereken een voorspelling van de omzet voor 2016 met een werkbladformule. Welke formule
+                    je hiervoor kunt gebruiken hangt af van het gekozen model. Zie hiervoor
+                    onderdeel <xref href="../forecasts_excel.dita"/>.</li>
+                <li>Maak m.b.v. het Voorspellingenblad een prognose voor de omzet van 2016, alsmede
+                    een 95% betrouwbaarheidsinterval hiervoor.</li>
+                <li>Vergelijk de drie voorspelde waarden met elkaar.</li>
       </ol>
     </section>
     <section otherprops="solution">
@@ -55,11 +60,16 @@
           <alt>Grafiek met exponentiele trendlijn</alt>
         </image>
       </fig>
-      <p>Voorspelling voor 2016, afgelezen uit de grafiek: ca. € 20.000.000</p>
-      <p>Omdat de beste trend een exponentiele is kan de functie GROEI gebruikt worden.
-          <codeph>=GROEI(B2:B10;A2:A10;A11)</codeph> levert op €20.600.000.</p>
-      <p>In trendlijn opties moet het aantal punten vooruit op 3 gezet worden om boven de 25.000.000
-        uit te komen. Dit zal dus ergens in 2018 plaatsvinden.</p>
+      <p>Voorspelling voor 2016, afgelezen uit de grafiek: ca. € 20.000.000.</p>
+            <p>In trendlijn opties moet het aantal punten vooruit op 3 gezet worden om boven de
+                25.000.000 uit te komen. Dit zal dus ergens in 2018 plaatsvinden.</p>
+      <p>Op basis van de R<sup>2</sup> waarde is een exponentieel model de beste keuze. De hierbij
+                passende werkbladfunctie is de functie GROEI:
+                    <codeph>=GROEI(B2:B10;A2:A10;A11)</codeph> welke als antwoord €20.600.000
+                oplevert.</p>
+            <p>Het Voorspellingenblad geeft als (afgeronde) prognose €19.328.670 en een 95%
+                betrouwbaarheidsinterval van [17.870.240, 20.787.100].</p>
+            <p>Alle voorspelde waarden vallen in het 95% betrouwbaarheidsinterval.</p>
     </section>
   </body>
 </topic>
