@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="tidydata" xml:lang="nl-NL">
+    <title>Gestructureerde gegevens</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2018-10-09"/>
+            <revised modified="2018-10-09"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Wanneer je gegevens uit externe bronnen importeert heb je geen controle over de indeling
+            en het type gegevens en de manier waarop deze is georganiseerd. Voordat je de gegevens
+            kunt analyseren, moet je vaak veel tijd besteden aan het opschonen en structureren van
+            de gegevens.</p>
+        <p>Veel gegevensbestanden zijn vervuild, gegevens ontbreken of de gegevens zijn niet goed
+            gestructureerd. Excel heeft enkele functies om je daarbij te helpen. Maar helaas kan
+            Excel jouw handelingen niet vastleggen. Daarom is het belangrijk om te documenteren wat
+            je hebt gedaan met de oorspronkelijke gegevens om deze geschikt te maken voor analyse.
+            Acties die je met de Power Query-Editor uitvoert worden wel in een script vastgelegd.
+            Probeer daarom zoveel mogelijk de Power-Query-Editor te gebruiken.</p>
+        <p>In dit hoofdstuk komen een aantal taken aan bod om gestructureerde gegevens geschikt te
+            maken.</p>
+        <p>Dit hoofdstuk is nog in ontwikkeling!</p>
+    </conbody>
+</concept>

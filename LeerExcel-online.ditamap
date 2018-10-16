@@ -52,6 +52,7 @@
     <part href="part_analysis.dita">
         <chapter href="import/map_import.ditamap" format="ditamap" scope="local"/>
         <chapter href="forecasts/map_forecasts.ditamap" format="ditamap" scope="local"/>
+        <chapter href="tidydata/map_tidydata.ditamap" format="ditamap" scope="local"/>
     </part>
     <backmatter>
         <booklists/>

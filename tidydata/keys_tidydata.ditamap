@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Keys onderdeel Tidy Data</title>
+    <keydef keys="benelux_pivot_chart" href="images/benelux_pivot_chart.png" format="png"/>
+    <keydef keys="benelux_query_column_names" href="images/benelux_query_column_names.png" format="png"/>
+    <keydef keys="benelux_query_columns" href="images/benelux_query_columns.png" format="png"/>
+    <keydef keys="benelux_query_unpivot" href="images/benelux_query_unpivot.png" format="png"/>
+    <keydef keys="benelux_table_create" href="images/benelux_table_create.png" format="png"/>
+    <keydef keys="benelux_unpivoted" href="images/benelux_unpivoted.png" format="png"/>
+    <keydef keys="button_unpivot" href="images/button_unpivot.png" format="png"/>
+</map>
