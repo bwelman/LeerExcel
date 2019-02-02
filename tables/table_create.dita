@@ -31,7 +31,7 @@
                     <p>Het dialoogvenster <wintitle>Tabel maken</wintitle> verschijnt. Hierin is het
                         adres van het om te zetten bereik al ingevuld.</p>
                     <fig>
-                        <title>Table maken</title>
+                        <title>Tabel maken</title>
                         <image keyref="candybox_table_create"/>
                     </fig>
                     <note type="important">Wanneer het bereik labels bevat die je als kopteksten
@@ -43,28 +43,34 @@
             </step>
             <step>
                 <cmd>Klik <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Tabel maken</title>
+                        <image keyref="candybox_table"/>
+                    </fig>
+                    <p>Het bereik is nu omgezet naar een tabel:<ul>
+                        <li>Een tabelopmaak (stijl) is toegepast.</li>
+                        <li>Filter/Sorteer-knoppen in elke kolomkop.</li>
+                        <li>De tab <uicontrol>Ontwerpen (Hulpmiddelen voor tabellen)</uicontrol> is
+                                verschenen en hierin is te zien dat de tabel een standaardnaam
+                                gekregen heeft, zoals Tabel1.</li>
+                    </ul></p>
+                    <fig>
+                        <title>Ontwerp lint</title>
+                        <image keyref="ribbon_table_design">
+                            <alt>Ontwerp lint</alt>
+                        </image>
+                        <note type="notice">Afhankelijk van de breedte van het scherm kan het ook zijn dat
+                            je een aantal stijlen ziet in plaats van de knop Snelle Stijlen (groep
+                            Tabelstijlen)</note>
+                    </fig>
+                    <note type="tip">
+                        <p>Het is verstandig om de standaardnaam te wijzigen in een zinvolle naam
+                            zodat je later gemakkelijker met de tabel kunt werken. Dit doe je door
+                            de naam te selecteren en dan de nieuwe naam in te typen.</p>
+                    </note>
+                </stepresult>
             </step>
         </steps>
-        <result>
-            <fig>
-                <title>Table maken</title>
-                <image keyref="candybox_table"/>
-            </fig>
-            <p>Het bereik is nu omgezet naar een tabel:<ul>
-                    <li>Een tabelopmaak (stijl) is toegepast.</li>
-                    <li>Filter/Sorteer-knoppen in elke kolomkop.</li>
-                    <li>De tab <uicontrol>Ontwerpen (Hulpmiddelen voor tabellen)</uicontrol> is
-                        verschenen.</li>
-                </ul></p>
-            <fig>
-                <title>Ontwerp lint</title>
-                <image keyref="ribbon_table_design">
-                    <alt>Ontwerp lint</alt>
-                </image>
-                <note type="notice">Afhankelijk van de breedte van het scherm kan het ook zijn dat
-                    je een aantal stijlen ziet in plaats van de knop Snelle Stijlen (groep
-                    Tabelstijlen)</note>
-            </fig>
-        </result>
     </taskbody>
 </task>

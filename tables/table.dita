@@ -18,9 +18,10 @@
             kan Excel voor eenvoudige databases goed gebruikt worden. Dit zijn databases die uit één
             tabel bestaan zoals adressenlijsten, telefoonlijsten e.d. De naam database wordt meestal
             voor externe bestanden gebruikt die bij databaseprogramma's behoren. Een tabel met
-            gegevens in een Excel werkblad werd in oudere Excel versies een lijst genoemd. Het
-            werken met goed opgezette tabellen is een veel voorkomende bezigheid, vooral bij data
-            analyse. Gestructureerde tabellen zijn een noodzakelijkheid voor het werken met
-            draaitabellen.</p>
+            gegevens in een Excel werkblad werd in oudere Excel versies een <term>lijst</term>
+            genoemd.</p>
+        <p>Het werken met goed opgezette tabellen is een veel voorkomende bezigheid, vooral bij data
+            analyse. Een gestructureerde Excel tabel is verder een zeer goede basis voor het maken
+            van draaitabellen.</p>
     </conbody>
 </concept>

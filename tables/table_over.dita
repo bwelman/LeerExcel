@@ -77,15 +77,15 @@
                 eerste rij van een tabel, die met de veldnamen dus, ook de eerste rij van het
                 werkblad is.</li>
             <li>Er mogen geen lege rijen in de tabel voorkomen. Wel mogen er lege cellen in een rij
-                staan, maar niet alle cellen mogen leeg zijn.</li>
+                staan, maar niet alle cellen in een rij mogen leeg zijn.</li>
             <li>Er mogen geen lege kolommen in de tabel voorkomen. Wel mogen er lege cellen in een
-                kolom voorkomen, maar niet alle cellen mogen leeg zijn.</li>
+                kolom voorkomen, maar niet alle cellen in een kolom mogen leeg zijn.</li>
         </ul>
         <p>In Excel is een tabel een rechthoekig gebied van cellen waarin gegevens zijn opgeslagen.
-            Hoewel een tabel veel lijkt op een normaal cellenbereik Excel, biedt het een aantal
+            Hoewel een tabel veel lijkt op een normaal cellenbereik in Excel, biedt het een aantal
             functies die het onderscheiden van een bereik.</p>
         <p>Een tabel kan gemaakt en onderhouden worden door gewoon de gegevens in de cellen te
-            typen. Om een goede structuur te waarborgen is het aante bevelen om hierbij gebruik te
+            typen. Om een goede structuur te waarborgen is het aan te bevelen om hierbij gebruik te
             maken van een formulier voor de gegevensinvoer. Het is niet nodig dat eerst alle
             gegevens ingevoerd moeten zijn voordat het bereik omzet naar een tabel. Wanneer je
             eenmaal een tabel hebt kun je daar altijd nieuwe rijen en kolommen aan toevoegen. Grote
@@ -98,5 +98,14 @@
             uiterlijk, maar er komen ook ingebouwde functies beschikbaar voor filteren, sorteren en
             de mogelijkheid om een totaalrij toe te voegen waarbij je voor het totaliseren voor een
             aantal functies kunt kiezen.</p>
+        <p>Standaard wordt een Excel-tabel automatisch uitgebreid en worden formules naar beneden
+            gekopieerd. Voorbeelden:<ul id="ul_qkm_yqv_qgb">
+                <li>Je kunt nieuwe gegevens toevoegen in de rij direct onder de laatste rij van de
+                    tabel, of in de kolom direct rechts. De tabel wordt automatisch uitgebreid met
+                    de nieuwe gegevens.</li>
+                <li>Wanneer je een formule invoert in de eerste cel van een nieuwe lege kolom, dan
+                    wordt na het indrukken van Enter die formule naar beneden gekopieerd in alle
+                    resterende cellen van de kolom.</li>
+            </ul></p>
     </conbody>
 </concept>

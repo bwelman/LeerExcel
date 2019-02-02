@@ -17,6 +17,13 @@
 	</prolog>
 	<taskbody>
 		<context>
+		    <p>Je kunt numerieke gegevens in een tabel samenvatten met een subtotaal dat onder aan de
+                tabel verschijnt. Hoewel het woord subtotaal impliceert dat je de numerieke waarden
+                in een kolom optelt, gebruikt Excel de term breder. Dat wil zeggen, een subtotaal
+                kan niet alleen een numerieke som zijn, maar ook een gemiddelde, een maximum of
+                minimum, een standaarddeviatie of een variantie, of een telling van de waarden in
+                het veld. De berekening is gebaseerd op de zichtbare cellen in de kolom van de
+                tabel.</p>
             <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
         </context>
 		<steps>
