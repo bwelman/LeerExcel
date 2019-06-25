@@ -21,7 +21,7 @@
             verbinding is gemaakt, krijg je een voorbeeld van de gegevens te zien. Daarna kun je
             stappen toevoegen om de gegevens te structureren en te transformeren. Hiervoor wordt een
                 <term>Query Editor</term> gestart om een aantal instructies te maken die de acties
-            uitvoeren. De laatste stap is het laden van de gegevens als een tafel in een
+            uitvoeren. De laatste stap is het laden van de gegevens als een tabel in een
             werkblad.</p>
         <note>Je hebt ook de mogelijkheid om de gegevens te laden in het ingebouwde
             gegevensmodel.</note>
