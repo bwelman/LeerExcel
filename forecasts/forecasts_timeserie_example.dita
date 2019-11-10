@@ -1,51 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
-<concept id="forecasts_timeserie_example" xml:lang="nl-NL">
- <title>Tijdreeks voorbeelden</title>
- <shortdesc/>
- <prolog>
-  <critdates>
-   <created date="2017-08-31"/>
-   <revised modified="2017-08-31"/>
-  </critdates>
-  <metadata>
-   <keywords>
-    <indexterm/>
-   </keywords>
-  </metadata>
- </prolog>
- <conbody>
-  <p>In de volgende grafiek is de bierproductie per kwartaal in Australie voor de jaren 1956-1973
-   uitgezet.</p>
-  <fig>
-            <title>Australische bierproductie (megaliters) per jaar-kwartaal</title>
-            <image keyref="timeserie_beer1">
-                <alt>Australische bierproductie in megaliters per jaar en per kwartaal</alt>
-            </image>
-        </fig>
-  <!--  Bron: tekst https://onlinecourses.science.psu.edu/stat510/node/47  data https://datamarket.com/data/set/22ry/quarterly-beer-production-in-australia-megalitres-march-1956-june-1994#!ds=22ry&display=line-->
-  <p>Bestudering van de grafiek levert de volgende kenmerken op:<ul>
-    <li>Er is een opwaartse trend, mogelijk geen rechte lijn maar iets gebogen.</li>
-    <li>Er is een sterke seizoensgebondenheid te zien door de regelmatige pieken en dalen
-     gerelateerd aan de verschillende kwartalen. De top ligt steeds bij kwartaal 4, de dalen bij de
-     kwartalen 2 en 3 en de waarden voor kwartaal 1 liggen tussen piek en dal.</li>
-    <li>Er zijn geen uitschieters.</li>
-    <li>Er is geen lange termijn cyclus.</li>
-    <li>De variantie in de waarden lijkt iets toe te nemen in de tijd.</li>
-   </ul></p>
-  <p>De seizoensgebondenheid komt ook duidelijk naar voren wanneer de gegevens tegen de
-            afzonderlijke kwartalen worden uitgezet zoals in de volgende afbeelding.<fig>
-                <title>Jaarlijkse bierproductie per kwartaal in Australie</title>
-                <image keyref="timeserie_beer2">
-                    <alt>Jaarlijkse bierproductie per kwartaal in Australie</alt>
-                </image>
-            </fig></p>
-  <p>In de volgende afbeelding zijn de gegevens voor elk kwartaal afzonderlijk uitgezet tegen de
-            jaren. Hierin is goed te zien dat de stijgende trend er voor elk kwartaal is.<fig>
-                <title>Kwartaalproductie van bier per jaar in Australie</title>
-                <image keyref="timeserie_beer3">
-                    <alt>Kwartaalproductie van bier per jaar in Australie</alt>
-                </image>
-            </fig></p>
- </conbody>
-</concept>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="forecasts_timeserie_example" xml:lang="nl-NL">
+    <title>Taak: Australische bierproductie</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2017-08-31"/>
+            <revised modified="2019-11-10"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><p>Als voorbeeld van een tijdreeks wordt de bierproductie (in megaliters) in Australie voor de jaren 1956-1973 bekeken en geanalyseerd.</p>
+            <note type="other" othertype="Bestand"><filepath>AusBeer56-73.xlsx</filepath></note>
+        </context>
+        <!--  Bron: tekst https://onlinecourses.science.psu.edu/stat510/node/47  data https://datamarket.com/data/set/22ry/quarterly-beer-production-in-australia-megalitres-march-1956-june-1994#!ds=22ry&display=line-->
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer een cel in de tabel en kies dan <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Draaigrafiek (groep Grafieken)</uicontrol>
+                        <uicontrol>Draaigrafiek</uicontrol>
+                        <uicontrol>OK</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <p>Op een nieuw werkblad wordt een lege draaitabel aangemaakt.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Voeg het veld <varname>Volume</varname> toe aan het gebied
+                        <uicontrol>Waarden</uicontrol> en het veld <varname>Datum</varname> aan het
+                    gebied <uicontrol>As (categorieën)</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Naast het veld <varname>Datum</varname> worden ook de velden
+                            <varname>Jaren</varname> en <varname>Kwartalen</varname> aangemaakt.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig het grafiektype in <option>Lijn met markeringen</option>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer in de draaitabel een willekeurig jaar. Daarna Rechter muisknop en
+                    kies uit het snelmenu <menucascade>
+                        <uicontrol>Uit- en samenvouwen</uicontrol>
+                        <uicontrol>Gehele veld uitbreiden</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Zowel in de draaitabel als draaigrafiek worden de jaren uitgesplitst in
+                        kwartalen. In principe is de tijdreeks nu zichtbaar. Echter de layout kan
+                        nog verbeterd worden.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Breng de volgende wijzigingen in de lay-out aan.</cmd>
+                <itemgroup>
+                    <ul>
+                        <li>Verwijder het veld <varname>Datum</varname> uit het gebied
+                                <uicontrol>As</uicontrol> in de lijst met Draaitabelvelden.</li>
+                        <li>Wijzig in de draaitabel in de cel rechtsboven de tekst "Som van Volume"
+                            in "Bierproductie". Hierdoor wijzigt ook de tekst linksboven in de
+                            draaigrafiek.</li>
+                        <li>Schaal de Y-as van 200 tot 600 met stappen van 50.</li>
+                        <li>Voeg een titel aan de Y-as toe.</li>
+                        <li>Verwijder de legenda en grafiektitel.</li>
+                        <li>Maak de lijn iets dunner en geef de markeringspunten een andere kleur
+                            dan de lijn.</li>
+                        <li>Pas eventueel de afmetingen aan.</li>
+                    </ul>
+                </itemgroup>
+                <stepresult>
+                    <fig>
+                        <title>Australische bierproductie (megaliters) per kwartaal</title>
+                        <image keyref="timeserie_beer1">
+                            <alt>Australische bierproductie in megaliters per kwartaal</alt>
+                        </image>
+                        <p>In de grafiek zie je de volgende kenmerken:<ul>
+                                <li>Er is een opwaartse trend, mogelijk geen rechte lijn maar iets
+                                    gebogen.</li>
+                                <li>Er is een sterke seizoensgebondenheid te zien door de
+                                    regelmatige pieken en dalen gerelateerd aan de verschillende
+                                    kwartalen. De top ligt steeds bij kwartaal 4, de dalen bij de
+                                    kwartalen 2 en 3 en de waarden voor kwartaal 1 liggen tussen
+                                    piek en dal.</li>
+                                <li>Er zijn geen uitschieters.</li>
+                                <li>Er is geen lange termijn cyclus.</li>
+                                <li>De variantie in de waarden lijkt iets toe te nemen in de
+                                    tijd.</li>
+                            </ul></p>
+                    </fig>
+                </stepresult>
+            </step>
+            <stepsection>
+                <p>Om een beter beeld te krijgen van de seizoensgebondenheid wordt de grafiek
+                    gewijzigd zodat de gegevens voor elk jaar worden uitgezet tegen de afzonderlijke
+                    kwartalen.</p>
+            </stepsection>
+            <step>
+                <cmd>Verplaats in de lijst met draaitabelvelden het veld <varname>Jaren</varname>
+                    van het gebied <uicontrol>As</uicontrol> naar het gebied
+                        <uicontrol>Legenda</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>In de draaigrafiek:</cmd>
+                <itemgroup>
+                    <ul id="ul_kbr_x3l_rjb">
+                        <li>Voeg een legenda toe aan de bovenkant.</li>
+                        <li>Rechter muisklik op de legenda en kies dan uit het snelmenu <menucascade>
+                                <uicontrol>legenda opmaken</uicontrol>
+                                <uicontrol>Deselecteer: De legenda weergeven zonder dat deze de
+                                    grafiek overlapt</uicontrol>
+                            </menucascade></li>
+                        <li>Rechterhuisklik op de legendaknop en kies <uicontrol>Legendaveldknopppen
+                                verbergen in de grafiek</uicontrol></li>
+                    </ul>
+                </itemgroup>
+                <stepresult>
+                    <fig>
+                        <title>Jaarlijkse Australische bierproductie (megaliters) per
+                            kwartaal</title>
+                        <image keyref="timeserie_beer2">
+                            <alt>Jaarlijkse Australische bierproductie (megaliters) per
+                                kwartaal</alt>
+                        </image>
+                    </fig>
+                    <p>De seizoensgebondenheid is nu duidelijk waar te nemen.</p>
+                </stepresult>
+            </step>
+            <stepsection>
+                <p>Om het gedrag per kwartaal te bestuderen worden de gegevens voor elk kwartaal
+                    uitgezet tegen de jaren.</p>
+            </stepsection>
+            <step>
+                <cmd>Verwissel de velden <varname>Jaren</varname> en <varname>Kwartalen</varname> in
+                    de lijst met draaitabelvelden, dan staat <varname>Jaren</varname> in het gebied
+                        <uicontrol>As</uicontrol> en <varname>Kwartalen</varname> in het gebied
+                        <uicontrol>Legenda</uicontrol>.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Kwartaalproductie van bier per jaar in Australie</title>
+                        <image keyref="timeserie_beer3">
+                            <alt>Kwartaalproductie van bier per jaar in Australie</alt>
+                        </image>
+                    </fig>
+                    <p>Nu kun je goed zien dat de eerder waargenomen stijgende trend voor elk
+                        kwartaal geldt.</p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

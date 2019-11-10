@@ -25,7 +25,7 @@
         <topicref href="forecasts_timeserie_introduction.dita" scope="local" type="concept">
             <topicref href="forecasts_timeserie_analyse.dita" scope="local" type="concept"/>
             <topicref href="forecasts_timeserie_components.dita" scope="local" type="concept"/>
-            <topicref href="forecasts_timeserie_example.dita" scope="local" type="concept"/>
+            <topicref href="forecasts_timeserie_example.dita" scope="local" type="task"/>
         </topicref>
         <topicref href="forecasts_regression.dita" scope="local" type="concept"/>
         <topicref href="forecasts_trendline_excel.dita" scope="local" type="concept">
