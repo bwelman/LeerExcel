@@ -22,6 +22,7 @@
     <mapref href="keys_tidydata.ditamap" processing-role="resource-only"/>
     <!-- Content -->
     <topicref href="tidydata.dita" scope="local" type="concept" audience="level3">
-        <topicref href="pivots_unpivoting.dita" scope="local" type="task" />
+        <topicref href="tidydata_columnheaders.dita" scope="local" type="task"/>
+        <topicref href="pivots_unpivoting.dita" scope="local" type="task"/>
     </topicref>
 </map>

@@ -25,8 +25,131 @@
             je hebt gedaan met de oorspronkelijke gegevens om deze geschikt te maken voor analyse.
             Acties die je met de Power Query-Editor uitvoert worden wel in een script vastgelegd.
             Probeer daarom zoveel mogelijk de Power-Query-Editor te gebruiken.</p>
-        <p>In dit hoofdstuk komen een aantal taken aan bod om gestructureerde gegevens geschikt te
-            maken.</p>
-        <p>Dit hoofdstuk is nog in ontwikkeling!</p>
+        <p>Wanneer de gegevens goed gestructureerd zijn kun je ze gemakkelijker modelleren,
+            visualiseren en transformeren waardoor de analyse eenvoudiger wordt. Wanneer je met
+            relationele databases gewerkt heb, herken je veel van de concepten die je ook bij het
+            normaliseren tegen komt.</p>
+        <p>Gestructureerde gegevens moeten voldoen aan de volgende drie voorwaarden:<ol>
+                <li>Elke gemeten variabele staat in een kolom.</li>
+                <li>Elke waarneming van de variabele staat in een rij.</li>
+                <li>Elk type waarneming vormt een tabel.</li>
+            </ol></p>
+        <note type="note">Wanneer aan deze drie voorwaarden voldaan wordt heb je in feite de 3e
+            normaalvorm van Codd.</note>
+        <p>De volgende tabel toont de gegevens van een meting bij een denkbeeldig experiment in een
+            formaat dat je veel tegenkomt.</p>
+        <simpletable frame="all" relcolwidth="1* 1* 1*">
+            <sthead>
+                <stentry>Naam</stentry>
+                <stentry>Behandeling.A</stentry>
+                <stentry>Behandeling.B</stentry>
+            </sthead>
+            <strow>
+                <stentry>Marie Magenta</stentry>
+                <stentry>6</stentry>
+                <stentry>7</stentry>
+            </strow>
+            <strow>
+                <stentry>Roger Rood</stentry>
+                <stentry/>
+                <stentry>18</stentry>
+            </strow>
+            <strow>
+                <stentry>Vicky Violet</stentry>
+                <stentry>4</stentry>
+                <stentry>1</stentry>
+            </strow>
+        </simpletable>
+        <p>Wanneer je de rijen en kolommen verwisselt heb je dezelfde gegevens, maar de tabel ziet
+            er dan iets anders uit.</p>
+        <simpletable frame="all" relcolwidth="1* 1* 1* 1*">
+            <sthead>
+                <stentry>Behandeling</stentry>
+                <stentry>Marie Magenta</stentry>
+                <stentry>Roger Rood</stentry>
+                <stentry>Vicky Violet</stentry>
+            </sthead>
+            <strow>
+                <stentry>Behandeling.A</stentry>
+                <stentry>6</stentry>
+                <stentry/>
+                <stentry>4</stentry>
+            </strow>
+            <strow>
+                <stentry>Behandeling.B</stentry>
+                <stentry>7</stentry>
+                <stentry>18</stentry>
+                <stentry>1</stentry>
+            </strow>
+        </simpletable>
+        <p>Gestructureerd ziet de gegevensverzameling er uit zoals in de volgende tabel.</p>
+        <simpletable frame="all" relcolwidth="1* 1* 1*">
+            <sthead>
+                <stentry>Naam</stentry>
+                <stentry>Behandeling</stentry>
+                <stentry>Meting</stentry>
+            </sthead>
+            <strow>
+                <stentry>Marie Magenta</stentry>
+                <stentry>Behandeling.A</stentry>
+                <stentry>6</stentry>
+            </strow>
+            <strow>
+                <stentry>Marie Magenta</stentry>
+                <stentry>Behandeling.B</stentry>
+                <stentry>7</stentry>
+            </strow>
+            <strow>
+                <stentry>Roger Rood</stentry>
+                <stentry>Behandeling.A</stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry>Roger Rood</stentry>
+                <stentry>Behandeling.B</stentry>
+                <stentry>18</stentry>
+            </strow>
+            <strow>
+                <stentry>Vicky Violet</stentry>
+                <stentry>Behandeling.A</stentry>
+                <stentry>4</stentry>
+            </strow>
+            <strow>
+                <stentry>Vicky Violet</stentry>
+                <stentry>Behandeling.B</stentry>
+                <stentry>1</stentry>
+            </strow>
+        </simpletable>
+        <p>Dit maakt de waarden, variabelen en waarnemingen duidelijker. De gegevensverzameling
+            bevat 18 waarden die 3 variabelen en 6 waarnemingen vertegenwoordigen. De variabelen
+            zijn:</p>
+        <dl>
+            <dlentry>
+                <dt>Naam</dt>
+                <dd>Met 3 mogelijke waarden: Marie Magenta, Roger Rood en Vicky Violet</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Behandeling</dt>
+                <dd>Met 2 mogelijke waarden: Behandeling.A en Behandeling.B</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Meting</dt>
+                <dd>Met 5 of 6 mogelijke waarden (afhankelijk van hoe met ontbrekende waarden wordt
+                    omgegaan): 1, 4, 6, 7, 18, ?</dd>
+            </dlentry>
+        </dl>
+        <note>Ga na dat de gegevensverzameling aan de drie voorwaarden voldoet.</note>
+        <p>Echte gegevensverzamelingen zijn vaak op bijna elke denkbare manier in strijd met de drie
+            voorwaarden voor gestructureerde gegevens. De vijf meest voorkomende problemen bij niet
+            goed gestructureerde gegevensverzamelingen zijn:</p>
+        <ul>
+            <li>Kolomkoppen zijn waarden i.p.v. namen van variabelen.</li>
+            <li>Meerdere variabelen in een kolom.</li>
+            <li>Variabelen in zowel rijen als kolommen.</li>
+            <li>Meerdere soorten waarnemingen in dezelfde tabel.</li>
+            <li>Een soort waarneming in meerdere tabellen.</li>
+        </ul>
+        <p>In de taken hierna zullen in kleine voorbeelden deze problemen gedemonstreerd worden en
+            opgelost worden met behulp van Power Query.</p>
     </conbody>
 </concept>
