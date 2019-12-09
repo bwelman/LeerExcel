@@ -9,4 +9,11 @@
     <keydef keys="benelux_table_create" href="images/benelux_table_create.png" format="png"/>
     <keydef keys="benelux_unpivoted" href="images/benelux_unpivoted.png" format="png"/>
     <keydef keys="button_unpivot" href="images/button_unpivot.png" format="png"/>
+    <keydef keys="scores1" href="images/scores1.png" format="png"/>
+    <keydef keys="scores2" href="images/scores2.png" format="png"/>
+    <keydef keys="scores3" href="images/scores3.png" format="png"/>
+    <keydef keys="scores1_result" href="images/scores1_result.png" format="png"/>
+    <keydef keys="scores2_result" href="images/scores2_result.png" format="png"/>
+    <keydef keys="scores3_result" href="images/scores3_result.png" format="png"/>
+    <keydef keys="scores3_pivotcolumn" href="images/scores3_pivotcolumn.png" format="png"/>
 </map>

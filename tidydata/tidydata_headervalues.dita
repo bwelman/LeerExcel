@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="tidydata_headervalues" xml:lang="nl-NL">
+    <title>Taak: waarden variabele in kolomkoppen</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2019-11-30"/>
+            <revised modified="2019-11-30"/>
+        </critdates>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Een veel voorkomende vorm van een gegevensverzameling is een tabelvorm waarbij de
+                kolomkoppen waarden zijn en geen variabelenamen. De volgende tabel is hier een
+                voorbeeld van. Hierin staat het aantal mannelijke en vrouwelijke studenten dat een
+                bepaalde score (A t/m E) behaald heeft.</p>
+            <fig>
+                <image keyref="scores1"/>
+            </fig>
+            <p>Deze gegevensverzameling heeft in feite drie variabelen:</p>
+            <dl>
+                <dlentry>
+                    <dt>score</dt>
+                    <dd>Met de waarden A t/m E.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>geslacht</dt>
+                    <dd>Met de waarden man en vrouw</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>aantal</dt>
+                    <dd>Met het aantal keren dat de score behaald is, de frequentie</dd>
+                </dlentry>
+            </dl>
+            <p>Het probleem is dus dat de waarden van de variabele <varname>geslacht</varname> in
+                twee kolomkoppen staat.</p>
+            <p>De eerste variabele <varname>score</varname> is al een kolom, dat moet dus zo
+                blijven. Voor de variabelen <varname>geslacht</varname> en <varname>aantal</varname>
+                moeten nieuwe kolommen gemaakt worden. Voor elke combinatie van
+                    <varname>score</varname> en <varname>geslacht</varname> moet een rij gemaakt
+                worden.</p>
+            <note type="other" othertype="Bestand"><filepath>Scores1.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer een willekeurige cel met gegevens en kies <menucascade>
+                    <uicontrol>tab Gegevens</uicontrol>
+                    <uicontrol>Van tabel / bereik (Gegevens ophalen en transformeren</uicontrol>
+                </menucascade>.</cmd>
+                <stepresult>
+                    <p>Er verschijnt een dialoogvenster waarin de tabelgegevens gespecificeerd
+                        kunnen worden. Het gegevensgebied is standaard al goed ingevuld.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Zorg er voor dat de optie voor kopteksten geselecteerd is en klik
+                    <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Op het werkblad worden de gegevens allereerst in een Excel tabel omgezet.
+                        Daarna wordt in een nieuw venster de Power Query-editor opgestart die de
+                        gegevens uit de tabel inleest.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer in de Power Query editor de eerste kolom
+                    <varname>score</varname>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Transformeren</uicontrol>
+                        <uicontrol><image keyref="button_unpivot"/> Draaitabel opheffen voor
+                            kolommen (groep Alle kolommen)</uicontrol>
+                        <uicontrol>Draaitabel voor andere kolommen opheffen</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Er zijn twee nieuwe kolommen gemaakt. Een kolom <varname>Kenmerk</varname>
+                        (met de waarden voor variabele <varname>geslacht</varname>) en een kolom
+                            <varname>Waarde</varname> met de aantallen. En voor elke combinatie van
+                        score en geslacht is een rij gemaakt.</p>
+                </stepresult>
+            </step>
+            
+            <step>
+                <cmd>Selecteer kolom <varname>Kenmerk</varname>, <menucascade>
+                        <uicontrol>Rechter muisklik</uicontrol>
+                        <uicontrol>Naam wijzigen</uicontrol>
+                    </menucascade> en wijzig de naam in <varname>geslacht</varname>.</cmd>
+            </step>
+            <step>
+                <cmd>Wijzig op dezelfde manier de naam van kolom <varname>Waarde</varname> in
+                        <varname>aantal</varname>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Startpagina</uicontrol>
+                        <uicontrol>Sluiten en laden</uicontrol>
+                        <uicontrol>Sluiten en laden</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>Het resultaat is een tabel met gestructureerde gegevens. Elke kolom is één variabele
+                en elke rij is één waarneming.</p>
+            <fig>
+                <title>Tabel met gestructureerde gegevens van scores1</title>
+                <image keyref="scores1_result">
+                    <alt>Tabel met gestructureerde gegevens van scores1</alt>
+                </image>
+            </fig>
+        </result>
+    </taskbody>
+</task>

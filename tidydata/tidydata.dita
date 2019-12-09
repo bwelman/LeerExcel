@@ -140,14 +140,13 @@
         </dl>
         <note>Ga na dat de gegevensverzameling aan de drie voorwaarden voldoet.</note>
         <p>Echte gegevensverzamelingen zijn vaak op bijna elke denkbare manier in strijd met de drie
-            voorwaarden voor gestructureerde gegevens. De vijf meest voorkomende problemen bij niet
-            goed gestructureerde gegevensverzamelingen zijn:</p>
+            voorwaarden voor gestructureerde gegevens. De meest voorkomende problemen bij niet goed
+            gestructureerde gegevensverzamelingen zijn:</p>
         <ul>
-            <li>Kolomkoppen zijn waarden i.p.v. namen van variabelen.</li>
-            <li>Meerdere variabelen in een kolom.</li>
+            <li>Kolomkoppen bevatten waarden van een variabele i.p.v. een variabelenaam.</li>
+            <li>Combinatie van variabelen in een kolom.</li>
             <li>Variabelen in zowel rijen als kolommen.</li>
             <li>Meerdere soorten waarnemingen in dezelfde tabel.</li>
-            <li>Een soort waarneming in meerdere tabellen.</li>
         </ul>
         <p>In de taken hierna zullen in kleine voorbeelden deze problemen gedemonstreerd worden en
             opgelost worden met behulp van Power Query.</p>
