@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_tidy001" xml:lang="nl-NL">
+    <title>Opgave: tidy001 - Prijzen koffiesoorten</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2019-12-03"/>
+            <revised modified="2019-12-03"/>
+        </critdates>
+    </prolog>
+    <body>
+        <section>
+            <p>In de volgende tabel staan een aantal koffieprijzen van Starbucks</p>
+            <fig>
+                <title>Koffieprijzen</title>
+                <image keyref="ex_tidy001_data">
+                    <alt>Koffieprijzen</alt>
+                </image>
+            </fig>
+            <p>Maak hiervan een gestructureerde gegevensverzameling.</p>
+            <note type="other" othertype="Bestand"><filepath>Tidy001.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <codeblock>Variabelen: Product, Grootte en Prijs</codeblock>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <image keyref="ex_tidy001_result"/>
+        </section>
+    </body>
+</topic>

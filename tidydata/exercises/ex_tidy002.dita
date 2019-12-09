@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_tidy002" xml:lang="nl-NL">
+    <title>Opgave: tidy002 - Kosten levensonderhoud</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2019-12-03"/>
+            <revised modified="2019-12-03"/>
+        </critdates>
+    </prolog>
+    <body>
+        <section>
+            <p>Om de kosten van levensonderhoud in Europa te vergelijken zijn via de website van
+                Numbeo (<xref href="https://www.numbeo.com/cost-of-living/" format="html"
+                    scope="external"/>) voor een aantal plaatsen de gemiddelde marktprijzen
+                verzameld voor brood (wit, 500 gram), kaas(lokaal, 1 kg), melk (gewoon, 1 liter) en
+                rijst (wit, 1 kg).</p>
+            <fig>
+                <title>?</title>
+                <image keyref="ex_tidy002_data">
+                    <alt>?</alt>
+                </image>
+            </fig>
+            <ol>
+                <li>Maak hiervan een gestructureerde gegevensverzameling.</li>
+                <li>In welk land is rijst gemiddeld het goedkoopst en in welk land het duurst?</li>
+            </ol>
+            <note type="other" othertype="Bestand"><filepath>Tidy002.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <ol>
+                <li>Variabelen: Stad, Land, Produkt, Prijs</li>
+                <li>Rijst is gemiddeld het goedkoopst in Polen en het duurst in Zwitserland.</li>
+            </ol>
+        </section>
+<!--        <section otherprops="solution">
+            <title>Uitwerking</title>
+        </section>-->
+    </body>
+</topic>

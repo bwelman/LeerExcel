@@ -34,6 +34,12 @@
                 <li>Elke waarneming van de variabele staat in een rij.</li>
                 <li>Elk type waarneming vormt een tabel.</li>
             </ol></p>
+        <fig>
+            <title>Grafische afbeelding van gestructureerde gegevens</title>
+            <image keyref="tidydata">
+                <alt>Grafische afbeelding van gestructureerde gegevens</alt>
+            </image>
+        </fig>
         <note type="note">Wanneer aan deze drie voorwaarden voldaan wordt heb je in feite de 3e
             normaalvorm van Codd.</note>
         <p>De volgende tabel toont de gegevens van een meting bij een denkbeeldig experiment in een

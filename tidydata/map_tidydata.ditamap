@@ -26,5 +26,6 @@
         <topicref href="tidydata_combinedvariables.dita" scope="local" type="task"/>
         <topicref href="tidydata_rowcolumnvariables.dita" scope="local" type="task"/>
         <topicref href="tidydata_benelux.dita" scope="local" type="task"/>
+        <mapref href="exercises/map_ex_tidy.ditamap" format="ditamap"/>
     </topicref>
 </map>
