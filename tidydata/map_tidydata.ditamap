@@ -25,6 +25,6 @@
         <topicref href="tidydata_headervalues.dita" scope="local" type="task"/>
         <topicref href="tidydata_combinedvariables.dita" scope="local" type="task"/>
         <topicref href="tidydata_rowcolumnvariables.dita" scope="local" type="task"/>
-        <topicref href="pivots_unpivoting.dita" scope="local" type="task"/>
+        <topicref href="tidydata_benelux.dita" scope="local" type="task"/>
     </topicref>
 </map>

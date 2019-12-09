@@ -3,12 +3,8 @@
 <map>
     <title>Keys onderdeel Tidy Data</title>
     <keydef keys="benelux_pivot_chart" href="images/benelux_pivot_chart.png" format="png"/>
-    <keydef keys="benelux_query_column_names" href="images/benelux_query_column_names.png" format="png"/>
-    <keydef keys="benelux_query_columns" href="images/benelux_query_columns.png" format="png"/>
-    <keydef keys="benelux_query_unpivot" href="images/benelux_query_unpivot.png" format="png"/>
-    <keydef keys="benelux_table_create" href="images/benelux_table_create.png" format="png"/>
-    <keydef keys="benelux_unpivoted" href="images/benelux_unpivoted.png" format="png"/>
-    <keydef keys="button_unpivot" href="images/button_unpivot.png" format="png"/>
+    <keydef keys="benelux_population" href="images/benelux_population.png" format="png"/>
+    <keydef keys="benelux_tidy" href="images/benelux_tidy.png" format="png"/>
     <keydef keys="scores1" href="images/scores1.png" format="png"/>
     <keydef keys="scores2" href="images/scores2.png" format="png"/>
     <keydef keys="scores3" href="images/scores3.png" format="png"/>

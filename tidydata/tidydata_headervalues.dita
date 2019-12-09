@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="tidydata_headervalues" xml:lang="nl-NL">
     <title>Taak: waarden variabele in kolomkoppen</title>
-    <shortdesc></shortdesc>
+    <shortdesc/>
     <prolog>
         <critdates>
             <created date="2019-11-30"/>
@@ -48,17 +48,18 @@
             </step>
             <step>
                 <cmd>Selecteer een willekeurige cel met gegevens en kies <menucascade>
-                    <uicontrol>tab Gegevens</uicontrol>
-                    <uicontrol>Van tabel / bereik (Gegevens ophalen en transformeren</uicontrol>
-                </menucascade>.</cmd>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Van tabel / bereik (Gegevens ophalen en transformeren</uicontrol>
+                    </menucascade>.</cmd>
                 <stepresult>
-                    <p>Er verschijnt een dialoogvenster waarin de tabelgegevens gespecificeerd
-                        kunnen worden. Het gegevensgebied is standaard al goed ingevuld.</p>
+                    <p>Het dialoogvenster <wintitle>Tabel maken</wintitle> verschijnt, waarin de
+                        tabelgegevens gespecificeerd kunnen worden. Het gegevensgebied is standaard
+                        al goed ingevuld.</p>
                 </stepresult>
             </step>
             <step>
                 <cmd>Zorg er voor dat de optie voor kopteksten geselecteerd is en klik
-                    <uicontrol>OK</uicontrol>.</cmd>
+                        <uicontrol>OK</uicontrol>.</cmd>
                 <stepresult>
                     <p>Op het werkblad worden de gegevens allereerst in een Excel tabel omgezet.
                         Daarna wordt in een nieuw venster de Power Query-editor opgestart die de
@@ -72,8 +73,8 @@
             <step>
                 <cmd>Kies <menucascade>
                         <uicontrol>tab Transformeren</uicontrol>
-                        <uicontrol><image keyref="button_unpivot"/> Draaitabel opheffen voor
-                            kolommen (groep Alle kolommen)</uicontrol>
+                        <uicontrol>Draaitabel opheffen voor kolommen (groep Alle
+                            kolommen)</uicontrol>
                         <uicontrol>Draaitabel voor andere kolommen opheffen</uicontrol>
                     </menucascade>.</cmd>
                 <stepresult>
@@ -83,7 +84,6 @@
                         score en geslacht is een rij gemaakt.</p>
                 </stepresult>
             </step>
-            
             <step>
                 <cmd>Selecteer kolom <varname>Kenmerk</varname>, <menucascade>
                         <uicontrol>Rechter muisklik</uicontrol>

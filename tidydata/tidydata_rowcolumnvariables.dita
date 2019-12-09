@@ -35,8 +35,9 @@
                         <uicontrol>Van tabel / bereik (Gegevens ophalen en transformeren</uicontrol>
                     </menucascade>.</cmd>
                 <stepresult>
-                    <p>Er verschijnt een dialoogvenster waarin de tabelgegevens gespecificeerd
-                        kunnen worden. Het gegevensgebied is standaard al goed ingevuld.</p>
+                    <p>Het dialoogvenster <wintitle>Tabel maken</wintitle> verschijnt, waarin de
+                        tabelgegevens gespecificeerd kunnen worden. Het gegevensgebied is standaard
+                        al goed ingevuld.</p>
                 </stepresult>
             </step>
             <step>
@@ -55,8 +56,8 @@
             <step>
                 <cmd>Kies <menucascade>
                         <uicontrol>tab Transformeren</uicontrol>
-                        <uicontrol><image keyref="button_unpivot"/> Draaitabel opheffen voor
-                            kolommen (groep Alle kolommen)</uicontrol>
+                        <uicontrol>Draaitabel opheffen voor kolommen (groep Alle
+                            kolommen)</uicontrol>
                         <uicontrol>Draaitabel opheffen voor kolommen</uicontrol>
                     </menucascade>.</cmd>
                 <stepresult>

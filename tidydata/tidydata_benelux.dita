@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="pivots_unpivoting" xml:lang="nl-NL">
+    <title>Taak: analyse populatie Benelux</title>
+    <shortdesc>Herstructureren van gegevens in een kruistabel. Daarna een draaitabel en draaigrafiek
+        maken..</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2018-03-27"/>
+            <revised modified="2019-12-02"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Draaitabel<indexterm>herstructureren</indexterm></indexterm>
+                <indexterm>Kruistabel<indexterm>herstructureren</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>In onderstaande kruistabel staat de populatie mannen en vrouwen in de landen van de
+                Benelux voor de jaren 2000, 2005, 2010 en 2015.</p>
+            <fig>
+                <title>Kruistabel met populatie Benelux</title>
+                <image keyref="benelux_population">
+                    <alt>Kruistabel met populatie Benelux</alt>
+                </image>
+            </fig>
+            <p>Deze gegevens wil je analyseren en bijvoorbeeld de ontwikkeling van de populatie per
+                geslacht per jaar bestuderen en dat eventueel nog per land. Een draaitabel en
+                draaigrafiek lenen zich daar het beste voor.</p>
+            <p>Echter de gegevens staan niet in een goed gestructureerde Exceltabel. In feite heeft
+                deze tabel vier variabelen: <varname>Land</varname>, <varname>Geslacht</varname>,
+                    <varname>Jaar</varname> en <varname>Populatie</varname>. De eerste twee
+                variabelen staan in een eigen kolom, dat moet zo blijven. De laatste vier
+                kolomkoppen zijn de waarden van de variabele <varname>Jaar</varname> en de inhoud
+                van deze kolommen is de waarde van de variabele <varname>Populatie</varname>. De
+                tabel moet dus eerst gestructureerd worden voordat met de analyse begonnen kan
+                worden.</p>
+            <note type="other" othertype="Bestand"
+                ><filepath>Benelux_Populatie.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Selecteer een willekeurige cel met gegevens en kies <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Van tabel / bereik (Gegevens ophalen en transformeren</uicontrol>
+                    </menucascade>.</cmd>
+                <stepresult>
+                    <p>Het dialoogvenster <wintitle>Tabel maken</wintitle> verschijnt, waarin de
+                        tabelgegevens gespecificeerd kunnen worden. Het gegevensgebied is standaard
+                        al goed ingevuld.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Zorg er voor dat de optie voor kopteksten geselecteerd is en klik
+                        <uicontrol>OK</uicontrol>.</cmd>
+                <stepresult>
+                    <p>Op het werkblad worden de gegevens allereerst in een Excel tabel omgezet.
+                        Daarna wordt in een nieuw venster de Power Query-editor opgestart die de
+                        gegevens uit de tabel inleest.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Selecteer in de Power Query editor de eerste twee kolommen, met
+                        <varname>Land</varname> en <varname>Geslacht</varname>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies <menucascade>
+                        <uicontrol>tab Transformeren</uicontrol>
+                        <uicontrol>Draaitabel opheffen voor kolommen (groep Alle
+                            kolommen)</uicontrol>
+                        <uicontrol>Draaitabel voor andere kolommen opheffen</uicontrol>
+                    </menucascade>.</cmd>
+                <info>
+                    <note>Je had er ook voor kunnen kiezen om de laatste vier kolommen met de
+                        jaartallen te selecteren en dan te kiezen voor het opheffen van de
+                        draaitabel voor deze kolommen. Dit heeft als nadeel dat de query niet meer
+                        goed werkt wanneer er later in de brongegevens een nieuwe kolom met de
+                        populatie voor het jaar 2020 wordt toegevoegd.</note>
+                </info>
+                <stepresult>Er zijn twee nieuwe kolommen gemaakt. Een kolom Kenmerk (met de waarden
+                    voor variabele Jaar) en een kolom Waarde met de populatiegetallen. En voor elke
+                    combinatie van Land, Geslacht en Jaar is een rij gemaakt.</stepresult>
+            </step>
+            <step>
+                <cmd>Wijzig de namen van de kolommen <varname>Kenmerk</varname> en
+                        <varname>Waarde</varname> in respectievelijk <varname>Jaar</varname> en
+                        <varname>Populatie</varname>.</cmd>
+            </step>
+            <step>
+                <cmd>Kies<menucascade>
+                        <uicontrol>tab Startpagina</uicontrol>
+                        <uicontrol>Sluiten en laden (groep Sluiten)</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>
+                    <p>De gegevens worden nu in een nieuwe tabel in een nieuw werkblad gezet.</p>
+                    <fig>
+                        <title>Gestructureerde gegevens in een Excel tabel</title>
+                        <image keyref="benelux_tidy">
+                            <alt>Gegevens in gestructureerde Excel tabel</alt>
+                        </image>
+                    </fig>
+                    <p>De gegevens staan nu in een gestructureerde Excel tabel en zijn nu geschikt
+                        voor het maken van draaitabellen en draaigrafieken.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Maak de volgende draaitabel en draaigrafiek.</cmd>
+                <stepresult>
+                    <fig>
+                        <title>Draaitabel en grafiek van de populatie per geslacht per jaar</title>
+                        <image keyref="benelux_pivot_chart">
+                            <alt>Draaitabel en grafiek van de populatie per geslacht per jaar</alt>
+                        </image>
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
