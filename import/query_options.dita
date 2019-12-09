@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="query_options" xml:lang="nl-NL">
+    <title>Query opties</title>
+    <shortdesc>De meest relevante query-instellingen.</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2019-11-29"/>
+            <revised modified="2019-11-29"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Je kunt op twee manieren naar de queryopties navigeren.<ul>
+                <li>Vanuit Excel: <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Gegevens ophalen (groep gegevens ophalen en
+                            transformeren)</uicontrol>
+                        <uicontrol>Queryopties</uicontrol>
+                    </menucascade></li>
+                <li>Vanuit Query Editor: <menucascade>
+                        <uicontrol>Bestand</uicontrol>
+                        <uicontrol>opties en instellingen</uicontrol>
+                    </menucascade><i/><menucascade>
+                        <uicontrol>Queryopties</uicontrol>
+                    </menucascade></li>
+            </ul></p>
+        <p>Alleen de meest relevante instellingen worden behandeld. En verschillende instellingen
+            spreken voor zich.</p>
+        <section>
+            <title>GLOBAAL Gegevens laden</title>
+            <p>Met behulp van een van de bovengenoemde methoden krijg je het volgende venster.</p>
+            <fig>
+                <title>Globaal Gegevens laden</title>
+                <image keyref="q_options_global_data">
+                    <alt>Venster queryopties globaal gegevens laden</alt>
+                </image>
+            </fig>
+            <p>Het is belangrijk om onderscheid te maken tussen de instellingen voor GLOBAAL en
+                HUIDIGE WERKMAP:<ul>
+                    <li>GLOBAAL: instellingen zijn van invloed op alle projecten die je maakt.</li>
+                    <li>HUIDIGE WERKMAP: instellingen zijn alleen van invloed op het huidige
+                        Excel-bestand.</li>
+                </ul></p>
+            <p><uicontrol>Standaardinstellingen voor het laden van query's</uicontrol></p>
+            <p>De instellingen voor het laden van gegevens zijn van invloed op de manier waarop de
+                query's worden geladen. De standaardinstellingen voor het laden zijn<ul
+                    id="ul_wvf_4d1_xjb">
+                    <li>Bij het laden van een enkele query wordt de query in een nieuw werkblad
+                        geladen.</li>
+                    <li>Bij het laden van meerdere query's worden de query's in het gegevensmodel
+                        geladen.</li>
+                </ul></p>
+            <p>Een aanbevolen methode is om een query handmatig te laden. In dat geval selecteer je
+                    <option>Geef aangepaste standaardinstellingen voor het laden op</option> en
+                desecteer beide keuzes. Er wordt dan alleeen een verbinding gemaakt en je moet dan
+                de query handmatig laden via:</p>
+            <ul>
+                <li>In Excel: <menucascade>
+                        <uicontrol>tab Gegevens</uicontrol>
+                        <uicontrol>Query's en verbindingen</uicontrol>
+                        <uicontrol>Rechter muisklik op een query</uicontrol>
+                        <uicontrol>Laden naar</uicontrol>
+                    </menucascade></li>
+                <li>In Query Editor: <menucascade>
+                        <uicontrol>tab Startpagina</uicontrol>
+                        <uicontrol>Sluiten en laden</uicontrol>
+                        <uicontrol>Laden naar</uicontrol>
+                    </menucascade></li>
+            </ul>
+            <p><uicontrol>Snel gegevens laden</uicontrol></p>
+            <p>Door het selecteren van de optie Snel gegevens laden, duurt het laden van de query's
+                minder lang, maar Excel reageert mogelijk lange tijd niet.</p>
+            <p><uicontrol>Beheeropties voor gegevenscache</uicontrol></p>
+            <p>Er worden kopieën van de voorbeeldresultaten van de query's op de lokale schijf
+                opgeslagen zodat ze later sneller kunnen worden weergegeven. Je kunt deze cache
+                wissen of configureren hoeveel schijfruimte mag worden gebruikt.</p>
+            <note type="tip">Het wissen van de cache kan handig zijn als iets niet werkt zoals
+                verwacht.</note>
+        </section>
+        <section>
+            <title>Globaal Power Query-editor</title>
+            <fig>
+                <title>Globaal Power Query-editor</title>
+                <image keyref="q_options_global_editor">
+                    <alt>Venster query opties globaal power query-editor</alt>
+                </image>
+            </fig>
+            <p>Deze opties hebben voornamelijk te maken met hoe de  Query-editor wordt weergegeven.
+                De formulebalk vertaalt de acties naar de Power Query M taal. Het is mogelijk om de
+                code in de formulebalk te bewerken. Als je wilt kun je ervoor kiezen om de
+                voorbeeldinhoud in monospace-lettertype weer te geven en voor het niet tonen van
+                witruimte en regeleinden.</p>
+            <note type="note">Sommige van deze opties kunnen ook gevonden worden met <uicontrol>tab
+                    Weergeven</uicontrol> in de Query Editor.</note>
+        </section>
+        <section>
+            <title>Globaal Privacy</title>
+            <fig>
+                <title>Globaal Privacy</title>
+                <image keyref="q_options_global_privacy">
+                    <alt>Venster queryopties globaal privacy</alt>
+                </image>
+            </fig>
+            <p>Wanneer je gegevens uit verschillende bronnen combineert, is het mogelijk dat je veel
+                foutmeldingen krijgt omdat deze acties kunnen conflicteren met jouw
+                privacyniveau-instellingen. Deze berichten hebben meestal geen zin voor de
+                eindgebruiker. Om deze berichten te voorkomen, kun je veilig selecteren
+                    <option>Privacyniveau-instellingen altijd negeren</option>.</p>
+        </section>
+        <section>
+            <title>HUIDIGE WERKMAP Regionale instellingen</title>
+            <fig>
+                <title>HUIDIGE WERKMAP Regionale instellingen</title>
+                <image keyref="q_options_current_regional">
+                    <alt>Venster queryopties huidige werkmap regionale instellingen</alt>
+                </image>
+            </fig>
+            <p>De regionale instellingen beïnvloeden de manier waarop Power Query datums, valuta's
+                en andere functies manipuleert die specifiek zijn voor regio's en landen.</p>
+        </section>
+    </conbody>
+</concept>

@@ -7,5 +7,9 @@
     <keydef keys="ribbon_queries" href="images/ribbon_queries.png" format="png"/>
     <keydef keys="salesjan2009_preview" href="images/salesjan2009_preview.png" format="png"/>
     <keydef keys="uefa_navigatorpane" href="images/uefa_navigatorpane.png" format="png"/>
+    <keydef keys="q_options_current_regional" href="images/q_options_current_regional.png" format="png"/>
+    <keydef keys="q_options_global_data" href="images/q_options_global_data.png" format="png"/>
+    <keydef keys="q_options_global_editor" href="images/q_options_global_editor.png" format="png"/>
+    <keydef keys="q_options_global_privacy" href="images/q_options_global_privacy.png" format="png"/>
     <keydef keys="web_url_textbox" href="images/web_url_textbox.png" format="png"/>
 </map>
