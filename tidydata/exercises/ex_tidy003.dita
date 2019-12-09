@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_tidy003" xml:lang="nl-NL">
+    <title>Opgave: tidy003 - Rekenen en Taal cijfers</title>
+    <shortdesc>Niveau: 3</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2019-12-03"/>
+            <revised modified="2019-12-03"/>
+        </critdates>
+    </prolog>
+    <body>
+        <section>
+            <p>Op een bepaalde basischool krijgt elke leerling krijgt in elk kwartaal (Herfst,
+                Winter en Lente) van elk jaar een toets voor rekenen en taal. De volgende tabel
+                bevat een beperkte gegevensverzameling hiervan.</p>
+            <fig>
+                <title>Schoolresultaten rekenen en taal</title>
+                <image keyref="ex_tidy003_data">
+                    <alt>Schoolresultaten rekenen en taal</alt>
+                </image>
+            </fig>
+            <p>De analyse-eenheid is ID-Jaar-Kwartaal. Dus elke waarneming is die van een leerling
+                gedurende een kwartaal in een bepaald jaar.</p>
+            <ol>
+                <li>Maak hiervan een gestructureerde gegevensverzameling.</li>
+                <li>Maak een draaigrafiek (staafdiagram) van de gemiddelde scores voor rekenen en
+                    taal per jaar.</li>
+            </ol>
+            <note type="other" othertype="Bestand"><filepath>Tidy003.xlsx</filepath></note>
+        </section>
+        <section otherprops="answer">
+            <title>Antwoord</title>
+            <codeblock>Variabelen: ID, Jaar, Kwartaal, Rekenen, Taal</codeblock>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <image keyref="ex_tidy003_result-1"/>
+            <image keyref="ex_tidy003_result-2"/>
+        </section>
+    </body>
+</topic>
