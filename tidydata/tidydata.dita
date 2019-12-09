@@ -45,17 +45,17 @@
                 <stentry>Behandeling.B</stentry>
             </sthead>
             <strow>
-                <stentry>Marie Magenta</stentry>
+                <stentry>Melissa</stentry>
                 <stentry>6</stentry>
                 <stentry>7</stentry>
             </strow>
             <strow>
-                <stentry>Roger Rood</stentry>
+                <stentry>Roger</stentry>
                 <stentry/>
                 <stentry>18</stentry>
             </strow>
             <strow>
-                <stentry>Vicky Violet</stentry>
+                <stentry>Vicky</stentry>
                 <stentry>4</stentry>
                 <stentry>1</stentry>
             </strow>
@@ -65,9 +65,9 @@
         <simpletable frame="all" relcolwidth="1* 1* 1* 1*">
             <sthead>
                 <stentry>Behandeling</stentry>
-                <stentry>Marie Magenta</stentry>
-                <stentry>Roger Rood</stentry>
-                <stentry>Vicky Violet</stentry>
+                <stentry>Melissa</stentry>
+                <stentry>Roger</stentry>
+                <stentry>Vicky</stentry>
             </sthead>
             <strow>
                 <stentry>Behandeling.A</stentry>
@@ -90,54 +90,40 @@
                 <stentry>Meting</stentry>
             </sthead>
             <strow>
-                <stentry>Marie Magenta</stentry>
+                <stentry>Melissa</stentry>
                 <stentry>Behandeling.A</stentry>
                 <stentry>6</stentry>
             </strow>
             <strow>
-                <stentry>Marie Magenta</stentry>
+                <stentry>Melissa</stentry>
                 <stentry>Behandeling.B</stentry>
                 <stentry>7</stentry>
             </strow>
             <strow>
-                <stentry>Roger Rood</stentry>
+                <stentry>Roger</stentry>
                 <stentry>Behandeling.A</stentry>
                 <stentry/>
             </strow>
             <strow>
-                <stentry>Roger Rood</stentry>
+                <stentry>Roger</stentry>
                 <stentry>Behandeling.B</stentry>
                 <stentry>18</stentry>
             </strow>
             <strow>
-                <stentry>Vicky Violet</stentry>
+                <stentry>Vicky</stentry>
                 <stentry>Behandeling.A</stentry>
                 <stentry>4</stentry>
             </strow>
             <strow>
-                <stentry>Vicky Violet</stentry>
+                <stentry>Vicky</stentry>
                 <stentry>Behandeling.B</stentry>
                 <stentry>1</stentry>
             </strow>
         </simpletable>
-        <p>Dit maakt de waarden, variabelen en waarnemingen duidelijker. De gegevensverzameling
-            bevat 18 waarden die 3 variabelen en 6 waarnemingen vertegenwoordigen. De variabelen
-            zijn:</p>
-        <dl>
-            <dlentry>
-                <dt>Naam</dt>
-                <dd>Met 3 mogelijke waarden: Marie Magenta, Roger Rood en Vicky Violet</dd>
-            </dlentry>
-            <dlentry>
-                <dt>Behandeling</dt>
-                <dd>Met 2 mogelijke waarden: Behandeling.A en Behandeling.B</dd>
-            </dlentry>
-            <dlentry>
-                <dt>Meting</dt>
-                <dd>Met 5 of 6 mogelijke waarden (afhankelijk van hoe met ontbrekende waarden wordt
-                    omgegaan): 1, 4, 6, 7, 18, ?</dd>
-            </dlentry>
-        </dl>
+        <p>Dit maakt de waarden, variabelen en waarnemingen duidelijker. De gegevensverzameling bevat<ul>
+                <li>3 variabelen (kolommen): Naam, Behandeling en Meting.</li>
+                <li>6 waarnemingen (rijen).</li>
+            </ul></p>
         <note>Ga na dat de gegevensverzameling aan de drie voorwaarden voldoet.</note>
         <p>Echte gegevensverzamelingen zijn vaak op bijna elke denkbare manier in strijd met de drie
             voorwaarden voor gestructureerde gegevens. De meest voorkomende problemen bij niet goed
@@ -146,7 +132,6 @@
             <li>Kolomkoppen bevatten waarden van een variabele i.p.v. een variabelenaam.</li>
             <li>Combinatie van variabelen in een kolom.</li>
             <li>Variabelen in zowel rijen als kolommen.</li>
-            <li>Meerdere soorten waarnemingen in dezelfde tabel.</li>
         </ul>
         <p>In de taken hierna zullen in kleine voorbeelden deze problemen gedemonstreerd worden en
             opgelost worden met behulp van Power Query.</p>
