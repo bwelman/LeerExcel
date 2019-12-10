@@ -5,8 +5,8 @@
     <shortdesc>Niveau: 2</shortdesc>
     <prolog>
         <critdates>
-            <created date="2019-12-03"/>
-            <revised modified="2019-12-03"/>
+            <created date="2019-12-10"/>
+            <revised modified="2019-12-10"/>
         </critdates>
     </prolog>
     <body>
@@ -17,9 +17,9 @@
                 verzameld voor brood (wit, 500 gram), kaas(lokaal, 1 kg), melk (gewoon, 1 liter) en
                 rijst (wit, 1 kg).</p>
             <fig>
-                <title>?</title>
+                <title>Gemiddelde prijzen voor vier produkten</title>
                 <image keyref="ex_tidy002_data">
-                    <alt>?</alt>
+                    <alt>Gemiddelde prijzen voor vier produkten</alt>
                 </image>
             </fig>
             <ol>
@@ -35,8 +35,9 @@
                 <li>Rijst is gemiddeld het goedkoopst in Polen en het duurst in Zwitserland.</li>
             </ol>
         </section>
-<!--        <section otherprops="solution">
+        <section otherprops="solution">
             <title>Uitwerking</title>
-        </section>-->
+            <image keyref="ex_tidy002_result"/>
+        </section>
     </body>
 </topic>
