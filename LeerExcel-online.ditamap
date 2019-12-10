@@ -3,7 +3,7 @@
 <bookmap id="Excel2016NL-online" xml:lang="nl-NL">
     <booktitle>
         <mainbooktitle>Leer Excel 2016</mainbooktitle>
-        <booktitlealt>Een taakgericht studieboek</booktitlealt>
+        <!--<booktitlealt>Een taakgericht studieboek</booktitlealt>-->
     </booktitle>
     <bookmeta>
         <author>Ben Welman</author>
