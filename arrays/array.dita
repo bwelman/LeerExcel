@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
-<concept id="xls_matr" xml:lang="nl-NL">
+<concept id="xls_array" xml:lang="nl-NL">
     <title>Matrixformules</title>
     <shortdesc/>
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
-            <revised modified="2017-08-31"/>
+            <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
             <keywords/>
         </metadata>
     </prolog>
     <conbody>
-        <p>Met matrixformules kun je berekeningen uitvoeren die je met andere formules niet kunt
-            uitvoeren. Matrixformules staan als erg lastig bekend en zijn niet altijd even
-            gemakkelijk te begrijpen. In dit onderdeel maak je kennis met matrixformules en wordt
-            uitgelegd hoe je matrixformules kunt invoeren.</p>
+        <p>Een matrixformule is een formule die meerdere berekeningen kan uitvoeren op een of meer
+            items in een matrix. Matrixformules stonden als erg lastig bekend omdat ze er anders
+            uitzien dan normale formules en je deze formules op een afwijkende manier moest
+            invoeren: met CTRL-SHIFT-ENTER in plaats van gewoon met ENTER.</p>
+        <p>In Excel 365 is het werken met matrixformules en het gedrag ervan gewijzigd t.o.v. de
+            andere Excel versies. En ook bestaande formules die meerdere resultaten kunnen opleveren
+            gedragen zich in Excel 365 als matrixformules. Tevens zijn een aantal nieuwe
+                <term>dynamische matrixformules</term> toegevoegd.</p>
+        <p>In dit onderdeel wordt uitgelegd wat Excel onder een matrix verstaat, wat een
+            matrixformule is en hoe deze zich gedraagt en worden de nieuwe dynamische matrixfuncties
+            behandeld. Hierdoor is de inhoud van dit hoofdstuk grotendeels exclusief voor Excel
+            365.</p>
     </conbody>
 </concept>

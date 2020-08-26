@@ -6,7 +6,7 @@
   <prolog>
     <critdates>
       <created date="2017-08-31"/>
-      <revised modified="2017-08-31"/>
+      <revised modified="2020-08-31"/>
     </critdates>
     <metadata>
       <keywords/>
@@ -25,9 +25,9 @@
         aantal storingen per district te berekenen.</p>
       <note type="tip">
         <ol>
-          <li>De formule {(B2:B11)=B16} levert een matrixkolom van 10 rijen. Als de waarde in een
-                        cel uit de reeks B2:B11 gelijk is aan de waarde in cel B16 (= Noord) dan is
-                        de waarde in de matrix gelijk aan WAAR (=1) en anders ONWAAR (=0).<fig>
+          <li>De formule (B2:B11)=B16 levert een matrixkolom van 10 rijen. Als de waarde in een cel
+                        uit de reeks B2:B11 gelijk is aan de waarde in cel B16 (= Noord) dan is de
+                        waarde in de matrix gelijk aan WAAR (=1) en anders ONWAAR (=0).<fig>
                             <image keyref="ex_matr002_tip1"/>
                         </fig>
                     </li>
@@ -46,8 +46,8 @@
     <section otherprops="solution">
       <title>Uitwerking</title>
       <p>Selecteer de cel voor het totaal van Noord en voer de matrixformule in
-          <codeph>=SOM(($B$2:$B$11=B16)*($C$2:$E$11))}</codeph>. Kopieer daarna deze formule naar
-        beneden.</p>
+                    <codeph>=SOM(($E$9:$E$18=E23)*($F$9:$H$18))</codeph>. Kopieer daarna deze
+                formule naar beneden.</p>
     </section>
   </body>
 </topic>

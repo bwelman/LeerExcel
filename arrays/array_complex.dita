@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
-<task id="xls_matr_complex" xml:lang="nl-NL">
+<task id="xls_array_complex" xml:lang="nl-NL">
 	<title>Taak: Complexere matrixformules</title>
 	<shortdesc>In dit onderdeel worden complexere matrixformules behandeld.</shortdesc>
 	<prolog>
 		<critdates>
 		    <created date="2017-08-31"/>
-		    <revised modified="2017-08-31"/>
+		    <revised modified="2020-08-31"/>
 		</critdates>
 		<metadata>
 			<keywords/>
@@ -33,13 +33,13 @@
 				<cmd>Selecteer cel <uicontrol>C11</uicontrol>.</cmd>
 			</step>
 			<step>
-				<cmd>Typ in als formule <userinput>=GEMIDDELDE(ALS(B2:B9="m";C2:C9))</userinput> en druk op <uicontrol>CTRL
-						SHIFT ENTER</uicontrol>.</cmd>
-			</step>
+                <cmd>Voer de volgende formule in
+                        <userinput>=GEMIDDELDE(ALS($B$2:$B$9="m";$C$2:$C$9))</userinput> en druk op
+                    ENTER.</cmd>
+            </step>
 			<step>
-				<cmd>Herhaal de actie voor cel C12, de formule wordt nu
-						<userinput>=GEMIDDELDE(ALS(B2:B9="v";C2:C9))</userinput>.</cmd>
-			</step>
+                <cmd>Kopieer de formule naar cel C12 en pas deze aan voor vrouwen.</cmd>
+            </step>
 		</steps>	
 	</taskbody>
 </task>

@@ -6,7 +6,7 @@
   <prolog>
     <critdates>
       <created date="2017-08-31"/>
-      <revised modified="2017-08-31"/>
+      <revised modified="2020-08-31"/>
     </critdates>
     <metadata>
       <keywords/>
@@ -20,12 +20,6 @@
                     <image keyref="ex_matr001_data"/>
                 </fig>
       </p>
-    </section>
-    <section otherprops="solution">
-      <title>Uitwerking</title>
-      <p>Selecteer het resultaatgebied, typ in <userinput>=</userinput>, selecteer de eerste matrix,
-        typ in <userinput>+</userinput>, selecteer de tweede matrix, druk op
-          <uicontrol>Ctrl-Shift-Enter</uicontrol>.</p>
     </section>
   </body>
 </topic>

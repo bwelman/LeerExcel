@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
-<task id="xls_matr_single" xml:lang="nl-NL">
+<task id="xls_array_single" xml:lang="nl-NL">
 	<title>Taak: Eén resultaat berekenen</title>
 	<shortdesc>In dit onderdeel wordt uitgelegd hoe je één matrixformule kunt gebruiken in situaties
 	waar je anders meerdere formules voor nodig hebt.</shortdesc>
 	<prolog>
 		<critdates>
 		    <created date="2017-08-31"/>
-		    <revised modified="2017-08-31"/>
+		    <revised modified="2020-08-31"/>
 		</critdates>
 		<metadata>
 			<keywords/>			
@@ -37,9 +37,8 @@
 				<cmd>Selecteer cel <uicontrol>C6</uicontrol>.</cmd>
 			</step>
 			<step>
-				<cmd>Typ in als formule <userinput>=SOM(B2:B5*C2:C5)</userinput> en druk op <uicontrol>CTRL
-						SHIFT ENTER</uicontrol>.</cmd>
-			</step>
+                <cmd>Voer de volgende formule in <userinput>=SOM(B2:B5*C2:C5)</userinput>.</cmd>
+            </step>
 			<step>
 				<cmd>Herhaal de actie voor cel D6, de formule wordt nu
 					<userinput>=SOM(B2:B5*D2:D5)</userinput>.</cmd>

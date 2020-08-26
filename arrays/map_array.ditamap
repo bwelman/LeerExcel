@@ -26,6 +26,9 @@
         <topicref href="array_simple.dita" scope="local" type="task"/>
         <topicref href="array_single.dita" scope="local" type="task"/>
         <topicref href="array_complex.dita" scope="local" type="task"/>
+        <topicref href="array_unit.dita" scope="local" type="task"/>
+        <topicref href="array_frequency.dita" scope="local" type="task"/>
+        <topicref href="array_dynamic.dita" scope="local" type="concept"/>
         <mapref href="exercises/map_ex_matr.ditamap" format="ditamap"/>
     </topicref>
 </map>

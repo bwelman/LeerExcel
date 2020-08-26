@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_array_dynamic" xml:lang="nl-NL">
+    <title>Dynamische matrixformules</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Matrix</indexterm>
+                <indexterm>Array</indexterm>
+                <indexterm>Dynamisch</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Een matrixformule die in één cel op het werkblad wordt ingevoerd kan resultaten in
+            meerdere cellen op het werkblad plaatsen. Dit gedrag wordt <term>overlopen</term>
+            (Engels: <term>spilling</term>) genoemd en de resultaten verschijnen in een
+                <term>overloopgebied</term> (<term>spill-range</term>). Welke en hoeveel cellen
+            gebruikt worden hangt van het resultaat van de formule af. Als de broninhoud van de
+            formule verandert worden de resultaten dynamisch bijgewerkt en kan het zijn dat het
+            overloopgebied groeit of krimpt. Je krijgt een
+            <systemoutput>#OVERLOOP!</systemoutput>fout wanneer het overlopen geblokkeerd wordt door
+            andere gegevens in de cellen.</p>
+        <note type="important">Dynamische matrixformules zijn alleen in Excel365 beschikbaar!</note>
+        <p><b>Verwijzing overloopgebied</b></p>
+        <p>Om een verwijzing naar een overloopgebied te maken zet je een hash symbool
+                <codeph>#</codeph> achter het adres van de eerste cel van het overloopgebied. Is
+            bijvoorbeeld het overloopgebied J2:N4, dan verwijs he hiernaar met
+            <codeph>=J2#</codeph>.</p>
+        <p>Je kunt deze verwijzing ook in een formule opnemen. Zo geeft bijvoorbeeld
+                <codeph>=AANTAL(J2#)</codeph> als antwoord 15, het aantal cellen in dit gebied.
+            Wanneer later de grootte van het overloopgebied verandert, dan verandert ook het
+            resultaat van de formule.</p>
+        <p><b>Naamgeving</b></p>
+        <p>Wanneer je met matrices gaat rekenen, is het erg handig om deze van een naam te voorzien.
+            Dat kan op dezelfde manier als het toekennen van een naam aan een cel.</p>
+        <p><b>Dynamische matrixformules</b></p>
+        <p>Om het gedrag van dynamische matrices te ondersteunen zijn er een aantal nieuwe
+            dynamische matrixformules uitgebracht welke hierna kort toegelicht worden. Tussen
+            haakjes staat de Engelstalige functienaam.</p>
+        <section>
+            <title>ASELECT.MATRIX (RANDARRAY)</title>
+            <p>Retourneert een matrix met willekeurige getallen.</p>
+            <p>Syntax: <codeph>ASELECT.MATRIX(rijen ; kolommen ; min ; max ; [geheel])</codeph></p>
+            <ul>
+                <li>rijen = het aantal rijen dat geretourneerd moet worden (verplicht)</li>
+                <li>kolommen = het aantal kolommen dat moet worden (verplicht)</li>
+                <li>min = de ondergrens van de willekeurige getallen (verplicht)</li>
+                <li>max = de bovengrens van de willekeurige getallen (verplicht)</li>
+                <li>geheel = WAAR voor gehele getallen, ONWAAR voor decimale getallen (facultatief,
+                    default ONWAAR)</li>
+            </ul>
+            <p>Voorbeeld: <codeph>=ASELECT.MATRIX(3;4;10;50;WAAR)</codeph></p>
+            <fig><image keyref="Array_Dyn_Randarray"/></fig>
+        </section>
+        <section>
+            <title>FILTER (FILTER)</title>
+            <p>Retourneert de gefilterde waarden uit een bereik/matrix.</p>
+            <p>Syntax: <codeph>FILTER(matrix ; opnemen ; [als_leeg])</codeph></p>
+            <p/>
+        </section>
+        <section>
+            <title>REEKS (SEQUENCE)</title>
+            <p>Retourneert een reeks getallen volgens een patroon.</p>
+            <p>Syntax: <codeph>REEKS(rijen ; [kolommen] ; [beginnen] ; [stap])</codeph></p>
+            <ul>
+                <li>rijen = het aantal rijen dat geretourneerd moet worden (verplicht)</li>
+                <li>kolommen = het aantal kolommen dat geretourneerd moet worden (facultatief,
+                    default=1)</li>
+                <li>beginnen = het eerste getal (facultatief, default=1)</li>
+                <li>stap = de stapgrootte (facultatief, default=1)</li>
+            </ul>
+            <p>Voorbeeld: <codeph>=REEKS(4;3;5;10)</codeph></p>
+            <fig><image keyref="Array_Dyn_Sequence"/></fig>
+        </section>
+        <section>
+            <title>SORTEREN (SORT)</title>
+            <p>Sorteert de waarden uit een bereik/matrix.</p>
+            <p>Syntax: <codeph>SORTEREN(matrix ; [sorteerindex] ; [sorteervolgorde] ;
+                    [op_kol])</codeph></p>
+            <p>Voorbeeld: <codeph>=SORTEREN(B14:B19)</codeph></p>
+            <fig><image keyref="Array_Dyn_Sort"/></fig>
+        </section>
+        <section>
+            <title>SORTEREN.OP (SORTBY)</title>
+            <p>Sorteert de waarden uit een bereik/matrix op basis van andere waarden.</p>
+            <p>Syntax: <codeph>SORTEREN.OP(matrix ; op_matrix1)</codeph></p>
+            <p/>
+        </section>
+        <section>
+            <title>UNIEK (UNIQUE)</title>
+            <p>Retourneert een matrix met de unieke waarden uit een bereik/matrix.</p>
+            <p>Syntax: <codeph>UNIEK(matrix ; [per_kolom] ; [exact_eenmaal])</codeph></p>
+            <ul>
+                <li>matrix: de matrix met waarden (verplicht)</li>
+                <li>per_kolom: WAAR (vergelijking van kolommen, ONWAAR (vergelijking van rijen,
+                    default)</li>
+                <li>exact_eenmaal: WAAR (exact eenmaal) retourneert de unieke waarden die precies
+                    één keer voorkomen, ONWAAR (default) retourneert alle unieke waarden</li>
+            </ul>
+            <p>Voorbeeld: <codeph>=UNIEK(B1:B10)</codeph></p>
+            <fig><image keyref="Array_Dyn_Unique"/></fig>
+        </section>
+        <section>
+            <title>X.VERGELIJKEN (XMATCH)</title>
+            <p>Moderne en uitgebreidere versie van VERGELIJKEN.</p>
+            <p>Syntax: <codeph>X.VERGELIJKEN(zoekwaarde ; zoeken-matrix ; [overeenkomstmodus] ;
+                    [zoekmodus])</codeph></p>
+        </section>
+        <section>
+            <title>X.ZOEKEN (XLOOKUP)</title>
+            <p>Moderne en uitgebreidere versie van VERT.ZOEKEN.</p>
+            <p>Syntax: <codeph>X.ZOEKEN(zoekwaarde ; zoeken-matrix ; matrix-retourneren ;
+                    [indien_niet_gevonden] '[overeenkomstmodus])</codeph></p>
+        </section>
+    </conbody>
+
+</concept>

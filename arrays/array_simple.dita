@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
-<task id="xls_matr_simple" xml:lang="nl-NL">
+<task id="xls_array_simple" xml:lang="nl-NL">
     <title>Taak: Eenvoudige matrixformules</title>
     <shortdesc>In dit onderdeel wordt uitgelegd hoe je een eenvoudige matrixformule
         maakt.</shortdesc>
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
-            <revised modified="2017-08-31"/>
+            <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
             <keywords/>
@@ -15,6 +15,10 @@
     </prolog>
     <taskbody>
         <context>
+            <p>Een matrixformule is een formule waarmee je berekeningen uitvoert op matrices. Het
+                resultaat is ook weer een matrix. Om matrixformules te gebruiken moet je van tevoren
+                bedenken hoeveel uitkomsten er zijn en hoe deze uitkomsten zijn gerangschikt (één
+                cel, rij, kolom, tabel).</p>
             <p>In de volgende afbeelding is te zien dat een paar keer de som en het produkt van twee
                 getallen is berekend. Dat kan met eenvoudige gewone formules. Zo zou de formule in
                 D2 kunnen zijn <userinput>=A2+B2</userinput>. En de formule in E2 zou kunnen zijn
@@ -26,9 +30,8 @@
                     <alt>Som en product van twee getallen</alt>
                 </image>
             </fig>
-            <p>Deze berekening is ook met matrixformules uit te voeren. Dat levert hier geen
-                voordelen op, maar is wel een goede oefening om het werken met matrixformules te
-                leren.</p>
+            <p>Deze berekening is ook met matrixformules uit te voeren. Het is een goede oefening om
+                het gedrag van een matrixformuleste leren kennen.</p>
             <note type="other" othertype="Bestand"><filepath>Matrix1.xlsx</filepath></note>
         </context>
         <steps>
@@ -36,12 +39,16 @@
                 <cmd/>
             </step>
             <step>
-                <cmd>Selecteer het gebied <uicontrol>D2:D4</uicontrol> en typ in
-                        <userinput>=A2:A4+B2:B4</userinput> en druk nu op <uicontrol>CTRL SHIFT
-                        ENTER</uicontrol>.</cmd>
-                <info>Omdat het resultaat van de optelling uit een kolommetje van drie getallen zal
-                    bestaan, moet je vooraf het gebied van drie cellen selecteren voor de
-                    resultaten.</info>
+                <cmd>Selecteer cel <uicontrol>D2</uicontrol> en typ in
+                        <userinput>=A2:A4+B2:B4</userinput> en druk op
+                    <uicontrol>ENTER</uicontrol>.</cmd>
+                <info>
+                    <p>Handiger dan het intypen van de celadressen is door deze met de muis te
+                        selecteren.</p>
+                    <p>Omdat het resultaat van de optelling uit een kolommetje van drie getallen
+                        bestaat zal Excel het resultaat automatisch laten overlopen naar de cellen
+                        D3:D4. Je moet dat wel vooraf bedenken en zoegen dat deze cellen leeg zijn,
+                        anders volgt de foutmelding <systemoutput>#OVERLOOP!</systemoutput>.</p></info>
                 <stepresult>
                     <fig>
                         <title>Som van twee kolommen via matrixformule</title>
@@ -49,14 +56,14 @@
                             <alt>Som van twee kolommen via matrixformule</alt>
                         </image>
                     </fig>
-                    <p>De resultaten staan in de cellen D2:D4 en in de formulebalk is te zien dat er
-                        accolades om de formule geplaatst zijn.</p>
+                    <p>De resultaten staan in de cellen D2:D4 en aan het kader om het resultaat kun
+                        je zien dat het een matrix is.</p>
                 </stepresult>
             </step>
             <step>
-                <cmd>Selecteer het gebied <uicontrol>E2:E4</uicontrol> en typ in
-                        <userinput>=A2:A4*B2:B4</userinput> en druk nu op <uicontrol>CTRL SHIFT
-                        ENTER</uicontrol>.</cmd>
+                <cmd>Selecteer cel <uicontrol>E2</uicontrol> en typ in
+                        <userinput>=A2:A4*B2:B4</userinput> en druk nu op
+                        <uicontrol>ENTER</uicontrol>.</cmd>
                 <stepresult>
                     <fig>
                         <title>Product van twee kolommen via matrixformule</title>
@@ -64,16 +71,15 @@
                             <alt>Product van twee kolommen via matrixformule</alt>
                         </image>
                     </fig>
-                    <p>De resultaten staan in de cellen E2:E4 en in de formulebalk is te zien dat er
-                        accolades om de formule geplaatst zijn.</p>
+                    <p>De resultaten staan in de cellen E2:E4  en aan het kader om het resultaat kun
+                        je zien dat het een matrix is.</p>
                 </stepresult>
             </step>
         </steps>
         <example>
             <title>Voorbeeld: 1-dimensionale horizontale matrix</title>
             <p>In dit voorbeeld wordt een rijtje van drie getallen vermenigvuldigd met het getal 4.
-                Het resultaat moet uit een rijtje van drie getallen bestaan. Maak dit voorbeeld
-                na.</p>
+                Het resultaat bestaat uit een rijtje van drie getallen. Maak dit voorbeeld na.</p>
             <fig>
                 <title>Vermenigvuldiging rij getallen met een constante</title>
                 <image keyref="Example_Dim1">

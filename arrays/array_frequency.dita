@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="xls_array_frequency" xml:lang="nl-NL">
+    <title>Taak: Frequentieverdeling</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Met de functie INTERVAL() kun je een frequentieverdeling maken. </p>
+            <p>Syntax: <codeph>INTERVAL(gegevensmatrix ; interval)</codeph>.</p>
+            <p>Het eerste argument is het gebied met waarden. Het tweede argument is het gebied met
+                de intervalgrenzen. Het resultaat is een matrix met de frequenties.</p>
+            <fig>
+                <title>Frequentieverdeling</title>
+                <image keyref="Array_Frequency">
+                    <alt>Frequentieverdeling</alt>
+                </image>
+            </fig>
+        </context>
+        <steps>
+            <step>
+                <cmd>Maak een nieuw bestand. of open een nieuw werkblad.</cmd>
+            </step>
+            <step>
+                <cmd>Voer de gegevens in kolom A en B in zoals die in de figuur te zien zijn.</cmd>
+            </step>
+            <step>
+                <cmd>Voer in C2 de volgende formule in
+                        <userinput>=INTERVAL(A2:A11;B2:B5)</userinput>.</cmd>
+            </step>
+        </steps>
+        <result id="result_h4v_td4_5mb">
+            <p>Het resultaat is een frequentietabel. Bij de toelichting in de figuur kun je lezen
+                hoe er met de grenzen van het interval wordt omgegaan.</p>
+        </result>
+    </taskbody>
+</task>

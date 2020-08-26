@@ -1,46 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
-<concept id="xls_matr_over" xml:lang="nl-NL">
-    <title>Wat zijn matrixformules</title>
-    <shortdesc>Een korte beschrijving van wat een matrix en een matrixformule is zijn en waar je
-        deze voor kunt gebruiken.</shortdesc>
+<concept id="xls_array_over" xml:lang="nl-NL">
+    <title>Wat is een matrix in Excel?</title>
+    <shortdesc>Een korte beschrijving van wat een matrix  is zijn en waar je deze voor kunt
+        gebruiken.</shortdesc>
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
-            <revised modified="2017-08-31"/>
+            <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
             <keywords>
-                <indexterm>Matrixformule</indexterm>
-                <indexterm>CSE formule</indexterm>
+                <indexterm>Matrix</indexterm>
+                <indexterm>Array</indexterm>
+                <indexterm>Vector</indexterm>
             </keywords>
         </metadata>
     </prolog>
     <conbody>
-        <p>Een matrixformule heeft een matrix als argument in plaats van een celwaarde. Een
-            matrixformule kun je zien als een aantal formules die verpakt zijn in een soort
-            superformule.</p>
-        <p>Een matrix is in Excel een verzameling gegevens. Deze gegevens kunnen zich in één rij
-            (een 1 dimensionale horizontale matrix), in één kolom (een 1 dimensionale verticale
-            matrix) of in meerdere rijen en kolommen (een 2 dimensionale matrix) bevinden. <fig>
+        <p>Een <term>vector</term> is een lijstje met getallen die of in een rij of in een kolom
+            staan. Je hebt dan respectievelijke een <term>rijvector</term> of een
+                <term>kolomvector</term>. Excel gebruikt niet de term vector, maar <term>matrix</term>
+            (Nederlandstalig) of <term>array</term> (Engelstalig). Een matrix in Excel kan zijn:</p>
+        <ul>
+            <li>Een rij met waarden (eigenlijk een rijvector). Dit is een 1-dimensionale horizontale
+                matrix.</li>
+            <li>Een kolom met waarden (eigenlijk een kolomvector). Dit is een 1-dimensionale
+                verticale matrix.</li>
+            <li>Een rechthoek van rijen en kolommen met waarden, een gebied dus. Dit is een
+                2-dimensionale matrix.</li>
+        </ul>
+        <p>In de volgende figuur zie je van elk een voorbeeld.<fig>
                 <title>Matrix voorbeelden</title>
                 <image keyref="Array_Examples">
                     <alt>Matrix voorbeelden</alt>
                 </image>
             </fig></p>
-        <p>Een matrixformule is een formule waarmee je meerdere berekeningen kunt uitvoeren voor een
-            of meer gegevens in een matrix. Matrixformules zijn formules die meerdere resultaten als
-            uitkomst kunnen geven. Het resultaat is dan een rij met waarden, een kolom met waarden
-            of een tabel met waarden. Om matrixformules te gebruiken moet je van tevoren bedenken
-            hoeveel uitkomsten er zijn en hoe deze uitkomsten zijn gerangschikt (één cel, rij,
-            kolom, tabel).</p>
-        <p>Matrixformules worden ook wel <varname>CSE-formules</varname> genoemd omdat je op
-                <uicontrol>CTRL+SHIFT+ENTER</uicontrol> moet drukken om deze in te voeren. Na het
-            invoeren verschijnen er automatisch accolades om de formule.</p>
-        <note type="attention">
-            <p>Matrixformules zijn te herkennen aan de accolades om de formule. Deze accolades moet
-                je nooit intypen, ze worden automatisch door Excel geplaatst.</p>
-        </note>
-        <!-- Eventueel toevoegen of nieuwe topic over matrix constanten	-->
+        <p>Een matrix met constante waarden zoals in de getoonde drie voorbeelden maak je door in
+            een cel te beginnen met het <codeph>=</codeph> symbool en dan een rijtje waarden tussen
+            accolades <codeph>{ }</codeph> te plaatsen. De waarden moeten van elkaar gescheiden
+            worden door een speciaal symbool. Welke symbolen je moet gebruiken als scheidingssymbool
+            hangt af van de taal- en landinstellingen op de computer.</p>
+        <ul>
+            <li>Nederlandstalige systemen<ul>
+                    <li>Backslash <codeph>\</codeph> voor nieuwe kolom.</li>
+                    <li>Puntkomma <codeph>;</codeph> voor nieuwe rij.</li>
+                </ul></li>
+            <li>Engelsstalige systemen<ul>
+                <li>Komma <codeph>,</codeph> voor nieuwe kolom.</li>
+                <li>Puntkomma <codeph>;</codeph> voor nieuwe rij.</li>
+            </ul></li>
+        </ul>
+        <p>Verder moet je bij een 2-dimensionale matrix rekening houden met:<ul>
+                <li>Opsomming in volgorde van rijen.</li>
+                <li>Alle rijen moeten evenveel kolommen hebben.</li>
+            </ul></p>
+        <p>De drie voorbeelden worden als volgt in Excel ingevoerd.</p>
+        <p><codeph>={1\2\3\4\5}</codeph> geeft 1 rij met 5 kolommen<fig>
+                <title>1-dimensionale horizontale matrix</title>
+                <image keyref="Array_1dim_h">
+                    <alt>1-dimensionale horizontale matrix</alt>
+                </image>
+            </fig>
+        </p>
+        <p><codeph>={1;3;6}</codeph> geeft 3 rijen met 1 kolom<fig>
+                <title>1-dimensionale vericale matrix</title>
+                <image keyref="Array_1dim_v">
+                    <alt>1-dimensionale verticale matrix</alt>
+                </image>
+            </fig>
+        </p>
+        <p><codeph>={1\2\3\4\5;3\5\7\9\11;6\9\12\15\18}</codeph> geeft 3 rijen met 5 kolommen<fig>
+                <title>2-dimensionale matrix</title>
+                <image keyref="Array_2dim">
+                    <alt>2-dimensionale matrix</alt>
+                </image>
+            </fig>
+        </p>
+        <note type="attention"><p>Voor alle voorbeelden geldt dat alleen de eerste cel bewerkbaar is. Dat is de cel waar de
+            matrix is ingevoerd. Wanneer je een andere cel in het waardengebied selecteert, dan is
+            de inhoud in de formulebalk grijs gekleurd en kun je de waarde niet wijzigen.</p></note>
     </conbody>
 </concept>
