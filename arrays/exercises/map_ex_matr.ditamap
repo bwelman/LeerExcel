@@ -6,8 +6,12 @@
     <keydef keys="ex_matr002_data" href="images/ex_matr002_data.png" format="png"/>
     <keydef keys="ex_matr002_tip1" href="images/ex_matr002_tip1.png" format="png"/>
     <keydef keys="ex_matr002_tip2" href="images/ex_matr002_tip2.png" format="png"/>
+    <keydef keys="ex_matr003_data" href="images/ex_matr003_data.png" format="png"/>
+    <keydef keys="ex_matr004_data" href="images/ex_matr004_data.png" format="png"/>
     <topichead  navtitle="Opgaven">
         <topicref href="ex_matr001.dita" scope="local" type="topic" audience="level2"/>
         <topicref href="ex_matr002.dita" scope="local" type="topic" audience="level3"/>
+        <topicref href="ex_matr003.dita" scope="local" type="topic" audience="level2"/>
+        <topicref href="ex_matr004.dita" scope="local" type="topic" audience="level2"/>
     </topichead>
 </map>

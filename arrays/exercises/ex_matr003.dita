@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_matr003" audience="level2" xml:lang="nl-NL">
+    <title>Opgave: matr003 - Willekeurige gehele getallen</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section><p>Met de functie ASELECT.MATRIX kun je willekeurige getallen genereren. Om hiermee
+                te experimenteren en het gedrag van het dynamische matrixformules te bestuderen maak
+                je een nieuw bestand met de volgende gegevens:</p>
+            <fig>
+                <image keyref="ex_matr003_data"/>
+            </fig>
+            <ol>
+                <li>Voer in cel B7 de formule in om willekeurige gehele getallen te genereren,
+                    waarbij je voor de eerste vier argumenten verwijst naar de cellen in B1 t/m
+                    B4.</li>
+                <li>Voer in cel B6 een formule in om het gemiddelde van de gegenereerde getallen te
+                    berekenen. Gebruik hierbij een verwijzing naar het overloopgebied.</li>
+                <li>Experimenteer met andere waarden in de cellen B1 t/m B4. Let er op dat de
+                    maximumwaarde niet kleiner dan de minimumwaarde mag zijn.</li>
+            </ol>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <ol>
+                <li>Formule in B7 is <codeph>=ASELECT.MATRIX(B1;B2;B3;B4;WAAR)</codeph></li>
+                <li>Formule in B6 is <codeph>=GEMIDDELDE(B7#)</codeph></li>
+            </ol>
+        </section>
+    </body>
+</topic>

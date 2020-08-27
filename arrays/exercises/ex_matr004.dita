@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_matr004" audience="level2" xml:lang="nl-NL">
+    <title>Opgave: matr004 - Willekeurige datums en tijdstippen</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section><p>Datums en tijdstippen worden intern in Excel als een getal opgeslagen. Zo wordt
+                    <systemoutput>30-06-2020 18:00:00</systemoutput> intern opgeslagen als
+                    <systemoutput>44012,75</systemoutput>. Hierin is het deel voor de komma de datum
+                en het deel achter de komma het tijdstip. Omdat je met de functie ASELECT.MATRIX
+                willekeurige getallen kunt genereren, kun je dus hiermee ook datums en tijdstippen
+                genereren. In de figuur hierna zie je een voorbeeld.</p>
+            <fig>
+                <image keyref="ex_matr004_data"/>
+            </fig>
+            <ol>
+                <li>Voer in een nieuw werkblad de gegevens voor de eerste drie rijen in en zorg voor
+                    een juiste opmaak.</li>
+                <li>Voer in cel B5 een formule in om de datums te genereren en in cel E6 een formule
+                    om de tijdstippen te genereren. Gebruik hierbij de gegevens in de eerste drie
+                    rijen. In de uitvoergebieden moet je zelf de juiste opmaak aanbrengen voor
+                    datums of tijdstippen want dat gebeurt niet automatisch.</li>
+                <li>Experimenteer met verschillende waarden in de eerste drie rijen. Let er op dat
+                    de maximumwaarde niet kleiner dan de minimumwaarde mag zijn.</li>
+            </ol>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <ol>
+                <li>Formule in B6 is <codeph>=ASELECT.MATRIX(B3;1;B1;B2;WAAR)</codeph></li>
+                <li>Formule in E6 is <codeph>=ASELECT.MATRIX(E3;1;E1;E2;ONWAAR)</codeph></li>
+            </ol>
+        </section>
+    </body>
+</topic>

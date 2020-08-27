@@ -5,9 +5,12 @@
     <keydef keys="Array_1dim_h" href="images/array_1dim_h.png" format="png"/>
     <keydef keys="Array_1dim_v" href="images/array_1dim_v.png" format="png"/>
     <keydef keys="Array_2dim" href="images/array_2dim.png" format="png"/>
+    <keydef keys="Array_Dyn_Filter" href="images/array_dyn_filter.png" format="png"/>
     <keydef keys="Array_Dyn_Randarray" href="images/array_dyn_randarray.png" format="png"/>
     <keydef keys="Array_Dyn_Sequence" href="images/array_dyn_sequence.png" format="png"/>
     <keydef keys="Array_Dyn_Sort" href="images/array_dyn_sort.png" format="png"/>
+    <keydef keys="Array_Dyn_Sortby1" href="images/array_dyn_sortby1.png" format="png"/>
+    <keydef keys="Array_Dyn_Sortby2" href="images/array_dyn_sortby2.png" format="png"/>
     <keydef keys="Array_Dyn_Unique" href="images/array_dyn_unique.png" format="png"/>
     <keydef keys="Array_Examples" href="images/array_examples.png" format="png"/>
     <keydef keys="Array_Frequency" href="images/array_frequency.png" format="png"/>
