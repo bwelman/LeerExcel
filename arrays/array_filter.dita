@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_array_randarray" xml:lang="nl-NL">
+    <title>FILTER</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>FILTER</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Engelse functienaam: <term>FILTER</term></p>
+        <p>Retourneert de gefilterde waarden uit een bereik/matrix.</p>
+        <section>
+            <title>Syntax</title>
+            <codeblock>FILTER(matrix;opnemen;[als_leeg])</codeblock>
+            <ul>
+                <li>matrix: de matrix met waarden</li>
+                <li>opnemen: matrix met logische waarden voor de voorwaarden</li>
+                <li>als_leeg: te retourneren waarde wanneer er geen resultaten zijn</li>
+            </ul>
+        </section>
+        <example>
+            <title>Voorbeeld</title>
+            <fig>
+                <image keyref="Array_Dyn_Filter"/>
+            </fig>
+            <p>Vervang in de formule de "v" eens door "m" of door "z".</p>
+            <p>Je kunt ook meerdere criteria toevoegen. Om te filteren op vrouwen met een lengte
+                kleiner dan 170 wijzig je de formule in
+                    <codeph>=FILTER(A32:C41;(B32:B41="v")*(C32:C41&lt;170);"Geen")</codeph></p>
+        </example>
+    </conbody>
+</concept>

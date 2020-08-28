@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_array_sort" xml:lang="nl-NL">
+    <title>SORTEREN</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>SORTEREN</indexterm>
+                <indexterm>SORT</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Engelse functienaam: <term>SORT</term></p>
+        <p>Sorteert de waarden uit een bereik/matrix.</p>
+        <section>
+            <title>Syntax</title>
+            <codeblock>SORTEREN(matrix;[sorteerindex];[sorteervolgorde];[op_kol])</codeblock>
+            <ul>
+                <li>matrix: de matrix met waarden</li>
+                <li>sorteerindex: kolomindex waarop gesorteerd moet worden (default=1)</li>
+                <li>sorteervolgorde: 1= oplopend (default), -1 = aflopend</li>
+                <li>op_kol: WAAR=sorteer kolommen, ONWAAR=sorteer rijen (default)</li>
+            </ul>
+        </section>
+        <example>
+            <title>Voorbeeld</title>
+            <p>Sorteren op lengte.</p>
+            <fig>
+                <image keyref="Array_Dyn_Sort"/>
+            </fig>
+        </example>
+    </conbody>
+</concept>

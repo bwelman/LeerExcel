@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_array_unique" xml:lang="nl-NL">
+    <title>X.VERGELIJKEN</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>X.VERGELIJKEN</indexterm>
+                <indexterm>VERGELIJKEN</indexterm>
+                <indexterm>XMATCH</indexterm>
+                <indexterm>MATCH</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Engelse functienaam: <term>XMATCH</term></p>
+        <p>De functie voert een zoekactie uit en retourneert een positie in verticale of
+            horizontale bereiken. Het is een moderne en uitgebreidere opvolger van de functie
+            VERGELIJKEN. X.VERGELIJKEN ondersteunt benaderende en exacte overeenkomsten,
+            omgekeerd zoeken en jokertekens (*?) voor gedeeltelijke overeenkomsten. Het opzoeken
+            van de gegevens kan beginnen bij de eerste waarde of bij de laatste waarde
+            (omgekeerd zoeken). Daarnaast kunnen ook binaire zoekopdrachten uitgevoerd
+            worden.</p>
+        <section>
+            <title>Syntax</title>
+            <codeblock>X.VERGELIJKEN(zoekwaarde;zoeken-matrix;[overeenkomstmodus];[zoekmodus])</codeblock>
+            <ul>
+                <li>zoekwaarde: de op te zoeken waarde</li>
+                <li>zoeken-matrix: de matrix waarbinnen gezocht moet worden</li>
+                <li>overeenkomstmodus: 0=exacte vergelijking (default), -1=exacte vergelijking of
+                    eerst kleinere, 1=exacte vergelijking of eerst grotere, 2=vergelijking met
+                    jokers</li>
+                <li>zoekmodus: 1=zoeken vanaf eerste (default), -1=vanaf laatste, 2=binair oplopend,
+                    -2=binair aflopend</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

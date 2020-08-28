@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_array_lookup" xml:lang="nl-NL">
+    <title>X.ZOEKEN</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>X.ZOEKEN</indexterm>
+                <indexterm>ZOEKEN</indexterm>
+                <indexterm>XLOOKUP</indexterm>
+                <indexterm>VLOOKUP</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Engelse functienaam: <term>XLOOKUP</term></p>
+        <p>Deze functie is een moderne en uitgebreidere vervanging van oudere functies als
+            VERT.ZOEKEN, HORIZ.ZOEKEN en ZOEKEN. Deze nieuwe functie ondersteunt benaderende en
+            exacte overeenkomsten, jokertekens (*?) voor gedeeltelijke overeenkomsten en
+            zoekmogelijkheden in verticale en horizontale bereiken.</p>
+        <section>
+            <title>Syntax</title>
+            <codeblock>X.ZOEKEN(zoekwaarde;zoeken-matrix;matrix-retourneren;[indien_niet_gevonden];[overeenkomstmodus];[zoekmodus])</codeblock>
+            <ul>
+                <li>zoekwaarde: de op te zoeken waarde</li>
+                <li>zoeken-matrix: de matrix waarbinnen gezocht moet worden</li>
+                <li>matrix-retourneren: de matrix die geretourneerd moet worden</li>
+                <li>indien_niet_gevonden: waarde die geretourneerd moet worden wanneer er niets
+                    gevonden is</li>
+                <li>overeenkomstmodus: 0=exacte vergelijking (default), -1=exacte vergelijking of
+                    eerst kleinere, 1=exacte vergelijking of eerst grotere, 2=vergelijking met
+                    jokers</li>
+                <li>zoekmodus: 1=zoeken vanaf eerste (default), -1=vanaf laatste, 2=binair oplopend,
+                    -2=binair aflopend</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

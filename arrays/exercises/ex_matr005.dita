@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_matr004" audience="level2" xml:lang="nl-NL">
+    <title>Opgave: matr005 - Kolommen sorteren</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section><p>In de figuur hierna zie je de bevolkingsgrootte van de Benelux landen voor
+                achtereenvolgens de jaren 2000, 2005, 2010 en 2015. Wanneer je deze gegevens voor de
+                jaren in omgekeerde volgorde wilt hebben dan kan dat eenvoudig met de dynamische
+                matrixformule SORTEREN waarmee je ook kolommen kunt sorteren.</p>
+            <fig>
+                <image keyref="ex_matr005_data"/>
+            </fig>
+            <note type="other" othertype="Bestand"
+                ><filepath>Benelux_Populatie.xlsx</filepath></note>
+            <p>Open het hulpbestand en kopieer de gegevens in de kolommen A en B respectievelijk
+                naar H en I. Voer nu in cel J1 de formule SORTEREN in zodat de gegevens voor de
+                jaren in aflopende volgorde verschijnt. Het resultaat moet er als volgt uitzien.</p>
+            <fig>
+                <image keyref="ex_matr005_solution"/>
+            </fig>
+            <p>Wanneer je het bestand wilt bewaren, sla het dan op onder de naam
+                    <filepath>matr005.xlsx</filepath> zodat niet het originele bestand gewijzigd
+                wordt.</p>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p>Formule in J1 is <codeph>=SORTEREN(C1:F7;1;-1;WAAR)</codeph></p>
+        </section>
+    </body>
+</topic>

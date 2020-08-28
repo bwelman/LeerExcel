@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ex_matr004" audience="level2" xml:lang="nl-NL">
+    <title>Opgave: matr006 - Reeks Romeinse cijfers</title>
+    <shortdesc>Niveau: 2</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <body>
+        <section>
+            <p>Maak in een nieuw werkblad een matrix met de cijfers 1 t/m 100 zoals in de volgende
+                figuur.</p>
+            <fig>
+                <image keyref="ex_matr006_data"/>
+            </fig>
+            <p>Wijzig daarna de formule zodat je Romeinse cijfers krijgt.</p>
+            <note type="tip">De functie ROMEINS zet Arabische cijfers om naar Romeinse cijfers, als
+                tekst.</note>
+            <fig>
+                <image keyref="ex_matr006_data_r"/>
+            </fig>
+            <p>Wanneer je het bestand wilt bewaren, sla het dan op onder de naam
+                    <filepath>matr006.xlsx</filepath>.</p>
+        </section>
+        <section otherprops="solution">
+            <title>Uitwerking</title>
+            <p>Formule in A1 is <codeph>=REEKS(10,10)</codeph></p>
+            <p>Formule voor Romeinse cijfers is <codeph>=ROMEINS(REEKS(10,10))</codeph></p>
+        </section>
+    </body>
+</topic>

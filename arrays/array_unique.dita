@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_array_unique" xml:lang="nl-NL">
+    <title>UNIEK</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>UNIEK</indexterm>
+                <indexterm>UNIQUE</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Engelse functienaam: <term>UNIQUE</term></p>
+        <p>Retourneert een matrix met de unieke waarden uit een bereik/matrix.</p>
+        <section>
+            <title>Syntax</title>
+            <codeblock>UNIEK(matrix;[per_kolom];[exact_eenmaal])</codeblock>
+            <ul>
+                <li>matrix: de matrix met waarden</li>
+                <li>per_kolom: WAAR (vergelijking van kolommen, ONWAAR (vergelijking van rijen,
+                    default)</li>
+                <li>exact_eenmaal: WAAR (retourneert de unieke waarden die precies één keer
+                    voorkomen), ONWAAR (retourneert alle unieke waarden, default)</li>
+            </ul>
+        </section>
+        <example>
+            <title>Voorbeeld</title>
+            <fig>
+                <image keyref="Array_Dyn_Unique"/>
+            </fig>
+        </example>
+    </conbody>
+</concept>

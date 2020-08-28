@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<concept id="xls_array_randarray" xml:lang="nl-NL">
+    <title>REEKS</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>FILTER</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Engelse functienaam: <term>SEQUENCE</term></p>
+        <p>Retourneert een reeks getallen volgens een patroon.</p>
+        <section>
+            <title>Syntax</title>
+            <codeblock>REEKS(rijen;[kolommen];[beginnen];[stap])</codeblock>
+            <ul>
+                <li>rijen = het aantal rijen dat geretourneerd moet worden</li>
+                <li>kolommen = het aantal kolommen dat geretourneerd moet worden (default=1)</li>
+                <li>beginnen = het eerste getal (default=1)</li>
+                <li>stap = de stapgrootte (default=1)</li>
+            </ul>
+        </section>
+        <example>
+            <title>Voorbeeld</title>
+            <codeph>=REEKS(4;3;5;10)</codeph>
+            <fig>
+                <image keyref="Array_Dyn_Sequence"/>
+            </fig>
+        </example>
+    </conbody>
+</concept>

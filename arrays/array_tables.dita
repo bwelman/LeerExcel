@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="xls_array_unit" xml:lang="nl-NL">
+    <title>Taak: Tabellen en matrixformules</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Matrixformules worden in de meeste gevallen gebruikt om acties uit te voeren op een
+                lijst met gegevens, veelal in meerdere kolommen. Het heeft dan veel voordelen om van
+                die gegevenslijst een echte Excel tabel te maken. In de matrixformules kun je dan
+                voor de verwijzingen de tabel- en kolomnaam gebruiken. En de verwijzingen blijven in
+                orde wanneer er rijen worden toegevoegd of verwijderd.</p>
+            <note type="tip">Voor het verwijzen naar een kolomnaam in een Exceltabel zet je de
+                kolomnaam tussen blokhaken direct achter de tabelnaam, dus
+                    <varname>tabelnaam[kolomnaam]</varname>.</note>
+            <note type="other" othertype="Bestand"><filepath>Personeel.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zet het gegevensbereik om naar een tabel via <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Tabel</uicontrol>
+                    </menucascade> en specificeer <varname>tblPersoneel</varname> als
+                    tabelnaam.</cmd>
+            </step>
+            <step>
+                <cmd>Sla het bestand tussentijds op onder de naam
+                        <filepath>Personeelstabel.xlsx</filepath> zodat het oorspronkelijke bestand
+                    niet gewijzigd wordt.</cmd>
+            </step>
+            <step>
+                <cmd>Voer in een cel buiten het gegevensgebied, bijv. in cel K4, de volgende formule
+                    in <userinput>=UNIEK(Personeelstabel[Afdeling])</userinput>.</cmd>
+                <stepresult>
+                    <p>Je krijgt nu een lijst met de namen van de afdelingen.</p>
+                </stepresult>
+            </step>
+            <stepsection>Om hiervan een alfabetisch gesorteerde lijst te maken moet je deze formule
+                opnemen binnen de functie SORTEREN.</stepsection>
+            <step>
+                <cmd>Wijzig de zojuist ingevoerde formule in
+                        <userinput>=SORTEREN(UNIEK(Personeelstabel[Afdeling]))</userinput>.</cmd>
+                <stepresult>
+                    <p>Je krijgt nu een alfabetisch gesorteerde lijst met afdelingsnamen.</p>
+                </stepresult>
+            </step>
+        </steps>
+        <example>
+            <p>Maak op analoge wijze een gesorteerde lijst met divisienamen.</p>
+        </example>
+    </taskbody>
+</task>
