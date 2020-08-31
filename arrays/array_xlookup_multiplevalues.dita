@@ -9,13 +9,15 @@
             <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
-            <keywords/>
+            <keywords>
+                <indexterm>X.ZOEKEN</indexterm>
+            </keywords>
         </metadata>
     </prolog>
     <taskbody>
         <context>
             <p>X.ZOEKEN kan meer dan één waarde tegelijk retourneren voor dezelfde overeenkomst. In
-                deze taak worden vier waarden geretoruneerd met één formule.</p>
+                deze taak worden vier waarden geretourneerd met één formule.</p>
             <note type="other" othertype="Bestand"><filepath>olympic2016.xlsx</filepath></note>
         </context>
         <steps>

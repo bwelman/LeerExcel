@@ -24,8 +24,8 @@
             <ul>
                 <li>matrix: de matrix met waarden</li>
                 <li>sorteerindex: kolomindex waarop gesorteerd moet worden (default=1)</li>
-                <li>sorteervolgorde: 1= oplopend (default), -1 = aflopend</li>
-                <li>op_kol: WAAR=sorteer kolommen, ONWAAR=sorteer rijen (default)</li>
+                <li>sorteervolgorde:  de gewenste sorteervolgorde, 1= oplopend, -1 = aflopend (default=1)</li>
+                <li>op_kol: WAAR=sorteer kolommen, ONWAAR=sorteer rijen (default=ONWAAR)</li>
             </ul>
         </section>
         <example>

@@ -9,7 +9,9 @@
             <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
-            <keywords/>
+            <keywords>
+                <indexterm>ASELECT.MATRIX</indexterm>
+            </keywords>
         </metadata>
     </prolog>
     <body>
@@ -25,7 +27,7 @@
             <ol>
                 <li>Voer in een nieuw werkblad de gegevens voor de eerste drie rijen in en zorg voor
                     een juiste opmaak.</li>
-                <li>Voer in cel B5 een formule in om de datums te genereren en in cel E6 een formule
+                <li>Voer in cel B5 een formule in om de datums te genereren en in cel E5 een formule
                     om de tijdstippen te genereren. Gebruik hierbij de gegevens in de eerste drie
                     rijen. In de uitvoergebieden moet je zelf de juiste opmaak aanbrengen voor
                     datums of tijdstippen want dat gebeurt niet automatisch.</li>
@@ -36,8 +38,8 @@
         <section otherprops="solution">
             <title>Uitwerking</title>
             <ol>
-                <li>Formule in B6 is <codeph>=ASELECT.MATRIX(B3;1;B1;B2;WAAR)</codeph></li>
-                <li>Formule in E6 is <codeph>=ASELECT.MATRIX(E3;1;E1;E2;ONWAAR)</codeph></li>
+                <li>Formule in B5 is <codeph>=ASELECT.MATRIX(B3;1;B1;B2;WAAR)</codeph></li>
+                <li>Formule in E5 is <codeph>=ASELECT.MATRIX(E3;1;E1;E2;ONWAAR)</codeph></li>
             </ol>
         </section>
     </body>

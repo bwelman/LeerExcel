@@ -9,7 +9,9 @@
             <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
-            <keywords/>
+            <keywords>
+                <indexterm>X.ZOEKEN</indexterm>
+            </keywords>
         </metadata>
     </prolog>
     <taskbody>
@@ -27,7 +29,7 @@
                 <cmd/>
             </step>
             <step>
-                <cmd>Voeg de gegevens in F1:F3 en G1:G2 toe..</cmd>
+                <cmd>Voeg de gegevens in F1:F3 en G1:G2 toe.</cmd>
             </step>
             <step>
                 <cmd>Plaats in G3 de volgende formule

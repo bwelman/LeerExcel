@@ -9,7 +9,9 @@
       <revised modified="2020-08-31"/>
     </critdates>
     <metadata>
-      <keywords/>
+      <keywords>
+                <indexterm>SOM</indexterm>
+            </keywords>
     </metadata>
   </prolog>
   <body>
@@ -33,7 +35,7 @@
                     </li>
           <li>Door deze kolommatrix te vermenigvuldigen met de matrix {C2:E11} krijg je een nieuwe
                         matrix van 10 rijen en 3 kolommen. De cellen in de rijen die met ONWAAR
-                        worden vemenigvuldigd bevatten allemaal een nul. De cellen in de rijen die
+                        worden vermenigvuldigd bevatten allemaal een nul. De cellen in de rijen die
                         met WAAR worden vermenigvuldigd behouden de oorspronkelijke waarden:<fig>
                             <image keyref="ex_matr002_tip2"/>
                         </fig>

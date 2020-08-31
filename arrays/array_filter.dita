@@ -31,7 +31,7 @@
             <fig>
                 <image keyref="Array_Dyn_Filter"/>
             </fig>
-            <p>Vervang in de formule de "v" eens door "m" of door "z".</p>
+            <p>Vervang in de formule de "v" eens door "m" of "z".</p>
             <p>Je kunt ook meerdere criteria toevoegen. Om te filteren op vrouwen met een lengte
                 kleiner dan 170 wijzig je de formule in
                     <codeph>=FILTER(A32:C41;(B32:B41="v")*(C32:C41&lt;170);"Geen")</codeph></p>

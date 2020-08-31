@@ -15,7 +15,7 @@
     <taskbody>
         <context>
             <p>Met de functie INTERVAL() kun je een frequentieverdeling maken. </p>
-            <p>Syntax: <codeph>INTERVAL(gegevensmatrix ; interval)</codeph>.</p>
+            <p>Syntax: <codeph>INTERVAL(gegevensmatrix;interval)</codeph>.</p>
             <p>Het eerste argument is het gebied met waarden. Het tweede argument is het gebied met
                 de intervalgrenzen. Het resultaat is een matrix met de frequenties.</p>
             <fig>
@@ -27,7 +27,7 @@
         </context>
         <steps>
             <step>
-                <cmd>Maak een nieuw bestand. of open een nieuw werkblad.</cmd>
+                <cmd>Maak een nieuw bestand of een nieuw werkblad.</cmd>
             </step>
             <step>
                 <cmd>Voer de gegevens in kolom A en B in zoals die in de figuur te zien zijn.</cmd>
@@ -37,7 +37,7 @@
                         <userinput>=INTERVAL(A2:A11;B2:B5)</userinput>.</cmd>
             </step>
         </steps>
-        <result id="result_h4v_td4_5mb">
+        <result>
             <p>Het resultaat is een frequentietabel. Bij de toelichting in de figuur kun je lezen
                 hoe er met de grenzen van het interval wordt omgegaan.</p>
         </result>

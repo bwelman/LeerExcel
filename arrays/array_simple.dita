@@ -31,7 +31,7 @@
                 </image>
             </fig>
             <p>Deze berekening is ook met matrixformules uit te voeren. Het is een goede oefening om
-                het gedrag van een matrixformuleste leren kennen.</p>
+                het gedrag van een matrixformule te leren kennen.</p>
             <note type="other" othertype="Bestand"><filepath>Matrix1.xlsx</filepath></note>
         </context>
         <steps>
@@ -47,7 +47,7 @@
                         selecteren.</p>
                     <p>Omdat het resultaat van de optelling uit een kolommetje van drie getallen
                         bestaat zal Excel het resultaat automatisch laten overlopen naar de cellen
-                        D3:D4. Je moet dat wel vooraf bedenken en zoegen dat deze cellen leeg zijn,
+                        D3:D4. Je moet dat wel vooraf bedenken en zorgen dat deze cellen leeg zijn,
                         anders volgt de foutmelding <systemoutput>#OVERLOOP!</systemoutput>.</p></info>
                 <stepresult>
                     <fig>

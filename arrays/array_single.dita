@@ -44,8 +44,8 @@
 					<userinput>=SOM(B2:B5*D2:D5)</userinput>.</cmd>
 				<stepresult>
 					<note type="tip">Door in de formule in C6 de eerste kolom van de matrix absoluut te maken, dus
-							<userinput>=SOM($B$2:$B$5*C2:C5)</userinput>, kun je de formule naar D6
-						kopieren.</note>
+                            <userinput>=SOM($B$2:$B$5*C2:C5)</userinput>, kun je de formule naar D6
+                        kopiëren.</note>
 				</stepresult>
 			</step>
 		</steps>

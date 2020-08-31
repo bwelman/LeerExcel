@@ -9,7 +9,10 @@
             <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
-            <keywords/>
+            <keywords>
+                <indexterm>SORTEREN</indexterm>
+                <indexterm>UNIEK</indexterm>
+            </keywords>
         </metadata>
     </prolog>
     <taskbody>
@@ -42,7 +45,7 @@
             </step>
             <step>
                 <cmd>Voer in een cel buiten het gegevensgebied, bijv. in cel K4, de volgende formule
-                    in <userinput>=UNIEK(Personeelstabel[Afdeling])</userinput>.</cmd>
+                    in <userinput>=UNIEK(tblPersoneel[Afdeling])</userinput>.</cmd>
                 <stepresult>
                     <p>Je krijgt nu een lijst met de namen van de afdelingen.</p>
                 </stepresult>
@@ -51,7 +54,7 @@
                 opnemen binnen de functie SORTEREN.</stepsection>
             <step>
                 <cmd>Wijzig de zojuist ingevoerde formule in
-                        <userinput>=SORTEREN(UNIEK(Personeelstabel[Afdeling]))</userinput>.</cmd>
+                        <userinput>=SORTEREN(UNIEK(tblPersoneel[Afdeling]))</userinput>.</cmd>
                 <stepresult>
                     <p>Je krijgt nu een alfabetisch gesorteerde lijst met afdelingsnamen.</p>
                 </stepresult>

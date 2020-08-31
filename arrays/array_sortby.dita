@@ -22,7 +22,7 @@
         <p>Sorteert de waarden uit een bereik/matrix op basis van andere waarden.</p>
         <section>
             <title>Syntax</title>
-            <codeblock>SORTEREN.OP(matrix;op_matrix1;[sorteervolgorde], ...)</codeblock>
+            <codeblock>SORTEREN.OP(matrix;op_matrix1;[sorteervolgorde]; ...)</codeblock>
             <ul>
                 <li>matrix: de matrix met waarden</li>
                 <li>op_matrix: de matrix waarop sortering gebaseerd moet worden</li>
@@ -33,7 +33,7 @@
             <title>Voorbeeld</title>
             <p>Namen sorteren op basis van lengte.</p>
             <fig><image keyref="Array_Dyn_Sortby1"/></fig>
-            <p>Zoals je ziet hoeft de reeks waarop de sorterering berust niet in de uitvoer voor te
+            <p>Zoals je ziet hoeft de reeks waarop de sortering berust niet in de uitvoer voor te
                 komen.</p>
             <p>Een andere toepassing van deze functie is bij het sorteren op twee kolommen. In het
                 volgende voorbeeld wordt eerst oplopen gesorteerd op basis van geslacht en

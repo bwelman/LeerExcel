@@ -19,13 +19,12 @@
     </prolog>
     <conbody>
         <p>Engelse functienaam: <term>XMATCH</term></p>
-        <p>De functie voert een zoekactie uit en retourneert een positie in verticale of
-            horizontale bereiken. Het is een moderne en uitgebreidere opvolger van de functie
-            VERGELIJKEN. X.VERGELIJKEN ondersteunt benaderende en exacte overeenkomsten,
-            omgekeerd zoeken en jokertekens (*?) voor gedeeltelijke overeenkomsten. Het opzoeken
-            van de gegevens kan beginnen bij de eerste waarde of bij de laatste waarde
-            (omgekeerd zoeken). Daarnaast kunnen ook binaire zoekopdrachten uitgevoerd
-            worden.</p>
+        <p>De functie voert een zoekactie uit en retourneert een positie in verticale of horizontale
+            bereiken. Het is een moderne en uitgebreidere opvolger van de functie VERGELIJKEN.</p>
+        <p>X.VERGELIJKEN ondersteunt benaderende en exacte overeenkomsten, omgekeerd zoeken en
+            jokertekens (*?) voor gedeeltelijke overeenkomsten. Het opzoeken van de gegevens kan
+            beginnen bij de eerste waarde of bij de laatste waarde (omgekeerd zoeken). Daarnaast
+            kunnen ook binaire zoekopdrachten uitgevoerd worden.</p>
         <p>Deze functie wordt meestal gebruikt in combinatie met andere functies. Veel nuttiger is
             de functie X.ZOEKEN. </p>
         <section>

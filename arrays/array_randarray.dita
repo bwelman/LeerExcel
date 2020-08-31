@@ -26,7 +26,7 @@
                 <li>kolommen = het aantal kolommen dat moet worden (default=1)</li>
                 <li>min = de ondergrens van de willekeurige getallen (default=0)</li>
                 <li>max = de bovengrens van de willekeurige getallen (default=1)</li>
-                <li>geheel = WAAR voor gehele getallen, ONWAAR voor decimale getallen (default)</li>
+                <li>geheel = WAAR voor gehele getallen, ONWAAR voor decimale getallen (default ONWAAR)</li>
             </ul>
         </section>
         <example>

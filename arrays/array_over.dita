@@ -46,7 +46,7 @@
                     <li>Backslash <codeph>\</codeph> voor nieuwe kolom.</li>
                     <li>Puntkomma <codeph>;</codeph> voor nieuwe rij.</li>
                 </ul></li>
-            <li>Engelsstalige systemen<ul>
+            <li>Engelstalige systemen<ul>
                 <li>Komma <codeph>,</codeph> voor nieuwe kolom.</li>
                 <li>Puntkomma <codeph>;</codeph> voor nieuwe rij.</li>
             </ul></li>
@@ -56,21 +56,21 @@
                 <li>Alle rijen moeten evenveel kolommen hebben.</li>
             </ul></p>
         <p>De drie voorbeelden worden als volgt in Excel ingevoerd.</p>
-        <p><codeph>={1\2\3\4\5}</codeph> geeft 1 rij met 5 kolommen<fig>
+        <p><codeph>={1\2\3\4\5}</codeph> geeft 1 rij met 5 kolommen.<fig>
                 <title>1-dimensionale horizontale matrix</title>
                 <image keyref="Array_1dim_h">
                     <alt>1-dimensionale horizontale matrix</alt>
                 </image>
             </fig>
         </p>
-        <p><codeph>={1;3;6}</codeph> geeft 3 rijen met 1 kolom<fig>
+        <p><codeph>={1;3;6}</codeph> geeft 3 rijen met 1 kolom.<fig>
                 <title>1-dimensionale vericale matrix</title>
                 <image keyref="Array_1dim_v">
                     <alt>1-dimensionale verticale matrix</alt>
                 </image>
             </fig>
         </p>
-        <p><codeph>={1\2\3\4\5;3\5\7\9\11;6\9\12\15\18}</codeph> geeft 3 rijen met 5 kolommen<fig>
+        <p><codeph>={1\2\3\4\5;3\5\7\9\11;6\9\12\15\18}</codeph> geeft 3 rijen met 5 kolommen.<fig>
                 <title>2-dimensionale matrix</title>
                 <image keyref="Array_2dim">
                     <alt>2-dimensionale matrix</alt>

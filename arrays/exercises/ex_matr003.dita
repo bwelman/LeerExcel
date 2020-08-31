@@ -9,7 +9,10 @@
             <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
-            <keywords/>
+            <keywords>
+                <indexterm>ASELECT.MATRIX</indexterm>
+                <indexterm>GEMIDDELDE</indexterm>
+            </keywords>
         </metadata>
     </prolog>
     <body>

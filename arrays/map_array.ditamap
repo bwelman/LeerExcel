@@ -14,6 +14,7 @@
             <prodname>Excel</prodname>
             <vrmlist>
                 <vrm version="1.0" release="31 augustus 2017"/>
+                <vrm version="2.0" release="31 augustus 2020"/>
             </vrmlist>
         </prodinfo>
     </topicmeta>

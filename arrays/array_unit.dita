@@ -9,7 +9,9 @@
             <revised modified="2020-08-31"/>
         </critdates>
         <metadata>
-            <keywords/>
+            <keywords>
+                <indexterm>EENHEIDMAT</indexterm>
+            </keywords>
         </metadata>
     </prolog>
     <taskbody>

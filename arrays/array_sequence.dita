@@ -10,7 +10,7 @@
         </critdates>
         <metadata>
             <keywords>
-                <indexterm>FILTER</indexterm>
+                <indexterm>REEKS</indexterm>
             </keywords>
         </metadata>
     </prolog>
@@ -21,10 +21,10 @@
             <title>Syntax</title>
             <codeblock>REEKS(rijen;[kolommen];[beginnen];[stap])</codeblock>
             <ul>
-                <li>rijen = het aantal rijen dat geretourneerd moet worden</li>
-                <li>kolommen = het aantal kolommen dat geretourneerd moet worden (default=1)</li>
-                <li>beginnen = het eerste getal (default=1)</li>
-                <li>stap = de stapgrootte (default=1)</li>
+                <li>rijen: het aantal rijen dat geretourneerd moet worden</li>
+                <li>kolommen: het aantal kolommen dat geretourneerd moet worden (default=1)</li>
+                <li>beginnen: het eerste getal (default=1)</li>
+                <li>stap: de stapgrootte (default=1)</li>
             </ul>
         </section>
         <example>
