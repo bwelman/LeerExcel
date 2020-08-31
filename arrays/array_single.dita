@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
-<task id="xls_array_single" xml:lang="nl-NL">
+<task id="array_single" xml:lang="nl-NL">
 	<title>Taak: Eén resultaat berekenen</title>
 	<shortdesc>In dit onderdeel wordt uitgelegd hoe je één matrixformule kunt gebruiken in situaties
 	waar je anders meerdere formules voor nodig hebt.</shortdesc>

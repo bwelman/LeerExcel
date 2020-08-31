@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map id="keys_matrix" xml:lang="nl-NL">
+<map id="keys_array" xml:lang="nl-NL">
     <title>Keys Array</title>
     <keydef keys="Array_1dim_h" href="images/array_1dim_h.png" format="png"/>
     <keydef keys="Array_1dim_v" href="images/array_1dim_v.png" format="png"/>

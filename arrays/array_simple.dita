@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
-<task id="xls_array_simple" xml:lang="nl-NL">
+<task id="array_simple" xml:lang="nl-NL">
     <title>Taak: Eenvoudige matrixformules</title>
     <shortdesc>In dit onderdeel wordt uitgelegd hoe je een eenvoudige matrixformule
         maakt.</shortdesc>

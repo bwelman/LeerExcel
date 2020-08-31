@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap id="test" xml:lang="nl-NL">
+    <booktitle>
+        <mainbooktitle>Leer Excel 365</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author>Ben Welman</author>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="common/keys_common.ditamap" format="ditamap" scope="local"
+            processing-role="resource-only"/>
+    </frontmatter>
+        <chapter href="arrays/map_array.ditamap" format="ditamap" scope="local"/>
+</bookmap>
