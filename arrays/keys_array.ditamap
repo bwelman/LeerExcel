@@ -12,9 +12,13 @@
     <keydef keys="Array_Dyn_Sortby1" href="images/array_dyn_sortby1.png" format="png"/>
     <keydef keys="Array_Dyn_Sortby2" href="images/array_dyn_sortby2.png" format="png"/>
     <keydef keys="Array_Dyn_Unique" href="images/array_dyn_unique.png" format="png"/>
+    <keydef keys="Array_Dyn_Xlookup" href="images/array_dyn_xlookup.png" format="png"/>
+    <keydef keys="Array_Dyn_Xmatch" href="images/array_dyn_xmatch.png" format="png"/>
     <keydef keys="Array_Examples" href="images/array_examples.png" format="png"/>
     <keydef keys="Array_Frequency" href="images/array_frequency.png" format="png"/>
     <keydef keys="Array_Unit3" href="images/array_unit3.png" format="png"/>
+    <keydef keys="Array_Xlookup_2Way" href="images/array_xlookup_2way.png" format="png"/>
+    <keydef keys="Array_Xlookup_Multiplevalues" href="images/array_xlookup_multiplevalues.png" format="png"/>
     <keydef keys="Example_Numbers" href="images/example_numbers.png" format="png"/>
     <keydef keys="Example_Column_Sum" href="images/example_column_sum.png" format="png"/>
     <keydef keys="Example_Column_Product" href="images/example_column_product.png" format="png"/>

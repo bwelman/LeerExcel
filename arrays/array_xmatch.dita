@@ -26,6 +26,8 @@
             van de gegevens kan beginnen bij de eerste waarde of bij de laatste waarde
             (omgekeerd zoeken). Daarnaast kunnen ook binaire zoekopdrachten uitgevoerd
             worden.</p>
+        <p>Deze functie wordt meestal gebruikt in combinatie met andere functies. Veel nuttiger is
+            de functie X.ZOEKEN. </p>
         <section>
             <title>Syntax</title>
             <codeblock>X.VERGELIJKEN(zoekwaarde;zoeken-matrix;[overeenkomstmodus];[zoekmodus])</codeblock>
@@ -39,5 +41,12 @@
                     -2=binair aflopend</li>
             </ul>
         </section>
+        <example>
+            <title>Voorbeeld</title>
+            <p>Top 10 van het totaal aantal medailles op de Olympische Zomerspelen 2016.</p>
+            <fig>
+                <image keyref="Array_Dyn_Xmatch"/>
+            </fig>
+        </example>
     </conbody>
 </concept>

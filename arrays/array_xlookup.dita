@@ -23,6 +23,9 @@
             VERT.ZOEKEN, HORIZ.ZOEKEN en ZOEKEN. Deze nieuwe functie ondersteunt benaderende en
             exacte overeenkomsten, jokertekens (*?) voor gedeeltelijke overeenkomsten en
             zoekmogelijkheden in verticale en horizontale bereiken.</p>
+        <p>X.ZOEKEN kan in veel gevallen dienen als vervanging van VERT.ZOEKEN, HORIZ.ZOEKEN,
+            VERGELIJKEN, INDEX en ZOEKEN. De functie is daardoor een flexibele en veelzijdige
+            functie die in veel verschillende situaties kan worden gebruikt.</p>
         <section>
             <title>Syntax</title>
             <codeblock>X.ZOEKEN(zoekwaarde;zoeken-matrix;matrix-retourneren;[indien_niet_gevonden];[overeenkomstmodus];[zoekmodus])</codeblock>
@@ -39,5 +42,14 @@
                     -2=binair aflopend</li>
             </ul>
         </section>
+        <example>
+            <title>Voorbeeld</title>
+            <p>Een kortingstabel met daarin de kortingspercentages vanaf een bepaalde
+                hoeveelheid.</p>
+            <codeblock>=X.ZOEKEN(D2;A2:A7;B2:B7;;-1)</codeblock>
+            <fig>
+                <image keyref="Array_Dyn_Xlookup"/>
+            </fig>
+        </example>
     </conbody>
 </concept>

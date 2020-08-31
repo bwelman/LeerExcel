@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="xls_array_unit" xml:lang="nl-NL">
+    <title>Taak: Opzoeken in twee richtingen</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>X.ZOEKEN kan ook ingezet worden om in twee richtingen te zoeken. Dat kan door een
+                X.ZOEKEN functie op te nemen (<term>nesten</term>) binnen een andere X.ZOEKEN
+                functie.</p>
+            <p>In de figuur hierna staan een aantal koffieprijzen van Starbucks. Aan de hand van
+                zoekcriteria in G1 en G2 moet de bijbehorende prijs in G3 verschijnen.</p>
+            <fig><image keyref="Array_Xlookup_2Way"/></fig>
+            <note type="other" othertype="Bestand"><filepath>Tidy001.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Voeg de gegevens in F1:F3 en G1:G2 toe..</cmd>
+            </step>
+            <step>
+                <cmd>Plaats in G3 de volgende formule
+                        <codeph>=X.ZOEKEN(G2;B1:D1;X.ZOEKEN(G1;A2:A10;B2:D10))</codeph>.</cmd>
+                <tutorialinfo>
+                    <p>Toelichting</p>
+                    <p>De binnenste X.ZOEKEN zoekt de koffiesoort op in de kolom product en
+                        retourneert een rij met de drie prijzen.</p>
+                    <p>De buitenste X.ZOEKEN vindt de juiste grootte en retourneert de
+                        overeenkomstige prijs.</p>
+                </tutorialinfo>
+            </step>
+        </steps>
+    </taskbody>
+</task>

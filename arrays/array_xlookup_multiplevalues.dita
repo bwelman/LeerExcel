@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="xls_array_unit" xml:lang="nl-NL">
+    <title>Taak: Meerdere waarden retourneren</title>
+    <shortdesc/>
+    <prolog>
+        <critdates>
+            <created date="2020-08-31"/>
+            <revised modified="2020-08-31"/>
+        </critdates>
+        <metadata>
+            <keywords/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>X.ZOEKEN kan meer dan één waarde tegelijk retourneren voor dezelfde overeenkomst. In
+                deze taak worden vier waarden geretoruneerd met één formule.</p>
+            <note type="other" othertype="Bestand"><filepath>olympic2016.xlsx</filepath></note>
+        </context>
+        <steps>
+            <step conref="../common/reuse_task_parts.dita#reuse_task_parts/File_Open">
+                <cmd/>
+            </step>
+            <step>
+                <cmd>Zet het gegevensbereik om naar een tabel via <menucascade>
+                        <uicontrol>tab Invoegen</uicontrol>
+                        <uicontrol>Tabel</uicontrol>
+                    </menucascade> en specificeer <varname>Medailles</varname> als tabelnaam.</cmd>
+            </step>
+            <step>
+                <cmd>Voeg aan de tabel een kolom <varname>Totaal</varname> toe met daarin een
+                    formule voor het totaal aantal medailles. Dit gaat als volgt:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Typ in cel E1 de tekst <userinput>Totaal</userinput> en druk op
+                            ENTER.</cmd>
+                        <stepresult>Er wordt nu automatisch een nieuwe kolom gemaakt.</stepresult>
+                    </substep>
+                    <substep>
+                        <cmd>Selecteer cel E2 en typ <codeph>=SOM(</codeph>, selecteer dan de
+                            cellen B2:D2, typ dan <userinput>)</userinput> en druk op ENTER.</cmd>
+                        <stepresult>In de kolom Totaal verschijnen nu de waarden. Merk verder op dat
+                            Excel heeft in cel E2 de formule heeft gewijzigd in
+                                <codeph>=SOM(Medailles[@[Goud]:[Brons]])</codeph>.</stepresult>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Kopieer de teksten in A1:E1 naar G1:K1.</cmd>
+            </step>
+            <step>
+                <cmd>Typ in cel G2 de tekst <userinput>Nederland</userinput>.</cmd>
+            </step>
+            <step>
+                <cmd>Selecteer H2 en typ in
+                        <codeph>=X.ZOEKEN(G2;Medailles[Land];Medailles[Goud]:Medailles[Totaal])</codeph>.</cmd>
+                <stepresult>
+                    <p>Het resultaat ziet er als volgt uit.</p>
+                    <fig><image keyref="Array_Xlookup_Multiplevalues"/></fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
