@@ -12,27 +12,26 @@
     <keydef keys="productversion">
         <topicmeta>
             <keywords>
-                <keyword>2016</keyword>
+                <keyword>365</keyword>
             </keywords>
         </topicmeta>
     </keydef>
     <keydef keys="versionnr">
         <topicmeta>
             <keywords>
-                <keyword>1.5</keyword>
+                <keyword>1.6</keyword>
             </keywords>
         </topicmeta>
     </keydef>
     <keydef keys="versiondate">
         <topicmeta>
             <keywords>
-                <keyword>10 december 2019</keyword>
+                <keyword>1 september 2020</keyword>
             </keywords>
         </topicmeta>
     </keydef>
     <keydef keys="buylink" href="https://gum.co/XSaPi" scope="external" format="html"/>
     <keydef keys="cover" href="images/cover_excel_nl.png" scope="local" format="png"/>
-    <keydef keys="cover_mini" href="images/cover_excel_nl_mini.png" scope="local" format="png"/>
     <keydef keys="practicefiles" href="https://softwijs.netlify.com/download/" scope="external" format="html"/>
     <keydef keys="button_chart_elements" href="images/button_chart_elements.png" format="png"/>
     <keydef keys="button_chart_filters" href="images/button_chart_filters.png" format="png"/>

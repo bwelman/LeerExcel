@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap id="Excel2016NL-online" xml:lang="nl-NL">
     <booktitle>
-        <mainbooktitle>Leer Excel 2016</mainbooktitle>
+        <mainbooktitle>Leer Excel 365</mainbooktitle>
         <!--<booktitlealt>Een taakgericht studieboek</booktitlealt>-->
     </booktitle>
     <bookmeta>
@@ -13,7 +13,7 @@
             <keyword>Handleiding</keyword>
         </keywords>
         <prodinfo>
-            <prodname>Excel 2016</prodname>
+            <prodname>Excel 365</prodname>
         </prodinfo>
         <bookrights>
             <bookowner>
@@ -37,8 +37,8 @@
         <chapter href="formatting/map_formatting.ditamap" format="ditamap" scope="local"/>
         <chapter href="calculations/map_calculation.ditamap" format="ditamap" scope="local"/>
         <chapter href="functions/map_function.ditamap" format="ditamap" scope="local"/>
-        <chapter href="arrays/map_array.ditamap" format="ditamap" scope="local"/>
         <chapter href="tables/map_table.ditamap" format="ditamap" scope="local"/>
+        <chapter href="arrays/map_array.ditamap" format="ditamap" scope="local"/>
         <chapter href="charts/map_chart.ditamap" format="ditamap" scope="local"/>
         <chapter href="charttypes/map_charttype.ditamap" format="ditamap" scope="local"/>
         <chapter href="scenarios/map_scenario.ditamap" format="ditamap" scope="local"/>

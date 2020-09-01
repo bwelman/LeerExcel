@@ -39,8 +39,7 @@
             <topicref href="array_unique.dita" scope="local" type="concept"/>
             <topicref href="array_tables.dita" scope="local" type="task"/>
             <topicref href="array_xmatch.dita" scope="local" type="concept"/>
-        </topicref>
-        <topicref href="array_xlookup.dita" scope="local" type="concept">
+            <topicref href="array_xlookup.dita" scope="local" type="concept"/>
             <topicref href="array_xlookup_multiplevalues.dita" scope="local" type="task"/>
             <topicref href="array_xlookup_2way.dita" scope="local" type="task"/>
         </topicref>

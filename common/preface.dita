@@ -5,17 +5,22 @@
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
-            <revised modified="2018-08-28"/>
+            <revised modified="2020-08-31"/>
         </critdates>
     </prolog>
-    <body><p>Welkom bij dit studieboek van <ph keyref="productname"/>
-            <ph keyref="productversion"/>.</p>
-        <p>Dit studieboek is bedoeld als een grondige kennismaking met <ph keyref="productname"/> en
-            om genoeg informatie te verstrekken over de mogelijkheden van <ph keyref="productname"/>
-            zodat lezers ze kunnen gebruiken.</p>
+    <body>
+        <p>In dit leerboek leer je werken met Excel 365, een product dat voortdurend evolueert, met
+            nieuwe functies die bij elke nieuwe versie verschijnen. Een belangrijk kenmerk is de
+            introductie van dynamische matrices en dynamic matrixfuncties in de release van juli
+            2020. Dit heeft ervoor gezorgd dat Excel 365 verschilt van andere Excel-versies,
+            waaronder de versies 2016 en 2019. Dynamische matrices zijn niet compatibel met alle
+            andere Excel-versies. </p>
+        <p>Betekent dit dat je dit leerboek niet kunt gebruiken met Excel 2016 en 2019? Nee, alleen
+            het matrix hoofdstuk is niet geschikt, maar alle andere hoofdstukken geven geen
+            problemen.</p>
         <p>Dit boek is geschreven voor<ol>
                 <li>studenten in het middelbaar en hoger onderwijs.</li>
-                <li>mensen in het bedrijfsleven die <ph keyref="productname"/> gebruiken.</li>
+                <li>personen in het bedrijfsleven die <ph keyref="productname"/> gebruiken.</li>
             </ol></p>
         <p>Het boek verschilt op meerdere manieren van andere <ph keyref="productname"/>
             studieboeken.</p>

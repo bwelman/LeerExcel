@@ -28,7 +28,7 @@
             functie die in veel verschillende situaties kan worden gebruikt.</p>
         <section>
             <title>Syntax</title>
-            <codeblock>X.ZOEKEN(zoekwaarde;zoeken-matrix;matrix-retourneren;[indien_niet_gevonden];[overeenkomstmodus];[zoekmodus])</codeblock>
+            <codeblock>X.ZOEKEN(zoekwaarde; zoeken-matrix; matrix-retourneren; [indien_niet_gevonden]; [overeenkomstmodus]; [zoekmodus])</codeblock>
             <ul>
                 <li>zoekwaarde: de op te zoeken waarde</li>
                 <li>zoeken-matrix: de matrix waarbinnen gezocht moet worden</li>
