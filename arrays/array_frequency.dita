@@ -2,14 +2,18 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="array_frequency" xml:lang="nl-NL">
     <title>Taak: Frequentieverdeling</title>
-    <shortdesc/>
+    <shortdesc>Hoe je met de functie INTERVAL een frequentieverdeling van de gegevens kunt
+        maken.</shortdesc>
     <prolog>
         <critdates>
             <created date="2020-08-31"/>
-            <revised modified="2020-08-31"/>
+            <revised modified="2020-09-26"/>
         </critdates>
         <metadata>
-            <keywords/>
+            <keywords>
+                <keyword>INTERVAL</keyword>
+                <keyword>Frequentieverdeling</keyword>
+            </keywords>
         </metadata>
     </prolog>
     <taskbody>

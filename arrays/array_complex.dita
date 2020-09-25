@@ -2,11 +2,11 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="array_complex" xml:lang="nl-NL">
 	<title>Taak: Complexere matrixformules</title>
-	<shortdesc>In dit onderdeel worden complexere matrixformules behandeld.</shortdesc>
+	<shortdesc>In dit onderdeel leer je een complexere matrixformule te maken.</shortdesc>
 	<prolog>
 		<critdates>
 		    <created date="2017-08-31"/>
-		    <revised modified="2020-08-31"/>
+		    <revised modified="2020-09-26"/>
 		</critdates>
 		<metadata>
 			<keywords/>

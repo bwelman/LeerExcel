@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="array_unit" xml:lang="nl-NL">
+    <title>Wiskundige matrixfuncties</title>
+    <shortdesc>Een korte beschrijving van de wiskundige matrixfuncties,</shortdesc>
+    <prolog>
+        <critdates>
+            <created date="2020-09-25"/>
+            <revised modified="2020-09-26"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Matrix</indexterm>
+                <indexterm>Array</indexterm>
+                <indexterm>Vector</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Met name in de <xref href="https://nl.wikipedia.org/wiki/Lineaire_algebra" format="html"
+                scope="external">lineaire algebra</xref> worden veelvuldig rekenkundige bewerkingen
+            met matrices uitgevoerd. Excel biedt daarvoor ondersteuning met een paar specifieke
+            functies.</p>
+        <dl>
+            <dlentry>
+                <dt>EENHEIDMAT()</dt>
+                <dd>Eenheidsmatrix. Engelstalige functienaam: MUNIT()</dd>
+                <dd>Retourneert een vierkante eenheidsmatrix voor de opgegeven dimensie. Wordt
+                    meestal gebruikt in combinatie met andere matrixfuncties zoals PRODUCTMAT.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>PRODUCTMAT()</dt>
+                <dd>Productmatrix. Engelstalige functienaam: MMULT()</dd>
+                <dd>Retourneert het matrixproduct van twee matrices.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>INVERSEMAT()</dt>
+                <dd>Inverse matrix. Engelstalige functienaam: MINVERSE()</dd>
+                <dd>Retourneert de inverse van een matrix. Wordt veel gebruikt om stelsels van
+                    vergelijkingen met meerdere variabelen op te lossen. Het product van een matrix
+                    en zijn inverse is de eenheidsmatrix.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>DETERMINANTMAT()</dt>
+                <dd>Determinant. Engelstalige functienaam: MDETERM()</dd>
+                <dd>Berekent de determinant van een matrix. Wordt gebruikt bij het oplossen van
+                    stelsels vergelijkingen met meerdere variabelen</dd>
+            </dlentry>
+        </dl>
+        <p>Het gebruik van deze functies valt buiten het bestek van dit cursusboek.</p>
+    </conbody>
+</concept>

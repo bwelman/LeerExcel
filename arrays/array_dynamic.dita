@@ -2,11 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
 <concept id="array_dynamic" xml:lang="nl-NL">
     <title>Dynamische matrixformules</title>
-    <shortdesc/>
+    <shortdesc>Het gedrag van dynamische matrices en een aantal nieuwe functies.</shortdesc>
     <prolog>
         <critdates>
             <created date="2020-08-31"/>
-            <revised modified="2020-08-31"/>
+            <revised modified="2020-09-26"/>
         </critdates>
         <metadata>
             <keywords>
@@ -26,7 +26,7 @@
             overloopgebied groeit of krimpt. Je krijgt een
             <systemoutput>#OVERLOOP!</systemoutput>fout wanneer het overlopen geblokkeerd wordt door
             andere gegevens in de cellen.</p>
-        <note type="important">Dynamische matrixformules zijn alleen in Excel365 beschikbaar!</note>
+        <note type="important">Dynamische matrices zijn alleen in Excel365 beschikbaar!</note>
         <p><b>Verwijzing naar overloopgebied</b></p>
         <p>Om een verwijzing naar een overloopgebied te maken zet je een hash symbool
                 <codeph>#</codeph> achter het adres van de eerste cel van het overloopgebied. Is
@@ -40,8 +40,9 @@
         <p>Wanneer je met matrices gaat rekenen, is het erg handig om deze van een naam te voorzien.
             Dat kan op dezelfde manier als het toekennen van een naam aan een cel.</p>
         <p><b>Nieuwe dynamische matrixfuncties</b></p>
-        <p>Om het gedrag van dynamische matrices te ondersteunen zijn er een aantal nieuwe
-            dynamische matrixfuncties uitgebracht: ASELECT.MATRIX, FILTER, REEKS, SORTEREN, SORTEREN.OP, UNIEK, X.VERGELIJKEN en X.ZOEKEN </p>
+        <p>Om het gedrag van dynamische matrices te ondersteunen zijn er een aantal nieuwe functies
+            uitgebracht: ASELECT.MATRIX, FILTER, REEKS, SORTEREN, SORTEREN.OP, UNIEK, X.VERGELIJKEN
+            en X.ZOEKEN </p>
         <!--Zeer nuttige site met voorbeelden: https://exceljet.net/glossary/dynamic-array -->
     </conbody>
 </concept>

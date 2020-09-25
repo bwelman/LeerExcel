@@ -18,7 +18,7 @@
         </metadata>
     </prolog>
     <conbody>
-        <p>Engelse functienaam: <term>XMATCH</term></p>
+        <p>Engelstalige functienaam: <term>XMATCH</term></p>
         <p>De functie voert een zoekactie uit en retourneert een positie in verticale of horizontale
             bereiken. Het is een moderne en uitgebreidere opvolger van de functie VERGELIJKEN.</p>
         <p>X.VERGELIJKEN ondersteunt benaderende en exacte overeenkomsten, omgekeerd zoeken en

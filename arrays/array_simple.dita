@@ -2,12 +2,11 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="array_simple" xml:lang="nl-NL">
     <title>Taak: Eenvoudige matrixformules</title>
-    <shortdesc>In dit onderdeel wordt uitgelegd hoe je een eenvoudige matrixformule
-        maakt.</shortdesc>
+    <shortdesc>In dit onderdeel leer je hoe je een eenvoudige matrixformule maakt.</shortdesc>
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
-            <revised modified="2020-08-31"/>
+            <revised modified="2020-09-26"/>
         </critdates>
         <metadata>
             <keywords/>

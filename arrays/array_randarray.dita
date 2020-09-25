@@ -16,7 +16,7 @@
         </metadata>
     </prolog>
     <conbody>
-        <p>Engelse functienaam: <term>RANDARRAY</term></p>
+        <p>Engelstalige functienaam: <term>RANDARRAY</term></p>
         <p>Retourneert een matrix met willekeurige getallen. Alle argumenten zijn optioneel.</p>
         <section>
             <title>Syntax</title>
