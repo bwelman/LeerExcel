@@ -2,16 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
 <concept id="array_xlookup" xml:lang="nl-NL">
     <title>X.ZOEKEN</title>
-    <shortdesc/>
+    <shortdesc>Betere en flexibeler vervanging voor de functies VERT.ZOEKEN en HORIZ.ZOEKEN.</shortdesc>
     <prolog>
         <critdates>
             <created date="2020-08-31"/>
-            <revised modified="2020-08-31"/>
+            <revised modified="2020-09-26"/>
         </critdates>
         <metadata>
             <keywords>
                 <indexterm>X.ZOEKEN</indexterm>
                 <indexterm>ZOEKEN</indexterm>
+                <indexterm>VERT.ZOEKEN</indexterm>
+                <indexterm>HORIZ.ZOEKEN</indexterm>
                 <indexterm>XLOOKUP</indexterm>
                 <indexterm>VLOOKUP</indexterm>
             </keywords>

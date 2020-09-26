@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="array_unit" xml:lang="nl-NL">
     <title>Wiskundige matrixfuncties</title>
-    <shortdesc>Een korte beschrijving van de wiskundige matrixfuncties,</shortdesc>
+    <shortdesc>Een korte beschrijving van de wiskundige matrixfuncties.</shortdesc>
     <prolog>
         <critdates>
             <created date="2020-09-25"/>
@@ -44,7 +44,7 @@
                 <dt>DETERMINANTMAT()</dt>
                 <dd>Determinant. Engelstalige functienaam: MDETERM()</dd>
                 <dd>Berekent de determinant van een matrix. Wordt gebruikt bij het oplossen van
-                    stelsels vergelijkingen met meerdere variabelen</dd>
+                    stelsels vergelijkingen met meerdere variabelen.</dd>
             </dlentry>
         </dl>
         <p>Het gebruik van deze functies valt buiten het bestek van dit cursusboek.</p>

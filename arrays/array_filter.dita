@@ -2,11 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
 <concept id="array_filter" xml:lang="nl-NL">
     <title>FILTER</title>
-    <shortdesc/>
+    <shortdesc>Filter gegevens en retourneer overeenkomende records.</shortdesc>
     <prolog>
         <critdates>
             <created date="2020-08-31"/>
-            <revised modified="2020-08-31"/>
+            <revised modified="2020-09-26"/>
         </critdates>
         <metadata>
             <keywords>

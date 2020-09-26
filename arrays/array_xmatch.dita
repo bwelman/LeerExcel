@@ -2,11 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
 <concept id="array_xmatch" xml:lang="nl-NL">
     <title>X.VERGELIJKEN</title>
-    <shortdesc/>
+    <shortdesc>Betere en flexibeler vervanging voor de functie VERGELIJKEN.</shortdesc>
     <prolog>
         <critdates>
             <created date="2020-08-31"/>
-            <revised modified="2020-08-31"/>
+            <revised modified="2020-09-26"/>
         </critdates>
         <metadata>
             <keywords>
