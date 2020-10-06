@@ -6,7 +6,7 @@
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
-            <revised modified="2017-08-31"/>
+            <revised modified="2020-10-06"/>
         </critdates>
         <metadata> </metadata>
     </prolog>
@@ -41,11 +41,12 @@
                 </stepresult>
             </step>
             <step>
-                <cmd>Klik op <uicontrol>Bewerken</uicontrol>.</cmd>
+                <cmd>Klik op <uicontrol>Gegevens transformeren</uicontrol>.</cmd>
                 <stepresult>
-                    <p id="start_que">De Query Editor wordt gestart in een nieuw venster. Aan de rechterkant onder
-                            <wintitle>Queryinstellingen</wintitle> en onder <uicontrol>Toegepaste
-                            Stappen</uicontrol> zie je de stappen die reeds zijn toegepast.</p>
+                    <p id="start_que">De Query Editor wordt gestart in een nieuw venster. Aan de
+                        rechterkant onder <wintitle>Queryinstellingen</wintitle> en onder
+                            <uicontrol>Toegepaste Stappen</uicontrol> zie je de stappen die reeds
+                        zijn toegepast.</p>
                 </stepresult>
             </step>
             <step>

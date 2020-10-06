@@ -6,7 +6,7 @@
     <prolog>
         <critdates>
             <created date="2017-08-31"/>
-            <revised modified="2017-08-31"/>
+            <revised modified="2020-10-06"/>
         </critdates>
         <metadata></metadata>
     </prolog>
@@ -56,7 +56,7 @@
             </step>
             <step>
                 <cmd>Selecteer tabel <option>Results[edit]</option> en klik dan op de knop
-                        <uicontrol>Bewerken</uicontrol>.</cmd>
+                        <uicontrol>Gegevens transformeren</uicontrol>.</cmd>
                 <stepresult>
                     <p conref="import_csv.dita#import_csv/start_que"/>
                 </stepresult>

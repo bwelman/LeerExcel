@@ -7,7 +7,7 @@
     <prolog>
         <critdates>
             <created date="2019-12-10"/>
-            <revised modified="2019-12-10"/>
+            <revised modified="2020-10-06"/>
         </critdates>
         <metadata>
             <keywords>
@@ -92,7 +92,7 @@
                         <varname>Populatie</varname>.</cmd>
             </step>
             <step>
-                <cmd>Kies<menucascade>
+                <cmd>Kies <menucascade>
                         <uicontrol>tab Startpagina</uicontrol>
                         <uicontrol>Sluiten en laden (groep Sluiten)</uicontrol>
                     </menucascade></cmd>
